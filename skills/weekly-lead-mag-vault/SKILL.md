@@ -34,7 +34,7 @@ Never re-explain the business to Izi. Keep chat replies short. Do not ask clarif
    - Numbered PARTS (4–6), each with a yellow chip heading "PART N — TITLE". Mix of numbered steps, "—" yellow-dash bullets, black-header tables (yellow 9pt caps headers, alternating F7F7F7 rows), boxed fill-in templates (emails/scripts with brackets), cream callouts.
    - One Bible verse, centered, italic grey, reference in small bold caps.
    - Yellow chip "RUN IT — <first 7 days / this week>" with ☐ checklist lines.
-   - Black CTA box: yellow 15pt question headline, white body, Soccer Recruitment 101 and Junior Prep Program lines (yellow bold names), the DM RECRUIT line.
+   - Black CTA box: yellow 15pt question headline, white body, Soccer Recruitment 101 and Junior Prep Program lines (yellow bold names, no prices - the offer name only), the DM RECRUIT line.
    - Grey centered footer: "PUSH THE GOAL SOCCER · @PUSHTHEGOALSOCCER · BECOME UNDENIABLE."
 3. Export `<Title>.pdf` (soffice --headless --convert-to pdf). Render pages to PNG and LOOK at them before shipping. The PDF is what the DM auto-reply actually sends.
 
