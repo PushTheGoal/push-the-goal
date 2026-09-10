@@ -1,9 +1,30 @@
 ---
 name: push-the-goal-call-notes
-description: Izi's post-call workflow for Push the Goal Soccer. Pulls the Fathom transcript from a coaching call with a student-athlete, then drafts two things in Skool - a recap with action items in the athlete's DM, and a warm progress update in the parent's DM - and leaves both unsent and marked unread for Izi to review. Use this whenever Izi mentions he just finished, had, or wrapped a call with a student, names an athlete he met with, or says anything like "run notes for [name]", "run full student notes", "do the notes for my call", "send me notes to send them and their parents", or asks for action items from a coaching call. Also use it when he asks to redo or continue notes for a student he has already met with. Trigger on the intent even when he does not say the words "Fathom", "Skool", or "notes" - if he had a coaching call and wants anything written up from it, this is the skill.
+description: Post-call notes for an EXISTING Push the Goal student. This is the coaching-call workflow, not the sales workflow. Pulls the Fathom transcript from a coaching or check-in call with a current student-athlete, then drafts two things in Skool - a recap with action items in the athlete's DM, and a warm progress update in the parent's DM - both left unsent and marked unread for Izi to review. Use whenever he has had a coaching call with someone already enrolled and wants it written up, including "run notes for [name]", "run full student notes", "do the notes for my call", "send me notes to send them and their parents", or any ask for action items from a coaching call. Also use when he wants to redo or continue notes for a student he has already met with. Trigger on the intent even when he does not name Fathom, Skool, or notes. THE TEST - was this athlete already a client before the call? If yes, this is the skill. If the call was a Strategy Session that ended in a signature and the athlete is brand new, this is the WRONG skill; use new-student-onboarding instead. This skill never builds game plans, never messages a coach, and never touches the New Students tracker.
 ---
 
 # Post-Call Student Notes → Skool
+
+## Check this first - is this even the right workflow?
+
+Push the Goal has two call workflows that both start with a Fathom transcript and both end in
+Skool drafts. They look alike from the outside and get confused constantly. They are not
+related jobs and never run together.
+
+**Was this athlete already a client before the call?**
+
+- **Yes, existing student** → this skill. A coaching or check-in call. Output is a recap for
+  the athlete and a progress update for the parent.
+- **No, brand new** → stop. That is a Strategy Session that closed, and it belongs to
+  `new-student-onboarding`. Output there is a game plan, a coach handoff, and a tracker row.
+
+If the answer is genuinely unclear from the transcript - the Fathom title is vague, the call
+sounds like a first conversation - ask Izi rather than guessing. Running the wrong one wastes
+his time and puts drafts in the wrong person's inbox.
+
+Nothing below this line applies to a new signing.
+
+---
 
 Izi coaches high school soccer players through college recruitment. After each call he needs two messages: one to the athlete with their action items, one to the parent with an honest progress update. He never wants to write them from scratch, and he never wants an agent to send them for him.
 

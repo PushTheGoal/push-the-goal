@@ -9,9 +9,30 @@ through the college recruitment process. Clients are the athlete plus their pare
 usually together. Revenue comes from a small number of high-ticket coaching packages,
 plus an Instagram-led lead magnet funnel that feeds strategy calls.
 
-The two recurring jobs are:
-1. Turning a recorded call into written follow-up that goes to the athlete and the parent.
-2. Turning a signed deal into an onboarding package and a handoff to the coach.
+## Two call workflows. Never confuse them.
+
+This is the single most common mistake, so settle it before doing anything else with a call.
+
+Both workflows start with a Fathom transcript and end in Skool drafts, which makes them look
+like the same job. They are not. They serve different people, produce different output, and
+never run together.
+
+**The question that separates them - was this athlete already a client before the call?**
+
+| | Existing student | Brand new signing |
+|---|---|---|
+| What the call was | Coaching or check-in call | Strategy Session (sales call) that closed |
+| Who it is for | The athlete and their parent | Coach Brittani, and the tracker |
+| What comes out | Recap with action items, plus a warm parent update | Game plan, coach handoff, tracker row |
+| Skill | `push-the-goal-call-notes` | `new-student-onboarding` |
+
+Getting this wrong is expensive in both directions. Running onboarding on a coaching call
+builds a redundant game plan for someone who already has one and messages the coach about a
+client she already has. Running call notes on a signing leaves the coach unaware and the
+tracker empty.
+
+If the transcript is genuinely ambiguous - vague Fathom title, no clear signature moment - ask
+rather than guessing.
 
 ## Voice - the thing that matters most
 

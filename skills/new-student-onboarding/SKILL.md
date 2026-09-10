@@ -1,9 +1,30 @@
 ---
 name: new-student-onboarding
-description: Full onboarding package for a newly-signed Push the Goal Soccer athlete. Use when a Strategy Session (sales call) ENDS IN A SIGN and you need the complete handoff. Triggers - "the kid I just signed", "full game plan for [name]", "do the deal again", "draft a message to Brittani/the coach", "put it on blue", "add [name] to the tracker". Produces (1) a branded recruitment game-plan PDF pulled from the Fathom call, (2) a Google-Doc copy of that game plan hosted in the New Students Drive folder, (3) a colleague handoff drafted in the coach's Skool DM with the PDF attached and the thread marked unread, and (4) a clean row added to the live New Students tracker linking that athlete's own game plan. Also sets up / runs the daily automated sweep that does all of this on its own for each new signee. NEVER sends anything - Izi reviews and sends himself.
+description: Onboarding package for a NEWLY SIGNED Push the Goal athlete. This is the sales-handoff workflow, not the coaching-notes workflow. Use only when a Strategy Session (sales call) ended in a signature and the athlete was not a client before that call. Triggers - "the kid I just signed", "full game plan for [name]", "do the deal again", "draft a message to Brittani/the coach", "put it on blue", "add [name] to the tracker". Produces (1) a branded recruitment game-plan PDF pulled from the Fathom call, (2) ONE hosted copy of that plan in the New Students Drive folder, (3) a colleague handoff drafted in the coach's Skool DM carrying that link, thread marked unread, and (4) a New Students tracker row pointing at the same link. Also sets up and runs the daily automated sweep that does this for each new signee. THE TEST - was this athlete already a client before the call? If yes, this is the WRONG skill; use push-the-goal-call-notes instead. This skill never drafts athlete or parent recap messages for existing students. NEVER sends anything - Izi reviews and sends himself.
 ---
 
 # New-Student Onboarding (Push the Goal Soccer)
+
+## Check this first - is this even the right workflow?
+
+Push the Goal has two call workflows that both start with a Fathom transcript and both end in
+Skool drafts. They look alike from the outside and get confused constantly. They are not
+related jobs and never run together.
+
+**Was this athlete already a client before the call?**
+
+- **No, brand new** → this skill. A Strategy Session that closed. Output is a game plan, a
+  coach handoff, and a tracker row.
+- **Yes, existing student** → stop. That is a coaching call and it belongs to
+  `push-the-goal-call-notes`. Output there is a recap for the athlete and a progress update for
+  the parent. Do not build a game plan for someone who already has one.
+
+If the answer is genuinely unclear - the Fathom title is vague, no clear signature moment -
+ask Izi rather than guessing. STEP 2 below is the harder version of this same check.
+
+Nothing below this line applies to a coaching call with a current student.
+
+---
 
 When a Strategy Session (sales call, usually >30 min) closes with a signature, produce the full onboarding package for the new athlete. Everything is PARKED for Izi to review - nothing is ever sent automatically.
 
