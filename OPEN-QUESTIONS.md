@@ -6,6 +6,35 @@ settling once, here, rather than re-deciding per session.
 
 ---
 
+## 0. MOST URGENT - the five skills now exist twice
+
+Setting up this repo created a second copy of every custom skill.
+
+- The **account copies** are the ones that have been running all along. They load in every
+  session, on every device, whether or not this repo is open.
+- The **repo copies** (`.claude/skills/`) are what we just committed. They only load when this
+  folder is open.
+
+So each skill is now live in two places, and they will drift. Editing the repo copy will not
+change behaviour in a session that has the account copy loaded - which is the confusing
+version of this problem, because the edit looks like it silently did nothing.
+
+The `weekly-lead-mag-vault` price fix already has this problem: it is fixed in the repo, and
+still wrong in the account copy.
+
+**Two ways to resolve it. Pick one:**
+
+1. **Repo is the source of truth.** Delete the five custom skills from the account. Everything
+   lives in git, versioned, and only loads when the folder is open. Cleanest long-term, but
+   the skills stop working in sessions where the folder is not open.
+2. **Account is the source of truth.** Keep running the account copies, treat the repo as
+   backup and edit history. Nothing changes day to day, but every change has to be made twice
+   or it drifts.
+
+Recommendation: option 1, since the whole point of the repo is one place to change things.
+
+---
+
 ## 1. The tracker's Game Plan link - PDF or Google Doc?
 
 These two directly contradict each other:
