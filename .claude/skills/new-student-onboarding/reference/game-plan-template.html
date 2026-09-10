@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @page { size: 8.5in 11in; margin: 0; }
+  * { margin:0; padding:0; box-sizing:border-box; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  html,body { font-family: Arial, Helvetica, sans-serif; color:#1c1f24; }
+  .page { width:8.5in; height:11in; overflow:hidden; position:relative; background:#ffffff; }
+  .page + .page { page-break-before:always; }
+  .pad { padding:0.5in 0.62in; }
+
+  /* Cover */
+  .cover { background:#1c1f24; color:#fff; height:11in; padding:0.75in 0.7in; display:flex; flex-direction:column; }
+  .brandbar { font-size:11px; letter-spacing:3px; color:#e23b34; font-weight:bold; text-transform:uppercase; }
+  .brandbar span { color:#8b9099; }
+  .cover h1 { font-size:62px; line-height:1.02; margin-top:0.5in; font-weight:800; letter-spacing:-1px; }
+  .cover .kicker { font-size:15px; letter-spacing:4px; color:#e23b34; font-weight:bold; text-transform:uppercase; margin-top:22px; }
+  .cover .meta { margin-top:14px; font-size:15px; color:#c7ccd4; line-height:1.7; }
+  .cover .meta b { color:#fff; }
+  .whybox { margin-top:auto; border-left:5px solid #e23b34; padding:20px 24px; background:#23272e; }
+  .whybox .lbl { font-size:11px; letter-spacing:3px; color:#e23b34; font-weight:bold; text-transform:uppercase; }
+  .whybox p { font-size:21px; line-height:1.4; margin-top:12px; font-weight:600; color:#fff; }
+  .foot { margin-top:26px; font-size:11px; letter-spacing:2px; color:#6b7079; text-transform:uppercase; }
+
+  /* Content */
+  h2 { font-size:18px; color:#1c1f24; font-weight:800; text-transform:uppercase; letter-spacing:0.5px; margin:20px 0 9px; padding-bottom:6px; border-bottom:2px solid #e23b34; }
+  h2:first-of-type { margin-top:0; }
+  p.body { font-size:12px; line-height:1.5; color:#2b2f36; }
+  .snap { width:100%; border-collapse:collapse; margin-top:2px; }
+  .snap td { font-size:11.5px; padding:5px 8px; border-bottom:1px solid #e6e8eb; vertical-align:top; }
+  .snap td.k { width:32%; color:#6b7079; font-weight:bold; text-transform:uppercase; letter-spacing:0.5px; font-size:10px; }
+  .snap td.v { color:#1c1f24; }
+  ul { list-style:none; margin-top:4px; }
+  li { font-size:11.5px; line-height:1.4; color:#2b2f36; padding:5px 0 5px 18px; position:relative; border-bottom:1px solid #f0f1f3; }
+  li:before { content:""; position:absolute; left:0; top:10px; width:7px; height:7px; background:#e23b34; }
+  li b { color:#1c1f24; }
+  .edge { background:#1c1f24; color:#e8eaed; padding:14px 18px; margin-top:6px; }
+  .edge p { font-size:11.5px; line-height:1.5; }
+  .edge b { color:#fff; }
+  .pagehdr { display:flex; justify-content:space-between; align-items:baseline; margin-bottom:14px; }
+  .pagehdr .nm { font-size:13px; font-weight:800; color:#1c1f24; }
+  .pagehdr .tg { font-size:10px; letter-spacing:2px; color:#e23b34; font-weight:bold; text-transform:uppercase; }
+  .steps { counter-reset:step; margin-top:4px; }
+  .steps li { padding-left:30px; }
+  .steps li:before { content:counter(step); counter-increment:step; background:#e23b34; color:#fff; width:19px; height:19px; border-radius:0; font-size:11px; font-weight:bold; display:flex; align-items:center; justify-content:center; top:6px; }
+  .pgfoot { position:absolute; bottom:0.34in; left:0.62in; right:0.62in; font-size:9.5px; letter-spacing:1.5px; color:#9aa0a8; text-transform:uppercase; border-top:1px solid #e6e8eb; padding-top:7px; display:flex; justify-content:space-between; }
+</style>
+</head>
+<body>
+
+<!-- PAGE 1: COVER -->
+<div class="page cover">
+  <div class="brandbar">PUSH THE GOAL SOCCER <span>/ COLLEGE RECRUITMENT &amp; ATHLETE DEVELOPMENT</span></div>
+  <h1>Lauren<br>Ibarra</h1>
+  <div class="kicker">Recruitment Game Plan</div>
+  <div class="meta">
+    Class of 2028 &nbsp;/&nbsp; Rising Junior &nbsp;/&nbsp; ECNL &nbsp;/&nbsp; Texas<br>
+    Signed August 3, 2026 &nbsp;&middot;&nbsp; Program: <b>Recruitment 101 ($8,000)</b> &nbsp;&middot;&nbsp; Coach: <b>Brittani</b>
+  </div>
+  <div class="whybox">
+    <div class="lbl">Lauren's Why</div>
+    <p>Land the biggest scholarship possible so she can play college soccer and study sonography close to home in Texas, with no college fund to fall back on, and prove she can get there without the coach who tried to erase her.</p>
+  </div>
+  <div class="foot">Prepared by Izi Chinchay &nbsp;&middot;&nbsp; Push the Goal Soccer</div>
+</div>
+
+<!-- PAGE 2 -->
+<div class="page">
+  <div class="pad">
+    <div class="pagehdr"><div class="nm">Lauren Ibarra</div><div class="tg">Recruitment Game Plan</div></div>
+
+    <h2>Athlete Snapshot</h2>
+    <table class="snap">
+      <tr><td class="k">Grad Year</td><td class="v">Class of 2028 (rising junior) - the year that decides it</td></tr>
+      <tr><td class="k">On the field</td><td class="v">Team assist leader (50+ assists in a season); pure playmaker. Exact position to confirm on first call.</td></tr>
+      <tr><td class="k">Academics</td><td class="v">3.7 GPA; 99 in Medical Terminology; science track toward sonography (biology / health science / kinesiology)</td></tr>
+      <tr><td class="k">Club Level</td><td class="v">ECNL (first year; came up from NTX). Multiple tournament championships.</td></tr>
+      <tr><td class="k">Location</td><td class="v">Texas - wants to stay close to family</td></tr>
+      <tr><td class="k">Family</td><td class="v">Dad Oscar and mom Carla; primarily Spanish-speaking, Lauren interprets</td></tr>
+      <tr><td class="k">Scholarship Need</td><td class="v">No college savings - chasing the biggest / full-ride package possible</td></tr>
+      <tr><td class="k">Program</td><td class="v">Recruitment 101 - $8,000 ($500 down, balance in two weeks)</td></tr>
+      <tr><td class="k">First Call</td><td class="v">This week, before school starts back Thursday</td></tr>
+    </table>
+
+    <h2>The Honest Picture</h2>
+    <p class="body">Lauren is a junior, so this is the year that decides it, and right now there is no plan, no outreach, and no film. A former club coach deleted her Instagram out of spite when the family left for ECNL, and it took every highlight she had with it. That is a setback, not a sentence. The family is new to recruiting and there is a language barrier, so they have been guessing off Instagram and conflicting advice. The fix is a clear blueprint, rebuilding the film from zero, and starting real outreach now before fall season gets crazy.</p>
+
+    <h2>The 6-Month Build</h2>
+    <ul>
+      <li><b>Rebuild the film from scratch.</b> The club does not reliably film, so mom and dad film every game on the phone starting now. No film, no recruitment.</li>
+      <li><b>Cut the first highlight reel fast.</b> Use the few clips she still has plus new footage and get a reel live so we have something to send coaches.</li>
+      <li><b>Start outreach immediately.</b> We draft every email for her, she follows the templates, and we build the volume the junior window demands.</li>
+      <li><b>Chase the biggest scholarship, not the biggest logo.</b> Open D1, D2, and NAIA at the same time so the best money wins. NAIA and juco can stack academic plus athletic dollars like a D1.</li>
+      <li><b>Lead with the student.</b> A 3.7 with a 99 in Medical Terminology is money on the table - we market the academics as hard as the soccer.</li>
+    </ul>
+
+    <h2>The Athlete's Edge</h2>
+    <div class="edge"><p><b>Lauren is a pure playmaker</b> - team assist leader with 50-plus in a season and a stack of tournament championships. That vision translates at every level. Pair it with a 3.7 and a real science path and she becomes a low-risk, high-reward recruit who unlocks academic money on top of athletic money. And the story sells: a kid who lost all her film to a vindictive coach and rebuilt her whole recruitment from zero. That is exactly who coaches bet on.</p></div>
+
+    <div class="pgfoot"><span>Push the Goal Soccer</span><span>Lauren Ibarra - Recruitment Game Plan</span></div>
+  </div>
+</div>
+
+<!-- PAGE 3 -->
+<div class="page">
+  <div class="pad">
+    <div class="pagehdr"><div class="nm">Lauren Ibarra</div><div class="tg">Recruitment Game Plan</div></div>
+
+    <h2>Target Criteria (No Named Schools Yet - We Build The List)</h2>
+    <ul>
+      <li><b>Texas or a surrounding state.</b> Close to family is a family non-negotiable - we build the list inside that radius.</li>
+      <li><b>Biggest scholarship possible, division-agnostic.</b> D1, D2, and NAIA all in play. The money and the fit decide, not the label on the jersey.</li>
+      <li><b>Offers her science path.</b> Biology / health science / kinesiology toward sonography - the school has to fit the degree, not just the soccer.</li>
+      <li><b>Responsive coaches.</b> We rank by who actually answers and push everyone to a yes or no so she is not chasing ghosts.</li>
+      <li><b>Juco as a strategic lane.</b> Brookhaven College (strong transfer-out pipeline in Texas) is a real option to get started, cover cost, and transfer up.</li>
+    </ul>
+
+    <h2>The 3 Pillars</h2>
+    <ul>
+      <li><b>Self-Promotion:</b> Lauren learns to be her own best promoter - her story, her film, and her academics in front of coaches every week.</li>
+      <li><b>Sellability:</b> We package the playmaking, the assists, the 3.7, and the character so a coach sees a full-ride-worthy recruit, not another email.</li>
+      <li><b>Outreach:</b> 100+ personalized touches with relentless follow-up. We write them for her first, then she owns it. Visibility is a numbers game.</li>
+    </ul>
+
+    <h2>Personal Brand &amp; Film - Rebuild From Zero</h2>
+    <p class="body">The old coach took the Instagram and the highlights with it. Good. We build it back better and prove she never needed him. New Instagram, new reel, new footage filmed by the family every single game. We also chase down any ECNL film the club has by requesting access, and stitch together everything from this past season. The volume of film is what turns her assists into offers.</p>
+
+    <h2>Ownership &amp; The Family</h2>
+    <p class="body">Oscar and Carla are all-in and want to do this right, and the language barrier just means Lauren interprets and owns more of the process, which is exactly what coaches recruit. Parents film and support; Lauren sends and follows up. The commitment is there - she rated it near the top. We hold the standard and keep the whole family on the same page through the app.</p>
+
+    <h2>Immediate Next Steps</h2>
+    <ul class="steps">
+      <li>First coaching call this week - set the outreach system and weekly cadence before school starts back Thursday.</li>
+      <li>Parents start filming every game on the phone now, and request access to any ECNL film from the club.</li>
+      <li>Build the new Instagram and cut a first highlight reel from existing plus new footage.</li>
+      <li>Lock the target list across D1 / D2 / NAIA in Texas and surrounding states, ranked by scholarship, fit, and responsiveness.</li>
+      <li>Start drafting personalized outreach so we hit the junior window hard before fall season takes over.</li>
+    </ul>
+
+    <div class="pgfoot"><span>Push the Goal Soccer</span><span>College Recruitment &amp; Athlete Development</span></div>
+  </div>
+</div>
+
+</body>
+</html>

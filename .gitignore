@@ -1,0 +1,26 @@
+# Generated output - rebuild these, don't version them
+*.pdf
+*.docx
+*.xlsx
+*.png
+out/
+output/
+outputs/
+
+# Anything dropped in here stays local. Client data does not belong in the repo.
+scratch/
+private/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Claude Code local settings - machine specific, not shared
+.claude/settings.local.json
