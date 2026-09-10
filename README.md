@@ -3,6 +3,10 @@
 The shared brain for Push the Goal Soccer. Everything in here follows you to any device you
 open Claude Code on: this laptop, your phone, or a new laptop you sign into.
 
+- **Repo:** https://github.com/izipush/push-the-goal (private)
+- **GitHub account:** `izipush`
+- **On a new laptop:** `gh repo clone izipush/push-the-goal`
+
 ## What's in it
 
 ```
