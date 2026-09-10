@@ -12,16 +12,26 @@ open Claude Code on: this laptop, your phone, or a new laptop you sign into.
 ```
 CLAUDE.md            Business context. Read automatically at the start of every session.
 OPEN-QUESTIONS.md    Contradictions between skills that need one decision from Izi.
-.claude/skills/      The five Push the Goal workflows.
+skills/              Reference copies of the five workflows. NOT the live ones - see below.
 ```
+
+## Where the skills actually live
+
+**In Izi's Claude account, not in this repo.** Chat, Cowork and Claude Code all run the same
+account-level skills, so they already follow him to every device he signs into. This repo does
+not need to deliver them and deliberately does not try.
+
+The `skills/` folder holds copies for version history, backup, and drafting. Editing a file
+there does not change behaviour - the account copy has to be updated too. Details and the
+current drift are in `skills/README.md`.
 
 ## Using it on each device
 
-**This laptop.** Open the Claude desktop app, pick this folder, and go. The skills and
-`CLAUDE.md` load on their own.
+**This laptop.** Open the Claude desktop app and pick this folder. `CLAUDE.md` loads on its
+own; the skills come from the account.
 
-**Your phone or a different laptop.** Go to `claude.ai/code`, pick this repository, and start
-a session. Same skills, same context.
+**Your phone or a different laptop.** Go to `claude.ai/code` and pick this repository. Same
+context, same account skills.
 
 ## The one habit that keeps it working
 

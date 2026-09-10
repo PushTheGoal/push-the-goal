@@ -55,7 +55,7 @@ For parent messages specifically: lead with progress, give the kid real credit, 
 biggest thing Izi cut from a draft. Give one or two concrete ways to help. Thank them.
 Sign "Izi".
 
-Full detail with before/after examples: `.claude/skills/push-the-goal-call-notes/references/voice.md`
+Full detail with before/after examples: `skills/push-the-goal-call-notes/references/voice.md`
 
 ## Hard rules
 
@@ -131,7 +131,11 @@ Footer on marketing pieces: `PUSH THE GOAL SOCCER · @PUSHTHEGOALSOCCER · BECOM
   between them. Never embed a tab character inside a `type` string - it jams the whole row
   into column A.
 
-## The skills in this repo
+## The skills
+
+These run from Izi's Claude account, which is why they work in Chat, Cowork and Claude Code
+alike, on every device. The `skills/` folder in this repo holds reference copies only - see
+`skills/README.md` before editing one.
 
 | Skill | Job |
 |---|---|
