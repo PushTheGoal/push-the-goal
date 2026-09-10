@@ -54,7 +54,9 @@ if none named yet. Izi's prescribed plan, the offer + payment terms, and immedia
 - Render to PNG and eyeball it before delivering. Deliver to Izi via SendUserFile.
 
 ## Step 4 — Draft the coach handoff in Skool
-Assigned coach is usually **Coach Brittany = Brittani Guzman @brittani-guzman-2437** (staff coach).
+Assigned coach is usually **Coach Brittani Guzman, `@brittani-guzman-2437`** (staff coach). Spelled
+**Brittani**, i at the end - it is spelled that way in Skool. Voice transcripts render it "Brittany"
+because of how Izi says it; that is a transcription artifact, not the spelling. Write Brittani.
 Colleague-to-colleague tone: warm, quick, affirming. Cover the new signup, the athlete's profile and
 marketing angle, the family's non-negotiables, anything the coach must handle differently, the top
 targets/criteria, and reference the attached game plan.

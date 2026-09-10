@@ -11,7 +11,8 @@ Never re-explain the business to Izi. Keep chat replies short. Do not ask clarif
 
 ## Fixed facts
 
-- Local project folder (connected): `C:\Users\15306\Documents\Claude\Projects\Lead mags  Marie wendt content`. Lead mag source files live in a dated subfolder, currently `New lead mags Sept 2026`; start `New lead mags <Month Year>` when the month changes.
+- **The Google Drive vault below is the source of truth.** Everything needed to build and file a lead mag lives there, so this routine works from any device Izi is signed in on - phone included.
+- **Optional local mirror, on Izi's Windows laptop only:** `C:\Users\15306\Documents\Claude\Projects\Lead mags  Marie wendt content`, with source files in a dated subfolder (currently `New lead mags Sept 2026`; start `New lead mags <Month Year>` when the month changes). That path exists on one machine. If it is not reachable - phone, a different laptop, or a session without device access - skip the local copy, finish the job through Drive, and say in the reply that the local mirror was skipped. It is a convenience, not a requirement, and never a reason to stop.
 - Google Drive "Lead Magnet Vault" folder (parent for everything): id `1Pdncp4enoJIcO1My_3Zs-C9gaM4XoEn_` — https://drive.google.com/drive/folders/1Pdncp4enoJIcO1My_3Zs-C9gaM4XoEn_
 - Weekly subfolders inside it, named `Week of <Month D, YYYY>` using the MONDAY of that week (e.g. "Week of September 7, 2026", "Week of September 14, 2026"). Create with Drive `create_file` (mimeType folder, parentId = vault id). Search first so you never make a duplicate.
 - Week 1 already exists: subfolder "Week of September 7, 2026" (id `19vIbqefePqVBGsT4wMa1gL0eKP2NA6_O`) holding the roll-up doc "Week of Sept 7, 2026 - Lead Magnets 1-5 (EMAIL, FILM, LIST, SPRINT, PARENT)" (doc id `1Ex-2eF_mugv5AK02R7uTx8zhu53MYsuG-Ha90OiOoIU`). Do not add to that doc.
@@ -50,7 +51,7 @@ Never re-explain the business to Izi. Keep chat replies short. Do not ask clarif
 
 ## Step 3 — deliver the files locally
 
-SendUserFile the lead mag .docx + .pdf + IG Drop .docx, then device_commit_files all three into the current "New lead mags" subfolder. Add the new title + trigger word to project memory `project_lead_mag_library.md`.
+SendUserFile the lead mag .docx + .pdf + IG Drop .docx - this part works everywhere. Then, **if the local mirror is reachable**, device_commit_files all three into the current "New lead mags" subfolder; if it is not, skip it and note that in the reply rather than treating it as a failure. Add the new title + trigger word to project memory `project_lead_mag_library.md`.
 
 ## Step 4 — this week's Google Doc, in this week's vault subfolder
 

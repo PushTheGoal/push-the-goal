@@ -1,100 +1,78 @@
 # Open questions
 
-Contradictions found between the five skills while building `CLAUDE.md`. None are blocking,
-but each is a place where two skills will do different things on the same request. Worth
-settling once, here, rather than re-deciding per session.
+Contradictions found between the five skills. Each is a place where two skills would do
+different things on the same request. Settled once here rather than re-decided per session.
 
 ---
 
-## 1. The tracker's Game Plan link - PDF or Google Doc?
+## 1. Three skills overlap on the same trigger phrases
 
-These two directly contradict each other:
+`new-student-onboarding` appears to be the current, complete version - game plan, coach
+handoff, and tracker row in one pass. But `new-client-recruitment-handoff` and
+`new-student-tracker` are still live and still match phrases like *"add [name] to the tracker"*
+and *"draft a message to Brittani"*.
 
-- `new-student-tracker` has a section headed **"GOLDEN RULE: link the EXISTING game plan -
-  never recreate it"**, quoting Izi: *"just attach the old files of the game plan that you
-  already put together."* It says the link must point to the branded **PDF**.
-- `new-student-onboarding` STEP 5 says to build a **Google Doc copy** of the game plan and
-  link that instead, because binary PDFs cannot be uploaded to Drive from a session.
+`new-client-recruitment-handoff` looks clearly older: it has no tracker step, no hosted game
+plan, and it still references container paths (`/opt/pw-browsers/`, `/mnt/user-data/outputs/`)
+from the Cowork environment rather than this setup.
 
-Both are reasonable. The Doc copy is a workaround for a real technical limit; the golden rule
-is a direct instruction from Izi. Right now which one happens depends on which skill fires.
+Three skills racing for the same request is the likeliest source of a confusing result - which
+one wins decides whether the tracker gets updated at all.
 
-## 2. Three skills overlap on the same trigger phrases
-
-`new-student-onboarding` appears to be the current, complete version - it covers the game
-plan, the coach handoff, and the tracker row in one pass. But `new-client-recruitment-handoff`
-and `new-student-tracker` are still live and still match phrases like *"add [name] to the
-tracker"* and *"draft a message to Brittani"*.
-
-`new-student-tracker` even refers to `new-client-recruitment-handoff` as the skill that
-produces the game plan, which suggests it predates the merge.
-
-**Suggested fix:** keep `new-student-onboarding` as the one entry point and retire the other
-two, or narrow their descriptions so they only trigger on genuinely separate jobs.
-
-## 3. Coach name spelling is inconsistent
-
-`new-student-onboarding` says explicitly: spell it **"Brittani"**, i at the end, not
-"Brittany". The Skool handle `@brittani-guzman-2437` backs that up.
-
-`new-student-tracker` uses **"Brittany"** throughout, including in its own description and in
-the `Coach` column spec.
-
-Since her name ends up written into a spreadsheet she reads, worth making uniform.
-
-## 4. A hardcoded local path that will not survive the move
-
-`weekly-lead-mag-vault` points at:
-
-```
-C:\Users\15306\Documents\Claude\Projects\Lead mags  Marie wendt content
-```
-
-That folder only exists on this laptop. On a phone, or any other laptop, that step fails.
-This is the one item directly in the way of working across devices.
-
-**Options:** move those source files into this repo so they travel, or change the skill to
-treat the Google Drive vault as the only source of truth and drop the local step.
-
-## 5. Two brand palettes
-
-Recruitment documents use charcoal + red. Lead magnets use black + yellow, with
-`weekly-lead-mag-vault` stating "no other accent colors."
-
-This is probably deliberate - internal client docs versus public marketing - and `CLAUDE.md`
-records it that way. Flagging only to confirm it is intentional and not drift.
+**Suggested fix:** retire `new-client-recruitment-handoff`, and narrow `new-student-tracker` so
+it only fires when Izi wants a tracker row on its own, not as part of a fresh signing.
 
 ---
 
 # Resolved
 
-## Duplicate skills - settled 2026-09-09
+## One game plan, one link - settled 2026-09-09
 
-Briefly, this repo held copies of the five skills in `.claude/skills/`, which made Claude Code
-load them *on top of* the account copies. Two of each, drifting.
+Izi: *"you don't need to create two separate Google Docs and PDFs. It should be the same one.
+One is sent to Brittani, and that same one is also put in the tracker."*
 
-There is no conflict between Chat, Cowork and Claude Code - all three run the same
-account-level skills. The duplication came only from that folder name.
+Build and host the game plan **once**. That URL goes in the coach's Skool DM and in the
+tracker's Game Plan cell, identical in both. No second copy, no separate hosted version so a
+cell has something to link to.
 
-**Settled:** the account copies are the live ones and stay that way. Chat and Cowork keep
-working, and the skills follow Izi to his phone through his account, not through this repo.
-The copies here moved to a plain `skills/` folder, where they are version history and backup
-and nothing else. See `skills/README.md`.
+This also replaced the old "attach the PDF to the coach's message" step - she gets the link
+instead. The branded PDF is still built and delivered to Izi as his own deliverable; it is just
+not a second hosted artifact. Kept in `new-student-onboarding` STEP 7 as a fallback if he ever
+asks for the attachment again.
 
-Follow-up still needed: the `weekly-lead-mag-vault` price fix exists only in this repo. The
-account copy still carries prices in its CTA spec, with a stale $3,000 Junior Prep figure.
+Applied to `new-student-onboarding` (deliverables list, STEP 5, 6, 7, 9, gotchas),
+`new-student-tracker` (golden rule rewritten), and the hard rules in `CLAUDE.md`.
+
+## Coach name spelling - settled 2026-09-09
+
+It is **Brittani**, i at the end, as it appears in Skool. Voice transcripts render it
+"Brittany" because of how Izi says her name - that is a transcription artifact, not the
+spelling.
+
+Fixed every occurrence in `new-student-tracker` and `new-client-recruitment-handoff`, and noted
+the transcription trap in `CLAUDE.md` so it does not creep back in from a Fathom transcript.
+
+## Player Development - settled 2026-09-09
+
+Not a program and not a price tier. It is skill-development work, delivered mainly inside
+Junior Prep and worked into Recruitment 101 where it fits. It does not belong in the tracker's
+Program column on its own.
+
+## The hardcoded lead mag folder - settled 2026-09-09
+
+`weekly-lead-mag-vault` named a folder that exists on exactly one machine
+(`C:\Users\15306\Documents\Claude\Projects\Lead mags  Marie wendt content`). Asked for a lead
+magnet from a phone, the skill would hit that step and stall on a path that isn't there.
+
+Now: the Google Drive vault is the source of truth, and the local folder is an optional mirror.
+If it is unreachable, the routine finishes through Drive and says the local copy was skipped
+rather than treating it as a failure.
 
 ## Offers - settled 2026-09-09
-
-The apparent conflict was not one. Izi's clarification:
 
 - **$8,000 and $4,500 are the same offer.** Soccer Recruitment 101 at its original price and
   its downsell price. Each has its **own onboarding email** - pick based on which price the
   family signed at.
 - **Junior Prep Program is $3,500**, not $3,000. The `weekly-lead-mag-vault` figure was stale.
-- **Price never appears in client-facing content.** This makes the whole question low-stakes
-  externally, but it means `weekly-lead-mag-vault` was wrong to carry prices in its CTA spec.
-  Fixed - that skill now names the offers without printing a number.
-
-Still open: `new-student-onboarding` lists a "Player Development" tier. Same thing as Junior
-Prep, or a separate track?
+- **Price never appears in client-facing content.** `weekly-lead-mag-vault` was carrying prices
+  in its CTA spec; fixed, and the CTA box spec now says the offer name only.

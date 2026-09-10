@@ -68,6 +68,10 @@ Full detail with before/after examples: `skills/push-the-goal-call-notes/referen
   timeline claims. A wrong claim in a parent message is worse than a missing one.
 - **Keep sensitive health or personal details out** of PDFs and out of memory. Reference the
   downstream need without naming a diagnosis.
+- **One game plan per athlete, one link.** Build and host it once. The coach's Skool DM and the
+  tracker row carry the identical URL. Never make a second copy so something has a link to
+  point at - two copies drift, and the coach and the tracker end up showing different plans for
+  the same kid.
 - **Don't make him babysit.** Run the whole workflow end to end without stopping to confirm
   each step. Ask only when a real fork exists.
 
@@ -76,7 +80,7 @@ Full detail with before/after examples: `skills/push-the-goal-call-notes/referen
 | Who | Detail |
 |---|---|
 | Izi | Owner and head coach. Fathom recorder shows as "Izi Chinchay". Skool login is "Izi Murray". |
-| Coach Brittani Guzman | Takes the athlete handoff after signing. Skool `@brittani-guzman-2437`. Spelled **Brittani**, i at the end. |
+| Coach Brittani Guzman | Takes the athlete handoff after signing. Skool `@brittani-guzman-2437`. Spelled **Brittani**, i at the end - that is how it appears in Skool. Voice transcripts render it "Brittany" because of how Izi says it. That is a transcription artifact, not the spelling. Always write Brittani. |
 
 ## Offers
 
@@ -91,8 +95,9 @@ never the number.
 | Soccer Recruitment 101 - downsell | $4,500 | Same program, lower price point. Has its **own onboarding email** - pick based on which price they signed at. |
 | Junior Prep Program | $3,500 / 6 months | Younger athletes. |
 
-Note: `new-student-onboarding` lists a "Player Development" tier. Confirm whether that is the
-same thing as Junior Prep or a separate track.
+**Player Development is not a program.** It is a type of work - skill development - delivered
+mainly inside Junior Prep, and worked into Recruitment 101 where it fits. It is not a tier, not
+a price point, and does not belong in the tracker's Program column on its own.
 
 Standard lead magnet CTA line - name the offers, no prices:
 "DM me 'RECRUIT' or book a call. Let's get you found, then get you signed. - Coach Izi"

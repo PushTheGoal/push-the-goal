@@ -9,16 +9,17 @@ When a Strategy Session (sales call, usually >30 min) closes with a signature, p
 
 ## The four deliverables (in order)
 1. A branded PDF game plan pulled from the Fathom call → delivered to Izi.
-2. A Google-Doc copy of that game plan hosted in the New Students Drive folder (so the tracker can link the athlete's OWN plan).
-3. A colleague-to-colleague handoff drafted in the coach's Skool DM, PDF attached, thread marked UNREAD ("on blue").
-4. A clean row in the live New Students tracker, with the Game Plan cell linking that athlete's own hosted game plan.
+2. ONE hosted copy of that game plan in the New Students Drive folder. Its URL is the single game-plan link - used in both places below, identically.
+3. A colleague-to-colleague handoff drafted in the coach's Skool DM carrying that link, thread marked UNREAD ("on blue").
+4. A clean row in the live New Students tracker, Game Plan cell pointing at that same link.
 
 ## Izi's config (swap these if used for a different business)
-- **Coach / assignee:** Coach **Brittani** Guzman, Skool handle `@brittani-guzman-2437`. SPELL IT "Brittani" (i at the end), not "Brittany".
+- **Coach / assignee:** Coach **Brittani** Guzman, Skool handle `@brittani-guzman-2437`. Spelled "Brittani", i at the end - that is how it appears in Skool. Fathom transcripts render it "Brittany" because of how Izi says it, so the wrong spelling arrives with the source material. It is a transcription artifact, not the spelling. Write Brittani.
 - **Skool community:** `skool.com/pushthegoal`.
 - **New Students Drive folder (2026):** id `1ScUtPgyq45gmw8xEBcqUgoM_kR6oJZ-k`. Holds each athlete's game-plan file.
 - **Live tracker (the ONLY sheet to touch):** Google Sheet `FR Push_the_Goal__New_Students_2026`, id `1B5SVe12E5qaficHd5atJyhzsgzxv8sneMvH3VoJh4Q4`. 12 real month tabs (January…December). Add each signee under the right month.
-- **Offers:** Recruitment 101 - $8,000 (start to signed). 6-Month Recruitment - $4,500. Player Development (younger skill-dev athletes).
+- **Offers:** Soccer Recruitment 101 - the flagship, start to signed. $8,000, or $4,500 on the downsell; each price point has its own onboarding email. Junior Prep Program - $3,500 / 6 months, younger athletes. **These figures are internal only** - price never appears in client-facing content, including the game plan PDF.
+- **Player Development is not a tier.** It is a type of work - skill development - delivered mainly inside Junior Prep, and worked into Recruitment 101 where it fits. Don't record it in the tracker's Program column as though it were its own program.
 
 ## Voice (always)
 Izi's voice: direct, intense, no-BS, authoritative - a coach, not an influencer. Tough love with faith and purpose underneath when the family is faith-driven. NO emojis. NO em-dashes (use spaced hyphens like the brand docs). Write "message" not "text". No clichés, no motivational fluff, no over-explaining. Ground everything in the transcript - never invent schools, GPAs, stats, or recruiting-timeline claims. If no target schools are named yet, build around target CRITERIA, not named schools. Keep sensitive personal/health details out of the PDF and any memory (reference the downstream need without naming a diagnosis).
@@ -46,20 +47,39 @@ Athlete profile (name, class/grad year, position, height, location, club/school 
 - Development-plan sections: Cover / Snapshot / Where She Is / 6-Month Aim / The Athlete's Edge / Skill-Development Focus / Commitment & Cadence (dark stat block) / Full Support / Next Steps. Cover reads "Development Game Plan / PLAYER DEVELOPMENT".
 - Eyeball the PNG. Deliver the PDF to Izi via SendUserFile.
 
-## STEP 5 - Host the game plan as a Google Doc in the Drive folder
-The tracker link must open the athlete's OWN game plan, never the folder. Binary PDFs can't be uploaded to Drive from a session, so host a Google-Doc copy:
+## STEP 5 - Host the game plan ONCE. This is THE link.
+
+Build one hosted game plan and reuse its link everywhere. Izi was explicit (2026-09-09): do
+not make one copy for the coach and a different one for the tracker. **One document, one link
+- the coach gets it and the tracker gets the identical URL.** Two copies means two things to
+keep in sync, and they drift.
+
 - Build the game-plan content as clean HTML (headings, a snapshot table, bullet lists - same content as the PDF).
 - `Google_Drive create_file` with `contentMimeType: text/html` + `parentId` = the New Students folder → it converts to a Google Doc. Keep its `viewUrl` / `/edit` URL.
+- **Hold that URL.** It gets used twice and must be character-identical in both: the coach's Skool DM (STEP 6) and the tracker's Game Plan cell (STEP 9).
+
+Why a Doc rather than the PDF: binary PDFs can't be uploaded to Drive from a session, so the
+Doc is the copy that can carry a link. The branded PDF from STEP 4 still goes to Izi for his
+own use - that is his deliverable, not a second hosted artifact.
 
 ## STEP 6 - Draft the coach handoff in Skool
-Colleague-to-colleague: warm, quick, affirming. Cover the new signup, the athlete's profile + marketing angle/focus, the family's non-negotiables, anything the coach must handle differently, the top targets/criteria, and reference the attached plan.
+Colleague-to-colleague: warm, quick, affirming. Cover the new signup, the athlete's profile + marketing angle/focus, the family's non-negotiables, anything the coach must handle differently, the top targets/criteria, and **include the game-plan link from STEP 5** - the same URL that goes in the tracker.
 - Navigate: open `skool.com/pushthegoal` → click the chat-bubble icon in the top bar (next to the bell; direct DM URLs 404) → search the coach's name → open the thread. (In a wider window the chat bubble moves right ~x=1108; re-screenshot and re-aim if a click misses.)
 - **Typing safely: plain Enter SENDS.** Type each paragraph, then press `shift+Return` twice for a blank line, then the next paragraph. Verify with a screenshot that nothing sent.
 - If the input box already has text (a prior unsent draft), do NOT overwrite it - leave it and flag to Izi.
 - Do NOT click video thumbnails in the thread - they open a stuck fullscreen overlay. Click only the input box.
 
-## STEP 7 - Attach the PDF (required)
-Izi wants the PDF ON the message, not just delivered in chat. `cp` the PDF to `/mnt/user-data/outputs/`, then in the open thread use `find` for "file input for attaching a document" and `file_upload` with that ref + the outputs path. It attaches as a pending "PDF • NNkb" chip without sending and without a native dialog. `find` may return 1 or 2 refs (use the document one). Do NOT click the paperclip - it opens a native picker you can't use.
+## STEP 7 - The coach gets the link, not a second file
+
+Izi's call (2026-09-09): the coach and the tracker get the same game-plan link. Paste the
+STEP 5 URL into the draft and stop there. No separate attachment, no second copy.
+
+This replaces the old "attach the PDF to the message" requirement. If he asks for the PDF on
+the message anyway: `cp` it to `/mnt/user-data/outputs/`, then in the open thread `find` "file
+input for attaching a document" and `file_upload` with that ref + the outputs path. It attaches
+as a pending "PDF • NNkb" chip without sending and without a native dialog. `find` may return 1
+or 2 refs (use the document one). Do NOT click the paperclip - it opens a native picker you
+can't use.
 
 ## STEP 8 - Mark the coach's thread UNREAD ("put it on blue") - do this LAST
 "Put it on blue" = mark the thread UNREAD so Izi sees it in his queue (blue dot / "(1)"). Reopening a thread marks it read again, so mark unread AFTER attaching. Close the thread modal (the draft + attachment persist in the box), open the Chats panel, hover the coach's row, click the circle icon on the right edge (its tooltip reads "Mark read", which means it is now unread). Note: a window resize can close the thread modal mid-type, but the draft text stays in the box - reopen to verify/finish.
@@ -71,7 +91,7 @@ Open the live tracker (id `1B5S...`) in a **FRESH browser tab** at the correct M
 **How to enter it reliably (this is where it goes wrong):**
 - Use the **Name Box** (top-left cell-ref box, ~x=50,y=127) to target cells exactly - click it, type the cell (e.g. `A4`), Return. Direct grid clicks can land a row off; the Name Box is exact.
 - Enter values CELL BY CELL: `type` a value → separate `key` "Tab" → `type` next → `key` "Tab" … then `key` "Enter". **NEVER embed a tab character ("\t") inside a `type` string** - the type action enters a literal tab INSIDE one cell and jams the whole row into column A. Use a separate `key` "Tab" between columns.
-- Game Plan cell = `=HYPERLINK("<the Doc URL from Step 5>","Open Game Plan")` → renders as a clickable "Open Game Plan" link, matching the other rows. It must point to the athlete's OWN game plan, never the folder, never blank.
+- Game Plan cell = `=HYPERLINK("<the Doc URL from Step 5>","Open Game Plan")` → renders as a clickable "Open Game Plan" link, matching the other rows. It must point to the athlete's OWN game plan, never the folder, never blank. **This is the same URL the coach got in STEP 6** - not a fresh copy, not a second Doc.
 - To edit a cell that already holds a link without opening it, select the cell to its left via the Name Box, then Tab into it.
 - To clear a bad cell/range: Name Box → select the range → `key` "Delete".
 
@@ -92,7 +112,8 @@ So Izi doesn't have to ask each time, this whole workflow runs on a schedule. Se
 - Fathom: filter by DATE ONLY (recorder is "Izi Chinchay").
 - Tracker typing: one `type` per cell + a separate `key` "Tab"; never embed "\t".
 - Tracker window can collapse to a sliver - reopen in a fresh tab.
-- Game Plan link points to the athlete's OWN hosted plan, never the folder.
+- Game Plan link points to the athlete's OWN hosted plan, never the folder - and the coach's DM and the tracker carry the SAME link, never two copies.
+- Price never goes in the game plan PDF or anything else client-facing.
 - Coach name is "Brittani" (i at the end).
 - Skool: plain Enter SENDS - use shift+Return; never overwrite an existing draft; attach via file_upload not the paperclip; mark unread LAST; avoid clicking video thumbnails.
 - Never send anything - Izi reviews and sends.
