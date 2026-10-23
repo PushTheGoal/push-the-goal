@@ -1,0 +1,211 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Izi Murray LinkedIn Kit</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,500;1,600&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
+<style>
+  /* Layout: one 760px reading column, stage-black page, aqua used only for labels, rules and the step markers. Single dark look by choice (matches the banner). */
+  :root{
+    --ink:#0B0B0C; --panel:#111819; --line:#203030; --fg:#E6EFEF; --mute:#93A6A6; --gold:#62C6C2;
+    --display:"Playfair Display",Georgia,serif;
+    --cond:"Montserrat",Arial,sans-serif;
+    --body:"Montserrat",Arial,Helvetica,sans-serif;
+    color-scheme:dark;
+  }
+  *{box-sizing:border-box}
+  body{background:var(--ink);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.65;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .wrap{max-width:820px;margin:0 auto;padding-inline:20px;padding-block:40px 64px;display:flex;flex-direction:column;gap:56px}
+  header{display:flex;flex-direction:column;gap:14px}
+  .eyebrow{font-family:var(--cond);font-weight:500;font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:var(--gold)}
+  h1{font-family:var(--display);font-weight:600;font-size:clamp(40px,8vw,72px);line-height:1.05;margin:0;text-wrap:balance}
+  h1 span{color:var(--gold);font-style:italic;font-weight:500}
+  .lede{color:var(--mute);max-width:62ch;margin:0}
+  .order{display:flex;flex-wrap:wrap;gap:8px 18px;font-family:var(--cond);font-weight:500;font-size:14px;letter-spacing:.14em;text-transform:uppercase}
+  .order b{color:var(--gold);font-weight:700}
+  img.shot{display:block;width:100%;max-width:100%;height:auto;border:1px solid var(--line)}
+  section{display:flex;flex-direction:column;gap:16px}
+  h2{font-family:var(--display);font-weight:600;font-size:34px;line-height:1.1;margin:0;letter-spacing:.01em;display:flex;align-items:baseline;gap:14px}
+  h2 .n{font-family:var(--cond);font-size:13px;font-weight:600;color:var(--ink);background:var(--gold);padding:3px 9px;border-radius:999px;letter-spacing:.08em;transform:translateY(-6px)}
+  h3{font-family:var(--cond);font-weight:600;font-size:15px;letter-spacing:.12em;text-transform:uppercase;margin:0}
+  p{margin:0;max-width:66ch}
+  .where{font-family:var(--cond);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--mute)}
+  .where b{color:var(--fg);font-weight:600}
+  .paste{background:var(--panel);border:1px solid var(--line);padding:18px 20px 16px;display:flex;flex-direction:column;gap:10px;min-width:0}
+  .paste .bar{display:flex;justify-content:space-between;align-items:center;gap:12px;font-family:var(--cond);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--mute)}
+  .paste pre{margin:0;white-space:pre-wrap;word-wrap:break-word;font-family:var(--body);font-size:15px;line-height:1.6;color:var(--fg)}
+  button.copy{font-family:var(--cond);font-weight:600;font-size:12px;border-radius:999px;letter-spacing:.12em;text-transform:uppercase;background:transparent;color:var(--gold);border:1px solid var(--gold);padding:5px 12px;cursor:pointer}
+  button.copy:hover{background:var(--gold);color:var(--ink)}
+  button.copy:focus-visible{outline:2px solid var(--fg);outline-offset:2px}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .grid2>*{min-width:0}
+  ul.tight{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px}
+  ol.steps{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;border-top:1px solid var(--line)}
+  ol.steps li{display:grid;grid-template-columns:44px 1fr;gap:14px;padding:14px 0;border-bottom:1px solid var(--line)}
+  ol.steps li>span{font-family:var(--display);font-style:italic;font-weight:500;font-size:28px;color:var(--gold);line-height:1.1}
+  ol.steps li>div{min-width:0}
+  .need{border:1px solid var(--gold);padding:18px 20px;display:flex;flex-direction:column;gap:10px}
+  .chips{display:flex;flex-wrap:wrap;gap:8px}
+  .chips span{border:1px solid var(--line);border-radius:999px;padding:4px 14px;font-family:var(--cond);font-weight:500;letter-spacing:.08em;text-transform:uppercase;font-size:12px}
+  .chips span.top{border-color:var(--gold);color:var(--gold)}
+  a{color:var(--gold)}
+  footer{font-family:var(--cond);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--mute);border-top:1px solid var(--gold);padding-top:16px}
+  @media (max-width:640px){ .grid2{grid-template-columns:1fr} body{font-size:16px} }
+  @media print{
+    @page{size:Letter;margin:0}
+    html,body{background:#0B0B0C}
+    button.copy,.screen-only{display:none!important}
+    .wrap{max-width:none;padding:0.55in 0.6in;gap:36px}
+    section,.paste,.need,ol.steps li{break-inside:avoid}
+  }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">LinkedIn rebrand kit · October 2026</div>
+    <h1>Izi Murray, <span>Keynote Speaker</span></h1>
+    <p class="lede">Everything needed to reposition the profile at linkedin.com/in/izi-chinchay-. Each block is ready to paste, in the order you should do it. The priority order runs through every section:</p>
+    <div class="order"><span><b>1</b> Keynote speaker</span><span><b>2</b> Podcast host</span><span><b>3</b> College soccer recruitment specialist</span></div>
+  </header>
+
+  <section id="banner">
+    <h2><span class="n">01</span>Banner</h2>
+    <p class="where">Profile · pencil icon on the banner · <b>Change photo</b></p>
+    <img class="shot" src="Izi-Murray-LinkedIn-Banner.png" alt="LinkedIn banner: Keynote Speaker, Podcast Host of The Long Game, College Soccer Recruitment Specialist" width="1584" height="396">
+    <p>1584 x 396 px, LinkedIn's exact banner size. All the words sit right of centre, so your profile photo never covers them on desktop or the app. Aqua and black are your personal brand colours, kept separate from the Push the Goal black and gold so the speaker brand stands on its own.</p>
+  </section>
+
+  <section id="headline">
+    <h2><span class="n">02</span>Headline</h2>
+    <p class="where">Profile · pencil icon by your name · <b>Headline</b> (220 character limit)</p>
+    <div class="paste"><div class="bar"><span>Headline · 173 characters</span><button class="copy" type="button">Copy</button></div>
+<pre>Keynote Speaker | Host of The Long Game Podcast | College Soccer Recruitment Specialist | Founder, Push the Goal Soccer | Two ACL tears, five knee surgeries, still played D1</pre></div>
+    <p>Replaces "Entrepreneur | Podcasts Host | Speaker | Coach". Speaker moves to the front because the first 60 or so characters are all most people see in search and comments.</p>
+  </section>
+
+  <section id="about">
+    <h2><span class="n">03</span>About</h2>
+    <p class="where">Profile · About · <b>pencil icon</b></p>
+    <div class="paste"><div class="bar"><span>About</span><button class="copy" type="button">Copy</button></div>
+<pre>I speak to athletes, teams, schools, parents and faith communities about the long game: resilience, ownership, and a confidence that holds when the applause gets quiet.
+
+My path to Division I soccer was anything but straight. I didn't start club soccer until I was 14. Two ACL tears, a quad tear, five knee surgeries, COVID disruptions and eligibility obstacles. At one point everything I owned was packed in my car, and I still had a game to play that night. I made it to D1 anyway.
+
+That story is the foundation of everything I do.
+
+KEYNOTE SPEAKING
+Talks for athletes, coaches, parents, schools and faith communities:
+- Setbacks Don't Rewrite Your Story - resilience after injury and loss
+- Confidence vs. Arrogance - building self-trust that doesn't depend on praise
+- Talent Isn't Enough - ownership, discipline and the habits that get you noticed
+- Leaders Ask for Help - why strength doesn't mean carrying it alone
+
+THE LONG GAME PODCAST
+I co-host The Long Game Podcast with Maggie Gehne: real conversations on faith, fitness, wellness and relationships for women building a life that lasts.
+
+COLLEGE SOCCER RECRUITMENT
+For the past 10 years I've helped athletes take their game to the next level. Through Push the Goal Soccer, I give high school players and their families a clear recruiting plan and the mentorship to follow through, from getting found to getting signed.
+
+Booking a speaker for your event, team or conference? Message me here.</pre></div>
+  </section>
+
+  <section id="experience">
+    <h2><span class="n">04</span>Experience</h2>
+    <p class="where">Profile · Experience · <b>+</b> to add, pencil to edit · tick "Notify network" on the speaker entry</p>
+    <p>Three entries, in this order. LinkedIn sorts by start date, so if the speaker entry should sit on top, give it the most recent start date or drag it up with the reorder handle.</p>
+
+    <div class="paste"><div class="bar"><span>New · Title: Keynote Speaker · Self-employed</span><button class="copy" type="button">Copy</button></div>
+<pre>I speak to athletes, teams, schools, parents and faith communities about resilience, ownership and the long game. Every talk comes from lived experience: two ACL tears, a quad tear, five knee surgeries, and a path to Division I that almost didn't happen.
+
+Talks:
+- Setbacks Don't Rewrite Your Story
+- Confidence vs. Arrogance
+- Talent Isn't Enough
+- Leaders Ask for Help
+
+Keynotes, workshops, panels and team talks. Message me to book.</pre></div>
+
+    <div class="paste"><div class="bar"><span>New · Title: Co-Host · Company: The Long Game Podcast</span><button class="copy" type="button">Copy</button></div>
+<pre>The Long Game Podcast with Izi Murray and Maggie Gehne. Real conversations on faith, fitness, wellness and relationships for women building a life that lasts. 170+ episodes on Spotify, Apple Podcasts and YouTube.
+
+Watch: youtube.com/@thelonggameofficial1</pre></div>
+
+    <div class="paste"><div class="bar"><span>Edit · "Owner of push the goal soccer." becomes Title: Founder &amp; College Soccer Recruitment Specialist · Company: Push the Goal Soccer</span><button class="copy" type="button">Copy</button></div>
+<pre>Push the Goal Soccer helps high school athletes and their families navigate college soccer recruitment, from getting found to getting signed.
+
+Every athlete gets a personalized recruiting game plan, a dedicated coach, and mentorship on the mindset it takes to compete at the next level. Programs include Soccer Recruitment 101 for serious high school players and the Junior Prep Program for younger athletes.
+
+Parents of a driven player: comment RECRUIT on any of my posts or message me to talk strategy.</pre></div>
+    <p>Keep the start date at May 2023. Fill in your own start dates for the two new entries.</p>
+  </section>
+
+  <section id="featured">
+    <h2><span class="n">05</span>Featured</h2>
+    <p class="where">Profile · Add section · Recommended · <b>Add featured</b></p>
+    <img class="shot" src="Izi-Murray-Featured-Book-to-Speak.png" alt="Featured image: Book Izi to speak, with four talk topics" width="1200" height="627">
+    <ol class="steps">
+      <li><span>1</span><div><h3>Media: Book Izi to Speak</h3><p>Upload the image above. Title: "Book Izi to Speak". Description: "Keynotes and workshops on resilience, confidence and ownership. Message me to book."</p></div></li>
+      <li><span>2</span><div><h3>Post: your car story</h3><p>Feature the "I don't know where I'm going to sleep tonight" post. It is your best performer by far (2,325 impressions against well under 300 for the rest) and it is the closest thing on your profile to a keynote.</p></div></li>
+      <li><span>3</span><div><h3>Link: The Long Game Podcast</h3><p>youtube.com/@thelonggameofficial1, or your newest episode on Spotify.</p></div></li>
+      <li><span>4</span><div><h3>Link: Push the Goal Soccer</h3><p>soccer-101.push-the-goal.com/video-page, your current profile link, moved here so the top card can carry the speaking ask.</p></div></li>
+    </ol>
+  </section>
+
+  <section id="details">
+    <h2><span class="n">06</span>The small settings</h2>
+    <div class="grid2">
+      <div class="paste"><h3>Skills · pin these top 5</h3>
+        <div class="chips"><span class="top">Public Speaking</span><span class="top">Keynote Speaking</span><span class="top">Podcasting</span><span class="top">Mentoring</span><span class="top">College Recruiting</span><span>Leadership</span><span>Athlete Development</span><span>Coaching</span></div>
+        <p class="where">Profile · Skills · pencil · drag to reorder</p>
+      </div>
+      <div class="paste"><h3>Open to · Providing services</h3>
+        <p>Turn on <b>Providing services</b> and list Public Speaking first, then Coaching and Mentoring. This adds a services card and makes you show up when people search for speakers.</p>
+        <p class="where">Profile · Open to · Providing services</p>
+      </div>
+      <div class="paste"><h3>Custom URL</h3>
+        <p>Your name shows as Izi Murray but the link still reads izi-chinchay-. Try <b>linkedin.com/in/izimurray</b>, then izimurrayspeaks if it is taken.</p>
+        <p class="where">Profile · Public profile &amp; URL · pencil</p>
+      </div>
+      <div class="paste"><h3>Contact info</h3>
+        <p>Add your booking email and website, labelled "Speaking &amp; bookings". Event planners look here first.</p>
+        <p class="where">Profile · Contact info · pencil</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="order">
+    <h2><span class="n">07</span>Checklist</h2>
+    <ol class="steps">
+      <li><span>1</span><div><h3>Upload the banner</h3></div></li>
+      <li><span>2</span><div><h3>Paste the headline</h3></div></li>
+      <li><span>3</span><div><h3>Paste the About section</h3></div></li>
+      <li><span>4</span><div><h3>Add Keynote Speaker, add The Long Game, edit Push the Goal</h3></div></li>
+      <li><span>5</span><div><h3>Build Featured in the order above</h3></div></li>
+      <li><span>6</span><div><h3>Pin the 5 skills, turn on Providing services</h3></div></li>
+      <li><span>7</span><div><h3>Claim the custom URL, update contact info</h3></div></li>
+      <li><span>8</span><div><h3>Post one speaking piece the same week</h3><p>A short stage or podcast clip with a line like "I'm booking keynotes for 2027." The profile change lands harder with a post behind it.</p></div></li>
+    </ol>
+  </section>
+
+  <section id="need">
+    <div class="need">
+      <h3>What would make this stronger</h3>
+      <ul class="tight">
+        <li>Photos or video of you on stage. One clip in Featured does more than any line of copy.</li>
+        <li>Names of events, schools or teams you have already spoken to. Add them to the Keynote Speaker entry.</li>
+        <li>Two or three short testimonials from event organisers. Ask for LinkedIn recommendations.</li>
+        <li>A booking page link, if you want one in the banner and Contact info.</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>Izi Murray · Keynote Speaker · The Long Game Podcast · Push the Goal Soccer</footer>
+</div>
+
+<script>
+  document.querySelectorAll('button.copy').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var pre = btn.closest('.paste').querySelector('pre');
+      var done = function(){ btn.textContent = 'Copied'; setTimeout(function(){ btn.textContent = 'Copy'; }, 1600); };
+      var fallback = function(){ var r = document.createRange(); r.selectNodeContents(pre); var s = getSelection(); s.removeAllRanges(); s.addRange(r); btn.textContent = 'Selected, press Ctrl+C'; };
+      try { navigator.clipboard.writeText(pre.textContent).then(done, fallback); } catch(e){ fallback(); }
+    });
+  });
+</script>
+</html>

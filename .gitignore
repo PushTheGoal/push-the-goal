@@ -24,3 +24,4 @@ desktop.ini
 
 # Claude Code local settings - machine specific, not shared
 .claude/settings.local.json
+sales/.ghl-webhook-url

@@ -83,6 +83,13 @@ Full detail with before/after examples: `skills/push-the-goal-call-notes/referen
 - **Never send anything.** Every message - athlete, parent, coach - is left as an unsent
   draft, and the thread is marked unread so it shows blue. Izi reviews and sends himself,
   every time. He almost always makes small edits, and that is the point.
+- **The one exception: sales follow-ups (2026-10-23).** Families marked FOLLOW-UP on the sales
+  call tracker get 5 messages over 30 days, written by Claude from **that family's own Fathom
+  call** (never a shared template) and sent automatically by GoHighLevel until the family
+  answers. Then Izi closes. Setup doc: "Sales Follow-up in GHL - setup for Ifty"
+  (https://claude.ai/artifact/V7A884rRFLoUMyrnZzTdom). Every message asks for a decision or a
+  check-back date, never another call (Izi: "i dont want to book more calls i want an answer").
+  Claude hands the text to GHL; it does not send email or SMS itself.
 - **Once he has sent it, it is finished.** Tone feedback given after a send applies to the
   *next* athlete, not to rewriting what already went out.
 - **Ground everything in the transcript.** Never invent schools, GPAs, stats, or recruiting
@@ -144,6 +151,55 @@ Two palettes are in use, by purpose:
 
 Footer on marketing pieces: `PUSH THE GOAL SOCCER · @PUSHTHEGOALSOCCER · BECOME UNDENIABLE.`
 
+**Izi's personal brand** (speaker, LinkedIn - not Push the Goal) is **aqua and black**, never the
+Push the Goal gold. Soft aqua `#62C6C2` on near-black - not neon (Izi said `#1ED2CF` was too
+neon). Type is elegant and a little feminine: Playfair Display (italic for the accent word)
+with letter-spaced Montserrat, not heavy condensed faces like Anton. Positioning order:
+keynote speaker first, podcast host second, college soccer recruitment third. The LinkedIn
+rebrand kit (Oct 2026) lives in `linkedin/`.
+
+## The Long Game podcast - YouTube SEO
+
+A separate brand from Push the Goal: **The Long Game Podcast with Izi Murray and Maggie Gehne**,
+a Christian faith, fitness, wellness and relationships show for women. Push the Goal voice rules,
+the RECRUIT CTA and the soccer palettes do **not** apply here.
+
+| Thing | Detail |
+|---|---|
+| YouTube | `youtube.com/@thelonggameofficial1` |
+| Podcast manager | **Tahir** - receives the SEO doc and posts the updates himself |
+| Drive folder | "Long Game Podcast - YouTube SEO", id `17O1WZIScGbaeDaadj4hn165ZABdfspBB` |
+| Output | One Google Doc per batch of **4 episodes**: full replacement description + tags for each |
+
+- **Always identify episodes by number, never by title** - titles change. **Spotify is the number
+  source**: its episode titles read "Episode 174 | ...". Recent YouTube titles carry no number;
+  match them to Spotify by title and date (EP 174 = "Can a Godly Woman Be Strong, Bold, and
+  Independent?", YouTube id `DSTc3fDq7VM`, 12 Oct 2026). Apple Podcasts is stuck at EP 160.
+- Scope is description and tags only. No thumbnails. Each batch doc opens with a numbered job
+  table, the 10-step Studio procedure, and a checklist per episode.
+- Known channel problems (flagged to Tahir 14 Oct 2026): the YouTube podcast playlist is named
+  "Wellness" and holds only 66 mostly early episodes; Apple Podcasts stopped at EP 160.
+- Batch 1 (EP 171-174) delivered 14 Oct 2026 - doc "EP 171-174 - YouTube SEO (Batch 1) - USE THIS
+  ONE". Work backward from EP 170 next (EP 167-170), plus each new upload.
+- Superseded drafts in the SEO folder go straight to the trash (Izi's call, 14 Oct 2026). Only
+  the current doc per batch stays in the folder.
+- Description format: keyword hook in the first two lines, "Episode N of The Long Game Podcast..."
+  line, summary, "In this episode" bullets, chapters rebuilt from the transcript, then the
+  Spotify/Apple/IG/subscribe links, then exactly 3 hashtags. Tags under 500 characters.
+  **From Batch 2 on:** if the episode is anchored in a verse, quote it with the reference in the
+  first summary paragraph; end with a short warm sign-off from Izi and Maggie before the links.
+- Benchmark shows (researched 14 Oct 2026, doc "Big Shows Playbook - what we copy"): Girls Gone
+  Bible, Lila Rose Show, Sadie Robertson Huff, Christ With Coffee On Ice, Talk to Me Kittie!,
+  Ashley Hetherington. They use almost no tags or hashtags; they grow on emotional "you" titles,
+  show name in every title, guests, and Shorts.
+- **Going forward (Izi, 14 Oct 2026):** never go back and edit a finished batch. From Batch 2
+  (EP 167-170) on, every batch doc also gives each episode a new title in the format
+  `[Hook] | The Long Game Ep. [number]` - an emotional line written to "you", with the search
+  phrase in a parenthesis if needed. Keep the title under 100 characters.
+- Transcripts: YouTube auto-captions. A direct timedtext fetch returns empty; hook the page's
+  XHR, then reload the captions module in the player to capture the json3 response.
+- Keep diagnoses out of descriptions even when the hosts discuss them on air.
+
 ## Tooling notes that keep biting
 
 - **Fathom:** filter meetings by date window only. Do not filter by recorder or email, it
@@ -170,3 +226,4 @@ alike, on every device. The `skills/` folder in this repo holds reference copies
 | `new-client-recruitment-handoff` | Earlier version of the onboarding handoff |
 | `new-student-tracker` | Logs signees into the year's New Students spreadsheet |
 | `weekly-lead-mag-vault` | Weekly lead magnet + IG drop, filed into the Drive vault |
+| `sales-follow-up` | FOLLOW-UP family -> 5 messages written from their own Fathom call, posted to GHL, which sends them. Writing rules locked by Izi 2026-10-23. Repo only - not live until Ifty sends the webhook URL |

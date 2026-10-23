@@ -1,0 +1,774 @@
+<title>Push the Goal Booking</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: one-screen booking page, calendar card in the centre; choosing a time raises a pop-up sheet that runs the questions one at a time. Single dark look by choice (marketing palette: black + yellow). */
+:root {
+  --ink: #0B0B0C;
+  --panel: #151517;
+  --raise: #1E1E21;
+  --line: #2C2C30;
+  --fg: #F6F4EF;
+  --muted: #A8A59E;
+  --gold: #FFC72C;
+  --gold-deep: #F2BC1F;
+  --gold-ink: #141210;
+  --danger: #FF8A7A;
+  --display: "Anton", "Impact", "Arial Narrow", sans-serif;
+  --body: "Barlow", "Helvetica Neue", Arial, sans-serif;
+  --r: 14px;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html, body { height: 100%; }
+body {
+  background: var(--ink);
+  color: var(--fg);
+  font-family: var(--body);
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+.wrap {
+  max-width: 980px;
+  margin: 0 auto;
+  padding-inline: 16px;
+  padding-block: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  min-height: 100%;
+}
+header.top { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.mark { font-family: var(--display); font-size: 22px; letter-spacing: .04em; text-transform: uppercase; }
+.mark span { color: var(--gold); }
+.preview-tag {
+  font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase;
+  color: var(--gold); border: 1px solid color-mix(in srgb, var(--gold) 45%, transparent);
+  padding: 4px 10px; border-radius: 999px;
+}
+
+/* Hero */
+.hero { display: flex; flex-direction: column; gap: 10px; }
+.eyebrow { font-size: 13px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); }
+h1 {
+  font-family: var(--display); font-weight: 400; text-transform: uppercase;
+  font-size: clamp(38px, 7vw, 68px); line-height: .98; margin: 0; letter-spacing: .01em;
+  text-wrap: balance;
+}
+h1 em { font-style: normal; color: var(--gold); }
+.hero p { margin: 0; color: var(--muted); max-width: 60ch; font-size: 17px; }
+.meta { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 4px; }
+.meta span {
+  background: var(--panel); border: 1px solid var(--line); border-radius: 999px;
+  padding: 6px 12px; font-size: 14px; font-weight: 600;
+}
+
+/* Calendar card */
+.cal {
+  background: var(--panel); border: 1px solid var(--line); border-radius: 20px;
+  padding: 22px; display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 26px;
+}
+.cal h2 { font-family: var(--display); font-weight: 400; text-transform: uppercase; font-size: 22px; letter-spacing: .03em; margin: 0 0 14px; }
+.days { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; }
+.day {
+  appearance: none; border: 1px solid var(--line); background: var(--raise); color: var(--fg);
+  border-radius: 12px; padding: 10px 4px; cursor: pointer; font: inherit;
+  display: flex; flex-direction: column; align-items: center; gap: 2px;
+  transition: transform .15s ease, border-color .15s ease, background .15s ease;
+}
+.day:hover { border-color: var(--gold); transform: translateY(-2px); }
+.day .dow { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.day .num { font-family: var(--display); font-size: 24px; line-height: 1.1; }
+.day .mon { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; }
+.day[aria-pressed="true"] { background: var(--gold); color: var(--gold-ink); border-color: var(--gold); }
+.day[aria-pressed="true"] .dow, .day[aria-pressed="true"] .mon { color: var(--gold-ink); }
+.tz { margin-top: 12px; font-size: 13px; color: var(--muted); }
+.slots { display: flex; flex-direction: column; gap: 8px; }
+.slot-row { display: flex; gap: 8px; }
+.slot {
+  flex: 1; appearance: none; font: inherit; font-weight: 600; font-size: 16px; cursor: pointer;
+  background: transparent; color: var(--fg); border: 1px solid var(--line); border-radius: 12px; padding: 12px;
+  font-variant-numeric: tabular-nums; transition: border-color .15s ease, background .15s ease;
+}
+.slot:hover { border-color: var(--gold); }
+.slot[aria-pressed="true"] { background: var(--raise); border-color: var(--gold); color: var(--gold); }
+.go {
+  appearance: none; border: 0; cursor: pointer; font: inherit; font-weight: 700;
+  background: var(--gold); color: var(--gold-ink); border-radius: 12px; padding: 12px 18px;
+  animation: popIn .25s ease;
+}
+.slot-hint { color: var(--muted); font-size: 14px; margin: 0 0 4px; }
+.cal-note { margin: 0 0 16px; font-size: 15px; color: var(--fg); }
+.cal-note b { color: var(--gold); }
+.notice {
+  margin-top: 12px; display: flex; gap: 10px; align-items: flex-start;
+  background: color-mix(in srgb, var(--gold) 10%, var(--ink)); border: 1.5px solid color-mix(in srgb, var(--gold) 50%, transparent);
+  border-radius: 14px; padding: 12px 14px; font-size: 15px; line-height: 1.45;
+}
+.notice .e { font-size: 20px; line-height: 1.2; }
+.notice b { color: var(--gold); }
+
+footer.foot {
+  margin-top: auto; text-align: center; font-size: 12px; letter-spacing: .14em; color: var(--muted);
+  text-transform: uppercase; padding-top: 10px;
+}
+
+/* Pop-up sheet */
+.scrim {
+  position: fixed; inset: 0; background: rgba(0,0,0,.72); backdrop-filter: blur(4px);
+  display: flex; align-items: center; justify-content: center; padding: 16px; z-index: 10;
+  animation: fade .2s ease;
+}
+.sheet {
+  width: 100%; max-width: 560px; max-height: calc(100% - 8px); overflow: auto;
+  background: var(--panel); border: 1px solid var(--line); border-radius: 22px;
+  box-shadow: 0 30px 80px rgba(0,0,0,.6);
+  animation: rise .32s cubic-bezier(.2,.9,.3,1.2);
+  display: flex; flex-direction: column;
+}
+.sheet-top { padding: 18px 22px 0; display: flex; flex-direction: column; gap: 10px; }
+.sheet-bar { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.icon-btn {
+  appearance: none; background: var(--raise); border: 1px solid var(--line); color: var(--fg);
+  width: 36px; height: 36px; border-radius: 50%; cursor: pointer; font-size: 16px; line-height: 1;
+}
+.icon-btn[disabled] { visibility: hidden; }
+.count { font-size: 13px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--gold); text-align: center; flex: 1; }
+.track { height: 8px; background: var(--raise); border-radius: 999px; overflow: hidden; }
+.fill {
+  height: 100%; width: 0; border-radius: 999px;
+  background: linear-gradient(90deg, var(--gold-deep), var(--gold));
+  transition: width .45s cubic-bezier(.2,.9,.3,1.1);
+  box-shadow: 0 0 14px color-mix(in srgb, var(--gold) 60%, transparent);
+}
+.sheet-body { padding: 18px 22px 24px; display: flex; flex-direction: column; gap: 16px; }
+
+.coach { display: flex; gap: 10px; align-items: flex-start; animation: popIn .35s ease; }
+.avatar {
+  flex: 0 0 auto; width: 34px; height: 34px; border-radius: 50%; background: var(--gold); color: var(--gold-ink);
+  font-family: var(--display); font-size: 13px; display: grid; place-items: center; letter-spacing: .04em;
+}
+.bubble {
+  background: var(--raise); border: 1px solid var(--line); border-radius: 4px 14px 14px 14px;
+  padding: 9px 13px; font-weight: 600; font-size: 15px; min-width: 0;
+}
+
+.q h3 {
+  font-family: var(--display); font-weight: 400; text-transform: uppercase; letter-spacing: .01em;
+  font-size: clamp(26px, 5.4vw, 34px); line-height: 1.04; margin: 0; text-wrap: balance;
+}
+.q p.sub { margin: 8px 0 0; color: var(--muted); font-size: 15.5px; }
+.fields { display: flex; flex-direction: column; gap: 12px; }
+.field { display: flex; flex-direction: column; gap: 6px; }
+.field label { font-size: 13px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.field label small { text-transform: none; letter-spacing: 0; font-weight: 500; }
+.field input, .field textarea {
+  font: inherit; font-size: 17px; color: var(--fg); background: var(--ink);
+  border: 1.5px solid var(--line); border-radius: 12px; padding: 13px 14px; width: 100%;
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+.field textarea { min-height: 96px; resize: vertical; }
+.field input:focus, .field textarea:focus { outline: none; border-color: var(--gold); box-shadow: 0 0 0 3px color-mix(in srgb, var(--gold) 25%, transparent); }
+.err { color: var(--danger); font-size: 14px; font-weight: 600; min-height: 0; }
+
+.chips { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.chips.one { grid-template-columns: minmax(0, 1fr); }
+.chip {
+  appearance: none; font: inherit; font-weight: 600; font-size: 16px; text-align: left; cursor: pointer;
+  background: var(--ink); color: var(--fg); border: 1.5px solid var(--line); border-radius: 14px;
+  padding: 14px; display: flex; align-items: center; gap: 10px; min-width: 0;
+  transition: transform .12s ease, border-color .15s ease, background .15s ease;
+}
+.chip .e { font-size: 20px; line-height: 1; }
+.chip:hover { border-color: var(--gold); }
+.chip:active { transform: scale(.97); }
+.chip[aria-pressed="true"] { background: var(--gold); color: var(--gold-ink); border-color: var(--gold); animation: pulse .35s ease; }
+
+.ack { display: flex; gap: 12px; align-items: flex-start; background: var(--ink); border: 1.5px solid var(--line); border-radius: 14px; padding: 14px; cursor: pointer; }
+.ack input { width: 22px; height: 22px; accent-color: var(--gold); flex: 0 0 auto; margin-top: 2px; }
+.ack span { font-size: 15px; }
+
+.next {
+  appearance: none; border: 0; cursor: pointer; font: inherit; font-weight: 700; font-size: 17px;
+  background: var(--gold); color: var(--gold-ink); border-radius: 14px; padding: 15px 18px; width: 100%;
+  transition: transform .12s ease, filter .15s ease;
+}
+.next:hover { filter: brightness(1.05); }
+.next:active { transform: scale(.98); }
+.ghost {
+  appearance: none; background: transparent; border: 0; color: var(--muted); font: inherit; font-size: 14px;
+  text-decoration: underline; text-underline-offset: 3px; cursor: pointer; align-self: center; padding: 4px;
+}
+.hint-enter { font-size: 12.5px; color: var(--muted); text-align: center; }
+
+/* Celebration + done */
+.big-emoji { font-size: 52px; line-height: 1; animation: bounce .7s ease; }
+.locked {
+  background: var(--ink); border: 1.5px dashed color-mix(in srgb, var(--gold) 55%, transparent); border-radius: 14px;
+  padding: 14px 16px; display: flex; flex-direction: column; gap: 2px;
+}
+.locked b { font-family: var(--display); font-weight: 400; font-size: 24px; text-transform: uppercase; letter-spacing: .02em; color: var(--gold); }
+.locked span { color: var(--muted); font-size: 14px; }
+.list { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; }
+.list li { display: flex; gap: 10px; align-items: flex-start; background: var(--ink); border: 1px solid var(--line); border-radius: 12px; padding: 11px 13px; font-size: 15px; }
+.sign { font-weight: 700; }
+
+:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+
+#confetti { position: fixed; inset: 0; pointer-events: none; z-index: 20; width: 100%; height: 100%; }
+
+@keyframes fade { from { opacity: 0 } to { opacity: 1 } }
+@keyframes rise { from { opacity: 0; transform: translateY(40px) scale(.97) } to { opacity: 1; transform: none } }
+@keyframes popIn { from { opacity: 0; transform: translateY(6px) scale(.96) } to { opacity: 1; transform: none } }
+@keyframes pulse { 0% { transform: scale(1) } 40% { transform: scale(1.05) } 100% { transform: scale(1) } }
+@keyframes bounce { 0% { transform: scale(.3) } 50% { transform: scale(1.2) } 70% { transform: scale(.92) } 100% { transform: scale(1) } }
+.slide-in { animation: slideIn .3s cubic-bezier(.2,.9,.3,1.1); }
+@keyframes slideIn { from { opacity: 0; transform: translateX(24px) } to { opacity: 1; transform: none } }
+
+@media (max-width: 720px) {
+  .cal { grid-template-columns: minmax(0, 1fr); padding: 16px; gap: 20px; }
+  .scrim { align-items: flex-end; padding: 0; }
+  .sheet { border-radius: 22px 22px 0 0; max-height: 94%; padding-bottom: env(safe-area-inset-bottom, 0px); }
+}
+@media (max-width: 420px) {
+  .chips { grid-template-columns: minmax(0, 1fr); }
+  .days { gap: 6px; }
+  .day .num { font-size: 20px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="mark">Push the <span>Goal</span></div>
+    <div class="preview-tag">Preview · sample times · nothing gets booked</div>
+  </header>
+
+  <section class="hero">
+    <div class="eyebrow">Strategy Session with Coach Izi</div>
+    <h1>Let's map your athlete's path to <em>college soccer</em> ⚽</h1>
+    <p>In just 45 minutes, we'll map your athlete's 3 priorities, fix the biggest gap, and see if you're a fit for our program.</p>
+    <div class="meta"><span>⏱ 45 min</span><span>💻 Zoom</span><span>👨‍👩‍👧 Athlete + both parents</span></div>
+  </section>
+
+  <section class="cal" aria-label="Pick a time">
+    <div>
+      <p class="cal-note">👨‍👩‍👧 Pick a time that works for the athlete <b>and both parents</b>. Together or separated doesn't matter, both join the call.</p>
+      <h2>1 · Pick a day</h2>
+      <div class="days" id="days"></div>
+      <div class="tz">🌎 Times shown in America/Chicago (CDT)</div>
+    </div>
+    <div>
+      <h2>2 · Pick a time</h2>
+      <p class="slot-hint" id="slotHint">Tap a day to see open times.</p>
+      <div class="slots" id="slots"></div>
+    </div>
+  </section>
+
+  <footer class="foot">Push the Goal Soccer · @pushthegoalsoccer · Become undeniable.</footer>
+</div>
+
+<div class="scrim" id="scrim" hidden>
+  <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="qTitle">
+    <div class="sheet-top" id="sheetTop">
+      <div class="sheet-bar">
+        <button class="icon-btn" id="backBtn" type="button" aria-label="Back">←</button>
+        <div class="count" id="count"></div>
+        <button class="icon-btn" id="closeBtn" type="button" aria-label="Close">✕</button>
+      </div>
+      <div class="track"><div class="fill" id="fill"></div></div>
+    </div>
+    <div class="sheet-body" id="body"></div>
+  </div>
+</div>
+
+<canvas id="confetti" hidden></canvas>
+
+<script>
+(function () {
+  "use strict";
+
+  // ---------- Calendar (sample slots; the live version pulls these from the booking calendar) ----------
+  const SAMPLE_TIMES = ["09:00 AM", "10:10 AM", "12:30 PM", "01:40 PM", "03:00 PM"];
+  const DOW = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  const MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const DOW_LONG = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  const MON_LONG = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+  const state = { day: null, time: null, answers: {}, step: 0, rescheduling: false };
+
+  const daysEl = document.getElementById("days");
+  const slotsEl = document.getElementById("slots");
+  const slotHint = document.getElementById("slotHint");
+
+  function nextWeekdays(n) {
+    const out = []; const d = new Date(); d.setHours(12, 0, 0, 0);
+    while (out.length < n) { d.setDate(d.getDate() + 1); if (d.getDay() !== 0 && d.getDay() !== 6) out.push(new Date(d)); }
+    return out;
+  }
+  const days = nextWeekdays(10);
+  days.forEach((d, i) => {
+    const b = document.createElement("button");
+    b.type = "button"; b.className = "day"; b.id = "day-" + i; b.setAttribute("aria-pressed", "false");
+    b.innerHTML = `<span class="dow">${DOW[d.getDay()]}</span><span class="num">${d.getDate()}</span><span class="mon">${MON[d.getMonth()]}</span>`;
+    b.addEventListener("click", () => pickDay(i));
+    daysEl.appendChild(b);
+  });
+
+  function pickDay(i) {
+    state.day = days[i]; state.time = null;
+    daysEl.querySelectorAll(".day").forEach((b, j) => b.setAttribute("aria-pressed", j === i ? "true" : "false"));
+    slotHint.textContent = `${DOW_LONG[state.day.getDay()]}, ${MON_LONG[state.day.getMonth()]} ${state.day.getDate()} 👇`;
+    slotsEl.innerHTML = "";
+    SAMPLE_TIMES.forEach((t, k) => {
+      const row = document.createElement("div"); row.className = "slot-row";
+      const s = document.createElement("button");
+      s.type = "button"; s.className = "slot"; s.id = "slot-" + k; s.textContent = t; s.setAttribute("aria-pressed", "false");
+      s.addEventListener("click", () => pickTime(t, row, s));
+      row.appendChild(s); slotsEl.appendChild(row);
+    });
+  }
+
+  function pickTime(t, row, btn) {
+    state.time = t;
+    slotsEl.querySelectorAll(".go").forEach(g => g.remove());
+    slotsEl.querySelectorAll(".slot").forEach(s => s.setAttribute("aria-pressed", s === btn ? "true" : "false"));
+    const go = document.createElement("button");
+    go.type = "button"; go.className = "go"; go.textContent = "Lock it in 🔒";
+    go.addEventListener("click", openSheet);
+    row.appendChild(go); go.focus();
+  }
+
+  function slotLabel() {
+    const d = state.day;
+    return { day: `${DOW_LONG[d.getDay()]}, ${MON_LONG[d.getMonth()]} ${d.getDate()}`, time: state.time.replace(/^0/, "") };
+  }
+
+  // ---------- Helpers ----------
+  const first = s => (s || "").trim().split(/\s+/)[0] || "";
+  const ath = () => first(state.answers.athleteName) || "your athlete";
+  const par = () => first(state.answers.parent1Name);
+  const par2 = () => first(state.answers.parent2Name);
+  const solo = () => !!state.answers.soleGuardian;
+  const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const buzz = () => { try { navigator.vibrate && navigator.vibrate(12); } catch (e) {} };
+
+  // ---------- The questions ----------
+  // Every field from the current booking form is here; the four repeated decision-maker
+  // checkboxes are merged into the final step.
+  const BOTH_PARENTS = "<b>Heads up:</b> both parents need to be on this call. Whether you're together or separated doesn't matter. Your athlete's future is a big decision, and it goes best when everyone hears the same plan at the same time.";
+  const STEPS = [
+    {
+      id: "athleteName", type: "text",
+      title: () => "First up, who's the athlete? 🙌",
+      sub: () => "The superstar we're building this plan around.",
+      fields: [{ id: "athleteName", label: "Athlete's full name", auto: "name", ph: "First and last name", req: true }],
+      react: a => `Love it. Can't wait to meet ${esc(first(a.athleteName))}! 👋`
+    },
+    {
+      id: "parents", type: "text",
+      title: () => `Who are ${esc(ath())}'s parents? 👨‍👩‍👧`,
+      sub: () => "Both parents join this call, so I'd love both names.",
+      notice: BOTH_PARENTS,
+      fields: [
+        { id: "parent1Name", label: "Parent 1 full name", auto: "name", ph: "First and last name", req: true },
+        { id: "parent2Name", label: "Parent 2 full name", ph: "First and last name", req: true }
+      ],
+      skip: "I'm the only parent/guardian",
+      onSubmit: a => { a.soleGuardian = false; },
+      onSkip: (form, err) => {
+        const p1 = form.elements.parent1Name.value.trim();
+        if (!p1) { err.textContent = "Add your name as Parent 1 first."; form.elements.parent1Name.focus(); return false; }
+        Object.assign(state.answers, { parent1Name: p1, parent2Name: "", soleGuardian: true });
+        return true;
+      },
+      react: a => a.soleGuardian
+        ? `Perfect, thanks ${esc(first(a.parent1Name))}! 🙏 Got it, it's you and ${esc(ath())}.`
+        : `Perfect, thanks ${esc(first(a.parent1Name))} and ${esc(first(a.parent2Name))}! 🙏`
+    },
+    {
+      id: "parentOccupation", type: "text",
+      title: () => `What do you do for work${par() ? ", " + esc(par()) : ""}?`,
+      sub: () => "Helps me get to know the family before we talk.",
+      fields: [{ id: "parentOccupation", label: "Occupation", auto: "organization-title", ph: "e.g. Nurse, Engineer, Business owner", req: true }],
+      react: () => "Awesome, appreciate you sharing 💪"
+    },
+    {
+      id: "contact", type: "text",
+      title: () => "Where should the Zoom details go? 📲",
+      sub: () => "Your confirmation lands here. No spam, promise.",
+      fields: [
+        { id: "phone", label: "Phone", type: "tel", auto: "tel", ph: "(555) 555-5555", req: true },
+        { id: "email", label: "Email", type: "email", auto: "email", ph: "you@email.com", req: true }
+      ],
+      react: () => "Done ✅ You're officially on my radar."
+    },
+    {
+      id: "grade", type: "choice",
+      title: () => `What grade is ${esc(ath())} in?`,
+      options: [["5th-8th", "🌱"], ["9th", "⚡"], ["10th", "🔥"], ["11th", "🎯"], ["12th", "🏁"], ["Graduated", "🎓"]],
+      react: a => ({ "5th-8th":"Starting early is a huge edge 🌱", "9th": "Perfect time to start building 🚀", "10th": "Great timing. This is when it gets real 🔥", "11th": "Big year. Let's make it count 🎯", "12th": "Let's move with urgency 💨", "Graduated": "Still doors to open. Let's find them 🚪" }[a.grade])
+    },
+    {
+      id: "position", type: "choice",
+      title: () => `Where does ${esc(ath())} play?`,
+      options: [["Goalkeeper", "🧤"], ["Defender", "🛡️"], ["Midfielder", "🎛️"], ["Forward", "⚽"]],
+      react: a => ({ Goalkeeper: "A keeper! Love it 🧤", Defender: "The backbone of the team 🛡️", Midfielder: "The engine room 🎛️", Forward: "A goal scorer. Let's go ⚽" }[a.position])
+    },
+    {
+      id: "gpa", type: "text",
+      title: () => `What's ${esc(ath())}'s GPA? 📚`,
+      sub: () => "Coaches look at grades early. Ballpark is fine.",
+      fields: [{ id: "gpa", label: "GPA", ph: "e.g. 3.6", req: true, mode: "decimal" }],
+      react: () => "Noted 📚 Grades open doors."
+    },
+    {
+      id: "club", type: "choice",
+      title: () => `What level does ${esc(ath())} play club?`,
+      options: [["MLS NEXT", "🏟️"], ["ECNL", "🏆"], ["Girls Academy", "⭐"], ["ECNL Regional League", "🥇"], ["NPL", "🔵"], ["Other", "✍️"]],
+      other: "Other",
+      react: () => "Got it 👊 Every level has a path."
+    },
+    {
+      id: "profiles", type: "text",
+      title: () => "Drop the highlight links 🎥",
+      sub: () => "Whatever exists right now. If nothing's set up yet, no problem, that's part of what we build.",
+      fields: [
+        { id: "instagram", label: "Instagram handle <small>(optional)</small>", ph: "@handle" },
+        { id: "youtube", label: "YouTube link <small>(optional)</small>", type: "url", ph: "youtube.com/..." },
+        { id: "recruitingProfile", label: "Recruiting profile <small>(SportsRecruits / NCSA / other, optional)</small>", type: "url", ph: "Profile link" }
+      ],
+      skip: "Nothing yet, skip for now",
+      react: a => (a.instagram || a.youtube || a.recruitingProfile) ? "Ooh, I'll take a look before we talk 👀" : "All good. We'll build it together 🛠️"
+    },
+    {
+      id: "parentPlayed", type: "choice",
+      title: () => `Did you play soccer${par() ? ", " + esc(par()) : ""}? 👀`,
+      options: [["Yes, I played", "⚽"], ["No, I didn't", "🙌"]],
+      followUp: { when: "Yes, I played", id: "parentExperience", label: "Tell me a little about it!", ph: "Where you played, what level, how far you took it..." },
+      react: a => a.parentPlayed === "Yes, I played" ? "That's awesome. Runs in the family 🧬" : "No problem at all. That's what I'm here for 🙌"
+    },
+    {
+      id: "collegeFund", type: "choice",
+      title: () => `Do you have a college fund for ${esc(ath())}?`,
+      options: [["Yes", "✅"], ["No", "➖"]],
+      react: () => "Thanks for being straight with me 👍"
+    },
+    {
+      id: "invest", type: "choice",
+      title: () => `If coaching is what ${esc(ath())} needs, are you open to investing in it?`,
+      sub: () => "We accept credit cards, loans, PayPal and more.",
+      options: [["Yes", "💪"], ["No", "➖"]],
+      react: () => "Appreciate the honesty 🙏"
+    },
+    {
+      id: "offers", type: "choice",
+      title: () => "Quick one 👀 Did you know the average junior receives three offers within 60 days of the program?",
+      options: [["Yes, I knew that", "🔥"], ["No, that's news to me", "🤯"]],
+      react: a => a.offers.indexOf("Yes") === 0 ? "Then you know why we move fast 🔥" : "Now you do 😉 That's why we move fast."
+    },
+    {
+      id: "decision", type: "final",
+      title: () => solo() ? `Last one 🏁 Will you be on the call with ${esc(ath())}?` : "Last one 🏁 Will both parents be on the call?",
+      sub: () => solo()
+        ? `We'll go over the plan, pricing and next steps, so ${esc(ath())} and ${esc(par() || "you")} both need to be on the Zoom together.`
+        : `We'll go over the plan, pricing and next steps, so ${esc(ath())}${par() && par2() ? `, ${esc(par())} and ${esc(par2())}` : " and both parents"} all need to be on the Zoom together.`,
+      notice: () => solo() ? "" : BOTH_PARENTS
+    }
+  ];
+  const N = STEPS.length;
+
+  // ---------- Sheet ----------
+  const scrim = document.getElementById("scrim");
+  const body = document.getElementById("body");
+  const sheetTop = document.getElementById("sheetTop");
+  const fill = document.getElementById("fill");
+  const count = document.getElementById("count");
+  const backBtn = document.getElementById("backBtn");
+  let lastReact = "";
+
+  function openSheet() {
+    scrim.hidden = false;
+    if (state.rescheduling) {
+      state.rescheduling = false;
+      state.step = N - 1;
+      lastReact = "New time locked in 🔒 Just this last one.";
+      renderStep();
+    } else {
+      renderIntro();
+    }
+  }
+  function closeSheet() { scrim.hidden = true; }
+  document.getElementById("closeBtn").addEventListener("click", closeSheet);
+  scrim.addEventListener("click", e => { if (e.target === scrim) closeSheet(); });
+  document.addEventListener("keydown", e => { if (e.key === "Escape" && !scrim.hidden) closeSheet(); });
+  backBtn.addEventListener("click", () => {
+    if (state.step === 0) { renderIntro(); return; }
+    state.step -= 1; lastReact = ""; renderStep();
+  });
+
+  function setProgress(done, label) {
+    fill.style.width = Math.round((done / N) * 100) + "%";
+    count.textContent = label;
+  }
+
+  function countLabel(i) {
+    const left = N - i;
+    if (i === 0) return `${N} quick questions · ~2 min`;
+    if (left === 1) return "Last one 🏁";
+    if (left <= 3) return `Just ${left} more to go 🔥`;
+    if (i === Math.floor(N / 2)) return "Halfway there 💪";
+    return `${left} to go`;
+  }
+
+  function renderIntro() {
+    const s = slotLabel();
+    sheetTop.hidden = true;
+    body.innerHTML = `
+      <div class="big-emoji" aria-hidden="true">🔥</div>
+      <div class="q">
+        <h3 id="qTitle">You're locked in!</h3>
+        <p class="sub">Super excited to meet you. I can't wait to dig into your athlete's game and map out what's next.</p>
+      </div>
+      <div class="locked"><b>${esc(s.day)} · ${esc(s.time)}</b><span>Strategy Session with Coach Izi · 45 min · Zoom</span></div>
+      <div class="coach"><div class="avatar">IZI</div><div class="bubble">Answer a few quick questions for me so I show up ready for you. Takes about 2 minutes ⚡</div></div>
+      <button class="next" id="startBtn" type="button">Let's go ⚽</button>`;
+    burst(0.35);
+    const b = document.getElementById("startBtn");
+    b.addEventListener("click", () => { sheetTop.hidden = false; state.step = 0; lastReact = ""; renderStep(); });
+    b.focus();
+  }
+
+  function coachHTML() {
+    return lastReact ? `<div class="coach"><div class="avatar">IZI</div><div class="bubble">${lastReact}</div></div>` : "";
+  }
+
+  function renderStep() {
+    const st = STEPS[state.step];
+    const a = state.answers;
+    sheetTop.hidden = false;
+    backBtn.disabled = false;
+    setProgress(state.step, countLabel(state.step));
+    const notice = typeof st.notice === "function" ? st.notice() : st.notice;
+    const sub = (st.sub ? `<p class="sub">${st.sub()}</p>` : "") + (notice ? `<div class="notice"><span class="e" aria-hidden="true">👨‍👩‍👧</span><span>${notice}</span></div>` : "");
+    let inner = "";
+
+    if (st.type === "text") {
+      inner = `<form class="fields" id="stepForm" novalidate>` + st.fields.map(f => `
+        <div class="field">
+          <label for="f-${f.id}">${f.label}</label>
+          <input id="f-${f.id}" name="${f.id}" type="${f.type || "text"}" ${f.auto ? `autocomplete="${f.auto}"` : ""} ${f.mode ? `inputmode="${f.mode}"` : ""} placeholder="${esc(f.ph || "")}" value="${esc(a[f.id] || "")}">
+        </div>`).join("") + `
+        <div class="err" id="err" role="alert"></div>
+        <button class="next" type="submit">${state.step === 0 ? "Next 👉" : "Keep going 👉"}</button>
+        ${st.skip ? `<button class="ghost" type="button" id="skipBtn">${st.skip}</button>` : ""}
+        <div class="hint-enter">or press Enter ↵</div>
+      </form>`;
+    } else if (st.type === "choice") {
+      const many = st.options.length > 2 || st.options.some(o => o[0].length > 14);
+      inner = `<div class="chips ${st.options.length === 2 && !many ? "" : ""}" id="chips" role="group" aria-label="Choose one">` +
+        st.options.map(([v, e], k) => `<button class="chip" type="button" id="opt-${st.id}-${k}" data-v="${esc(v)}" aria-pressed="${a[st.id] === v ? "true" : "false"}"><span class="e" aria-hidden="true">${e}</span><span>${esc(v)}</span></button>`).join("") +
+        `</div><div id="extra"></div>`;
+    } else if (st.type === "final") {
+      inner = `
+        <div class="chips one" id="chips" role="group" aria-label="Choose one">
+          <button class="chip" type="button" id="opt-yes" data-v="yes" aria-pressed="${a.decision === "yes" ? "true" : "false"}"><span class="e" aria-hidden="true">✅</span><span>${solo() ? "Yes, we'll both be there" : "Yes, both parents will be there"}</span></button>
+          <button class="chip" type="button" id="opt-no" data-v="reschedule" aria-pressed="false"><span class="e" aria-hidden="true">📅</span><span>${solo() ? "I need a different time" : "We need a time that works for both parents"}</span></button>
+        </div>
+        <div id="extra"></div>`;
+    }
+
+    body.innerHTML = coachHTML() + `<div class="q slide-in"><h3 id="qTitle">${st.title()}</h3>${sub}</div>` + `<div class="slide-in">${inner}</div>`;
+
+    if (st.type === "text") wireText(st);
+    if (st.type === "choice") wireChoice(st);
+    if (st.type === "final") wireFinal();
+  }
+
+  function advance(st) {
+    buzz();
+    lastReact = st.react ? st.react(state.answers) : "";
+    state.step += 1;
+    if (state.step % 4 === 0) burst(0.12);
+    renderStep();
+  }
+
+  function wireText(st) {
+    const form = document.getElementById("stepForm");
+    const err = document.getElementById("err");
+    const firstInput = form.querySelector("input");
+    setTimeout(() => firstInput && firstInput.focus({ preventScroll: true }), 60);
+    form.addEventListener("submit", e => {
+      e.preventDefault();
+      const vals = {};
+      for (const f of st.fields) {
+        const v = form.elements[f.id].value.trim();
+        if (f.req && !v) { err.textContent = `Add the ${f.label.replace(/<[^>]+>/g, "").toLowerCase()} to keep going.`; form.elements[f.id].focus(); return; }
+        if (f.id === "email" && v && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v)) { err.textContent = "That email looks off. Check for a typo?"; form.elements[f.id].focus(); return; }
+        if (f.id === "phone" && v && v.replace(/\D/g, "").length < 10) { err.textContent = "Add the full phone number with area code."; form.elements[f.id].focus(); return; }
+        vals[f.id] = v;
+      }
+      Object.assign(state.answers, vals);
+      if (st.onSubmit) st.onSubmit(state.answers);
+      advance(st);
+    });
+    const skip = document.getElementById("skipBtn");
+    if (skip) skip.addEventListener("click", () => {
+      if (st.onSkip) { if (!st.onSkip(form, err)) return; }
+      else st.fields.forEach(f => { state.answers[f.id] = ""; });
+      advance(st);
+    });
+  }
+
+  function wireChoice(st) {
+    const chips = document.getElementById("chips");
+    const extra = document.getElementById("extra");
+    chips.addEventListener("click", e => {
+      const btn = e.target.closest(".chip"); if (!btn) return;
+      const v = btn.dataset.v;
+      chips.querySelectorAll(".chip").forEach(c => c.setAttribute("aria-pressed", c === btn ? "true" : "false"));
+      state.answers[st.id] = v; buzz();
+      if (st.other && v === st.other) {
+        showExtra(extra, { id: "clubOther", label: "Which league or level?", ph: "League name", input: true }, st);
+      } else if (st.followUp && v === st.followUp.when) {
+        showExtra(extra, st.followUp, st);
+      } else {
+        extra.innerHTML = "";
+        setTimeout(() => advance(st), 320);
+      }
+    });
+    const pressed = chips.querySelector('[aria-pressed="true"]');
+    (pressed || chips.querySelector(".chip")).focus({ preventScroll: true });
+    // Restore the follow-up box when coming back to this step
+    if (st.other && state.answers[st.id] === st.other) showExtra(extra, { id: "clubOther", label: "Which league or level?", ph: "League name", input: true }, st, true);
+    if (st.followUp && state.answers[st.id] === st.followUp.when) showExtra(extra, st.followUp, st, true);
+  }
+
+  function showExtra(extra, f, st, quiet) {
+    const tag = f.input
+      ? `<input id="f-${f.id}" type="text" placeholder="${esc(f.ph)}" value="${esc(state.answers[f.id] || "")}">`
+      : `<textarea id="f-${f.id}" placeholder="${esc(f.ph)}">${esc(state.answers[f.id] || "")}</textarea>`;
+    extra.innerHTML = `
+      <form class="fields slide-in" id="extraForm" novalidate style="margin-top:12px">
+        <div class="field"><label for="f-${f.id}">${f.label}</label>${tag}</div>
+        <div class="err" id="err" role="alert"></div>
+        <button class="next" type="submit">Keep going 👉</button>
+      </form>`;
+    const el = document.getElementById("f-" + f.id);
+    if (!quiet) setTimeout(() => el.focus(), 60);
+    document.getElementById("extraForm").addEventListener("submit", e => {
+      e.preventDefault();
+      const v = el.value.trim();
+      if (f.input && !v) { document.getElementById("err").textContent = "Add the league name to keep going."; el.focus(); return; }
+      state.answers[f.id] = v;
+      advance(st);
+    });
+  }
+
+  function wireFinal() {
+    const chips = document.getElementById("chips");
+    const extra = document.getElementById("extra");
+    function showYes() {
+      extra.innerHTML = `
+        <form class="fields slide-in" id="finalForm" novalidate style="margin-top:12px">
+          <label class="ack" for="f-ack"><input type="checkbox" id="f-ack" ${state.answers.ack ? "checked" : ""}><span>${solo() ? "I understand I need to be on the call with the athlete. If I can't make it, I'll reschedule ahead of time." : "I understand both parents need to be on the call with the athlete, whether the parents are together or separated. If both can't make it, we'll reschedule ahead of time."}</span></label>
+          <div class="err" id="err" role="alert"></div>
+          <button class="next" type="submit">Confirm my call 🎉</button>
+        </form>`;
+      document.getElementById("finalForm").addEventListener("submit", e => {
+        e.preventDefault();
+        const ack = document.getElementById("f-ack").checked;
+        if (!ack) { document.getElementById("err").textContent = "Tick the box above to confirm your spot."; return; }
+        state.answers.ack = true;
+        finish();
+      });
+    }
+    chips.addEventListener("click", e => {
+      const btn = e.target.closest(".chip"); if (!btn) return;
+      chips.querySelectorAll(".chip").forEach(c => c.setAttribute("aria-pressed", c === btn ? "true" : "false"));
+      buzz();
+      if (btn.dataset.v === "yes") { state.answers.decision = "yes"; showYes(); }
+      else {
+        state.answers.decision = "reschedule";
+        extra.innerHTML = `
+          <div class="fields slide-in" style="margin-top:12px">
+            <div class="coach"><div class="avatar">IZI</div><div class="bubble">No stress at all. Grab a time that works for ${solo() ? "you" : "both parents"} and your answers will be saved 👇</div></div>
+            <button class="next" type="button" id="reBtn">Pick a new time 📅</button>
+          </div>`;
+        document.getElementById("reBtn").addEventListener("click", () => {
+          state.rescheduling = true; closeSheet();
+          document.querySelector(".cal").scrollIntoView({ behavior: "smooth", block: "start" });
+        });
+      }
+    });
+    if (state.answers.decision === "yes") showYes();
+  }
+
+  function finish() {
+    const s = slotLabel();
+    setProgress(N, "All done ✅");
+    backBtn.disabled = true;
+    // Shape of what the live version hands to the booking calendar / CRM:
+    const payload = Object.assign({ slotDay: s.day, slotTime: s.time, timezone: "America/Chicago" }, state.answers);
+    console.log("Booking payload (preview only, not sent):", payload);
+    body.innerHTML = `
+      <div class="big-emoji" aria-hidden="true">🎉</div>
+      <div class="q slide-in">
+        <h3 id="qTitle">You're booked, ${esc(ath())}!</h3>
+        <p class="sub">That's the first step, and most families never take it. Proud of you for showing up.</p>
+      </div>
+      <div class="locked"><b>${esc(s.day)} · ${esc(s.time)}</b><span>Confirmation and Zoom details are on the way to ${esc(state.answers.email || "your inbox")}</span></div>
+      <ul class="list">
+        <li><span aria-hidden="true">👨‍👩‍👧</span><span>${solo() ? `${esc(ath())} and ${esc(par() || "you")} on the Zoom together` : `${esc(ath())} and both parents${par() && par2() ? ` (${esc(par())} and ${esc(par2())})` : ""} on the Zoom together`}</span></li>
+        <li><span aria-hidden="true">🎥</span><span>Highlight video or game film handy if you have it</span></li>
+        <li><span aria-hidden="true">📝</span><span>Your biggest questions about recruiting written down</span></li>
+      </ul>
+      <div class="coach"><div class="avatar">IZI</div><div class="bubble">Can't wait to meet you. Chat soon! <span class="sign">- Coach Izi</span></div></div>`;
+    burst(1);
+  }
+
+  // ---------- Confetti ----------
+  const cv = document.getElementById("confetti");
+  const ctx = cv.getContext("2d");
+  const reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let parts = [], raf = 0;
+  const COLORS = ["#FFC72C", "#F2BC1F", "#FFD600", "#F6F4EF", "#FFFFFF"];
+  function burst(power) {
+    if (reduce) return;
+    cv.hidden = false;
+    const dpr = window.devicePixelRatio || 1;
+    cv.width = innerWidth * dpr; cv.height = innerHeight * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    const n = Math.round(160 * power);
+    for (let i = 0; i < n; i++) {
+      parts.push({
+        x: innerWidth / 2 + (Math.random() - .5) * 80, y: innerHeight * .55,
+        vx: (Math.random() - .5) * 14 * (0.6 + power * .6), vy: -(6 + Math.random() * 12) * (0.6 + power * .5),
+        w: 6 + Math.random() * 6, h: 8 + Math.random() * 8, r: Math.random() * Math.PI, vr: (Math.random() - .5) * .3,
+        c: COLORS[(Math.random() * COLORS.length) | 0], life: 0
+      });
+    }
+    if (!raf) raf = requestAnimationFrame(tick);
+  }
+  function tick() {
+    ctx.clearRect(0, 0, innerWidth, innerHeight);
+    parts = parts.filter(p => p.life < 180 && p.y < innerHeight + 40);
+    for (const p of parts) {
+      p.life++; p.vy += .32; p.vx *= .99; p.x += p.vx; p.y += p.vy; p.r += p.vr;
+      ctx.save(); ctx.translate(p.x, p.y); ctx.rotate(p.r); ctx.fillStyle = p.c;
+      ctx.fillRect(-p.w / 2, -p.h / 2, p.w, p.h * Math.abs(Math.cos(p.life / 8))); ctx.restore();
+    }
+    if (parts.length) raf = requestAnimationFrame(tick);
+    else { raf = 0; cv.hidden = true; }
+  }
+
+  // Open on a realistic state: first day selected so the times are visible.
+  pickDay(0);
+})();
+</script>
