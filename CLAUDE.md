@@ -200,6 +200,23 @@ the RECRUIT CTA and the soccer palettes do **not** apply here.
   XHR, then reload the captions module in the player to capture the json3 response.
 - Keep diagnoses out of descriptions even when the hosts discuss them on air.
 
+## TheraBox - Izi as Fractional CMO (from 2026-10-23)
+
+A third, separate business. **Hannah Beyler** (@hannah_beyler, 98.1K) founded TheraBox
+(therapeutic boxing, Nashville) and TheraClub (wellness events). Izi is her Fractional CMO and
+takes all her sales calls, for **10% of earnings**. Push the Goal voice, palettes, offers and the
+RECRUIT CTA do **not** apply - TheraBox copy is in Hannah's faith-first voice.
+
+| Thing | Detail |
+|---|---|
+| Drive folder | "TheraBox - Izi FCMO", id `1YyQOesywCnpq8I7LGamxa14jLfG1nLkf` |
+| Sales call tracker | "TheraBox Sales Call Tracker", Sheet id `1dkz7MNbSjL4v0Baoqj_6GNKVsGXlm-dKvWka-QaYMrQ` - LAUNCH PLAN, TOTALS, NOV 26 to OCT 27 |
+| Launch plan doc | https://claude.ai/artifact/P3wZRN2z5LuSi8LXiouuvW - funnel, VSL outline, ManyChat flow, 12 qualifying questions, Skool setup |
+| Fathom titles | "TheraBox - [Name]" so they never mix with Strategy Sessions |
+| Skill / agent | `skills/therabox-fcmo/SKILL.md`, `.claude/agents/therabox-fcmo.md` |
+
+A TheraBox call never goes through a Push the Goal skill or tracker, and the reverse.
+
 ## Tooling notes that keep biting
 
 - **Fathom:** filter meetings by date window only. Do not filter by recorder or email, it
@@ -227,3 +244,4 @@ alike, on every device. The `skills/` folder in this repo holds reference copies
 | `new-student-tracker` | Logs signees into the year's New Students spreadsheet |
 | `weekly-lead-mag-vault` | Weekly lead magnet + IG drop, filed into the Drive vault |
 | `sales-follow-up` | FOLLOW-UP family -> 5 messages written from their own Fathom call, posted to GHL, which sends them. Writing rules locked by Izi 2026-10-23. Repo only - not live until Ifty sends the webhook URL |
+| `therabox-fcmo` | TheraBox (Hannah Beyler) - log her sales calls, weekly numbers, launch status, funnel copy. Repo only until added to the account. Also runs as the `therabox-fcmo` agent |
