@@ -210,12 +210,16 @@ RECRUIT CTA do **not** apply - TheraBox copy is in Hannah's faith-first voice.
 | Thing | Detail |
 |---|---|
 | Drive folder | "TheraBox - Izi FCMO", id `1YyQOesywCnpq8I7LGamxa14jLfG1nLkf` |
-| Sales call tracker | "TheraBox Sales Call Tracker", Sheet id `1dkz7MNbSjL4v0Baoqj_6GNKVsGXlm-dKvWka-QaYMrQ` - LAUNCH PLAN, TOTALS, NOV 26 to OCT 27 |
+| CEO tracker (tasks) | "TheraBox CEO Tracker", Sheet id `14-Nxvu4yebC7Y_Jyx95n9Td07ULKfkRj5stwgc0p6Z8` - DASHBOARD + a tab per area, tick boxes, colour |
+| Sales call tracker (calls only) | "TheraBox Sales Call Tracker", Sheet id `1iToCJZ02BtbbqIFeieNOLCubiSnPKhEwM2zzywnSNE0` - TOTALS, NOV 26 to OCT 27 |
 | Launch plan doc | https://claude.ai/artifact/P3wZRN2z5LuSi8LXiouuvW - funnel, VSL outline, ManyChat flow, 12 qualifying questions, Skool setup |
 | Fathom titles | "TheraBox - [Name]" so they never mix with Strategy Sessions |
 | Skill / agent | `skills/therabox-fcmo/SKILL.md`, `.claude/agents/therabox-fcmo.md` |
 
 A TheraBox call never goes through a Push the Goal skill or tracker, and the reverse.
+Tasks and sales calls never share a sheet (Izi, 2026-10-23): tasks go in the CEO Tracker,
+calls in the Sales Call Tracker. Izi wants his sheets in colour, with clickable tabs and tick
+boxes - his own "CEO Tracker" (id `1aOP78SYI3aEJw7d-pqFus86jcjA1IL_2_7Pcv_9Z6us`) is the model.
 
 ## Tooling notes that keep biting
 
@@ -244,4 +248,4 @@ alike, on every device. The `skills/` folder in this repo holds reference copies
 | `new-student-tracker` | Logs signees into the year's New Students spreadsheet |
 | `weekly-lead-mag-vault` | Weekly lead magnet + IG drop, filed into the Drive vault |
 | `sales-follow-up` | FOLLOW-UP family -> 5 messages written from their own Fathom call, posted to GHL, which sends them. Writing rules locked by Izi 2026-10-23. Repo only - not live until Ifty sends the webhook URL |
-| `therabox-fcmo` | TheraBox (Hannah Beyler) - log her sales calls, weekly numbers, launch status, funnel copy. Repo only until added to the account. Also runs as the `therabox-fcmo` agent |
+| `therabox-fcmo` | TheraBox (Hannah Beyler) - log her sales calls, weekly numbers, launch status, funnel copy. Live in the account since 2026-10-23. Also runs as the `therabox-fcmo` agent |

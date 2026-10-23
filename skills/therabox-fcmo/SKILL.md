@@ -41,17 +41,35 @@ parent is Push the Goal; anyone talking about boxing, Hannah or TheraBox is this
 | Thing | Location |
 |---|---|
 | Drive folder | "TheraBox - Izi FCMO", id `1YyQOesywCnpq8I7LGamxa14jLfG1nLkf` |
-| Sales call tracker | "TheraBox Sales Call Tracker", Google Sheet id `1dkz7MNbSjL4v0Baoqj_6GNKVsGXlm-dKvWka-QaYMrQ` |
+| CEO tracker (tasks) | "TheraBox CEO Tracker", Google Sheet id `14-Nxvu4yebC7Y_Jyx95n9Td07ULKfkRj5stwgc0p6Z8` |
+| Sales call tracker (calls only) | "TheraBox Sales Call Tracker", Google Sheet id `1iToCJZ02BtbbqIFeieNOLCubiSnPKhEwM2zzywnSNE0` |
 | Launch plan doc | "TheraBox Launch Plan - Izi FCMO", https://claude.ai/artifact/P3wZRN2z5LuSi8LXiouuvW - funnel, VSL outline, ManyChat flow, booking questions, Skool setup |
-| Tracker builder | `therabox/build-tracker.ps1` in this repo (rebuild next year's workbook) |
+| Sheet builder | `therabox/build-workbooks.ps1` in this repo (`-Which ceo` or `-Which sales`) |
 | Instagram | @hannah_beyler (98.1K, the funnel runs here), @therabox_ (5.1K), @theraclub_nash (2.3K) |
 
-## The tracker
+## Two sheets. Tasks and calls never share one.
 
-Tabs: **LAUNCH PLAN** (32 build steps, OWNER Izi / Hannah / Both, STATUS dropdown), **TOTALS**
-(per month: calls, no-shows, closes, deposits, revenue, cash, Izi's share, close rate - all
-formulas; Izi's share rate is the one cell `TOTALS!C3`), then one tab per month **NOV 26 ...
-OCT 27**.
+Izi's call (2026-10-23): tasks go in a separate sheet from sales calls, built like his own
+"CEO Tracker" (a hub with a tab per area that links out to the other trackers), and everything
+in colour with tick boxes.
+
+### TheraBox CEO Tracker - tasks
+
+- **DASHBOARD:** per area - tasks, done, left, a progress bar, %, open tasks for Izi and for
+  Hannah. LINKS to the sales tracker, the launch plan doc, the Drive folder and her Instagram.
+- **One tab per area:** FOUNDATION, VSL, INSTAGRAM, MANYCHAT, BOOKING, SALES, SKOOL, LAUNCH.
+  Columns A DONE (tick box) | B TASK | C DETAIL | D OWNER | E STATUS | F DUE | G LINK / NOTES,
+  header on row 4, tasks from row 5 (rows to 40 have empty tick boxes for new tasks).
+- A ticked row turns green with strikethrough. OWNER colours: Izi blue, Hannah pink, Both
+  purple. STATUS dropdown: Not started, In progress, Waiting on Hannah, Waiting on Izi, Done.
+- New task: the first empty row on the right area tab, OWNER and STATUS from the dropdowns.
+  Tick a box only when Izi says it is done.
+
+### TheraBox Sales Call Tracker - calls only
+
+**TOTALS** (per month: calls, no-shows, closes, deposits, revenue, cash, Izi's share, close
+rate - all formulas; Izi's share rate is the one cell `TOTALS!C3`; link back to the CEO Tracker
+in `I1`), then one colour-coded tab per month **NOV 26 ... OCT 27**.
 
 Month tabs - unlike Push the Goal's, the columns **never move**:
 
@@ -59,8 +77,9 @@ Month tabs - unlike Push the Goal's, the columns **never move**:
 |---|---|---|---|---|---|---|---|---|---|---|
 | Header (row 5) | DATE | NAME | EMAIL | PHONE | IG LINK | RECORDING | OUTCOME | REVENUE | CASH | NOTES |
 
-Rows 6-105 are CALL 1-100. OUTCOME is a dropdown: WON, DEPOSIT, FOLLOW-UP, LOST, NO SHOW,
-RESCHEDULED, CANCELLED. Rates at the top of each month count NO SHOW out of the close rate.
+Rows 6-105 are CALL 1-100. OUTCOME is a dropdown and colours itself: WON green, DEPOSIT teal,
+FOLLOW-UP yellow, LOST red, NO SHOW grey, RESCHEDULED orange, CANCELLED light grey. Rates at the
+top of each month count NO SHOW out of the close rate.
 
 **Writing to it:** the Sheets editor connector is off on this account. Enter values through
 Claude in Chrome: Name box (`'NOV 26'!B6`), then one `type` per cell with a separate `key`
@@ -86,8 +105,9 @@ Read TOTALS and the current month: calls, show rate, close rate, cash, Izi's sha
 FOLLOW-UP rows have no next step. One short report; flag anything off the trend.
 
 ### Launch status
-Read the LAUNCH PLAN tab. Report what is done, what is waiting on Hannah, what is waiting on
-Izi, and the next three steps in order. Update STATUS cells only when Izi says something is done.
+Read the CEO Tracker's DASHBOARD and area tabs. Report what is done, what is waiting on Hannah,
+what is waiting on Izi, and the next three steps in order. Tick boxes or change STATUS only when
+Izi says something is done.
 
 ### Build pieces of the funnel
 VSL script, ManyChat DM copy, booking page copy, Skool about page, welcome post, classroom.
