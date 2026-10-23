@@ -69,6 +69,11 @@ headers are pale indigo with dark text; the deal and how to cross off a task mus
   HOW TO CROSS OFF A TASK in three steps, PROGRESS per area (tasks, done, left, bar, %, open for
   Izi and for Hannah), LINKS to the sales tracker, the launch plan doc, the Drive folder and her
   Instagram.
+- **HANNAH'S INFO** (pink, second tab): Hannah's own reference - 1. PROGRAM OUTLINE (12
+  questions, yellow answer boxes, a link column), 2. PAYMENT LINKS (pay in full, plans,
+  deposit), 3. PROGRAM MATERIALS (READY tick box, type, link, Skool module), 4. OTHER LINKS AND
+  DOCUMENTS. Read it before writing the VSL, sales script or Skool copy and before a sales call -
+  the offer, price and payment links come from here once Hannah fills it in. No passwords.
 - **One tab per area:** FOUNDATION, VSL, INSTAGRAM, MANYCHAT, BOOKING, SALES, SKOOL, LAUNCH.
   Columns A CROSS OFF (green tick-box column) | B TASK | C DETAIL | D OWNER | E STATUS | F DUE |
   G LINK / NOTES, header on row 4, tasks from row 5 (rows to 40 have empty tick boxes).

@@ -1,10 +1,12 @@
 ﻿# Builds the two TheraBox workbooks as .xlsx files:
 #   ceo   - "TheraBox CEO Tracker": DASHBOARD + one colour-coded task tab per area
 #   sales - "TheraBox Sales Call Tracker": TOTALS + one tab per month, calls only
+#   info  - just the HANNAH'S INFO tab, for File > Import > Insert new sheet(s) into the live CEO
+#           Tracker without replacing the ticks and notes already in it
 # This laptop has no Python and the Sheets editor connector is off, so each workbook is built
 # here, uploaded to Drive, opened in Sheets and saved as a Google Sheet. Checkboxes are added
 # in Sheets afterwards (Insert > Checkbox on each task tab's A5:A40) - xlsx has no checkbox.
-# Usage: .\build-workbooks.ps1 -Which ceo|sales -Out <path.xlsx> [-SalesUrl <url>] [-CeoUrl <url>]
+# Usage: .\build-workbooks.ps1 -Which ceo|sales|info -Out <path.xlsx> [-SalesUrl <url>] [-CeoUrl <url>]
 param([string]$Which, [string]$Out, [string]$SalesUrl = '', [string]$CeoUrl = '')
 $ErrorActionPreference = 'Stop'
 Add-Type -AssemblyName System.IO.Compression, System.IO.Compression.FileSystem
@@ -63,7 +65,7 @@ function CfExpr($sh, $sqref, $formula, $dxf) { $sh.cf += @{ kind = 'expr'; sqref
 # 7 wrap | 8 date | 9 subtitle | 10 bold number centre | 11 stat label | 12 stat number | 13 stat % | 14 stat currency
 # 15 link | 16 checkbox centre | 17 task (bold wrap) | 18 section heading | 19 progress bar | 20 owner/status centre
 # 21 cross-off cell (green) | 22 cross-off header | 23 input currency (yellow) | 24 help text (indigo)
-# 25 deal % (indigo) | 26 deal label (indigo) | 27 deal currency (indigo)
+# 25 deal % (indigo) | 26 deal label (indigo) | 27 deal currency (indigo) | 28 input text (yellow)
 # Headers are light (indigo on pale indigo) - Izi found the black header bars too hard to read.
 $styles = @'
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
@@ -95,7 +97,7 @@ $styles = @'
 <borders count="2"><border><left/><right/><top/><bottom/><diagonal/></border>
 <border><left/><right/><top/><bottom style="thin"><color rgb="FFE5E7EB"/></bottom><diagonal/></border></borders>
 <cellStyleXfs count="1"><xf numFmtId="0" fontId="0" fillId="0" borderId="0"/></cellStyleXfs>
-<cellXfs count="28">
+<cellXfs count="29">
 <xf numFmtId="0" fontId="0" fillId="0" borderId="1" xfId="0" applyBorder="1" applyAlignment="1"><alignment vertical="center"/></xf>
 <xf numFmtId="0" fontId="1" fillId="2" borderId="0" xfId="0" applyFont="1" applyFill="1" applyAlignment="1"><alignment horizontal="center" vertical="center" wrapText="1"/></xf>
 <xf numFmtId="0" fontId="2" fillId="0" borderId="0" xfId="0" applyFont="1" applyAlignment="1"><alignment vertical="center"/></xf>
@@ -124,6 +126,7 @@ $styles = @'
 <xf numFmtId="9" fontId="5" fillId="7" borderId="0" xfId="0" applyNumberFormat="1" applyFont="1" applyFill="1" applyAlignment="1"><alignment horizontal="center" vertical="center"/></xf>
 <xf numFmtId="0" fontId="7" fillId="7" borderId="0" xfId="0" applyFont="1" applyFill="1" applyAlignment="1"><alignment horizontal="center" vertical="center" wrapText="1"/></xf>
 <xf numFmtId="164" fontId="5" fillId="7" borderId="0" xfId="0" applyNumberFormat="1" applyFont="1" applyFill="1" applyAlignment="1"><alignment horizontal="center" vertical="center"/></xf>
+<xf numFmtId="0" fontId="0" fillId="4" borderId="1" xfId="0" applyFill="1" applyBorder="1" applyAlignment="1"><alignment vertical="center" wrapText="1"/></xf>
 </cellXfs>
 <dxfs count="16">
 <dxf><font><strike/><color rgb="FF6B7280"/></font><fill><patternFill patternType="solid"><bgColor rgb="FFDCFCE7"/></patternFill></fill></dxf>
@@ -151,7 +154,72 @@ $D = @{ done = 0; izi = 1; hannah = 2; both = 3; notstarted = 4; inprogress = 5;
 
 $sheets = New-Object System.Collections.ArrayList
 
-if ($Which -eq 'ceo') {
+# HANNAH'S INFO - where Hannah keeps the program outline, payment links, program materials and
+# any other docs. Yellow cells are hers to fill in. Added 2026-10-23 at Izi's request.
+function InfoSheet {
+  $sh = NewSheet "HANNAH'S INFO" 'DB2777' @(4, 30, 46, 16, 40, 30) 0
+  Put $sh 1 2 "HANNAH'S INFO" 2; $sh.heights[1] = 34
+  Put $sh 2 2 'Hannah - fill in the yellow boxes and paste links. Izi reads this before every sales call and when building the funnel.' 9
+  Put $sh 3 2 'No passwords on this tab. Share logins another way.' 9
+
+  # 1. Program outline - one row per question
+  Put $sh 5 2 '1. PROGRAM OUTLINE' 18
+  Put $sh 6 2 'QUESTION' 1; Put $sh 6 3 "HANNAH'S ANSWER" 1; $sh.merges += 'C6:E6'; Put $sh 6 4 '' 1; Put $sh 6 5 '' 1; Put $sh 6 6 'LINK (doc, video, page)' 1
+  $outline = @(
+    'Program name', 'Who it is for', 'Who it is NOT for', 'How long it runs',
+    'Online, in person in Nashville, or both', 'What is included (sessions, calls, Skool, events)',
+    'What a normal week looks like', 'The result people get by the end', 'Start dates / when people can join',
+    'Price and payment plans (internal only - never on Instagram, the VSL or the booking page)',
+    'Refund or cancellation policy', 'Client wins and testimonials to use on calls')
+  $r = 7
+  foreach ($q in $outline) {
+    Put $sh $r 2 $q 17; Put $sh $r 3 '' 28; $sh.merges += "C$($r):E$($r)"; Put $sh $r 4 '' 28; Put $sh $r 5 '' 28; Put $sh $r 6 '' 28
+    $sh.heights[$r] = 36; $r++
+  }
+
+  # 2. Payment links
+  $r++
+  Put $sh $r 2 '2. PAYMENT LINKS' 18; $r++
+  Put $sh $r 2 'OPTION' 1; Put $sh $r 3 'WHAT IT IS' 1; Put $sh $r 4 'AMOUNT' 1; Put $sh $r 5 'PAYMENT LINK' 1; Put $sh $r 6 'NOTES' 1; $r++
+  foreach ($p in 'Pay in full', 'Payment plan 1', 'Payment plan 2', 'Deposit to hold a spot', '', '') {
+    Put $sh $r 2 $p 17; Put $sh $r 3 '' 28; Put $sh $r 4 '' 23; Put $sh $r 5 '' 28; Put $sh $r 6 '' 28
+    $sh.heights[$r] = 28; $r++
+  }
+
+  # 3. Program materials - READY gets tick boxes in Sheets (Insert > Checkbox)
+  $r++
+  Put $sh $r 2 '3. PROGRAM MATERIALS' 18
+  Put $sh $r 3 'Tick READY when it is uploaded to Skool.' 9; $r++
+  $script:matHeader = $r
+  Put $sh $r 1 'READY' 22; Put $sh $r 2 'MATERIAL' 1; Put $sh $r 3 'WHAT IT IS' 1; Put $sh $r 4 'TYPE' 1; Put $sh $r 5 'LINK' 1; Put $sh $r 6 'WHERE IT GOES (Skool module)' 1; $r++
+  $mats = @(
+    @('Welcome video', 'Start Here'), @('How the program works', 'Start Here'), @('First-week checklist', 'Start Here'),
+    @('Mind lessons', 'Mind'), @('Journal prompts', 'Mind'), @('Boxing follow-along sessions', 'Body'),
+    @('Devotionals and prayer', 'Spirit'), @('Intake form', 'Onboarding'), @('Client photos and video wins', 'Marketing'))
+  $matFirst = $r
+  foreach ($m in $mats) { Put $sh $r 1 $false 21; Put $sh $r 2 $m[0] 17; Put $sh $r 3 '' 28; Put $sh $r 4 '' 20; Put $sh $r 5 '' 28; Put $sh $r 6 $m[1] 0; $sh.heights[$r] = 28; $r++ }
+  for ($k = 0; $k -lt 8; $k++) { Put $sh $r 1 $false 21; Put $sh $r 2 '' 28; Put $sh $r 3 '' 28; Put $sh $r 4 '' 20; Put $sh $r 5 '' 28; Put $sh $r 6 '' 0; $sh.heights[$r] = 28; $r++ }
+  $matLast = $r - 1
+  $script:matRange = "A$($matFirst):A$($matLast)"
+  CfExpr $sh "A$($matFirst):F$($matLast)" "=`$A$matFirst=TRUE" $D.done
+  $sh.validations += @{ sqref = "D$($matFirst):D$($matLast)"; list = 'Video,Doc,PDF,Workbook,Slides,Audio,Folder,Form,Photo' }
+
+  # 4. Other links and documents
+  $r++
+  Put $sh $r 2 '4. OTHER LINKS AND DOCUMENTS' 18; $r++
+  Put $sh $r 2 'NAME' 1; Put $sh $r 3 'WHAT IT IS' 1; $sh.merges += "C$($r):D$($r)"; Put $sh $r 4 '' 1; Put $sh $r 5 'LINK' 1; Put $sh $r 6 'NOTES' 1; $r++
+  foreach ($o in 'Brand photos and logo', 'TheraBox website', 'Class schedule', 'TheraClub events calendar', '', '', '', '') {
+    Put $sh $r 2 $o 17; Put $sh $r 3 '' 28; $sh.merges += "C$($r):D$($r)"; Put $sh $r 4 '' 28; Put $sh $r 5 '' 28; Put $sh $r 6 '' 28
+    $sh.heights[$r] = 28; $r++
+  }
+  $sh
+}
+
+if ($Which -eq 'info') {
+  [void]$sheets.Add((InfoSheet))
+  Write-Host "READY tick boxes go on $script:matRange"
+}
+elseif ($Which -eq 'ceo') {
   # ---------- Task areas ----------
   $areas = @(
     @{ name = 'FOUNDATION'; tab = '64748B'; blurb = 'The offer, the price, the agreement - everything the funnel needs decided first.'; link = ''; tasks = @(
@@ -219,6 +287,8 @@ if ($Which -eq 'ceo') {
   $db.heights[5] = 20; $db.heights[6] = 40; $db.heights[7] = 22
   if ($SalesUrl) { Put $db 8 2 "=HYPERLINK(""$SalesUrl"",""What Izi has earned so far is on the Sales Call Tracker - TOTALS tab"")" 15; $db.merges += 'B8:I8' }
 
+  Put $db 9 2 "Program outline, payment links and program materials: HANNAH'S INFO tab (pink, next to this one)." 9
+
   # How to cross off a task
   Put $db 10 2 'HOW TO CROSS OFF A TASK' 18
   Put $db 11 2 '1.  Click an area tab at the bottom of the screen (FOUNDATION, VSL, INSTAGRAM ...).' 24
@@ -269,6 +339,7 @@ if ($Which -eq 'ceo') {
   CfEq $db "B$($r):D$($r)" 'Izi' $D.izi; CfEq $db "B$($r):D$($r)" 'Hannah' $D.hannah; CfEq $db "B$($r):D$($r)" 'Both' $D.both
   Put $db $r 6 'Crossed off = green with a line through it' 9
   [void]$sheets.Add($db)
+  [void]$sheets.Add((InfoSheet))
 
   # ---------- One tab per area ----------
   foreach ($a in $areas) {
