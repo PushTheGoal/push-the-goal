@@ -2,7 +2,8 @@
 name: therabox-fcmo
 description: >
   Izi's Fractional CMO work for Hannah Beyler's TheraBox (therapeutic boxing, Nashville). Izi
-  runs her marketing and takes her sales calls for 10% of earnings. Use for anything TheraBox:
+  runs her marketing (10% of all earnings) and closes her sales calls (15% of every sale he
+  closes). Use for anything TheraBox:
   "log the TheraBox call", "TheraBox tracker", "Hannah's numbers", "where are we on the
   TheraBox launch", "write Hannah's VSL", "ManyChat flow for Hannah", "Hannah's booking page",
   "Hannah's Skool", "follow up with [name] from TheraBox". Never use for a Push the Goal athlete
@@ -14,8 +15,16 @@ description: >
 
 **Client:** Hannah Beyler, founder of TheraBox (therapeutic boxing classes, privates and group,
 Nashville) and TheraClub (wellness events and retreats). **Izi's role:** Fractional CMO plus the
-person who takes every sales call. **Izi's pay:** 10% of earnings. What counts as "earnings" is
-still to be agreed in writing - until it is, the tracker computes 10% of cash collected.
+person who takes every sales call. **Izi's pay, two parts:**
+
+| Part | Rate | Of what | Where the sheet works it out |
+|---|---|---|---|
+| Fractional CMO | 10% | All TheraBox earnings each month | Sales tracker TOTALS: Izi types Hannah's total earnings into the yellow ALL EARNINGS column |
+| Closer | 15% | Every sale Izi closes on a call | Sales tracker: CASH column of the month tabs (cash collected from his calls) |
+
+Both rates are single cells on TOTALS (`C3` and `H3`). What counts as "earnings" is still to be
+agreed in writing; until it is, the sheet takes 15% of cash collected on his calls and 10% of
+whatever total Izi types in.
 
 Started 2026-10-23. Hannah had no funnel: 98.1K followers on her personal account, no bio
 link, no booking path, no offer to sell on a call.
@@ -51,15 +60,20 @@ parent is Push the Goal; anyone talking about boxing, Hannah or TheraBox is this
 
 Izi's call (2026-10-23): tasks go in a separate sheet from sales calls, built like his own
 "CEO Tracker" (a hub with a tab per area that links out to the other trackers), and everything
-in colour with tick boxes.
+in colour with tick boxes. Second pass, same day: no black header bars ("too hard to read") -
+headers are pale indigo with dark text; the deal and how to cross off a task must be obvious.
 
 ### TheraBox CEO Tracker - tasks
 
-- **DASHBOARD:** per area - tasks, done, left, a progress bar, %, open tasks for Izi and for
-  Hannah. LINKS to the sales tracker, the launch plan doc, the Drive folder and her Instagram.
+- **DASHBOARD:** IZI'S DEAL box (10% FCMO of all earnings, 15% closer of every sale he closes),
+  HOW TO CROSS OFF A TASK in three steps, PROGRESS per area (tasks, done, left, bar, %, open for
+  Izi and for Hannah), LINKS to the sales tracker, the launch plan doc, the Drive folder and her
+  Instagram.
 - **One tab per area:** FOUNDATION, VSL, INSTAGRAM, MANYCHAT, BOOKING, SALES, SKOOL, LAUNCH.
-  Columns A DONE (tick box) | B TASK | C DETAIL | D OWNER | E STATUS | F DUE | G LINK / NOTES,
-  header on row 4, tasks from row 5 (rows to 40 have empty tick boxes for new tasks).
+  Columns A CROSS OFF (green tick-box column) | B TASK | C DETAIL | D OWNER | E STATUS | F DUE |
+  G LINK / NOTES, header on row 4, tasks from row 5 (rows to 40 have empty tick boxes).
+- Rebuilding: `build-workbooks.ps1`, then in the live sheet File > Import > Replace spreadsheet
+  (keeps the link), then Insert > Checkbox on each area tab's `A5:A40` - xlsx has no checkboxes.
 - A ticked row turns green with strikethrough. OWNER colours: Izi blue, Hannah pink, Both
   purple. STATUS dropdown: Not started, In progress, Waiting on Hannah, Waiting on Izi, Done.
 - New task: the first empty row on the right area tab, OWNER and STATUS from the dropdowns.
@@ -67,9 +81,10 @@ in colour with tick boxes.
 
 ### TheraBox Sales Call Tracker - calls only
 
-**TOTALS** (per month: calls, no-shows, closes, deposits, revenue, cash, Izi's share, close
-rate - all formulas; Izi's share rate is the one cell `TOTALS!C3`; link back to the CEO Tracker
-in `I1`), then one colour-coded tab per month **NOV 26 ... OCT 27**.
+**TOTALS** (per month: calls, no-shows, closes, deposits, revenue, cash from Izi's calls, ALL
+EARNINGS typed in by Izi (yellow), IZI 10% FCMO, IZI 15% CLOSER, IZI TOTAL, close rate; IZI
+EARNED TO DATE under the table; rates in `C3` and `H3`; link back to the CEO Tracker in `K1`),
+then one colour-coded tab per month **NOV 26 ... OCT 27**, each showing that month's 15%.
 
 Month tabs - unlike Push the Goal's, the columns **never move**:
 
@@ -137,6 +152,6 @@ decides how TheraBox follow-ups are sent; there is no GHL sequence for TheraBox 
 ## Open decisions (from the launch plan doc, 2026-10-23)
 
 The offer itself (name, length, inclusions, online / Nashville), price and payment plans, the
-written definition of "earnings" for the 10%, the ManyChat keyword (working pick THERA), and
+written definition of "earnings" for the 10% and when each cut is paid, the ManyChat keyword (working pick THERA), and
 whether Skool is the paid program's home, a free funnel, or both. Ask Izi before building
 anything that depends on one of these.

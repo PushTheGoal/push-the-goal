@@ -204,7 +204,8 @@ the RECRUIT CTA and the soccer palettes do **not** apply here.
 
 A third, separate business. **Hannah Beyler** (@hannah_beyler, 98.1K) founded TheraBox
 (therapeutic boxing, Nashville) and TheraClub (wellness events). Izi is her Fractional CMO and
-takes all her sales calls, for **10% of earnings**. Push the Goal voice, palettes, offers and the
+takes all her sales calls. He is paid two ways: **10% of all TheraBox earnings** (Fractional CMO)
+**plus 15% of every sale he closes** (closer). Push the Goal voice, palettes, offers and the
 RECRUIT CTA do **not** apply - TheraBox copy is in Hannah's faith-first voice.
 
 | Thing | Detail |
