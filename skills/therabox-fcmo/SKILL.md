@@ -29,6 +29,30 @@ whatever total Izi types in.
 Started 2026-10-23. Hannah had no funnel: 98.1K followers on her personal account, no bio
 link, no booking path, no offer to sell on a call.
 
+## The offer: The Warrior Method
+
+Hannah's program, sold on Izi's calls. **Izi's plan overrides Hannah's blueprint wherever they
+differ** (Izi, 2026-10-24: "its my plan not what the blue print says").
+
+| | What it is |
+|---|---|
+| Length | 6 months, all included |
+| Months 1-3 | A 45-minute virtual session every week, plus assignments |
+| Months 4-6 | A 30-minute check-in every other week, plus a full plan of action items |
+| All 6 months | The community and weekly group coaching calls, on Skool |
+| Price (internal only) | $6,000 in full; 2 x $3,000 (half now, half in 30 days); 3 x $2,100; $500 deposit to hold a spot |
+
+The **Warrior Method Program Blueprint** (Hannah's 35-page PDF, Drive id
+`1tqnJBQawrti0Jnt1FJjqyF0fY_yg5X0x`) is the source for the curriculum - the 4 phases, the 12
+weekly session plans, worksheets, prayers, and the language rules (faith-based coaching, never
+therapy or trauma claims, no guaranteed outcomes). Where it says 12 weeks of 60-minute private
+sessions, an optional separate 3-month phase, no group calls, or Whop, use Izi's plan above.
+
+Working docs (Google Docs in the TheraBox folder): "TheraBox - VSL Plan" (id
+`1B2FuP02LYRhmDL_pmaboUVcsknK6RyxyTwzdaodPbvc`) and "TheraBox - Booking Page Questionnaire"
+(id `1jRNMnCcOL2TjL-AXHViG4EE-kZAGCQrwRhQnsOEFcu8`, 15 questions). Both are linked from the CEO
+Tracker. Edit them in place (Docs Find and replace); never make a second copy.
+
 ## This is a separate business. Never mix it with Push the Goal.
 
 | | Push the Goal | TheraBox |

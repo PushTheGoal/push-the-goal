@@ -218,6 +218,9 @@ RECRUIT CTA do **not** apply - TheraBox copy is in Hannah's faith-first voice.
 | Skill / agent | `skills/therabox-fcmo/SKILL.md`, `.claude/agents/therabox-fcmo.md` |
 
 A TheraBox call never goes through a Push the Goal skill or tracker, and the reverse.
+The offer is **The Warrior Method**: 6 months, 45-min weekly sessions (months 1-3), check-ins
+every other week (months 4-6), community and weekly group calls throughout, on Skool. Izi's plan
+overrides Hannah's Program Blueprint PDF wherever they differ (Izi, 2026-10-24).
 Tasks and sales calls never share a sheet (Izi, 2026-10-23): tasks go in the CEO Tracker,
 calls in the Sales Call Tracker. Izi wants his sheets in colour, with clickable tabs and tick
 boxes - his own "CEO Tracker" (id `1aOP78SYI3aEJw7d-pqFus86jcjA1IL_2_7Pcv_9Z6us`) is the model.
