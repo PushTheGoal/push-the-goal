@@ -200,25 +200,29 @@ the RECRUIT CTA and the soccer palettes do **not** apply here.
   XHR, then reload the captions module in the player to capture the json3 response.
 - Keep diagnoses out of descriptions even when the hosts discuss them on air.
 
-## TheraBox - Izi as Fractional CMO (from 2026-10-23)
+## The Warrior Method (was TheraBox) - Izi as Fractional CMO (from 2026-10-23)
 
 A third, separate business. **Hannah Beyler** (@hannah_beyler, 98.1K) founded TheraBox
-(therapeutic boxing, Nashville) and TheraClub (wellness events). Izi is her Fractional CMO and
-takes all her sales calls. He is paid two ways: **10% of all TheraBox earnings** (Fractional CMO)
-**plus 15% of every sale he closes** (closer). Push the Goal voice, palettes, offers and the
-RECRUIT CTA do **not** apply - TheraBox copy is in Hannah's faith-first voice.
+(therapeutic boxing, Nashville) and TheraClub (wellness events). **The business Izi works on is
+now The Warrior Method, not TheraBox** (Izi, 2026-10-24): every file, sheet and heading uses that
+name. "TheraBox" stays only where it means her real studio - its website, @therabox_, her story,
+past studio clients. Izi is her Fractional CMO and takes all her sales calls. He is paid two
+ways: **10% of all Warrior Method earnings** (Fractional CMO) **plus 15% of every sale he
+closes** (closer). Push the Goal voice, palettes, offers and the RECRUIT CTA do **not** apply -
+the copy is in Hannah's faith-first voice.
 
 | Thing | Detail |
 |---|---|
-| Drive folder | "TheraBox - Izi FCMO", id `1YyQOesywCnpq8I7LGamxa14jLfG1nLkf` |
-| CEO tracker (tasks) | "TheraBox CEO Tracker", Sheet id `14-Nxvu4yebC7Y_Jyx95n9Td07ULKfkRj5stwgc0p6Z8` - DASHBOARD, HANNAH'S INFO (program outline, payment links, materials, other docs), a tab per area, tick boxes, colour |
-| Sales call tracker (calls only) | "TheraBox Sales Call Tracker", Sheet id `1iToCJZ02BtbbqIFeieNOLCubiSnPKhEwM2zzywnSNE0` - TOTALS, NOV 26 to OCT 27 |
-| Launch plan doc | https://claude.ai/artifact/P3wZRN2z5LuSi8LXiouuvW - funnel, VSL outline, ManyChat flow, 12 qualifying questions, Skool setup |
+| Drive folder | "The Warrior Method - Izi FCMO", id `1YyQOesywCnpq8I7LGamxa14jLfG1nLkf` - **shared with Hannah (hannahbeyler37@gmail.com) as editor**, so everything inside is open to her. Put every new file in it. |
+| CEO tracker (tasks) | "The Warrior Method CEO Tracker", Sheet id `14-Nxvu4yebC7Y_Jyx95n9Td07ULKfkRj5stwgc0p6Z8` - DASHBOARD, HANNAH'S INFO (program outline, payment links, materials, other docs), a tab per area, tick boxes, colour |
+| Sales call tracker (calls only) | "The Warrior Method Sales Call Tracker", Sheet id `1iToCJZ02BtbbqIFeieNOLCubiSnPKhEwM2zzywnSNE0` - TOTALS, NOV 26 to OCT 27 |
+| Launch plan doc | https://claude.ai/artifact/P3wZRN2z5LuSi8LXiouuvW - funnel, VSL outline, ManyChat flow, 12 qualifying questions, Skool setup. A claude.ai page, so Hannah can't open it. |
 | VSL deck | "The Warrior Method - VSL Deck", Google Slides id `1mYKwWfHiWStLAJRYoh81B6yCUkeCxB6ljbznX8XNZWg` - blush and cream (cream `#FAF6F1`, blush `#F2D4D7`, rose `#C9707E`), Playfair Display + Montserrat |
-| Fathom titles | "TheraBox - [Name]" so they never mix with Strategy Sessions |
-| Skill / agent | `skills/therabox-fcmo/SKILL.md`, `.claude/agents/therabox-fcmo.md` |
+| Skool kit | Subfolder "Skool Kit - The Warrior Method", id `1xgPNHQwLbKKwFB4pGy5b-0cp_1ZHbkOT` - cover, icon, about images, 12 module covers, highlight covers (`therabox/build-skool-kit.sh`), the Setup Kit doc and "The Warrior Method - 12 Modules" (id `1Y8Z0hIt7X_DudVJ7wHuHEREgDMM_eb0Ids0V0e_QUio`) |
+| Fathom titles | "Warrior Method - [Name]" (older calls: "TheraBox - [Name]") so they never mix with Strategy Sessions |
+| Skill / agent | `skills/therabox-fcmo/SKILL.md`, `.claude/agents/therabox-fcmo.md` (ids kept as `therabox-fcmo`) |
 
-A TheraBox call never goes through a Push the Goal skill or tracker, and the reverse.
+A Warrior Method call never goes through a Push the Goal skill or tracker, and the reverse.
 The offer is **The Warrior Method**: 6 months, 45-min weekly sessions (months 1-3), check-ins
 every other week (months 4-6), community and weekly group calls throughout, on Skool. Izi's plan
 overrides Hannah's Program Blueprint PDF wherever they differ (Izi, 2026-10-24).
@@ -253,4 +257,4 @@ alike, on every device. The `skills/` folder in this repo holds reference copies
 | `new-student-tracker` | Logs signees into the year's New Students spreadsheet |
 | `weekly-lead-mag-vault` | Weekly lead magnet + IG drop, filed into the Drive vault |
 | `sales-follow-up` | FOLLOW-UP family -> 5 messages written from their own Fathom call, posted to GHL, which sends them. Writing rules locked by Izi 2026-10-23. Repo only - not live until Ifty sends the webhook URL |
-| `therabox-fcmo` | TheraBox (Hannah Beyler) - log her sales calls, weekly numbers, launch status, funnel copy. Live in the account since 2026-10-23. Also runs as the `therabox-fcmo` agent |
+| `therabox-fcmo` | The Warrior Method, was TheraBox (Hannah Beyler) - log her sales calls, weekly numbers, launch status, funnel copy. Live in the account since 2026-10-23. Also runs as the `therabox-fcmo` agent |

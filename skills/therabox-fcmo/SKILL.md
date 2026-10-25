@@ -1,17 +1,25 @@
 ---
 name: therabox-fcmo
 description: >
-  Izi's Fractional CMO work for Hannah Beyler's TheraBox (therapeutic boxing, Nashville). Izi
+  Izi's Fractional CMO work for Hannah Beyler's The Warrior Method (formerly TheraBox). Izi
   runs her marketing (10% of all earnings) and closes her sales calls (15% of every sale he
-  closes). Use for anything TheraBox:
-  "log the TheraBox call", "TheraBox tracker", "Hannah's numbers", "where are we on the
-  TheraBox launch", "write Hannah's VSL", "ManyChat flow for Hannah", "Hannah's booking page",
-  "Hannah's Skool", "follow up with [name] from TheraBox". Never use for a Push the Goal athlete
-  or family - those calls belong to push-the-goal-call-notes, new-student-onboarding or
-  sales-follow-up.
+  closes). Use for anything Warrior Method or TheraBox:
+  "log the Warrior Method call", "Warrior Method tracker", "Hannah's numbers", "where are we on
+  the launch", "write Hannah's VSL", "ManyChat flow for Hannah", "Hannah's booking page",
+  "Hannah's Skool", "follow up with [name] from Warrior Method or TheraBox". Never use for a Push
+  the Goal athlete or family - those calls belong to push-the-goal-call-notes,
+  new-student-onboarding or sales-follow-up.
 ---
 
-# TheraBox - Izi as Fractional CMO
+# The Warrior Method (was TheraBox) - Izi as Fractional CMO
+
+**Name (Izi, 2026-10-24):** the business is **The Warrior Method**, not TheraBox. Every file,
+sheet, heading and new doc uses that name. "TheraBox" stays only where it means Hannah's real
+Nashville studio - its website, @therabox_, her story, past studio clients.
+
+**Sharing:** the Drive folder "The Warrior Method - Izi FCMO" is shared with Hannah
+(hannahbeyler37@gmail.com) as editor, so every Doc, Sheet and Slide inside it opens for her.
+Create every new file inside that folder (or a subfolder) so she has access automatically.
 
 **Client:** Hannah Beyler, founder of TheraBox (therapeutic boxing classes, privates and group,
 Nashville) and TheraClub (wellness events and retreats). **Izi's role:** Fractional CMO plus the
@@ -19,7 +27,7 @@ person who takes every sales call. **Izi's pay, two parts:**
 
 | Part | Rate | Of what | Where the sheet works it out |
 |---|---|---|---|
-| Fractional CMO | 10% | All TheraBox earnings each month | Sales tracker TOTALS: Izi types Hannah's total earnings into the yellow ALL EARNINGS column |
+| Fractional CMO | 10% | All Warrior Method earnings each month | Sales tracker TOTALS: Izi types Hannah's total earnings into the yellow ALL EARNINGS column |
 | Closer | 15% | Every sale Izi closes on a call | Sales tracker: CASH column of the month tabs (cash collected from his calls) |
 
 Both rates are single cells on TOTALS (`C3` and `H3`). What counts as "earnings" is still to be
@@ -48,8 +56,8 @@ weekly session plans, worksheets, prayers, and the language rules (faith-based c
 therapy or trauma claims, no guaranteed outcomes). Where it says 12 weeks of 60-minute private
 sessions, an optional separate 3-month phase, no group calls, or Whop, use Izi's plan above.
 
-Working docs (Google Docs in the TheraBox folder): "TheraBox - VSL Plan" (id
-`1yBDmnurm5m83PBpTDvK8DI_r4b6TA4mPrTAgtjrb3po`) and "TheraBox - Booking Page Questionnaire"
+Working docs (Google Docs in the Warrior Method folder): "The Warrior Method - VSL Plan" (id
+`1yBDmnurm5m83PBpTDvK8DI_r4b6TA4mPrTAgtjrb3po`) and "The Warrior Method - Booking Page Questionnaire"
 (id `1jRNMnCcOL2TjL-AXHViG4EE-kZAGCQrwRhQnsOEFcu8`, 15 questions). Edit them in place (Docs
 Find and replace); never make a second copy.
 
@@ -61,12 +69,12 @@ holds only Hannah's own facts, materials and links.
 
 **VSL answers and deck (2026-10-24):** Hannah answered the VSL questions one at a time in chat
 (Izi: ask question by question, then condense - 22 in the end). Her answers, each with a "For the
-slide" line, are in "TheraBox - Hannah's VSL Answers" (id `1qtyszW8fDLbP-lPQKpclSre2TR5KxHxrhgJnG2sTYRY`).
+slide" line, are in "The Warrior Method - Hannah's VSL Answers" (id `1qtyszW8fDLbP-lPQKpclSre2TR5KxHxrhgJnG2sTYRY`).
 The deck is "The Warrior Method - VSL Deck" in Google Slides (id
 `1mYKwWfHiWStLAJRYoh81B6yCUkeCxB6ljbznX8XNZWg`, 32 slides), built by `therabox/build-vsl-deck.ps1`
 as a .pptx and converted (File > Save as Google Slides). All three are linked in row 3 of the VSL tab.
 
-**TheraBox deck look (Izi picked palette A, 2026-10-24):** blush and cream - cream `#FAF6F1`, blush
+**Warrior Method deck look (Izi picked palette A, 2026-10-24):** blush and cream - cream `#FAF6F1`, blush
 `#F2D4D7`, rose `#C9707E` (deep rose `#A9505F` on blush), espresso text `#3E2F2B`, taupe labels
 `#9C8B7E`. Playfair Display headlines with the key phrase in italic rose; letter-spaced Montserrat
 labels. Not Push the Goal's colours.
@@ -76,28 +84,29 @@ bullets. No wide multi-column tables of talking points - Izi found them hard to 
 
 ## This is a separate business. Never mix it with Push the Goal.
 
-| | Push the Goal | TheraBox |
+| | Push the Goal | The Warrior Method |
 |---|---|---|
 | Who Izi is | Owner and head coach | Hannah's Fractional CMO and closer |
 | Buyer | Athlete + parents | An adult who wants to change mind, body and spirit |
-| Sales tracker | "Izi Sales call tracker 2026" | "TheraBox Sales Call Tracker" (below) |
-| Fathom title | Strategy Session / family name | **"TheraBox - [Name]"** |
+| Sales tracker | "Izi Sales call tracker 2026" | "The Warrior Method Sales Call Tracker" (below) |
+| Fathom title | Strategy Session / family name | **"Warrior Method - [Name]"** (older: "TheraBox - [Name]") |
 | Voice | Izi's coaching voice | **Hannah's** voice: faith-first, warm, strong |
-| Brand | Charcoal + red, or black + yellow | Hannah's: black, white, the gloves logo |
+| Brand | Charcoal + red, or black + yellow | Blush and cream (see the deck look below) |
 
-A Fathom call titled "TheraBox - ..." is never run through `push-the-goal-call-notes`,
-`new-student-onboarding` or `sales-follow-up`, and a Push the Goal call never lands on the
-TheraBox tracker. If a call's title is ambiguous, read the first minutes: a soccer athlete or
-parent is Push the Goal; anyone talking about boxing, Hannah or TheraBox is this skill.
+A Fathom call titled "Warrior Method - ..." or "TheraBox - ..." is never run through
+`push-the-goal-call-notes`, `new-student-onboarding` or `sales-follow-up`, and a Push the Goal
+call never lands on the Warrior Method trackers. If a call's title is ambiguous, read the first
+minutes: a soccer athlete or parent is Push the Goal; anyone talking about Hannah, The Warrior
+Method or TheraBox is this skill.
 
 ## Where things live
 
 | Thing | Location |
 |---|---|
-| Drive folder | "TheraBox - Izi FCMO", id `1YyQOesywCnpq8I7LGamxa14jLfG1nLkf` |
-| CEO tracker (tasks) | "TheraBox CEO Tracker", Google Sheet id `14-Nxvu4yebC7Y_Jyx95n9Td07ULKfkRj5stwgc0p6Z8` |
-| Sales call tracker (calls only) | "TheraBox Sales Call Tracker", Google Sheet id `1iToCJZ02BtbbqIFeieNOLCubiSnPKhEwM2zzywnSNE0` |
-| Launch plan doc | "TheraBox Launch Plan - Izi FCMO", https://claude.ai/artifact/P3wZRN2z5LuSi8LXiouuvW - funnel, VSL outline, ManyChat flow, booking questions, Skool setup |
+| Drive folder | "The Warrior Method - Izi FCMO", id `1YyQOesywCnpq8I7LGamxa14jLfG1nLkf` |
+| CEO tracker (tasks) | "The Warrior Method CEO Tracker", Google Sheet id `14-Nxvu4yebC7Y_Jyx95n9Td07ULKfkRj5stwgc0p6Z8` |
+| Sales call tracker (calls only) | "The Warrior Method Sales Call Tracker", Google Sheet id `1iToCJZ02BtbbqIFeieNOLCubiSnPKhEwM2zzywnSNE0` |
+| Launch plan doc | https://claude.ai/artifact/P3wZRN2z5LuSi8LXiouuvW - funnel, VSL outline, ManyChat flow, booking questions, Skool setup |
 | Sheet builder | `therabox/build-workbooks.ps1` in this repo (`-Which ceo` or `-Which sales`) |
 | Instagram | @hannah_beyler (98.1K, the funnel runs here), @therabox_ (5.1K), @theraclub_nash (2.3K) |
 
@@ -108,7 +117,7 @@ Izi's call (2026-10-23): tasks go in a separate sheet from sales calls, built li
 in colour with tick boxes. Second pass, same day: no black header bars ("too hard to read") -
 headers are pale indigo with dark text; the deal and how to cross off a task must be obvious.
 
-### TheraBox CEO Tracker - tasks
+### The Warrior Method CEO Tracker - tasks
 
 - **DASHBOARD:** IZI'S DEAL box (10% FCMO of all earnings, 15% closer of every sale he closes),
   HOW TO CROSS OFF A TASK in three steps, PROGRESS per area (tasks, done, left, bar, %, open for
@@ -129,7 +138,7 @@ headers are pale indigo with dark text; the deal and how to cross off a task mus
 - New task: the first empty row on the right area tab, OWNER and STATUS from the dropdowns.
   Tick a box only when Izi says it is done.
 
-### TheraBox Sales Call Tracker - calls only
+### The Warrior Method Sales Call Tracker - calls only
 
 **TOTALS** (per month: calls, no-shows, closes, deposits, revenue, cash from Izi's calls, ALL
 EARNINGS typed in by Izi (yellow), IZI 10% FCMO, IZI 15% CLOSER, IZI TOTAL, close rate; IZI
@@ -158,7 +167,7 @@ Skool or any public post.
 ## Jobs
 
 ### Log a sales call
-1. Find the call in Fathom by date window only, match on "TheraBox" or the person's last name.
+1. Find the call in Fathom by date window only, match on "Warrior Method", "TheraBox" or the person's last name.
 2. Read the whole transcript. Speaker labels are often scrambled - read for content.
 3. Add the row to the month's tab: date, name, email, phone, IG, Fathom share link, OUTCOME,
    REVENUE and CASH only if a sale or deposit was made on the call, NOTES (the objection, the
@@ -185,7 +194,7 @@ input is missing.
 FOLLOW-UP rows get follow-up written from **that person's own call**, asking for a decision
 (moving forward, or when to check back), never another call - the same rules as
 `sales-follow-up`, adapted to an adult buyer instead of a family. Drafts only until Izi
-decides how TheraBox follow-ups are sent; there is no GHL sequence for TheraBox yet.
+decides how Warrior Method follow-ups are sent; there is no GHL sequence for them yet.
 
 ## Rules
 
