@@ -150,13 +150,19 @@ course() {
   <div class='foot' style='bottom:66px;font-size:15px'>$FOOT_W</div>
 </div>"
 }
-course 08-class-0-start-here cream 'Begin here' 'Start <i>Here</i>' 'Welcome, how the group works, and your first week.'
-course 09-class-1-decide blush 'Phase 1' '<i>Decide</i>' 'Your vision, your why, and who you are becoming.'
-course 10-class-2-comfort-zone cream 'Phase 2' 'Crucify the<br><i>Comfort Zone</i>' 'Face the fear, the avoidance, and the old identities.'
-course 11-class-3-remove-replace blush 'Phase 3' 'Remove and <i>Replace</i>' "The lies out. God's truth in."
-course 12-class-4-become-act cream 'Phase 4' 'Become and <i>Act</i>' 'Your plan, and real acts of faith.'
-course 13-class-5-live-it-out blush 'Months 4-6' 'Live It <i>Out</i>' 'Your plan in action, with check-ins to keep you on course.'
-course 14-class-6-group-calls cream 'Every week' 'Group Call <i>Replays</i>' 'Every weekly call, newest first.'
+# The 12 modules, one per week of months 1-3 (from the 12 weekly sessions in Hannah's blueprint).
+course 08-module-01-the-decision cream 'Module 1 &nbsp;·&nbsp; Decide' 'The <i>Decision</i>' 'Stop wishing. Decide, and write the vision.'
+course 08-module-02-who-i-am-in-christ blush 'Module 2 &nbsp;·&nbsp; Decide' 'Who I Am <i>in Christ</i>' 'Your worth is settled before you do any work.'
+course 08-module-03-count-the-cost cream 'Module 3 &nbsp;·&nbsp; Decide' 'Count the <i>Cost</i>' 'Turn desire into commitment.'
+course 08-module-04-the-comfort-zone blush 'Module 4 &nbsp;·&nbsp; Crucify the comfort zone' 'The Comfort <i>Zone</i>' "See where you've been hiding, without shame."
+course 08-module-05-facing-fear cream 'Module 5 &nbsp;·&nbsp; Crucify the comfort zone' 'Facing <i>Fear</i>' 'Courage is acting while scared.'
+course 08-module-06-old-identities blush 'Module 6 &nbsp;·&nbsp; Crucify the comfort zone' 'Old Identities<br>and <i>Patterns</i>' "Who you were doesn't lead anymore."
+course 08-module-07-lies-vs-truth cream 'Module 7 &nbsp;·&nbsp; Remove and replace' 'Lies vs. <i>Truth</i>' 'Renew your mind, one lie at a time.'
+course 08-module-08-release-and-freedom blush 'Module 8 &nbsp;·&nbsp; Remove and replace' 'Release and <i>Freedom</i>' 'Hand Him what you were never meant to carry.'
+course 08-module-09-train-the-new-you cream 'Module 9 &nbsp;·&nbsp; Remove and replace' 'Train the <i>New You</i>' 'Build the daily rhythm that makes it real.'
+course 08-module-10-calling-and-discernment blush 'Module 10 &nbsp;·&nbsp; Become and act' 'Calling and<br><i>Discernment</i>' 'Turn your calling into a 90-day plan.'
+course 08-module-11-acts-of-faith cream 'Module 11 &nbsp;·&nbsp; Become and act' 'Acts of <i>Faith</i>' 'One bold, visible step.'
+course 08-module-12-commissioned blush 'Module 12 &nbsp;·&nbsp; Become and act' '<i>Commissioned</i>' 'Put on the armor and go.'
 
 # ---------- Instagram highlight covers (1080 x 1920, Instagram shows the centre circle) ----------
 # highlight <file> <title html> <small label>
