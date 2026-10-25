@@ -59,6 +59,18 @@ area's tab** (row 3, bold, "OPEN THE ... ->") and in the LINK column of every ta
 The VSL Plan lives on the VSL tab; the Booking Questionnaire on the BOOKING tab. HANNAH'S INFO
 holds only Hannah's own facts, materials and links.
 
+**VSL answers and deck (2026-10-24):** Hannah answered the VSL questions one at a time in chat
+(Izi: ask question by question, then condense - 22 in the end). Her answers, each with a "For the
+slide" line, are in "TheraBox - Hannah's VSL Answers" (id `1qtyszW8fDLbP-lPQKpclSre2TR5KxHxrhgJnG2sTYRY`).
+The deck is "The Warrior Method - VSL Deck" in Google Slides (id
+`1mYKwWfHiWStLAJRYoh81B6yCUkeCxB6ljbznX8XNZWg`, 32 slides), built by `therabox/build-vsl-deck.ps1`
+as a .pptx and converted (File > Save as Google Slides). All three are linked in row 3 of the VSL tab.
+
+**TheraBox deck look (Izi picked palette A, 2026-10-24):** blush and cream - cream `#FAF6F1`, blush
+`#F2D4D7`, rose `#C9707E` (deep rose `#A9505F` on blush), espresso text `#3E2F2B`, taupe labels
+`#9C8B7E`. Playfair Display headlines with the key phrase in italic rose; letter-spaced Montserrat
+labels. Not Push the Goal's colours.
+
 **How docs should read:** one heading per section with the goal, then what Hannah says as
 bullets. No wide multi-column tables of talking points - Izi found them hard to read.
 

@@ -214,6 +214,7 @@ RECRUIT CTA do **not** apply - TheraBox copy is in Hannah's faith-first voice.
 | CEO tracker (tasks) | "TheraBox CEO Tracker", Sheet id `14-Nxvu4yebC7Y_Jyx95n9Td07ULKfkRj5stwgc0p6Z8` - DASHBOARD, HANNAH'S INFO (program outline, payment links, materials, other docs), a tab per area, tick boxes, colour |
 | Sales call tracker (calls only) | "TheraBox Sales Call Tracker", Sheet id `1iToCJZ02BtbbqIFeieNOLCubiSnPKhEwM2zzywnSNE0` - TOTALS, NOV 26 to OCT 27 |
 | Launch plan doc | https://claude.ai/artifact/P3wZRN2z5LuSi8LXiouuvW - funnel, VSL outline, ManyChat flow, 12 qualifying questions, Skool setup |
+| VSL deck | "The Warrior Method - VSL Deck", Google Slides id `1mYKwWfHiWStLAJRYoh81B6yCUkeCxB6ljbznX8XNZWg` - blush and cream (cream `#FAF6F1`, blush `#F2D4D7`, rose `#C9707E`), Playfair Display + Montserrat |
 | Fathom titles | "TheraBox - [Name]" so they never mix with Strategy Sessions |
 | Skill / agent | `skills/therabox-fcmo/SKILL.md`, `.claude/agents/therabox-fcmo.md` |
 
