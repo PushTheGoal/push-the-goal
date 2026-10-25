@@ -49,9 +49,18 @@ therapy or trauma claims, no guaranteed outcomes). Where it says 12 weeks of 60-
 sessions, an optional separate 3-month phase, no group calls, or Whop, use Izi's plan above.
 
 Working docs (Google Docs in the TheraBox folder): "TheraBox - VSL Plan" (id
-`1B2FuP02LYRhmDL_pmaboUVcsknK6RyxyTwzdaodPbvc`) and "TheraBox - Booking Page Questionnaire"
-(id `1jRNMnCcOL2TjL-AXHViG4EE-kZAGCQrwRhQnsOEFcu8`, 15 questions). Both are linked from the CEO
-Tracker. Edit them in place (Docs Find and replace); never make a second copy.
+`1yBDmnurm5m83PBpTDvK8DI_r4b6TA4mPrTAgtjrb3po`) and "TheraBox - Booking Page Questionnaire"
+(id `1jRNMnCcOL2TjL-AXHViG4EE-kZAGCQrwRhQnsOEFcu8`, 15 questions). Edit them in place (Docs
+Find and replace); never make a second copy.
+
+**Where docs live on the CEO Tracker** (Izi, 2026-10-24 - he called a doc linked at the bottom of
+HANNAH'S INFO "an organizational mistake"): a doc for an area is linked **at the top of that
+area's tab** (row 3, bold, "OPEN THE ... ->") and in the LINK column of every task row it serves.
+The VSL Plan lives on the VSL tab; the Booking Questionnaire on the BOOKING tab. HANNAH'S INFO
+holds only Hannah's own facts, materials and links.
+
+**How docs should read:** one heading per section with the goal, then what Hannah says as
+bullets. No wide multi-column tables of talking points - Izi found them hard to read.
 
 ## This is a separate business. Never mix it with Push the Goal.
 
