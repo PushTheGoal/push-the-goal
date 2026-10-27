@@ -31,3 +31,7 @@ content-plan-dashboard/.ghl-token
 content-plan-dashboard/.ghl-location
 content-plan-dashboard/.meta-token
 content-plan-dashboard/brands/*/.ghl-token
+
+# Setter System Tracker Dashboard - keep the approved mockup, never the key
+!setter-system-tracker-dashboard/mockup/dashboard-mockup.png
+setter-system-tracker-dashboard/.ghl-token

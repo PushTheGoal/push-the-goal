@@ -150,6 +150,7 @@ Standard lead magnet CTA line - name the offers, no prices:
 | Live New Students tracker | Google Sheet id `1B5SVe12E5qaficHd5atJyhzsgzxv8sneMvH3VoJh4Q4` |
 | Lead Magnet Vault Drive folder | id `1Pdncp4enoJIcO1My_3Zs-C9gaM4XoEn_` |
 | Content system (strategy, ledger, tools) | `content-plan-dashboard/` in this repo - start at `content-plan-dashboard/README.md` |
+| Setter System Tracker Dashboard (DM audit for setters - planned, not built) | `setter-system-tracker-dashboard/` - start at its `README.md` |
 | Content media (B-roll, renders) | `C:\Users\15306\Documents\Claude\Projects\Content\<brand>\` (this laptop only, never git) |
 | Local business folders | `C:\Users\15306\Documents\Claude\Projects\` (this laptop only - see OPEN-QUESTIONS) |
 

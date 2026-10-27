@@ -1,0 +1,164 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Setter Tracker</title>
+<style>
+:root{--ink:#1C1F24;--red:#E23B34;--bg:#F3F4F6;--card:#fff;--line:#E3E5E8;--mut:#6B7280;--good:#1F9D55;--warn:#D98B0B;--bad:#E23B34}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--ink);width:1440px;font-size:13px}
+.top{background:var(--ink);color:#fff;padding:16px 28px;display:flex;align-items:center;gap:24px}
+.top h1{font-size:18px;letter-spacing:.5px}.top h1 span{color:var(--red)}
+.top .sub{color:#9CA3AF;font-size:12px}
+.top .right{margin-left:auto;display:flex;gap:10px;align-items:center}
+.pill{border:1px solid #3A3F47;border-radius:16px;padding:6px 12px;font-size:12px;color:#D1D5DB}
+.pill.on{background:var(--red);border-color:var(--red);color:#fff}
+.sample{background:#FEF3C7;color:#92400E;font-size:11px;font-weight:bold;padding:4px 8px;border-radius:4px}
+.wrap{padding:20px 28px;display:grid;gap:16px}
+.kpis{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:14px 16px}
+.kpi .l{color:var(--mut);font-size:11px;text-transform:uppercase;letter-spacing:.6px}
+.kpi .v{font-size:28px;font-weight:bold;margin-top:6px}
+.kpi .d{font-size:11px;margin-top:4px}
+.up{color:var(--good)}.dn{color:var(--bad)}
+.kpi.alert{border-left:4px solid var(--bad)}.kpi.warn{border-left:4px solid var(--warn)}
+.row{display:grid;gap:16px}
+.r1{grid-template-columns:1.35fr 1fr}.r2{grid-template-columns:1.35fr 1fr}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:16px 18px}
+.card h2{font-size:13px;text-transform:uppercase;letter-spacing:.8px;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.card h2 .n{background:var(--ink);color:#fff;border-radius:10px;padding:2px 8px;font-size:11px}
+.card h2 .n.r{background:var(--red)}
+.card h2 .hint{margin-left:auto;color:var(--mut);font-weight:normal;text-transform:none;letter-spacing:0;font-size:11px}
+table{width:100%;border-collapse:collapse}
+th{text-align:left;color:var(--mut);font-size:11px;font-weight:normal;text-transform:uppercase;letter-spacing:.5px;padding:6px 8px;border-bottom:1px solid var(--line)}
+td{padding:9px 8px;border-bottom:1px solid #F0F1F3;vertical-align:middle}
+tr:last-child td{border-bottom:none}
+.score{display:inline-block;min-width:44px;text-align:center;padding:3px 8px;border-radius:12px;font-weight:bold;font-size:12px;color:#fff}
+.g{background:var(--good)}.a{background:var(--warn)}.b{background:var(--bad)}
+.bar{height:6px;background:#EEF0F2;border-radius:3px;overflow:hidden;width:90px;display:inline-block;vertical-align:middle}
+.bar i{display:block;height:100%}
+.who{font-weight:bold}.mut{color:var(--mut);font-size:12px}
+.tag{display:inline-block;font-size:11px;padding:2px 7px;border-radius:4px;background:#F1F2F4;color:#374151}
+.tag.r{background:#FDECEC;color:#B42318}.tag.y{background:#FEF3C7;color:#92400E}.tag.gr{background:#E7F6EE;color:#166534}
+.spark{display:inline-block;vertical-align:middle}
+/* funnel */
+.fun{display:grid;gap:9px}
+.fs{display:grid;grid-template-columns:130px 1fr 54px 90px;align-items:center;gap:10px}
+.fs .t{font-weight:bold;font-size:12px}
+.fs .track{height:22px;background:#F1F2F4;border-radius:4px;position:relative}
+.fs .track i{position:absolute;left:0;top:0;bottom:0;background:var(--ink);border-radius:4px}
+.fs .c{text-align:right;font-weight:bold}
+.fs .m{font-size:11px}
+/* mistakes */
+.mk{border:1px solid var(--line);border-left:4px solid var(--bad);border-radius:6px;padding:10px 12px;margin-bottom:10px}
+.mk.y{border-left-color:var(--warn)}
+.mk .h{display:flex;gap:8px;align-items:center;margin-bottom:6px}
+.mk .h .t{margin-left:auto;color:var(--mut);font-size:11px}
+.q{font-size:12px;padding:6px 9px;border-radius:4px;margin-top:4px;line-height:1.4}
+.q.sent{background:#FDF2F2}.q.fix{background:#EEF7F1}
+.q b{font-size:10px;text-transform:uppercase;letter-spacing:.5px;display:block;color:var(--mut);margin-bottom:2px}
+.lnk{color:var(--red);font-size:11px;font-weight:bold}
+.legend{display:flex;gap:14px;font-size:11px;color:var(--mut);margin-top:10px}
+.legend span:before{content:"";display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:5px;vertical-align:-1px;background:var(--c)}
+.foot{color:var(--mut);font-size:11px;text-align:center;padding:4px 0 18px}
+</style></head><body>
+
+<div class="top">
+  <h1>SETTER <span>TRACKER</span></h1>
+  <div class="sub">Push the Goal · Instagram DMs · audited daily 6:00am</div>
+  <span class="sample">MOCKUP - SAMPLE DATA</span>
+  <div class="right">
+    <span class="pill on">Yesterday</span><span class="pill">7 days</span><span class="pill">30 days</span>
+    <span class="pill">All setters ▾</span>
+  </div>
+</div>
+
+<div class="wrap">
+
+<div class="kpis">
+  <div class="kpi"><div class="l">Conversations audited</div><div class="v">86</div><div class="d mut">across 3 setters</div></div>
+  <div class="kpi"><div class="l">Avg flow score</div><div class="v">78%</div><div class="d up">▲ 4 pts vs last week</div></div>
+  <div class="kpi alert"><div class="l">Mistakes flagged</div><div class="v">14</div><div class="d dn">5 are high impact</div></div>
+  <div class="kpi warn"><div class="l">Follow-ups due today</div><div class="v">19</div><div class="d dn">7 overdue 48h+</div></div>
+  <div class="kpi alert"><div class="l">Left on read by us</div><div class="v">6</div><div class="d dn">lead replied, no answer</div></div>
+  <div class="kpi"><div class="l">Calls booked</div><div class="v">5</div><div class="d up">5.8% of convos · ▲ 1</div></div>
+</div>
+
+<div class="row r1">
+  <div class="card">
+    <h2>Setter scorecard <span class="hint">score = how closely each DM followed the setting flow</span></h2>
+    <table>
+      <tr><th>Setter</th><th>Convos</th><th>Flow score</th><th>7-day trend</th><th>Mistakes</th><th>Follow-ups due</th><th>Booked</th><th>Most common slip</th></tr>
+      <tr><td class="who">Jordan</td><td>34</td><td><span class="score g">88%</span></td>
+        <td><svg class="spark" width="80" height="22"><polyline fill="none" stroke="#1F9D55" stroke-width="2" points="0,16 13,14 26,15 40,10 53,9 66,7 80,5"/></svg></td>
+        <td>3</td><td>4</td><td><b>3</b></td><td><span class="tag">Pitched before asking budget</span></td></tr>
+      <tr><td class="who">Mia</td><td>29</td><td><span class="score a">74%</span></td>
+        <td><svg class="spark" width="80" height="22"><polyline fill="none" stroke="#D98B0B" stroke-width="2" points="0,9 13,12 26,10 40,13 53,11 66,12 80,11"/></svg></td>
+        <td>5</td><td>9</td><td><b>2</b></td><td><span class="tag y">Skipped grad year + position</span></td></tr>
+      <tr><td class="who">Chris</td><td>23</td><td><span class="score b">61%</span></td>
+        <td><svg class="spark" width="80" height="22"><polyline fill="none" stroke="#E23B34" stroke-width="2" points="0,6 13,8 26,9 40,12 53,14 66,15 80,17"/></svg></td>
+        <td>6</td><td>6</td><td><b>0</b></td><td><span class="tag r">Not using the daily prompt</span></td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Where conversations drop <span class="hint">yesterday, all setters</span></h2>
+    <div class="fun">
+      <div class="fs"><div class="t">1 · Opener</div><div class="track"><i style="width:100%"></i></div><div class="c">86</div><div class="m mut">1 slip</div></div>
+      <div class="fs"><div class="t">2 · Qualify</div><div class="track"><i style="width:79%"></i></div><div class="c">68</div><div class="m"><span class="tag y">4 slips</span></div></div>
+      <div class="fs"><div class="t">3 · Goal + gap</div><div class="track"><i style="width:52%"></i></div><div class="c">45</div><div class="m"><span class="tag r">6 slips</span></div></div>
+      <div class="fs"><div class="t">4 · Parent in</div><div class="track"><i style="width:30%"></i></div><div class="c">26</div><div class="m mut">2 slips</div></div>
+      <div class="fs"><div class="t">5 · Call invite</div><div class="track"><i style="width:15%"></i></div><div class="c">13</div><div class="m mut">1 slip</div></div>
+      <div class="fs"><div class="t">6 · Booked</div><div class="track"><i style="width:6%;background:#E23B34"></i></div><div class="c">5</div><div class="m mut">-</div></div>
+    </div>
+    <div class="legend">Stages come from the setting flow in the training calls. Biggest leak: <b style="color:#1C1F24">Goal + gap</b></div>
+  </div>
+</div>
+
+<div class="row r2">
+  <div class="card">
+    <h2>Mistakes to review <span class="n r">14</span><span class="hint">each one shows what was sent and what the flow calls for</span></h2>
+
+    <div class="mk">
+      <div class="h"><span class="tag r">High</span><b>Chris</b><span class="mut">with Marcus · 2027 CM · Stage 3</span><span class="t">Yesterday 4:12pm · <span class="lnk">Open DM ›</span></span></div>
+      <div class="q sent"><b>Sent</b>"We have a program that can help with that, want me to send the link?"</div>
+      <div class="q fix"><b>Flow calls for</b>Ask what schools he wants and what's stopping him before any mention of the program. Never send a link in place of a call invite.</div>
+    </div>
+
+    <div class="mk y">
+      <div class="h"><span class="tag y">Medium</span><b>Mia</b><span class="mut">with Ava (parent) · Stage 2</span><span class="t">Yesterday 11:40am · <span class="lnk">Open DM ›</span></span></div>
+      <div class="q sent"><b>Sent</b>Jumped to "what are your goals for college soccer?"</div>
+      <div class="q fix"><b>Flow calls for</b>Grad year, position and current club level first. The call goes nowhere without them.</div>
+    </div>
+
+    <div class="mk y">
+      <div class="h"><span class="tag y">Medium</span><b>Jordan</b><span class="mut">with Diego · 2026 W · Stage 5</span><span class="t">Yesterday 9:05pm · <span class="lnk">Open DM ›</span></span></div>
+      <div class="q sent"><b>Sent</b>Booking link with no time offered.</div>
+      <div class="q fix"><b>Flow calls for</b>Offer two specific times, confirm the parent will be on the call, then send the link.</div>
+    </div>
+    <div class="mut" style="text-align:center;padding-top:2px">+ 11 more · filter by setter, stage or impact</div>
+  </div>
+
+  <div class="card">
+    <h2>Follow-up queue <span class="n">19</span><span class="hint">sorted by how long the lead has waited</span></h2>
+    <table>
+      <tr><th>Lead</th><th>Setter</th><th>Waiting</th><th>Status</th><th>Next step</th></tr>
+      <tr><td><b>Sofia</b><div class="mut">2027 · Stage 4</div></td><td>Mia</td><td><b class="dn">3d</b></td><td><span class="tag r">Left on read by us</span></td><td class="mut">Answer her question on ID camps</td></tr>
+      <tr><td><b>Ethan's dad</b><div class="mut">2026 · Stage 5</div></td><td>Chris</td><td><b class="dn">2d</b></td><td><span class="tag r">Left on read by us</span></td><td class="mut">Send the two call times</td></tr>
+      <tr><td><b>Liam</b><div class="mut">2028 · Stage 3</div></td><td>Mia</td><td><b class="dn">2d</b></td><td><span class="tag y">Went quiet</span></td><td class="mut">Follow-up 1 from the flow</td></tr>
+      <tr><td><b>Kayla</b><div class="mut">2027 · Stage 2</div></td><td>Jordan</td><td><b>26h</b></td><td><span class="tag y">Went quiet</span></td><td class="mut">Follow-up 1 from the flow</td></tr>
+      <tr><td><b>Noah</b><div class="mut">2026 · Stage 5</div></td><td>Jordan</td><td><b>20h</b></td><td><span class="tag gr">Booked - no show</span></td><td class="mut">Rebook message</td></tr>
+      <tr><td><b>Isabella</b><div class="mut">2027 · Stage 3</div></td><td>Chris</td><td><b>18h</b></td><td><span class="tag y">Went quiet</span></td><td class="mut">Follow-up 1 from the flow</td></tr>
+    </table>
+    <div class="mut" style="text-align:center;padding-top:10px">+ 13 more</div>
+  </div>
+</div>
+
+<div class="card" style="display:flex;gap:28px;align-items:center">
+  <h2 style="margin:0">Daily prompt check</h2>
+  <div><b>Jordan</b> <span class="tag gr">Prompt in · 8:02am</span></div>
+  <div><b>Mia</b> <span class="tag gr">Prompt in · 8:31am</span></div>
+  <div><b>Chris</b> <span class="tag r">Not found - replies don't match the prompt</span></div>
+  <div class="mut" style="margin-left:auto">Checks each setter's replies against the daily ChatGPT prompt</div>
+</div>
+
+</div>
+<div class="foot">PUSH THE GOAL SOCCER · SETTER TRACKER · MOCKUP - NAMES AND NUMBERS ARE PLACEHOLDERS</div>
+</body></html>
