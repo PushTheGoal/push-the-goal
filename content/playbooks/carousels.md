@@ -4,6 +4,13 @@ Carousels go straight to the main page (no trials - Instagram does not allow car
 They do the job reels cannot: teach in depth, get saved, get shared, and convert followers into
 DMs.
 
+## Source rule (Izi, 2026-10-27)
+
+Carousels come only from carousels that have already been posted and done well - reposted, or
+reworded with the same idea and Izi's approved design. No new topics, and no new design until Izi
+signs off on one. The frameworks below describe what to look for in past winners, not a licence
+to write new ones.
+
 ## The two daily slots
 
 | Slot | Type | Goal | Length | CTA |

@@ -4,19 +4,23 @@ Post 5-7 trial reels a day to non-followers. Judge them on real numbers. Promote
 to the main page. Feed what won back into tomorrow's batch. The point is not 6 reels - it is that
 the main page only ever gets reels that already proved themselves on strangers.
 
-## The daily batch (default 6)
+## Source rule (Izi, 2026-10-27) - overrides everything below
 
-Every batch mixes **exploit** (variations of what is working) with **explore** (new ideas), so the
-system keeps learning instead of repeating one hit until it dies.
+Nothing is invented. Every trial reel comes from **Izi's library** and from **content that has
+already been posted and done well**: the same video reposted, or reworded (new hook text, new
+caption, re-cut) around an idea that already proved itself. No new concepts, no new topics, no
+formats Izi has not approved. The "new concepts" and "wildcard" ideas from the first draft are
+dropped.
+
+## The daily batch (default 6) - provisional until Izi's instructions are in
 
 | Slot in batch | Type | What it is |
 |---|---|---|
-| 1-3 | **Hook test** | One concept, one body, three different hooks (variants A/B/C). Only the first 1-3 seconds and the on-screen hook text change. This isolates the hook - the single biggest lever |
-| 4 | **Remix** | A recent winner (last 14 days) rebuilt: new B-roll or new angle, same core idea |
-| 5-6 | **New concepts** | Two fresh ideas from under-used pillars or a hook type with little data |
-| 7 | (7-trial days) **Wildcard** | A format we have not tried: different length, a talking-head cut, a myth vs truth |
+| 1-3 | **Hook test** | One proven post, three reworded hooks (variants A/B/C). Only the first 1-3 seconds and the on-screen hook text change |
+| 4-5 | **Reword** | A proven post with a new hook and caption, re-cut from the same or library footage |
+| 6-7 | **Repost** | A proven post reposted as it was, once it is past the repost gap Izi sets |
 
-On 5-trial days, drop the wildcard and one new concept.
+The exact mix is Izi's call once setup is done.
 
 Rules for the batch:
 - Never two reels from the same concept back to back in the posting slots.
@@ -106,7 +110,7 @@ Every row in the ledger carries `pillar`, `hook_type`, `format`, `length_s`, `au
 
 1. Rank hook types, pillars, formats, lengths and posting slots by average score over the last
    14 days and the last 60 days.
-2. Move next week's batch mix toward the top performers, but never below 30% explore.
+2. Move next week's batch mix toward the top performers (all still from the proven library).
 3. Promote hooks that won 2+ times to the **Proven** list in `hooks.md`. Retire hooks that lost
    5 times in a row.
 4. Write a B-roll shot list for Izi from the asset gaps (what we keep running out of).

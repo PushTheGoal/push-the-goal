@@ -19,6 +19,17 @@ scripts and carousel copy works; rendering and posting wait for the laptop.
 - Until the posting route exists: build everything, save it to the day's work folder, log rows as
   `built`, and report where the files are. Never post through the browser as a workaround.
 
+## Build lock - read before anything else
+
+Izi (2026-10-27): *"I don't want you making any carousels or any type of content at all until
+I've given you all the information and very clear instruction on what you're doing."*
+
+- **Make nothing** - no reels, carousels, captions, hooks or samples - until Izi says setup is
+  done and has given the instructions. `content/SETUP.md` tracks it. Asked for content before
+  then: say it is locked and what is still missing.
+- **Source rule, permanent:** content comes only from Izi's library and from posts that already
+  did well - reposted, or reworded (new hook, new caption, re-cut). Never a new concept or topic.
+
 ## Which brand, which platform
 
 Every run is for one brand. Default `push-the-goal`. Load `content/brands/<brand>/brand.md` and

@@ -1,100 +1,105 @@
-# Setup - what has to be in place before the engine runs daily
+# Setup - what Claude needs before it makes or posts anything
 
-Started 2026-10-27. Tick items off here as they land.
+Rewritten 2026-10-27 after Izi's direction: **nothing gets made until every step below is done
+and Izi has given clear instructions.** Content comes only from Izi's library and from posts that
+already did well - reposted, or reworded. Tick each step off as it lands.
 
-## 1. Posting route - GHL API access  (Izi or Ifty)
-
-- [ ] A GHL **Private Integration** token for the Push the Goal sub-account, with Social Planner
-      (read + write) and Media (read + write) access, plus the **location id**.
-- [ ] Saved on this laptop at `content/.ghl-token` and `content/.ghl-location` (both gitignored -
-      never commit them, never paste them into a doc or chat). Claude never types a token in; Izi
-      or Ifty saves the file.
-- [ ] The Instagram account id from GHL (Claude can read it with the token: list accounts).
-
-Until this exists, the engine builds everything and parks it for manual upload.
-
-## 2. Trial reels and promoting the winner  (Izi decides)
-
-GHL's post API has `type: reel` but **no trial reel option**. Meta's own API can publish trials but
-**cannot promote one** - that is an in-app tap or Instagram's own auto mode. So "post the winner"
-needs one of:
-
-| Option | How trials get posted | How the winner gets promoted | Trade-off |
-|---|---|---|---|
-| **A. Meta API for trials + one tap** (recommended) | Direct Meta app (Ifty sets up, free) | Claude names the winner each morning; Izi taps **Share to all** on it in the Instagram app (10 seconds) | Fully tested winner every day, one tap from Izi |
-| B. Meta API + Instagram auto | Same | `SS_PERFORMANCE` - Instagram promotes whatever performs, on its own | Zero taps, but Instagram picks: some days none, some days several |
-| C. GHL only, repost the winner | GHL can't post trials, so trials go up as normal reels... | - | Defeats the point of trials. Not recommended |
-
-- [ ] Izi's pick: ______
-- [ ] If A or B: Ifty creates a Meta developer app (Instagram API with Instagram Login), connects
-      @pushthegoalsoccer, and saves the long-lived token to `content/.meta-token` (gitignored).
-
-## 3. Reel assembly on this laptop
-
-- [ ] **ffmpeg** installed (`winget install Gyan.FFmpeg`). This laptop has none today. It cuts the
-      B-roll, frames it 9:16, burns in hook text and captions, and normalises audio.
-- [ ] Reel builder script written and tested against real B-roll (comes once ffmpeg is in).
-- [ ] Captions for voiceover reels need a transcription step - options: Izi's clips go through
-      Fathom-style transcription, or a local Whisper install. Decide when the first voice clips arrive.
-
-## 4. Asset library  (Izi supplies)
-
-Folders, outside git:
-
-```
-C:\Users\15306\Documents\Claude\Projects\Content\
-  push-the-goal\
-    library\
-      broll-training\      drills, touches, finishing
-      broll-games\         match footage
-      broll-izi\           Izi on camera, coaching, talking
-      broll-recruiting\    campuses, ID camps, showcases, laptops, emails
-      broll-lifestyle\     gym, early mornings, faith, family
-      voice\               Izi voice clips for voiceovers
-      proof\               consent-cleared student wins ONLY
-      music\               royalty-free tracks only
-      assets.csv           one row per file: file, folder, what it shows, people on camera, consent (Y/N), used count
-    work\YYYY-MM-DD\       each day's builds
-    posted\                final files that went live
-```
-
-- [ ] Izi drops footage into `library\` (or shares a Drive folder and it gets mirrored here).
-- [ ] Every clip with a student in it has parent consent on file before it is marked `Y`.
-- [ ] Shot list for the first two weeks - Claude writes it once the first batch shows the gaps.
-
-## 5. Run it daily
-
-- [ ] A scheduled task on this laptop, every morning ~05:30: judge yesterday, promote, build
-      today, schedule, report. The laptop has to be on - a cloud routine can't reach the B-roll or
-      run ffmpeg.
-- [ ] Sunday learning review on the same schedule.
-
-## 6. Approval mode for launch week
-
-`CLAUDE.md` says nothing is ever sent without Izi. Izi asked for automatic posting (2026-10-27),
-which is a new exception like the sales follow-ups. Recommended launch:
-
-- [ ] **Week 1:** everything goes to GHL as `in_review` (or drafts), Izi approves in GHL. This
-      catches tone and quality problems while the system is new.
-- [ ] **Week 2 on:** auto-schedule. Izi sees the daily report and can pull anything.
+Who does it: **Izi**, **Ifty** (GHL), or **Claude**. Claude never types a password, token or key -
+Izi or Ifty saves those into the files named below, which are gitignored.
 
 ---
 
-## Building for the long game - do these now so other platforms plug in later
+## Part 1 - Access (so Claude can see what has worked and post)
 
-1. **One GHL sub-account per brand** - Push the Goal's social accounts stay in the Push the Goal
-   sub-account; Izi's personal Instagram, LinkedIn and YouTube connect to a separate one (or the
-   same one with clearly separate accounts, if GHL billing makes that easier). The token per brand
-   goes in `content/brands/<brand>/` as a gitignored file.
-2. **Izi's personal Instagram must be a Professional account** (Creator is fine) linked to a
-   Facebook Page, or no API - GHL included - can post to it. Switch it before that phase.
-3. **Record content once, cut it everywhere.** When Izi films, film 9:16 vertical at 4K if possible
-   with clean audio. One talking-head session feeds Push the Goal reels, personal reels, YouTube
-   Shorts and LinkedIn video.
-4. **Keep every piece in the one ledger** with brand + platform columns (already built). Never a
-   separate tracker per platform - that is how the dashboard stays one dashboard.
-5. **Repurposing is a first-class step:** a winning Push the Goal reel becomes a YouTube Short and
-   a TikTok the following week, logged with `source_id`. Turn on when those accounts are connected.
-6. **Attribution:** for the dashboard to show which content books calls, the RECRUIT DM and
-   keyword automations in GHL should tag the contact with the source (e.g. `src:ig-recruit`,
-   `src:ig-kw-FILM`). Ask Ifty to add the tag when he next touches the automations.
+**Step 1. GHL API key** - Ifty
+- [ ] In the Push the Goal GHL sub-account: Settings -> Private Integrations -> create one called
+      "Claude content". Scopes: Social Planner (read + write), Media Library (read + write).
+- [ ] Save the key on this laptop in `content/.ghl-token` and the location id in
+      `content/.ghl-location`.
+- [ ] Confirm @pushthegoalsoccer is connected in GHL Social Planner as an Instagram Business or
+      Creator account linked to the Facebook Page.
+- Claude then: tests read access only (lists connected accounts and past posts). Posts nothing.
+
+**Step 2. Instagram history and insights** - Ifty
+- [ ] Create a Meta developer app (Instagram API with Instagram Login), connect @pushthegoalsoccer,
+      generate a long-lived token. Save it in `content/.meta-token`.
+- Why: this is the only way to pull **every past post with its real numbers** (views, reach,
+      shares, saves, follows) and the original media. It is also the only route that can post
+      **trial reels** - GHL cannot.
+- Claude then: pulls the full post history into a "past performance" list. Read-only.
+
+**Step 3. Trial reel promotion** - Izi decides
+- [ ] A. Claude names the winner each morning, Izi taps **Share to all** in the app (recommended)
+- [ ] B. Instagram auto-promotes whatever performs (no tap, Instagram picks)
+
+## Part 2 - The library (the only source material)
+
+**Step 4. Past winners** - Izi approves
+- [ ] Claude builds the ranked list of past posts from Step 2 (reels and carousels separately).
+- [ ] Izi marks which ones are approved to reuse, and how: **repost as is**, **reword**, or
+      **never reuse**. Only approved posts enter the system.
+- [ ] Izi sets what "successful" means if not the ranking (e.g. top 20% by views, or hand-picked).
+
+**Step 5. Original files** - Izi
+- [ ] Original video files for the approved reels (best quality - the downloaded Instagram copy
+      is compressed). Where do they live now: phone, Drive, editor?
+- [ ] Carousel source files - were they made in Canva? If yes, Claude can open them through the
+      Canva connector and reword in the same design. If not, where?
+- [ ] Raw B-roll and any footage Izi wants available, dropped into
+      `C:\Users\15306\Documents\Claude\Projects\Content\push-the-goal\library\` (or a shared Drive
+      folder that gets mirrored there).
+- [ ] Students on camera: which clips have parent consent on file. No consent mark = not used.
+
+**Step 6. Live keyword automations** - Ifty
+- [ ] The list of comment / DM keywords that actually send something right now (RECRUIT, FILM,
+      EMAIL...). A caption never uses a keyword that is not live.
+
+## Part 3 - Izi's instructions (the rulebook Claude follows)
+
+**Step 7. Clear instructions** - Izi
+- [ ] Reword rules: what can change (hook text, caption, cut, music) and what never changes.
+- [ ] Repost gap: how long before the same post can go out again (e.g. 60 or 90 days).
+- [ ] Daily mix: how many trial reels (5-7) are reposts vs rewords vs hook tests.
+- [ ] Carousels: reposts only, or rewords allowed - and the approved design.
+- [ ] Captions and hashtags: reuse the original, or rewrite - and any lines to always include.
+- [ ] Posting times, if Izi has ones that work.
+- [ ] Anything that must never be posted again.
+- Claude writes these into `content/brands/push-the-goal/brand.md` and the playbooks, and Izi
+  reads it back before anything runs.
+
+## Part 4 - Tools on this laptop
+
+**Step 8. ffmpeg** - Izi says yes, Claude installs
+- [ ] `winget install Gyan.FFmpeg`. Needed to re-cut reels, swap hook text, and size video for
+      posting. Not needed for straight reposts.
+
+**Step 9. Daily schedule** - Claude
+- [ ] A scheduled task on this laptop each morning: pull numbers, judge yesterday's trials, flag
+      the winner, queue today's posts, report. Laptop must be on and awake.
+
+## Part 5 - Go live
+
+**Step 10. Dry run** - Claude builds, Izi checks
+- [ ] One full day built from approved library content and shown to Izi. Nothing posted.
+
+**Step 11. Launch week** - Izi approves in GHL
+- [ ] Everything goes into GHL as `in_review`. Izi approves each post.
+
+**Step 12. Automatic** - after Izi says so
+- [ ] Posts schedule on their own. Izi gets the daily report and can pull anything.
+
+**Step 13. Dashboard** - after posting starts
+- [ ] Built on the content ledger (`ledger/schema.md`): today's posts, trial results, the winner,
+      what each reused post did this time vs last time, and, once GHL tags contacts by source,
+      which posts led to RECRUIT DMs and booked calls.
+
+---
+
+## For later platforms (personal IG, LinkedIn, YouTube) - nothing to do yet
+
+- Izi's personal Instagram has to be switched to a Professional account linked to a Facebook Page
+  before anything can post to it.
+- Give each brand its own GHL sub-account (or clearly separate accounts) and its own key.
+- Ask Ifty to tag GHL contacts with their source (`src:ig-recruit`, `src:ig-kw-FILM`) - that is
+  what lets the dashboard tie content to calls on every platform.
+- Film new footage vertical with clean audio so one recording can serve every platform.

@@ -58,6 +58,9 @@ folders.
 
 ## Status
 
-Live: strategy, playbooks, ledger, carousel renderer (tested 2026-10-27).
+**Build lock (Izi, 2026-10-27): nothing is made or posted until `SETUP.md` is done and Izi has
+given clear instructions. Source material is only Izi's library and past posts that did well.**
+
+In place: structure, playbooks, ledger, carousel renderer (tested 2026-10-27).
 Waiting on: the posting route, the trial reel decision, ffmpeg for reel assembly, and the asset
 library. Full list in `SETUP.md`.
