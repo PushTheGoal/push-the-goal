@@ -1,4 +1,4 @@
-# Content System
+# Content Plan / Dashboard
 
 One engine that makes, tests, posts and learns from social content. Started 2026-10-27 for the
 Push the Goal Instagram. Built so Izi's personal Instagram, LinkedIn, YouTube, TikTok and anything
@@ -36,7 +36,7 @@ three, so one dashboard can show every brand on every platform and filter down.
 ## Folder map
 
 ```
-content/
+content-plan-dashboard/
   OBJECTIVES.md             THE GOAL - read first, wins over every other file
   README.md                 this file
   HANDOFF.md                where it stands and what is next - read first when picking up

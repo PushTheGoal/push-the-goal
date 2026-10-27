@@ -1,7 +1,7 @@
 # Objectives - what this system is for
 
 Set by Izi on 2026-10-27. This is the source of truth for the goal. Every other file in
-`content/` serves it. If a file disagrees with this one, this one wins. Update it only when Izi
+`content-plan-dashboard/` serves it. If a file disagrees with this one, this one wins. Update it only when Izi
 changes the goal.
 
 ## Two accounts, from the start

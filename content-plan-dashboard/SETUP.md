@@ -12,7 +12,7 @@ Izi or Ifty saves those into the files named below, which are gitignored.
 ## Done so far
 
 - **2026-10-27 - GHL key live.** Private Integration "Claude Content System" in the Push the Goal
-  sub-account (location `9dGHqncMtM4QA0Ir5fGr`), saved by Izi in `content/.ghl-token`. Scopes:
+  sub-account (location `9dGHqncMtM4QA0Ir5fGr`), saved by Izi in `content-plan-dashboard/.ghl-token`. Scopes:
   Social Planner accounts/posts/stats/tags/comments read, posts write, Media read + write.
   Read test passed. Accounts connected in GHL Social Planner on that date:
   - Instagram **izimurray_** (Izi's personal - **@pushthegoalsoccer is NOT connected**)
@@ -73,7 +73,7 @@ Ticked = done. Who does each step is in brackets.
       trial reel numbers, and promote or auto-promote the winner? Write the answer into
       `platforms/instagram.md`.
 - [ ] Fallback only if the posting tool can't: a Meta developer app per account [Ifty], token
-      saved in `content/.meta-token` on Izi's laptop.
+      saved in `content-plan-dashboard/.meta-token` on Izi's laptop.
 
 ## Part 2 - The winner automation
 

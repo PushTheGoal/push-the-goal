@@ -1,6 +1,6 @@
 # <Platform>
 
-Copy to `content/platforms/<platform>.md`. Date every fact and mark anything unconfirmed (verify).
+Copy to `content-plan-dashboard/platforms/<platform>.md`. Date every fact and mark anything unconfirmed (verify).
 
 ## Formats and specs (size, file type, length or count, API limits that differ from the app)
 ## Limits (posts per day, caption length, hashtags, account type needed)

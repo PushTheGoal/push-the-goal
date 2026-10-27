@@ -1,6 +1,6 @@
 /* Push the Goal carousel slides - 1080 x 1350 (Instagram 4:5 portrait).
    Marketing palette: black and yellow only. Anton for headlines, Inter for body.
-   A brand gets its own copy of this file: content/brands/<brand>/carousel.css */
+   A brand gets its own copy of this file: content-plan-dashboard/brands/<brand>/carousel.css */
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@500;700;800&display=block");
 :root { --bg:#0B0B0B; --ink:#FFFFFF; --mute:#BDBDBD; --acc:#FFC72C; --acc2:#F2BC1F; --card:#1A1A1A; }
 * { margin:0; padding:0; box-sizing:border-box; }

@@ -1,6 +1,6 @@
 # Brand - <name>
 
-Copy this folder to `content/brands/<brand-slug>/` and fill every field. Nothing runs for a brand
+Copy this folder to `content-plan-dashboard/brands/<brand-slug>/` and fill every field. Nothing runs for a brand
 until this file is complete. First planned: `izi-personal` (keynote speaker first, podcast host
 second, college soccer recruitment third - aqua `#62C6C2` on near-black, Playfair Display +
 Montserrat, see `CLAUDE.md` and `linkedin/`).

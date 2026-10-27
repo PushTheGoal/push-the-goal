@@ -5,25 +5,25 @@ description: Izi's social content engine for two Instagram accounts, @pushthegoa
 
 # Content System
 
-Everything this skill needs is in `content/` in the push-the-goal repo. Read `content/README.md`
+Everything this skill needs is in `content-plan-dashboard/` in the push-the-goal repo. Read `content-plan-dashboard/README.md`
 first, then the files named below for the step you are on. This skill needs the laptop: Chrome
 renders carousels, ffmpeg builds reels, and the B-roll library is local. From a phone, writing
 scripts and carousel copy works; rendering and posting wait for the laptop.
 
 ## Status (end of 2026-10-27) - start every session here
 
-**The goal is in `content/OBJECTIVES.md` - read it before anything else; it wins over every
+**The goal is in `content-plan-dashboard/OBJECTIVES.md` - read it before anything else; it wins over every
 other file.** Two accounts (Push the Goal and Izi Murray), Drive as the source, trial reels with
 an automated winner, carousels, podcast clip scheduling for Ifty, and a dashboard.
 
-**Picking this up? Then read `content/HANDOFF.md`.** It has where things stand, the rules, and
-the next steps in order. `content/SETUP.md` is the detailed log.
+**Picking this up? Then read `content-plan-dashboard/HANDOFF.md`.** It has where things stand, the rules, and
+the next steps in order. `content-plan-dashboard/SETUP.md` is the detailed log.
 
 - **Phase: backend setup.** Izi: *"right now its back end set up not messing with any current
   flows."* Work one step at a time, perfectly, and confirm each step before the next.
 - **GHL - done:** key "Claude Content System" (on Izi's laptop only), read-only access to social,
   contacts, calendars, opportunities, workflows, workflow logs, tags. All 15 Instagram comment
-  automations mapped in `content/brands/push-the-goal/comment-automations.md`.
+  automations mapped in `content-plan-dashboard/brands/push-the-goal/comment-automations.md`.
 - **GHL - parked:** draft workflow "TEST - PTG RECRUIT - All posts (Claude draft)". Not live; Izi
   said leave it for now.
 - **Next:** Metricool (posting, trial reels, Instagram stats) - Izi signs up, connects
@@ -38,15 +38,15 @@ Izi (2026-10-27): *"I don't want you making any carousels or any type of content
 I've given you all the information and very clear instruction on what you're doing."*
 
 - **Make nothing** - no reels, carousels, captions, hooks or samples - until Izi says setup is
-  done and has given the instructions. `content/SETUP.md` tracks it. Asked for content before
+  done and has given the instructions. `content-plan-dashboard/SETUP.md` tracks it. Asked for content before
   then: say it is locked and what is still missing.
 - **Source rule, permanent:** content comes only from Izi's library and from posts that already
   did well - reposted, or reworded (new hook, new caption, re-cut). Never a new concept or topic.
 
 ## Which brand, which platform
 
-Every run is for one brand. Default `push-the-goal`. Load `content/brands/<brand>/brand.md` and
-`content/platforms/<platform>.md`. If the brand or platform file does not exist, stop and say so -
+Every run is for one brand. Default `push-the-goal`. Load `content-plan-dashboard/brands/<brand>/brand.md` and
+`content-plan-dashboard/platforms/<platform>.md`. If the brand or platform file does not exist, stop and say so -
 never borrow another brand's voice or palette. Push the Goal voice and palettes never apply to
 Izi's personal brand, The Long Game or The Warrior Method.
 
@@ -54,7 +54,7 @@ Izi's personal brand, The Long Game or The Warrior Method.
 
 1. **Metrics.** For every ledger row that is `live` / `promoted` and crossed 24h, 72h or 7d since
    `published_at`, pull the numbers from the route and fill that snapshot's columns.
-2. **Judge.** Score yesterday's trial reels (`content/playbooks/trial-reels.md` - Judging). Pick
+2. **Judge.** Score yesterday's trial reels (`content-plan-dashboard/playbooks/trial-reels.md` - Judging). Pick
    the winner by the winner rule. Set `score` on all, `winner = Y` on one.
 3. **Promote.** By the route Izi chose in `SETUP.md` item 2. If it needs Izi's tap, the report's
    first line names the reel with its link.
@@ -63,7 +63,7 @@ Izi's personal brand, The Long Game or The Warrior Method.
    (`asset_ids`, `hook_text` in the ledger), prefer Proven hooks in `hooks.md` for exploit slots.
    Write every row as `planned` with script, hook, pillar, hook_type, cta before building.
 5. **Build.** Reels from the library per the build spec. Carousels as slide fragments, rendered
-   with `bash content/tools/render-carousel.sh <folder>`. Work folder:
+   with `bash content-plan-dashboard/tools/render-carousel.sh <folder>`. Work folder:
    `C:\Users\15306\Documents\Claude\Projects\Content\<brand>\work\YYYY-MM-DD\`.
 6. **QC.** Run both QC gates. **Look at every carousel PNG and the first frame of every reel.**
    Failures -> `qc_failed` with the reason, rebuild or drop.
@@ -80,7 +80,7 @@ framework). Update `hooks.md` Proven / Retired. Move the batch mix. Write the sh
 
 ## Adding a brand or platform
 
-Copy `content/brands/_template/` or `content/platforms/_template.md`, fill every field with Izi,
+Copy `content-plan-dashboard/brands/_template/` or `content-plan-dashboard/platforms/_template.md`, fill every field with Izi,
 add the brand id to `ledger/schema.md`. Do not create a new skill - this one runs every brand.
 
 ## Rules that never bend

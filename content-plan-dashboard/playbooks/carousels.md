@@ -47,11 +47,11 @@ Pick one per carousel and log it as `hook_type` + `format` in the ledger.
 ## Build
 
 1. Write the slides as fragments `01.html` ... `NN.html` in the day's work folder, using the
-   classes in `content/tools/carousel.css`:
+   classes in `content-plan-dashboard/tools/carousel.css`:
    `.wrap`, `.kicker`, `.h` (`.md` / `.sm`), `.h em` (yellow word), `.bar`, `.body` (`b` = yellow
    bold, `.mute`), `.num`, `.list` with `<span>` numbers, `.card` (`.quote`), `.vs`.
    First line `<!-- class: yellow -->` gives a yellow slide (the CTA).
-2. Render: `bash content/tools/render-carousel.sh <folder>` -> `<folder>/png/NN.png`.
+2. Render: `bash content-plan-dashboard/tools/render-carousel.sh <folder>` -> `<folder>/png/NN.png`.
 3. **Look at every PNG** before it is queued. Text overflow, a widow word on its own line, a
    heading crashing into the counter - all fail QC.
 4. Caption: hook line with the keyword, 3-6 short lines that add something the slides do not, CTA,

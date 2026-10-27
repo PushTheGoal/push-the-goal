@@ -87,7 +87,7 @@ Full detail with before/after examples: `skills/push-the-goal-call-notes/referen
   to post automatically (trial reels, the daily winner, carousels). Content goes out through GHL
   or the Meta API, never through a browser. Launch week goes to GHL as `in_review` for Izi to
   approve; after that it schedules on its own. Messages to people - athletes, parents, coaches -
-  are untouched by this: still drafts. See `content/`.
+  are untouched by this: still drafts. See `content-plan-dashboard/`.
 - **Never edit what already exists in GHL (Izi, 2026-10-27).** Existing workflows,
   automations, tags, messages and settings are read-only to Claude - no edits, no unpublishing,
   no deleting, no clean-up. Claude only creates new, clearly named things (prefix `TEST -` or
@@ -149,7 +149,7 @@ Standard lead magnet CTA line - name the offers, no prices:
 | New Students Drive folder (2026) | id `1ScUtPgyq45gmw8xEBcqUgoM_kR6oJZ-k` |
 | Live New Students tracker | Google Sheet id `1B5SVe12E5qaficHd5atJyhzsgzxv8sneMvH3VoJh4Q4` |
 | Lead Magnet Vault Drive folder | id `1Pdncp4enoJIcO1My_3Zs-C9gaM4XoEn_` |
-| Content system (strategy, ledger, tools) | `content/` in this repo - start at `content/README.md` |
+| Content system (strategy, ledger, tools) | `content-plan-dashboard/` in this repo - start at `content-plan-dashboard/README.md` |
 | Content media (B-roll, renders) | `C:\Users\15306\Documents\Claude\Projects\Content\<brand>\` (this laptop only, never git) |
 | Local business folders | `C:\Users\15306\Documents\Claude\Projects\` (this laptop only - see OPEN-QUESTIONS) |
 
@@ -269,5 +269,5 @@ alike, on every device. The `skills/` folder in this repo holds reference copies
 | `new-student-tracker` | Logs signees into the year's New Students spreadsheet |
 | `weekly-lead-mag-vault` | Weekly lead magnet + IG drop, filed into the Drive vault |
 | `sales-follow-up` | FOLLOW-UP family -> 5 messages written from their own Fathom call, posted to GHL, which sends them. Writing rules locked by Izi 2026-10-23. Repo only - not live until Ifty sends the webhook URL |
-| `content-system` | Social content engine for @pushthegoalsoccer and @izimurray_: 5-7 trial reels a day per account with the winner automated, carousels from Izi's Drive photos and videos, podcast clip repost schedule handed to Ifty (no clip twice within 30 days), dashboard of what wins. Goal: `content/OBJECTIVES.md`. Brands and platforms are added as folders in `content/`, never as new skills. Repo only. **Locked** - makes nothing until `content/SETUP.md` is done and Izi gives instructions; source is only his library and past winners, reposted or reworded |
+| `content-system` | Social content engine for @pushthegoalsoccer and @izimurray_: 5-7 trial reels a day per account with the winner automated, carousels from Izi's Drive photos and videos, podcast clip repost schedule handed to Ifty (no clip twice within 30 days), dashboard of what wins. Goal: `content-plan-dashboard/OBJECTIVES.md`. Brands and platforms are added as folders in `content-plan-dashboard/`, never as new skills. Repo only. **Locked** - makes nothing until `content-plan-dashboard/SETUP.md` is done and Izi gives instructions; source is only his library and past winners, reposted or reworded |
 | `therabox-fcmo` | The Warrior Method, was TheraBox (Hannah Beyler) - log her sales calls, weekly numbers, launch status, funnel copy. Live in the account since 2026-10-23. Also runs as the `therabox-fcmo` agent |

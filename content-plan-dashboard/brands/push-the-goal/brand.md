@@ -6,7 +6,7 @@
 | Instagram | `@pushthegoalsoccer` |
 | Speaks as | Coach Izi |
 | Palette | Black and yellow only. Yellow `#FFC72C` (family `F2BC1F` / `FFD600`). No other accents |
-| Type | Anton (headlines), Inter (body) - `content/tools/carousel.css` |
+| Type | Anton (headlines), Inter (body) - `content-plan-dashboard/tools/carousel.css` |
 | Sign-off line | `Become undeniable.` |
 
 ## Who it is for

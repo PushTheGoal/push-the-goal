@@ -27,7 +27,7 @@ desktop.ini
 sales/.ghl-webhook-url
 
 # Content system - credentials never leave this laptop
-content/.ghl-token
-content/.ghl-location
-content/.meta-token
-content/brands/*/.ghl-token
+content-plan-dashboard/.ghl-token
+content-plan-dashboard/.ghl-location
+content-plan-dashboard/.meta-token
+content-plan-dashboard/brands/*/.ghl-token

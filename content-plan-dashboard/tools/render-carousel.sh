@@ -4,7 +4,7 @@
 # The first line of a fragment may be a class comment, e.g. <!-- class: yellow -->, to set the body class.
 # The renderer wraps each fragment with the brand CSS, the brand line, the slide counter and the footer,
 # and puts a "Swipe" cue on slide 1.
-# Usage: bash content/tools/render-carousel.sh <carousel folder> [brand css]
+# Usage: bash content-plan-dashboard/tools/render-carousel.sh <carousel folder> [brand css]
 #        PNGs land in <carousel folder>/png/
 set -euo pipefail
 

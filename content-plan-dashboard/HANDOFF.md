@@ -1,4 +1,4 @@
-# Content System - handoff (end of 2026-10-27)
+# Content Plan / Dashboard - handoff (end of 2026-10-27)
 
 For Ifty, Izi, or the next Claude session. Read **`OBJECTIVES.md`** first (the goal, in Izi's
 words), then this file (where it stands), then `SETUP.md` (the detail).
@@ -34,7 +34,7 @@ until Izi has given full instructions.
 2. **Make no content** - reels, carousels, captions or hooks - until Izi says setup is done.
 3. **Source rule:** only Izi's library and posts that already did well, reposted or reworded.
 4. **Keys and tokens never go in git, docs or chat.** They live in gitignored files on Izi's
-   laptop: `content/.ghl-token`, `content/.ghl-location`, later `content/.meta-token`.
+   laptop: `content-plan-dashboard/.ghl-token`, `content-plan-dashboard/.ghl-location`, later `content-plan-dashboard/.meta-token`.
 5. **No prices** in anything public. No invented stats. No minors on camera without parent
    consent on file.
 
@@ -42,7 +42,7 @@ until Izi has given full instructions.
 
 | Step | Result |
 |---|---|
-| System design | `content/` folder: README, brand file, Instagram platform file, playbooks (trial reels, carousels, hooks), ledger schema + CSV, carousel renderer (tested) |
+| System design | `content-plan-dashboard/` folder: README, brand file, Instagram platform file, playbooks (trial reels, carousels, hooks), ledger schema + CSV, carousel renderer (tested) |
 | GHL access key | Private Integration **"Claude Content System"** in the Push the Goal sub-account. Can read social posts, contacts, calendars, opportunities, workflows, workflow logs and tags. Can also create Social Planner posts and upload media - the only write access it has |
 | GHL test | Read access confirmed: 42,176 contacts, 1,821 opportunities, 15 calendars, 66 workflows, 35 tags |
 | Comment automations | All 15 mapped in `brands/push-the-goal/comment-automations.md` |
