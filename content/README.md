@@ -34,6 +34,7 @@ three, so one dashboard can show every brand on every platform and filter down.
 ```
 content/
   README.md                 this file
+  HANDOFF.md                where it stands and what is next - read first when picking up
   SETUP.md                  what has to be connected before it runs, and the multi-platform prep
   brands/
     push-the-goal/brand.md  audience, voice, pillars, CTAs, guardrails
@@ -61,6 +62,7 @@ folders.
 **Build lock (Izi, 2026-10-27): nothing is made or posted until `SETUP.md` is done and Izi has
 given clear instructions. Source material is only Izi's library and past posts that did well.**
 
-In place: structure, playbooks, ledger, carousel renderer (tested 2026-10-27).
+In place: structure, playbooks, ledger, carousel renderer (tested 2026-10-27), GHL read access
+and the comment automation map. Current state and next steps: `HANDOFF.md`.
 Waiting on: the posting route, the trial reel decision, ffmpeg for reel assembly, and the asset
 library. Full list in `SETUP.md`.

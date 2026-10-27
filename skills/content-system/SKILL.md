@@ -10,14 +10,23 @@ first, then the files named below for the step you are on. This skill needs the 
 renders carousels, ffmpeg builds reels, and the B-roll library is local. From a phone, writing
 scripts and carousel copy works; rendering and posting wait for the laptop.
 
-## Status (2026-10-27)
+## Status (end of 2026-10-27) - start every session here
 
-- Built: strategy, brand file, Instagram platform file, playbooks, ledger, carousel renderer
-  (tested).
-- **Not live yet.** Waiting on the items in `content/SETUP.md`: GHL token, Izi's trial-reel
-  decision (item 2), ffmpeg + reel builder, the asset library, the daily schedule.
-- Until the posting route exists: build everything, save it to the day's work folder, log rows as
-  `built`, and report where the files are. Never post through the browser as a workaround.
+**Picking this up? Read `content/HANDOFF.md` first.** It has where things stand, the rules, and
+the next steps in order. `content/SETUP.md` is the detailed log.
+
+- **Phase: backend setup.** Izi: *"right now its back end set up not messing with any current
+  flows."* Work one step at a time, perfectly, and confirm each step before the next.
+- **GHL - done:** key "Claude Content System" (on Izi's laptop only), read-only access to social,
+  contacts, calendars, opportunities, workflows, workflow logs, tags. All 15 Instagram comment
+  automations mapped in `content/brands/push-the-goal/comment-automations.md`.
+- **GHL - parked:** draft workflow "TEST - PTG RECRUIT - All posts (Claude draft)". Not live; Izi
+  said leave it for now.
+- **Next:** Metricool (posting, trial reels, Instagram stats) - Izi signs up, connects
+  @pushthegoalsoccer, clicks Connect on the Metricool connector in Claude.
+- **Never edit existing GHL work** - workflows, tags, messages, settings. Create new things only,
+  prefixed `TEST -` or `Claude -`. Report problems, never fix them.
+- Never post through a browser as a workaround.
 
 ## Build lock - read before anything else
 
