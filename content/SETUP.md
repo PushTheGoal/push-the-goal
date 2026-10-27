@@ -35,6 +35,12 @@ Izi or Ifty saves those into the files named below, which are gitignored.
   @pushthegoalsoccer post triggers it (GHL saved it with no error). Tags `src-ig-ptg` and
   `kw-recruit` added (created as new tags). Still a **Draft**. Before publishing: Izi picks the
   DM, then one live test comment.
+- **GHL backend step 4 done (2026-10-27):** read-only scopes added to Claude's own key (token
+  unchanged): contacts, calendars, calendar events, opportunities, workflows, workflow logs, tags.
+  Test passed: 42,176 contacts, 1,821 opportunities, 15 calendars (incl. "Strategy Session"),
+  pipelines incl. "DM INSTAGRAM" / "INSTAGRAM DMS" / "SALES TRACKING" (Call Booked, No Show, Sale
+  Pending), 66 workflows, 35 tags. That is enough for the tracker to follow
+  comment -> lead -> booked call -> sale.
 - **Rule from 2026-10-27: existing GHL work is never edited** (see CLAUDE.md). So: 5 Recipe stays
   as it is (its Sep 19 post may send two DMs once the new one is live - Izi's call whether to
   switch 5 Recipe off himself); old automations keep their old tags and links; the broken and
