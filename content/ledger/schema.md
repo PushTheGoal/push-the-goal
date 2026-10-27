@@ -14,9 +14,9 @@ columns - the dashboard reads either.
 
 | Part | Values |
 |---|---|
-| brand | `ptg` Push the Goal, `izi` Izi personal (later) |
+| brand | `ptg` Push the Goal, `izi` Izi Murray (@izimurray_) |
 | platform | `ig` Instagram, `li` LinkedIn, `yt` YouTube, `tt` TikTok, `fb` Facebook |
-| format | `tr` trial reel, `rl` reel, `cr` carousel, `st` story, `sh` short, `tx` text post, `lf` long-form |
+| format | `tr` trial reel, `rl` reel, `cr` carousel, `st` story, `sh` short, `tx` text post, `lf` long-form, `pc` podcast clip |
 
 `concept_id` ties variants of the same idea together: `ptg-c-20261028-a`. A repurposed piece
 (a winning reel later posted to YouTube Shorts) keeps the concept id and gets `source_id` = the
@@ -56,7 +56,7 @@ rejected it (reason in notes).
 | slot | Posting slot number |
 | scheduled_at | ISO time |
 | published_at | ISO time |
-| post_route | `ghl` / `meta` / `manual` |
+| post_route | `ghl` / `metricool` / `meta` / `manual` / `ifty` (podcast clips Ifty posts) |
 | route_post_id | GHL post id or route's id |
 | media_id | Instagram media id |
 | permalink | Public link |

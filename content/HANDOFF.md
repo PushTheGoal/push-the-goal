@@ -1,20 +1,23 @@
 # Content System - handoff (end of 2026-10-27)
 
-For Ifty, Izi, or the next Claude session. Read this first, then `SETUP.md` for the detail.
+For Ifty, Izi, or the next Claude session. Read **`OBJECTIVES.md`** first (the goal, in Izi's
+words), then this file (where it stands), then `SETUP.md` (the detail).
 
-## What this is
+## The goal in one screen (full version: `OBJECTIVES.md`)
 
-An Instagram content engine for Push the Goal, built to grow into Izi's personal Instagram,
-LinkedIn, YouTube and TikTok later. The goal:
+Two accounts: **@pushthegoalsoccer** and **@izimurray_**.
 
-- **5-7 trial reels a day.** Trial reels go to non-followers only. The best one each day gets
-  promoted to the main page.
-- **2 carousels a day** on the main page.
-- **A tracker and dashboard** that follows every post through comment -> DM -> lead -> booked
-  strategy call -> sale.
+1. **A solid content plan** we can roll out. Izi signs off on it first.
+2. **Carousels made by Claude for both pages.** Pictures of Izi come from Google Drive folders,
+   and the words come from Izi's videos, also in Drive.
+3. **5-7 trial reels a day on each account, with the winner automated** to the main page. Izi's
+   friends already do this - find out their setup.
+4. **A dashboard** showing what winning content looks like, and which posts turn into DMs, calls
+   and sales.
+5. **Podcast clip reposting.** Claude picks clips from the Drive library, never repeating one
+   within 30 days, and gives Ifty the schedule. **Ifty posts these, not Claude.**
 
-All of it is reposts or rewordings of Izi's own library and past winners. Nothing new gets
-invented.
+Everything comes from Izi's own material. Nothing new gets invented.
 
 ## Where we are: backend setup
 
@@ -63,7 +66,11 @@ until Izi has given full instructions.
 
 ## Next steps, in order
 
-1. **Metricool** (Izi's friend recommended it). It schedules and auto-posts trial reels, has
+0. **Google Drive folders.** Izi points Claude at the folders for photos of Izi, his videos and
+   the podcast clips. Claude indexes them read-only. The Drive connector is already attached to
+   Claude.
+1. **Metricool** - for both accounts, @pushthegoalsoccer and @izimurray_. Or whatever Izi's
+   friends use, if it automates the winner better. (Izi's friend recommended it). It schedules and auto-posts trial reels, has
    full Instagram stats, and has an official Claude connector.
    - Izi signs up on a paid plan and connects @pushthegoalsoccer.
    - Izi clicks Connect on the Metricool connector in Claude.
@@ -84,6 +91,10 @@ until Izi has given full instructions.
 Parked until Izi says so: the RECRUIT draft's DM wording, and putting it live.
 
 ## For Ifty specifically
+
+- **Your recurring job here: podcast clips.** Claude will give you a schedule of which clips go
+  out on which days and accounts, with Drive links. You post them and tick them off. The format
+  - probably a Google Sheet with tick boxes - gets agreed in `playbooks/podcast-clips.md`.
 
 - This repo is the system. `git pull` to get it. The live repo is now
   `github.com/PushTheGoal/push-the-goal` (old `izipush/push-the-goal` redirects there).

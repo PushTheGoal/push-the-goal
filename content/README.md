@@ -21,24 +21,31 @@ Everything is one of these three, and they never get mixed up in the same file.
 A piece of content = one brand + one platform + one format. Its row in the ledger carries all
 three, so one dashboard can show every brand on every platform and filter down.
 
-## Daily output (Push the Goal, Instagram)
+## The goal
 
-| What | How many | Who sees it |
+**`OBJECTIVES.md` is the source of truth** (Izi, 2026-10-27). In short, for both
+**@pushthegoalsoccer** and **@izimurray_**:
+
+| What | How many | Who does it |
 |---|---|---|
-| Trial reels | 5-7 a day (default 6) | Non-followers only, until promoted |
-| Winning reel | 1 a day | Promoted to the main page and followers |
-| Carousels | 2 a day | Main page |
+| Trial reels | 5-7 a day per account | Claude makes and posts them; the winner is promoted automatically |
+| Carousels | Per the content plan, both pages | Claude makes them from Izi's Drive photos and video content |
+| Podcast clips | Reposted on a schedule, never the same clip within 30 days | Claude plans it and gives Ifty the list; Ifty posts |
+| Dashboard | One view of what wins | Claude builds it from the ledger, the posting tool and GHL |
 
 ## Folder map
 
 ```
 content/
+  OBJECTIVES.md             THE GOAL - read first, wins over every other file
   README.md                 this file
   HANDOFF.md                where it stands and what is next - read first when picking up
   SETUP.md                  what has to be connected before it runs, and the multi-platform prep
   brands/
     push-the-goal/brand.md  audience, voice, pillars, CTAs, guardrails
-    _template/brand.md      copy this to add a brand (izi-personal next)
+    push-the-goal/comment-automations.md  the 15 GHL comment automations, mapped
+    izi-murray/brand.md     Izi's personal page - incomplete, Izi fills in
+    _template/brand.md      copy this to add a brand
   platforms/
     instagram.md            specs, limits, trial reel mechanics, posting routes
     _template.md            copy this to add a platform
@@ -46,6 +53,7 @@ content/
     trial-reels.md          the test-and-promote engine, scoring, winner rule
     carousels.md            the two daily carousels, slide frameworks
     hooks.md                hook library, tagged so the ledger can learn which types win
+    podcast-clips.md        podcast clip repost schedule - Claude plans, Ifty posts
   ledger/
     schema.md               every column, every status, the ID format
     content-ledger.csv      one row per piece of content - the source for the dashboard

@@ -1,6 +1,6 @@
 ---
 name: content-system
-description: Izi's social content engine - makes, tests, posts and learns from content for Push the Goal Soccer's Instagram (and later Izi's personal Instagram, LinkedIn, YouTube, TikTok). Daily run builds 5-7 trial reels from the B-roll library, judges yesterday's trials and promotes the winner to the main page, builds and schedules 2 carousels, logs everything in the content ledger, and reports. Weekly review learns which hooks, pillars, formats and slots win. Triggers - "run content", "today's content", "make the trial reels", "make carousels", "who won yesterday", "post the winner", "content report", "content review", "add a brand", "add LinkedIn/YouTube/TikTok", "content dashboard". Not for lead magnets (weekly-lead-mag-vault), YouTube SEO for The Long Game podcast, or anything Warrior Method.
+description: Izi's social content engine for two Instagram accounts, @pushthegoalsoccer and @izimurray_ (later LinkedIn, YouTube, TikTok). 5-7 trial reels a day per account with the winner promoted automatically, carousels for both pages built from Izi's Google Drive photos and video content, a podcast clip repost schedule (never the same clip within 30 days) that Claude plans and hands to Ifty to post, and a dashboard of what wins. Logs everything in the content ledger. Triggers - "run content", "today's content", "make the trial reels", "make carousels", "who won yesterday", "post the winner", "content report", "content review", "add a brand", "add LinkedIn/YouTube/TikTok", "content dashboard". Not for lead magnets (weekly-lead-mag-vault), YouTube SEO for The Long Game podcast, or anything Warrior Method.
 ---
 
 # Content System
@@ -12,7 +12,11 @@ scripts and carousel copy works; rendering and posting wait for the laptop.
 
 ## Status (end of 2026-10-27) - start every session here
 
-**Picking this up? Read `content/HANDOFF.md` first.** It has where things stand, the rules, and
+**The goal is in `content/OBJECTIVES.md` - read it before anything else; it wins over every
+other file.** Two accounts (Push the Goal and Izi Murray), Drive as the source, trial reels with
+an automated winner, carousels, podcast clip scheduling for Ifty, and a dashboard.
+
+**Picking this up? Then read `content/HANDOFF.md`.** It has where things stand, the rules, and
 the next steps in order. `content/SETUP.md` is the detailed log.
 
 - **Phase: backend setup.** Izi: *"right now its back end set up not messing with any current
