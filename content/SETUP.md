@@ -9,6 +9,19 @@ Izi or Ifty saves those into the files named below, which are gitignored.
 
 ---
 
+## Done so far
+
+- **2026-10-27 - GHL key live.** Private Integration "Claude Content System" in the Push the Goal
+  sub-account (location `9dGHqncMtM4QA0Ir5fGr`), saved by Izi in `content/.ghl-token`. Scopes:
+  Social Planner accounts/posts/stats/tags/comments read, posts write, Media read + write.
+  Read test passed. Accounts connected in GHL Social Planner on that date:
+  - Instagram **izimurray_** (Izi's personal - **@pushthegoalsoccer is NOT connected**)
+  - LinkedIn Izi Murray, TikTok izi.murray1, YouTube @push-the-goal (its connection expires
+    2026-10-27 - reconnect)
+  - No posts in the Social Planner since 2026-01-01.
+- **Metricool** proposed (Izi's friend) as the Instagram posting + stats route: schedules and
+  auto-publishes trial reels, full insights, official Claude connector. Decision pending.
+
 ## Part 1 - Access (so Claude can see what has worked and post)
 
 **Step 1. GHL API key** - Ifty
