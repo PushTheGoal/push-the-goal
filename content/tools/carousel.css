@@ -1,0 +1,49 @@
+/* Push the Goal carousel slides - 1080 x 1350 (Instagram 4:5 portrait).
+   Marketing palette: black and yellow only. Anton for headlines, Inter for body.
+   A brand gets its own copy of this file: content/brands/<brand>/carousel.css */
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@500;700;800&display=block");
+:root { --bg:#0B0B0B; --ink:#FFFFFF; --mute:#BDBDBD; --acc:#FFC72C; --acc2:#F2BC1F; --card:#1A1A1A; }
+* { margin:0; padding:0; box-sizing:border-box; }
+html, body { width:1080px; height:1350px; overflow:hidden; }
+body { background:var(--bg); color:var(--ink); font-family:Inter, Arial, sans-serif; position:relative; }
+body.yellow { background:var(--acc); color:#0B0B0B; }
+
+.wrap { position:absolute; left:96px; right:96px; top:150px; bottom:190px; display:flex; flex-direction:column; justify-content:center; }
+.wrap.top { justify-content:flex-start; }
+
+.kicker { font-weight:800; font-size:30px; letter-spacing:.18em; text-transform:uppercase; color:var(--acc); margin-bottom:34px; }
+body.yellow .kicker { color:#0B0B0B; }
+.h { font-family:Anton, Impact, sans-serif; font-weight:400; text-transform:uppercase; line-height:1.0; font-size:124px; letter-spacing:.005em; }
+.h.md { font-size:96px; }
+.h.sm { font-size:76px; }
+.h em { font-style:normal; color:var(--acc); }
+body.yellow .h em { color:#0B0B0B; text-decoration:underline; text-decoration-thickness:8px; text-underline-offset:10px; }
+.bar { width:120px; height:10px; background:var(--acc); margin:44px 0; }
+body.yellow .bar { background:#0B0B0B; }
+.body { font-weight:500; font-size:42px; line-height:1.38; color:var(--ink); }
+.body b { font-weight:800; color:var(--acc); }
+.body.mute { color:var(--mute); }
+body.yellow .body, body.yellow .body b { color:#0B0B0B; }
+.body + .body { margin-top:30px; }
+
+.num { font-family:Anton, Impact, sans-serif; font-size:220px; line-height:.9; color:var(--acc); margin-bottom:20px; }
+
+.list { list-style:none; }
+.list li { font-weight:700; font-size:44px; line-height:1.3; padding:26px 0 26px 92px; position:relative; border-bottom:2px solid #262626; }
+.list li:last-child { border-bottom:0; }
+.list li span { position:absolute; left:0; top:22px; font-family:Anton, Impact, sans-serif; font-weight:400; font-size:54px; color:var(--acc); }
+
+.card { background:var(--card); border-left:10px solid var(--acc); padding:44px 48px; font-weight:700; font-size:44px; line-height:1.35; }
+.card.quote { font-style:italic; font-weight:500; }
+.card small { display:block; margin-top:22px; font-style:normal; font-weight:800; font-size:26px; letter-spacing:.14em; color:var(--acc); text-transform:uppercase; }
+.vs { display:flex; gap:30px; }
+.vs > div { flex:1; background:var(--card); padding:40px 36px; font-weight:700; font-size:38px; line-height:1.3; }
+.vs > div .kicker { font-size:26px; margin-bottom:20px; }
+.vs > div.no .kicker { color:var(--mute); }
+
+/* chrome added by the renderer on every slide */
+.brand { position:absolute; top:70px; left:96px; font-weight:800; font-size:24px; letter-spacing:.24em; color:var(--acc); text-transform:uppercase; }
+.count { position:absolute; top:70px; right:96px; font-weight:800; font-size:24px; letter-spacing:.14em; color:var(--mute); }
+.foot { position:absolute; bottom:72px; left:96px; right:96px; display:flex; justify-content:space-between; align-items:center; font-weight:800; font-size:24px; letter-spacing:.2em; color:var(--mute); text-transform:uppercase; }
+.swipe { color:var(--acc); font-size:28px; letter-spacing:.16em; }
+body.yellow .brand, body.yellow .count, body.yellow .foot, body.yellow .swipe { color:#0B0B0B; }

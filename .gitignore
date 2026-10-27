@@ -25,3 +25,9 @@ desktop.ini
 # Claude Code local settings - machine specific, not shared
 .claude/settings.local.json
 sales/.ghl-webhook-url
+
+# Content system - credentials never leave this laptop
+content/.ghl-token
+content/.ghl-location
+content/.meta-token
+content/brands/*/.ghl-token

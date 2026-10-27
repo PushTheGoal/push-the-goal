@@ -12,7 +12,8 @@ open Claude Code on: this laptop, your phone, or a new laptop you sign into.
 ```
 CLAUDE.md            Business context. Read automatically at the start of every session.
 OPEN-QUESTIONS.md    Contradictions between skills that need one decision from Izi.
-skills/              Reference copies of the five workflows. NOT the live ones - see below.
+skills/              Reference copies of the workflows. NOT the live ones - see below.
+content/             The social content engine: strategy, playbooks, ledger, render tools.
 ```
 
 ## Where the skills actually live

@@ -83,7 +83,12 @@ Full detail with before/after examples: `skills/push-the-goal-call-notes/referen
 - **Never send anything.** Every message - athlete, parent, coach - is left as an unsent
   draft, and the thread is marked unread so it shows blue. Izi reviews and sends himself,
   every time. He almost always makes small edits, and that is the point.
-- **The one exception: sales follow-ups (2026-10-23).** Families marked FOLLOW-UP on the sales
+- **Second exception: social content (2026-10-27).** Izi asked for the Instagram content engine
+  to post automatically (trial reels, the daily winner, carousels). Content goes out through GHL
+  or the Meta API, never through a browser. Launch week goes to GHL as `in_review` for Izi to
+  approve; after that it schedules on its own. Messages to people - athletes, parents, coaches -
+  are untouched by this: still drafts. See `content/`.
+- **The first exception: sales follow-ups (2026-10-23).** Families marked FOLLOW-UP on the sales
   call tracker get 5 messages over 30 days, written by Claude from **that family's own Fathom
   call** (never a shared template) and sent automatically by GoHighLevel until the family
   answers. Then Izi closes. Setup doc: "Sales Follow-up in GHL - setup for Ifty"
@@ -139,6 +144,8 @@ Standard lead magnet CTA line - name the offers, no prices:
 | New Students Drive folder (2026) | id `1ScUtPgyq45gmw8xEBcqUgoM_kR6oJZ-k` |
 | Live New Students tracker | Google Sheet id `1B5SVe12E5qaficHd5atJyhzsgzxv8sneMvH3VoJh4Q4` |
 | Lead Magnet Vault Drive folder | id `1Pdncp4enoJIcO1My_3Zs-C9gaM4XoEn_` |
+| Content system (strategy, ledger, tools) | `content/` in this repo - start at `content/README.md` |
+| Content media (B-roll, renders) | `C:\Users\15306\Documents\Claude\Projects\Content\<brand>\` (this laptop only, never git) |
 | Local business folders | `C:\Users\15306\Documents\Claude\Projects\` (this laptop only - see OPEN-QUESTIONS) |
 
 ## Brand
@@ -257,4 +264,5 @@ alike, on every device. The `skills/` folder in this repo holds reference copies
 | `new-student-tracker` | Logs signees into the year's New Students spreadsheet |
 | `weekly-lead-mag-vault` | Weekly lead magnet + IG drop, filed into the Drive vault |
 | `sales-follow-up` | FOLLOW-UP family -> 5 messages written from their own Fathom call, posted to GHL, which sends them. Writing rules locked by Izi 2026-10-23. Repo only - not live until Ifty sends the webhook URL |
+| `content-system` | Social content engine: 5-7 trial reels a day, promote the daily winner, 2 carousels a day, ledger, weekly learning review. Push the Goal Instagram first; brands and platforms are added as folders in `content/`, never as new skills. Repo only - not live until `content/SETUP.md` is done |
 | `therabox-fcmo` | The Warrior Method, was TheraBox (Hannah Beyler) - log her sales calls, weekly numbers, launch status, funnel copy. Live in the account since 2026-10-23. Also runs as the `therabox-fcmo` agent |
