@@ -26,8 +26,9 @@ Izi or Ifty saves those into the files named below, which are gitignored.
   - 15 published "Instagram comment automation" workflows: 1007 Recipe (218 enrolled), 2 Recipe
     (25), 3 Recipe (290), 4 Recipe (33), 5 Recipe (70), ADS (0), BOOK LEAD Recipe (2), College
     Soccer Recruiting Blueprint Recipe (80), EMAIL V (2076), INSTA GUID Recipe (50), Ig Leads (7),
-    Leads (33), Recipe (47), The College EMAIL V (9), content (208). Keyword, account and what
-    each sends are **not mapped yet**.
+    Leads (33), Recipe (47), The College EMAIL V (9), content (208). **Mapped 2026-10-27:**
+    `brands/push-the-goal/comment-automations.md` - 13 of 15 are on izimurray_, keywords are
+    tied to specific posts, 2 are broken, 2 are duplicates.
   - Source tagging for the dashboard: not checked yet.
 - **Metricool** proposed (Izi's friend) as the Instagram posting + stats route: schedules and
   auto-publishes trial reels, full insights, official Claude connector. Decision pending.
