@@ -34,11 +34,12 @@ Izi or Ifty saves those into the files named below, which are gitignored.
   (Claude draft)" - a copy of 5 Recipe with the "Post is" filter removed, so RECRUIT on **any**
   @pushthegoalsoccer post triggers it (GHL saved it with no error). Tags `src-ig-ptg` and
   `kw-recruit` added (created as new tags). Still a **Draft**. Before publishing: Izi picks the
-  DM, then 5 Recipe goes back to Draft at the same moment (otherwise its Sep 19 post gets two DMs),
-  then one live test comment.
-- Still to do in GHL: step 2 tags on the other automations, step 3 tracking links in DM links,
-  step 4 read-only Contacts / Calendars / Opportunities scopes on the key, plus the clean-up
-  (BOOK LEAD, The College EMAIL V, Leads / Ig Leads, YouTube reconnect).
+  DM, then one live test comment.
+- **Rule from 2026-10-27: existing GHL work is never edited** (see CLAUDE.md). So: 5 Recipe stays
+  as it is (its Sep 19 post may send two DMs once the new one is live - Izi's call whether to
+  switch 5 Recipe off himself); old automations keep their old tags and links; the broken and
+  duplicate ones are reported, not fixed. Tracking tags and tracking links go only on new
+  `Claude -` / `TEST -` workflows. Step 4 (read-only scopes) edits only the key Claude created.
 - **Metricool** proposed (Izi's friend) as the Instagram posting + stats route: schedules and
   auto-publishes trial reels, full insights, official Claude connector. Decision pending.
 

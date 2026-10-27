@@ -88,6 +88,11 @@ Full detail with before/after examples: `skills/push-the-goal-call-notes/referen
   or the Meta API, never through a browser. Launch week goes to GHL as `in_review` for Izi to
   approve; after that it schedules on its own. Messages to people - athletes, parents, coaches -
   are untouched by this: still drafts. See `content/`.
+- **Never edit what already exists in GHL (Izi, 2026-10-27).** Existing workflows,
+  automations, tags, messages and settings are read-only to Claude - no edits, no unpublishing,
+  no deleting, no clean-up. Claude only creates new, clearly named things (prefix `TEST -` or
+  `Claude -`) and changes only what it created itself. Problems found in existing work are
+  reported to Izi, never fixed.
 - **The first exception: sales follow-ups (2026-10-23).** Families marked FOLLOW-UP on the sales
   call tracker get 5 messages over 30 days, written by Claude from **that family's own Fathom
   call** (never a shared template) and sent automatically by GoHighLevel until the family
