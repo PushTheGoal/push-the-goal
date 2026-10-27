@@ -30,6 +30,15 @@ Izi or Ifty saves those into the files named below, which are gitignored.
     `brands/push-the-goal/comment-automations.md` - 13 of 15 are on izimurray_, keywords are
     tied to specific posts, 2 are broken, 2 are duplicates.
   - Source tagging for the dashboard: not checked yet.
+- **GHL backend step 1 (in progress, 2026-10-27):** draft workflow "TEST - PTG RECRUIT - All posts
+  (Claude draft)" - a copy of 5 Recipe with the "Post is" filter removed, so RECRUIT on **any**
+  @pushthegoalsoccer post triggers it (GHL saved it with no error). Tags `src-ig-ptg` and
+  `kw-recruit` added (created as new tags). Still a **Draft**. Before publishing: Izi picks the
+  DM, then 5 Recipe goes back to Draft at the same moment (otherwise its Sep 19 post gets two DMs),
+  then one live test comment.
+- Still to do in GHL: step 2 tags on the other automations, step 3 tracking links in DM links,
+  step 4 read-only Contacts / Calendars / Opportunities scopes on the key, plus the clean-up
+  (BOOK LEAD, The College EMAIL V, Leads / Ig Leads, YouTube reconnect).
 - **Metricool** proposed (Izi's friend) as the Instagram posting + stats route: schedules and
   auto-publishes trial reels, full insights, official Claude connector. Decision pending.
 
