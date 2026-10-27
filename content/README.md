@@ -72,5 +72,5 @@ given clear instructions. Source material is only Izi's library and past posts t
 
 In place: structure, playbooks, ledger, carousel renderer (tested 2026-10-27), GHL read access
 and the comment automation map. Current state and next steps: `HANDOFF.md`.
-Waiting on: the posting route, the trial reel decision, ffmpeg for reel assembly, and the asset
-library. Full list in `SETUP.md`.
+Waiting on: the Google Drive folders, the posting tool for both accounts (Metricool next), the
+winner automation, and Izi's rulebook. Full checklist in `SETUP.md`.

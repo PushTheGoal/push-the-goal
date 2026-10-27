@@ -46,6 +46,7 @@ frame with the sound off.
 | **GHL Social Planner API** (`/social-media-posting/:locationId/posts`) | Yes (`type: reel`) | **No field for it** in the docs | Yes, up to 10 images | Partial (verify) | Already paid |
 | **Meta Graph API direct** (own Meta app) | Yes | Yes | Yes | Yes, full insights | Free, setup by Ifty |
 | Third-party API (Ayrshare, Postiz) | Yes | Yes | Yes | Yes | Monthly fee |
+| **Metricool** (next step, recommended) | Yes | Yes - schedules and auto-publishes (account needs 1,000+ followers and the feature enabled) | Yes | Yes, full history on paid plans | Paid plan; official Claude connector |
 
 GHL's create-post body: `accountIds`, `summary` (caption), `media[]`, `status`
 (`draft` / `scheduled` / `in_review` / `published`...), `scheduleDate`, `type`

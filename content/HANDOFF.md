@@ -76,8 +76,10 @@ until Izi has given full instructions.
    - Izi clicks Connect on the Metricool connector in Claude.
    - Claude then checks what the connector can do - first of all, whether it can mark a post as
      a trial reel.
-2. **Decide how the daily winner gets promoted.** Either Claude names the winner and Izi taps
-   "Share to all" in the app, or Instagram auto-promotes.
+2. **Automate the daily winner.** The objective is automatic. Instagram's own API can't press
+   "Share to all", so the options are the posting tool's auto-promote, Instagram's
+   performance-based auto mode, or whatever Izi's friends use. Pick once step 1 shows what's
+   possible.
 3. **Past winners:** pull every past post with its numbers. Izi marks each one repost, reword or
    never reuse.
 4. **Original files and B-roll** go into
