@@ -9,7 +9,7 @@ Built 2026-10-28 from Izi's own material only:
 |---|---|
 | Google Doc "SETTING PLAYBOOK PTG" | The scripts, the 7-step flow, special cases, post-booking process |
 | Google Doc "DM review 10/13" | Priority and follow-up rules, daily ChatGPT use |
-| El's DM review videos, Oct 14 (4 parts) | The mistakes, why each step exists, recovery moves, the banned message |
+| Izi's DM review videos, Oct 14 (4 parts) | The mistakes, why each step exists, recovery moves, the banned message |
 | Good-conversation review, Oct 15 | What the flow looks like done well |
 | ChatGPT source setup, Oct 22 | Playbook doc added as a ChatGPT source |
 | Coach Brittani's onboarding call, Sep 14 | How Junior Prep actually runs, so setters can describe it |
@@ -62,7 +62,7 @@ Pick the flow from who is talking and what they said. Using the wrong one is a m
 | Asking about ID camps | ID camp line, then into the parent flow at step 2 |
 | Athlete is injured | Injury line, then into the parent flow at step 2 |
 | Athlete already plays in college | No sales conversation. Connect and close out. [source] |
-| University coach (NCAA D1/D2/D3, JUCO) | Coach line. Get school, boys or girls, name, Instagram handle; send to Ellie for the coach list. Check their bio if they keep it short. [source] |
+| University coach (NCAA D1/D2/D3, JUCO) | Coach line. Get school, boys or girls, name, Instagram handle; send to Izi for the coach list. Check their bio if they keep it short. [source] |
 | Non-soccer coach | Short thank-you line. [source] |
 | Adult fan, no athlete | Short thank-you line. [source] |
 
@@ -159,9 +159,9 @@ completed properly.
 - They say they booked: check the sales team WhatsApp channel where Ifty posts confirmed calls.
   Not there: "Hey, I haven't seen your call on my calendar yet. Is it giving you any trouble?"
   [source]
-- The phone confirmation and reschedule process after booking belongs to Ellie, not the DM setter.
-  It's not scored here. [source: "LEAVE THIS FOR ELLIE"]
-- **[question]** The "LEAVE THIS FOR ELLIE" line sits above the whole post-booking section,
+- The phone confirmation and reschedule process after booking belongs to Izi, not the DM setter.
+  It's not scored here. [source: "LEAVE THIS FOR IZI"]
+- **[question]** The "LEAVE THIS FOR IZI" line sits above the whole post-booking section,
   including the after-link DMs. The training videos show setters doing those DMs. Confirm they're
   the setter's job.
 
@@ -182,7 +182,7 @@ ready for a high-commitment, high-investment program). [source]
 4. Positioning statement - families at this stage add support to overcome [issue], otherwise
    development can stall, leaving the athlete discouraged and overwhelmed.
 5. Then the same Authority Bridge, Financial Qualification, Call Transition and Close as the
-   parent flow. **[question]** El's training skipped the 5th-8th grade flow "for now" - confirm
+   parent flow. **[question]** Izi's training skipped the 5th-8th grade flow "for now" - confirm
    steps 5-7 are the same for Junior Prep.
 
 **What setters can say about how Junior Prep works** (from Coach Brittani's onboarding call, so
@@ -330,11 +330,11 @@ Anything the playbook doesn't cover is flagged as a question for Izi, never as a
 1. Left-on-read threshold - how long before an unanswered lead counts as a mistake (working hours
    and overnight)?
 2. Follow-up cadence after the same-day follow-ups - how many, how far apart, when to stop?
-3. "Booked - no show" - what should the setter do, and is that the setter's job or Ellie's?
+3. "Booked - no show" - what should the setter do, and is that the setter's job or Izi's?
 4. Junior Prep - are steps 5-7 (bridge, financial, call) the same as the high school flow?
 5. Which setters are we auditing, and which Instagram accounts (@pushthegoalsoccer only, or
    @izimurray_ too)?
 6. Working hours for setters - so overnight gaps aren't counted against anyone.
 7. Impact levels and the score formula in sections 8 and 9 - right as proposed?
 8. The after-link DMs in step 7 (decision-makers message, same-evening follow-ups, "haven't seen
-   your call") - setter's job or Ellie's?
+   your call") - setter's job or Izi's?
