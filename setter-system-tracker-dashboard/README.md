@@ -20,7 +20,35 @@ went off the setting flow, and which leads are waiting on a reply. He shouldn't 
 single DM to find out. It has to be clear, short and easy to read, and it has to make mistakes
 easy to spot.
 
-## Where it stands (2026-10-27)
+## Update 2026-10-28 - read this first
+
+- **Playbook drafted:** `playbook.md` (on branch `claude/setter-playbook-draft`). Built from the
+  "SETTING PLAYBOOK PTG" doc, the "DM review 10/13" doc, Izi's DM review videos (Oct 14-15, Oct 22)
+  and Coach Brittani's Junior Prep onboarding call (Sep 14, used only to explain how Junior Prep
+  runs). **Waiting on Izi:** review it and answer the 8 open questions at the bottom.
+- **Names:** in the training material, "Ellie", "El" (El Engelbrecht on Fathom) and "Nan" are all
+  Izi. Always write Izi.
+- **Location rule (Izi, 2026-10-27):** a family living outside the US gets financial capacity
+  confirmed early with the objective signals. Not an automatic disqualifier. Heritage, ethnicity
+  or the parents' language is never scored.
+- **Daily prompt check:** dropped for now (Izi, 2026-10-27). The playbook doc is a ChatGPT source
+  since Oct 22, so there's no daily paste to check.
+- **Where it runs - decided:** in the **cloud on GitHub** (GitHub Actions on a schedule), not on a
+  laptop. Claude's own cloud workspace can't reach GHL, so it can't run there. The repo is private.
+- **Dashboard:** both Izi and her partner must be able to view it. Private to the team. Host still
+  to pick.
+
+**Next steps, in order** (the user is new to coding - explain every click):
+1. Izi reviews `playbook.md` and answers its open questions.
+2. GHL key: new Private Integration `Claude - Setter Tracker`, read-only scopes (conversations,
+   conversation messages, contacts, opportunities, calendars).
+3. Claude API account at console.anthropic.com, plus a key. Pay-as-you-go - measure the real cost
+   on the test day before anything runs daily.
+4. Both keys saved as **GitHub secrets** in this repo. Never in chat, code or docs.
+5. Claude builds the GitHub Action, runs the one-day test, Izi grades 10-15 by hand, adjust.
+6. Daily run on, then the dashboard.
+
+## Where it stood (2026-10-27)
 
 | Item | Status |
 |---|---|
