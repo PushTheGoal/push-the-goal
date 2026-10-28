@@ -35,6 +35,13 @@ easy to spot.
   since Oct 22, so there's no daily paste to check.
 - **Where it runs - decided:** in the **cloud on GitHub** (GitHub Actions on a schedule), not on a
   laptop. Claude's own cloud workspace can't reach GHL, so it can't run there. The repo is private.
+- **Izi's answers to the playbook questions are in** (playbook v2): reply within 15 min in
+  working hours / 3 h outside; follow-ups at 15 min, 1 h, 3 h; confirm every booking either way;
+  "has link - can't book yet" is its own group; no-show outreach; Junior Prep = development and
+  growth, not college; mistakes counted by severity, no percentage.
+- **Setters audited:** Mahbubal, Ellie, Ifty. **Both accounts:** @pushthegoalsoccer and
+  @izimurray_. Note: @izimurray_ has messaging **off** in GHL, so its DMs don't reach GHL yet -
+  Izi or Ifty has to turn it on (Claude never edits existing GHL settings).
 - **Dashboard:** both Izi and her partner must be able to view it. Private to the team. Host still
   to pick.
 
@@ -74,7 +81,7 @@ easy to spot.
 2. **Daily pull.** Read the last 24 hours of Instagram DM conversations from GHL. Read only.
 3. **Daily audit.** Claude reads each conversation against the playbook and records:
    - which stage it reached
-   - a flow score (0-100%)
+   - mistake counts by severity (high / medium / low) - no percentage (Izi, 2026-10-28)
    - each mistake, with the line that was sent, what the flow calls for, the impact level, and
      a link to the DM
    - whether the setter's replies follow that day's ChatGPT prompt
@@ -90,8 +97,8 @@ easy to spot.
 
    | Section | Shows |
    |---|---|
-   | Top numbers | Conversations audited, average flow score, mistakes flagged (how many high impact), follow-ups due (how many overdue 48h+), left on read by us, calls booked |
-   | Setter scorecard | One row per setter: conversations, flow score, 7-day trend, mistakes, follow-ups due, calls booked, most common slip |
+   | Top numbers | Conversations audited, mistakes flagged (how many high impact), follow-ups due (how many overdue), left on read by us, calls booked |
+   | Setter scorecard | One row per setter: conversations, mistakes by severity, 7-day trend, follow-ups due, calls booked, most common slip |
    | Where conversations drop | How many conversations reached each playbook stage, and how many slips happened at each one |
    | Mistakes to review | Each mistake as a card: setter, lead, stage, impact, "Sent" next to "Flow calls for", and an Open DM link |
    | Follow-up queue | Leads sorted by how long they've waited: setter, status, next step |

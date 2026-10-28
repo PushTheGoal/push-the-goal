@@ -1,7 +1,8 @@
 # Setter Playbook - the standard every DM is scored against
 
-**Status: DRAFT, waiting for Izi's sign-off.** Nothing gets scored automatically until Izi has
-read this and said it's right.
+**Status: DRAFT v2 (2026-10-28) - Izi's answers to the open questions are in.** Everything is
+subject to change as the team uses it. Nothing gets scored automatically until Izi has read this
+version and said it's right.
 
 Built 2026-10-28 from Izi's own material only:
 
@@ -14,6 +15,10 @@ Built 2026-10-28 from Izi's own material only:
 | ChatGPT source setup, Oct 22 | Playbook doc added as a ChatGPT source |
 | Coach Brittani's onboarding call, Sep 14 | How Junior Prep actually runs, so setters can describe it |
 | Izi, in chat, 2026-10-27 | How location counts in financial qualification |
+| Izi's answers, 2026-10-28 | Reply times, follow-up timing, no-shows, Junior Prep framing, setters and accounts, how mistakes are counted, after-link follow-ups |
+
+**Who is audited:** setters Mahbubal, Ellie and Ifty, on **both** Instagram accounts -
+@pushthegoalsoccer and @izimurray_. [Izi, 2026-10-28]
 
 How to read the tags:
 - **[source]** - straight from the material above.
@@ -32,19 +37,21 @@ school athletes and their parents.
    conversation only when no parent or other high-priority conversation is waiting. [source]
 2. **Stay in a live conversation.** While a lead is replying or typing, don't leave to work other
    threads. Reply almost immediately. Don't let a live lead go cold. [source]
-3. **Then circle back.** Once live DMs are answered, go back through conversations that went
-   quiet 4-5 hours ago and follow up. [source]
-4. **Follow the flow, every step, in order.** Reviewed DMs were skipping about half the steps.
+3. **Reply fast.** A lead's message gets an answer within **15 minutes** during working hours,
+   and within **3 hours** outside them. Ifty and Mahbubal work from Egypt and the Middle East, so
+   most hours are covered; there may be some blank hours overnight. [Izi, 2026-10-28]
+4. **Follow up on time when a lead goes quiet** - see section 6 for the timing. [Izi, 2026-10-28]
+5. **Follow the flow, every step, in order.** Reviewed DMs were skipping about half the steps.
    Skipping is the number one problem the training calls out. [source]
-5. **The setter leads.** State the next step. Never hand the lead the decision about whether a
+6. **The setter leads.** State the next step. Never hand the lead the decision about whether a
    call happens ("I'll drop my link", not "want me to send my link?"). [source]
-6. **Use ChatGPT properly.** The playbook doc is added as a source in the setter's ChatGPT
+7. **Use ChatGPT properly.** The playbook doc is added as a source in the setter's ChatGPT
    "setting" chat (since Oct 22; before that it was pasted in daily). Read the whole conversation
    first, screenshot it, steer ChatGPT ("we need his name", "already in college - just connect
    and close out"), then **reread before sending**. Never copy and paste a reply blind. [source]
-7. **Reread every message before it goes out.** Cut repeated words, cut emoji stacks (three in a
+8. **Reread every message before it goes out.** Cut repeated words, cut emoji stacks (three in a
    row is too many), fill in every placeholder. [source]
-8. **No prices in DMs.** The program "is not something I can accurately quote or explain over
+9. **No prices in DMs.** The program "is not something I can accurately quote or explain over
    DMs" - cost is for the call. [source]
 
 ---
@@ -154,16 +161,19 @@ completed properly.
 **Has to happen:**
 - Right after the link: "Go ahead and grab a time... All decision-makers, including your athlete,
   are required to be on the call... Let me know what day and time you choose..." [source]
-- Not booked yet: follow up **twice that same evening**. If they need to check with mom or dad,
-  agree a time to circle back, then follow up at that time. [source]
-- They say they booked: check the sales team WhatsApp channel where Ifty posts confirmed calls.
-  Not there: "Hey, I haven't seen your call on my calendar yet. Is it giving you any trouble?"
-  [source]
-- The phone confirmation and reschedule process after booking belongs to Izi, not the DM setter.
-  It's not scored here. [source: "LEAVE THIS FOR IZI"]
-- **[question]** The "LEAVE THIS FOR IZI" line sits above the whole post-booking section,
-  including the after-link DMs. The training videos show setters doing those DMs. Confirm they're
-  the setter's job.
+- **Follow up to confirm the booking either way.** Check the calendar (and the sales team
+  WhatsApp channel where Ifty posts confirmed calls), then message them:
+  - We see it: confirm the day and time back to them.
+  - We don't: "Hey, I haven't seen your call on my calendar yet. Is it giving you any trouble?"
+  [Izi, 2026-10-28; source]
+- Not booked yet: follow the timing in section 6. If they need to check with mom or dad, agree a
+  time to circle back, then follow up at that time. [source]
+- **Wants the link but can't book yet** (e.g. waiting on a schedule or the other parent): this is
+  its own group, kept separate from leads who just haven't booked. Agree when to check back.
+  [Izi, 2026-10-28]
+- **Before the call:** message them to confirm they'll attend. [Izi, 2026-10-28]
+- **No-show:** after the scheduled time, reach out, check whether there was a miscommunication,
+  and offer to set a new time. [Izi, 2026-10-28]
 
 ### Recovery - when the lead already wants the call early
 Don't drop a lead who's ready to meet. Send the link, then ask the missed qualifying questions
@@ -182,8 +192,12 @@ ready for a high-commitment, high-investment program). [source]
 4. Positioning statement - families at this stage add support to overcome [issue], otherwise
    development can stall, leaving the athlete discouraged and overwhelmed.
 5. Then the same Authority Bridge, Financial Qualification, Call Transition and Close as the
-   parent flow. **[question]** Izi's training skipped the 5th-8th grade flow "for now" - confirm
-   steps 5-7 are the same for Junior Prep.
+   parent flow.
+
+**Same direction, younger framing.** Every step runs in the same order as the high school flow,
+but the messages are geared to a younger athlete: **development and growth, not college.**
+Don't lead with recruiting, scholarships or college timelines with these families.
+[Izi, 2026-10-28]
 
 **What setters can say about how Junior Prep works** (from Coach Brittani's onboarding call, so
 it's accurate):
@@ -230,6 +244,11 @@ athletes. [source]
 **Tone:** friendly and casual - never argumentative or pointed. GIFs and nice messages only.
 [source]
 
+**Timing when a lead goes quiet** (our message was the last one): [Izi, 2026-10-28]
+1. First follow-up **15 minutes** after our message.
+2. Second follow-up **1 hour** after that.
+3. Third follow-up around the **3-hour mark**, before the end of the day.
+
 **Approved moves:** [source]
 - A funny GIF, so they know a real person is there.
 - "Let me know", "Keep me posted lol", "Checking in - what's the update?"
@@ -255,22 +274,24 @@ athletes. [source]
 
 | Status | Meaning | Next step |
 |---|---|---|
-| **Left on read by us** | The lead's message is the last one and we haven't answered. Most urgent. | Reply now, in the flow, at the step they're on |
-| **Went quiet** | Our message is the last one and the lead stopped replying. | Section 6 moves, starting 4-5 hours after our last message |
-| **Link sent - not booked** | Link sent, no booking confirmed | Step 7: two follow-ups the same evening, then the agreed time |
-| **Booked - no show** | From GHL's "SALES TRACKING" pipeline | **[question]** No rule in the material yet |
+| **Left on read by us** | The lead's message is the last one and we haven't answered. Most urgent. Late once it passes 15 minutes in working hours, 3 hours outside them. | Reply now, in the flow, at the step they're on |
+| **Went quiet** | Our message is the last one and the lead stopped replying. | Follow-ups at 15 minutes, then 1 hour, then the 3-hour mark (section 6) |
+| **Link sent - not booked** | Link sent, no booking confirmed | Booking follow-up (step 7), then the section 6 timing |
+| **Has link - can't book yet** | Wants the link but can't book right now | Check back at the agreed time |
+| **Booked** | Call is on the calendar | Confirm attendance before the call |
+| **Booked - no show** | From GHL's "SALES TRACKING" pipeline | Reach out, check for a miscommunication, offer a new time |
 
-**[question]** How long can a lead wait before "Left on read by us" counts as a mistake - during
-working hours, and overnight?
-**[question]** After the same-day follow-ups, how many more follow-ups, how far apart, and when do
-we stop? (An earlier idea was timed follow-ups at 5, 15 and 30 minutes - is that the rule?)
+**[question]** Setter shift times (in Central time), so the audit knows which reply-time rule
+applies - 15 minutes or 3 hours.
+**[question]** After the third follow-up, does anything happen the next day, or does the lead
+move to the "went quiet" list for a later revival?
 
 ---
 
 ## 8. Mistakes and impact levels
 
-Impact levels are **[proposed]** for Izi to confirm. The behaviours themselves come from the
-training.
+Impact levels approved by Izi on 2026-10-28 ("looks okay"). The behaviours themselves come from
+the training.
 
 ### High - costs us the lead or a wasted call
 | # | Mistake |
@@ -278,7 +299,7 @@ training.
 | H1 | Skipped a step before the booking link - most often the Dig, Authority Bridge or Financial Qualification |
 | H2 | Rushed to "book the call" when the parent asked about cost, before the flow was done |
 | H3 | Financial qualification was only "are you open to investing?", with no objective signals |
-| H4 | Left a live conversation, or left a lead on read (threshold is a question - see section 7) |
+| H4 | Left a live conversation, or left a lead on read past 15 minutes (working hours) or 3 hours (outside them) |
 | H5 | Sent the banned "seen but not responding" message, or any argumentative or guilt-tripping follow-up |
 | H6 | Quoted a price in DMs |
 | H7 | Scored or treated a US-based family differently because of heritage or language |
@@ -293,8 +314,10 @@ training.
 | M5 | Asked permission for the call ("would you like to book?") instead of stating it |
 | M6 | Long athlete conversation without moving to a parent group chat, or the group chat ask wasn't repeated when ignored |
 | M7 | A parent was left waiting while the setter worked an athlete conversation |
-| M8 | Link sent without the decision-makers message, or no same-evening follow-ups when they didn't book |
-| M9 | Lead said they booked, wasn't on the calendar, and nobody followed up |
+| M8 | Link sent without the decision-makers message, or no booking follow-up (see it / don't see it on the calendar) |
+| M9 | Missed or late follow-ups when a lead went quiet (15 minutes, 1 hour, 3-hour mark) |
+| M13 | No attendance confirmation before a booked call, or no outreach after a no-show |
+| M14 | Junior Prep family pitched on college and recruiting instead of development and growth |
 | M10 | Gave up before a clear no - closed out "maybe down the road" without the resource offer and one more push, or didn't ask "what changed?" |
 | M11 | Wrong flow for the lead (e.g. 9th-12th grade script to a 6th grader, sales flow to a college player or coach) |
 | M12 | Ran a sales conversation with a family outside the US without confirming financial capacity early |
@@ -307,34 +330,30 @@ training.
 | L3 | Didn't loop back to details the lead shared earlier, so the reply reads like a template |
 | L4 | Wrong authority bridge version for the tone of the conversation |
 
-**[question]** Should anything move up or down a level?
-
 ---
 
 ## 9. How the audit uses this (for the build)
 
-For each conversation, the audit records: the flow used, the stage reached (section 3, 4 or 5),
-a flow score, each mistake with the line that was sent, what the flow calls for, the impact level
-and a link to the DM, plus the follow-up status from section 7.
+For each conversation, the audit records: the setter, the account, the flow used, the stage
+reached (section 3, 4 or 5), each mistake with the line that was sent, what the flow calls for,
+the impact level and a link to the DM, plus the follow-up status from section 7.
 
-**Flow score [proposed]:** start at 100%. Take off 15 for each high-impact mistake, 7 for each
-medium and 2 for each low. Floor at 0. Only steps the conversation has actually reached count.
-A lead that went quiet at step 2 isn't marked down for steps 3-7.
+**No percentage score.** Each conversation and each setter is measured by the **number of
+mistakes, split by severity** (high, medium, low), with the high ones highlighted.
+[Izi, 2026-10-28] Only steps the conversation actually reached count - a lead that went quiet at
+step 2 isn't marked down for steps 3-7.
 
 Anything the playbook doesn't cover is flagged as a question for Izi, never as a mistake.
 
 ---
 
-## 10. Open questions for Izi
+## 10. Still open
 
-1. Left-on-read threshold - how long before an unanswered lead counts as a mistake (working hours
-   and overnight)?
-2. Follow-up cadence after the same-day follow-ups - how many, how far apart, when to stop?
-3. "Booked - no show" - what should the setter do, and is that the setter's job or Izi's?
-4. Junior Prep - are steps 5-7 (bridge, financial, call) the same as the high school flow?
-5. Which setters are we auditing, and which Instagram accounts (@pushthegoalsoccer only, or
-   @izimurray_ too)?
-6. Working hours for setters - so overnight gaps aren't counted against anyone.
-7. Impact levels and the score formula in sections 8 and 9 - right as proposed?
-8. The after-link DMs in step 7 (decision-makers message, same-evening follow-ups, "haven't seen
-   your call") - setter's job or Izi's?
+1. Setter shift times (Central time), so the audit knows when the 15-minute or 3-hour reply rule
+   applies.
+2. What happens after the third same-day follow-up - anything the next day?
+3. In the training material, "Ellie" was changed to Izi. Ellie is also listed as a setter -
+   confirm Ellie is a setter, and whether coach contacts still go to Izi.
+
+Answered 2026-10-28: reply times, follow-up timing, no-shows, Junior Prep framing, setters and
+accounts, impact levels (no percentage), after-link follow-ups.
