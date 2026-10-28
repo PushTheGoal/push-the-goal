@@ -48,8 +48,9 @@ easy to spot.
 
 **Next steps, in order** (the user is new to coding - explain every click):
 1. Izi reviews `playbook.md` and answers its open questions.
-2. GHL key: new Private Integration `Claude - Setter Tracker`, read-only scopes (conversations,
-   conversation messages, contacts, opportunities, calendars).
+2. ~~GHL key~~ **Done 2026-10-28:** Private Integration `Claude - Setter Tracker` (View-only:
+   conversations, conversation messages, contacts, opportunities, calendars, calendar events,
+   users), saved as GitHub secret `GHL_TOKEN`. Not yet tested - the first test run confirms it.
 3. Claude API account at console.anthropic.com, plus a key. Pay-as-you-go - measure the real cost
    on the test day before anything runs daily.
 4. Both keys saved as **GitHub secrets** in this repo. Never in chat, code or docs.
