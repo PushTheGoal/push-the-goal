@@ -35,8 +35,9 @@ easy to spot.
   since Oct 22, so there's no daily paste to check.
 - **Where it runs - decided:** in the **cloud on GitHub** (GitHub Actions on a schedule), not on a
   laptop. Claude's own cloud workspace can't reach GHL, so it can't run there. The repo is private.
-- **Izi's answers to the playbook questions are in** (playbook v2): reply within 15 min in
-  working hours / 3 h outside; follow-ups at 15 min, 1 h, 3 h; confirm every booking either way;
+- **Izi's answers to the playbook questions are in** (playbook v2): reply within 15 min at all
+  hours (setters cover the clock; schedule to be added later); follow-ups at 15 min, 1 h, 3 h,
+  then one a day for 2-3 days; confirm every booking either way;
   "has link - can't book yet" is its own group; no-show outreach; Junior Prep = development and
   growth, not college; mistakes counted by severity, no percentage.
 - **Setters audited:** Mahbubal, Ellie, Ifty. **Both accounts:** @pushthegoalsoccer and

@@ -41,9 +41,10 @@ school athletes and their parents.
    conversation only when no parent or other high-priority conversation is waiting. [source]
 2. **Stay in a live conversation.** While a lead is replying or typing, don't leave to work other
    threads. Reply almost immediately. Don't let a live lead go cold. [source]
-3. **Reply fast.** A lead's message gets an answer within **15 minutes** during working hours,
-   and within **3 hours** outside them. Ifty and Mahbubal work from Egypt and the Middle East, so
-   most hours are covered; there may be some blank hours overnight. [Izi, 2026-10-28]
+3. **Reply fast.** A lead's message gets an answer within **15 minutes**. Setters cover all hours
+   between them (Ifty and Mahbubal work from Egypt and the Middle East), so this applies around
+   the clock. The 3-hour allowance is only for gaps in coverage, if a schedule later shows any.
+   [Izi, 2026-10-28]
 4. **Follow up on time when a lead goes quiet** - see section 6 for the timing. [Izi, 2026-10-28]
 5. **Follow the flow, every step, in order.** Reviewed DMs were skipping about half the steps.
    Skipping is the number one problem the training calls out. [source]
@@ -252,8 +253,8 @@ athletes. [source]
 1. First follow-up **15 minutes** after our message.
 2. Second follow-up **1 hour** after that.
 3. Third follow-up around the **3-hour mark**, before the end of the day.
-4. **Next day:** follow-ups continue. [Izi, 2026-10-28] **[question]** How many, and at what
-   times?
+4. **After day one:** one follow-up a day for the next 2-3 days. [Izi, 2026-10-28]
+   For scoring, the audit expects at least 2 of these daily follow-ups.
 
 **Approved moves:** [source]
 - A funny GIF, so they know a real person is there.
@@ -280,16 +281,15 @@ athletes. [source]
 
 | Status | Meaning | Next step |
 |---|---|---|
-| **Left on read by us** | The lead's message is the last one and we haven't answered. Most urgent. Late once it passes 15 minutes in working hours, 3 hours outside them. | Reply now, in the flow, at the step they're on |
-| **Went quiet** | Our message is the last one and the lead stopped replying. | Follow-ups at 15 minutes, then 1 hour, then the 3-hour mark (section 6) |
+| **Left on read by us** | The lead's message is the last one and we haven't answered. Most urgent. Late once it passes 15 minutes. | Reply now, in the flow, at the step they're on |
+| **Went quiet** | Our message is the last one and the lead stopped replying. | Follow-ups at 15 minutes, 1 hour and the 3-hour mark, then one a day for 2-3 days (section 6) |
 | **Link sent - not booked** | Link sent, no booking confirmed | Booking follow-up (step 7), then the section 6 timing |
 | **Has link - can't book yet** | Wants the link but can't book right now | Check back at the agreed time |
 | **Booked** | Call is on the calendar | Confirm attendance before the call |
 | **Booked - no show** | From GHL's "SALES TRACKING" pipeline | Reach out, check for a miscommunication, offer a new time |
 
-**[question]** Setter shift times (in Central time), so the audit knows which reply-time rule
-applies - 15 minutes or 3 hours.
-**[question]** Next-day follow-ups: how many, and at what times?
+**Coverage:** setters cover all hours between them, so the **15-minute rule applies around the
+clock** until a setter schedule is added. [Izi, 2026-10-28]
 
 ---
 
@@ -304,7 +304,7 @@ the training.
 | H1 | Skipped a step before the booking link - most often the Dig, Authority Bridge or Financial Qualification |
 | H2 | Rushed to "book the call" when the parent asked about cost, before the flow was done |
 | H3 | Financial qualification was only "are you open to investing?", with no objective signals |
-| H4 | Left a live conversation, or left a lead on read past 15 minutes (working hours) or 3 hours (outside them) |
+| H4 | Left a live conversation, or left a lead on read past 15 minutes |
 | H5 | Sent the banned "seen but not responding" message, or any argumentative or guilt-tripping follow-up |
 | H6 | Quoted a price in DMs |
 | H7 | Scored or treated a US-based family differently because of heritage or language |
@@ -354,9 +354,8 @@ Anything the playbook doesn't cover is flagged as a question for Izi, never as a
 
 ## 10. Still open
 
-1. Setter shift times (Central time), so the audit knows when the 15-minute or 3-hour reply rule
-   applies.
-2. Next-day follow-ups - how many, and at what times?
+1. Setter schedule - Izi's partner will add it later. Until then, the 15-minute reply rule applies
+   at all hours.
 
 Answered 2026-10-28: reply times, follow-up timing, no-shows, Junior Prep framing, setters and
 accounts, impact levels (no percentage), after-link follow-ups.
