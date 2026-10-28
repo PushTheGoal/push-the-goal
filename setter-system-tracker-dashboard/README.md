@@ -23,11 +23,11 @@ easy to spot.
 ## Update 2026-10-28 - read this first
 
 - **Playbook drafted:** `playbook.md` (on branch `claude/setter-playbook-draft`). Built from the
-  "SETTING PLAYBOOK PTG" doc, the "DM review 10/13" doc, Ellie's DM review videos (Oct 14-15, Oct 22)
+  "SETTING PLAYBOOK PTG" doc, the "DM review 10/13" doc, Izi's DM review videos (Oct 14-15, Oct 22)
   and Coach Brittani's Junior Prep onboarding call (Sep 14, used only to explain how Junior Prep
   runs). **Waiting on Izi:** review it and answer the 8 open questions at the bottom.
-- **Names:** Ellie also goes by Nan and El ("El Engelbrecht" on Fathom). Ellie and Izi are
-  different people. Ellie made the training videos and sets sometimes.
+- **Names:** Ellie (also Nan or El) is one of the setters. Every task the training material gave
+  to Ellie belongs to Coach Izi - write Izi there.
 - **Location rule (Izi, 2026-10-27):** a family living outside the US gets financial capacity
   confirmed early with the objective signals. Not an automatic disqualifier. Heritage, ethnicity
   or the parents' language is never scored.

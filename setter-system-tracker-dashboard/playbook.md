@@ -10,16 +10,16 @@ Built 2026-10-28 from Izi's own material only:
 |---|---|
 | Google Doc "SETTING PLAYBOOK PTG" | The scripts, the 7-step flow, special cases, post-booking process |
 | Google Doc "DM review 10/13" | Priority and follow-up rules, daily ChatGPT use |
-| Ellie's DM review videos, Oct 14 (4 parts) | The mistakes, why each step exists, recovery moves, the banned message |
+| Izi's DM review videos, Oct 14 (4 parts) | The mistakes, why each step exists, recovery moves, the banned message |
 | Good-conversation review, Oct 15 | What the flow looks like done well |
 | ChatGPT source setup, Oct 22 | Playbook doc added as a ChatGPT source |
 | Coach Brittani's onboarding call, Sep 14 | How Junior Prep actually runs, so setters can describe it |
 | Izi, in chat, 2026-10-27 | How location counts in financial qualification |
 | Izi's answers, 2026-10-28 | Reply times, follow-up timing, no-shows, Junior Prep framing, setters and accounts, how mistakes are counted, after-link follow-ups |
 
-**Names:** Ellie also goes by Nan and El ("El Engelbrecht" on Fathom). Ellie and Izi are
-different people. Ellie made the training videos, sets sometimes and does other work in the
-business. [2026-10-28]
+**Names:** Ellie (also Nan or El) is one of the setters. Every task the training material gave
+to Ellie belongs to **Coach Izi** - this playbook already says Izi wherever that applies.
+[2026-10-28]
 
 **Who is audited:** setters Mahbubal, Ellie and Ifty, on **both** Instagram accounts -
 @pushthegoalsoccer and @izimurray_. [Izi, 2026-10-28]
@@ -73,7 +73,7 @@ Pick the flow from who is talking and what they said. Using the wrong one is a m
 | Asking about ID camps | ID camp line, then into the parent flow at step 2 |
 | Athlete is injured | Injury line, then into the parent flow at step 2 |
 | Athlete already plays in college | No sales conversation. Connect and close out. [source] |
-| University coach (NCAA D1/D2/D3, JUCO) | Coach line. Get school, boys or girls, name, Instagram handle; send to Ellie for the coach list. Check their bio if they keep it short. [source] |
+| University coach (NCAA D1/D2/D3, JUCO) | Coach line. Get school, boys or girls, name, Instagram handle; send to Coach Izi for the coach list. Check their bio if they keep it short. [source] |
 | Non-soccer coach | Short thank-you line. [source] |
 | Adult fan, no athlete | Short thank-you line. [source] |
 
