@@ -37,6 +37,8 @@ where it comes from. Izi signs off on it before anything runs.
 - **The winner gets pushed to the main page automatically.** Izi's friends do this today with
   their own setup - find out what they use and match it.
 - Source: Izi's library and past winners only, reposted or reworded.
+- **Main source: clips cut from Izi's live videos** - about 10 shorts per video, picked by a
+  system trained on Izi's taste. Plan: `playbooks/live-video-clipping.md`.
 
 ### 4. A dashboard of what wins
 

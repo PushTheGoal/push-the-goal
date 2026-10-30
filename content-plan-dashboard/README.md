@@ -54,6 +54,7 @@ content-plan-dashboard/
     carousels.md            the two daily carousels, slide frameworks
     hooks.md                hook library, tagged so the ledger can learn which types win
     podcast-clips.md        podcast clip repost schedule - Claude plans, Ifty posts
+    live-video-clipping.md  live video -> ~10 shorts, picked by a system trained on Izi's taste
   ledger/
     schema.md               every column, every status, the ID format
     content-ledger.csv      one row per piece of content - the source for the dashboard

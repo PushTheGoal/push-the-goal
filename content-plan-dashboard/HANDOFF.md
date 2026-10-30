@@ -66,13 +66,14 @@ until Izi has given full instructions.
 
 ## Next steps, in order
 
-0. **Google Drive folders.** Izi points Claude at the folders for photos of Izi, his videos and
-   the podcast clips. Claude indexes them read-only. The Drive connector is already attached to
-   Claude.
-1. **Metricool** - for both accounts, @pushthegoalsoccer and @izimurray_. Or whatever Izi's
-   friends use, if it automates the winner better. (Izi's friend recommended it). It schedules and auto-posts trial reels, has
-   full Instagram stats, and has an official Claude connector.
-   - Izi signs up on a paid plan and connects @pushthegoalsoccer.
+0. **Google Drive folders.** Izi points Claude at the folders for photos of Izi, his videos
+   (including live videos) and the podcast clips. Claude indexes them read-only. The Drive
+   connector is already attached to Claude.
+1. **Metricool**, for both accounts, @pushthegoalsoccer and @izimurray_. It was recommended by
+   Izi's friend: it schedules and auto-posts trial reels, has full Instagram stats, and has an
+   official Claude connector. If what Izi's friends use automates the winner better, use that
+   instead.
+   - Izi signs up on a paid plan and connects both accounts.
    - Izi clicks Connect on the Metricool connector in Claude.
    - Claude then checks what the connector can do - first of all, whether it can mark a post as
      a trial reel.
@@ -82,8 +83,9 @@ until Izi has given full instructions.
    possible.
 3. **Past winners:** pull every past post with its numbers. Izi marks each one repost, reword or
    never reuse.
-4. **Original files and B-roll** go into
-   `C:\Users\15306\Documents\Claude\Projects\Content\push-the-goal\library\`.
+4. **Live video clipping:** each live video becomes about 10 shorts, picked by a system trained
+   on Izi's taste. This is the main source of trial reels. Izi supplies example clips he loves
+   and rejects, his topic list, and the rendering choice. Plan: `playbooks/live-video-clipping.md`.
 5. **Izi's rulebook:** reword rules, how long before a repost, the daily mix, posting times.
 6. **ffmpeg** on the laptop (needs Izi's OK). Daily scheduled run.
 7. **Dry run, then launch week** with Izi approving everything in GHL as `in_review`, then

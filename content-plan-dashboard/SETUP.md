@@ -84,6 +84,10 @@ Ticked = done. Who does each step is in brackets.
 
 ## Part 3 - The library (the only source material)
 
+- [ ] **Live video clipping set up** [Izi + Claude] - the checklist at the bottom of
+      `playbooks/live-video-clipping.md`: live video folder, taste-file examples, framing check,
+      transcription, rendering choice, review queue.
+
 - [ ] **Index the Drive folders** [Claude] - one row per photo, video and clip: link, what it
       shows, account it fits, and for clips every date it went out.
 - [ ] **Past winners** [Claude pulls, Izi approves] - every past post on both accounts with its
