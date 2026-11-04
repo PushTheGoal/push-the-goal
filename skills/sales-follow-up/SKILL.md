@@ -14,17 +14,24 @@ them. The moment the family replies, the sequence stops and Izi closes.
 
 ## Status
 
-- **Not live yet.** Waiting on Ifty to build the GHL side and send the inbound webhook URL. Setup
-  doc: "Sales Follow-up in GHL - setup for Ifty" (https://claude.ai/artifact/V7A884rRFLoUMyrnZzTdom).
-- The URL goes in `sales/.ghl-webhook-url` (gitignored - never commit it, never paste it into a
-  doc). No URL file = nothing is posted; write the messages and report them instead.
+- **Live.** Ifty built the GHL side on 2026-10-28. Runs as a cloud routine every day at 8am
+  Central. Setup doc: "Sales Follow-up in GHL - setup for Ifty" (https://claude.ai/artifact/V7A884rRFLoUMyrnZzTdom).
+- The webhook URL is the cloud environment variable `GHL_FOLLOWUP_WEBHOOK` (on Izi's laptop:
+  `sales/.ghl-webhook-url`, gitignored). Never print it, commit it, or put it in a doc, a message
+  or a log. Neither one set = post nothing: write the messages, report them, and log nothing as
+  posted.
+- **Go-live cutoff: only calls dated 2026-10-22 or later.** Older FOLLOW-UP rows (September and
+  October before the 22nd) are never posted, even when they are not in the log - they were
+  handled by hand or are past the 30 days.
+- **Posting a family sends its day 1 email straight away** (Workflow B has no wait on step 1), so
+  a post cannot be checked in GHL before it goes. Every fact must already be right when posted.
 - **Rules locked 2026-10-23.** Izi read full five-message sets for Melina Baldeon, Ajani Carnegie
   and Olivia Gagne and said *"These read right. Lock these rules in for every family."* Those
   samples are the benchmark: "Sample follow-ups for review"
   (https://claude.ai/artifact/QReS2qrPyneh3LM4warAQc). Brooklyn Cole's set is in the Ifty doc.
 - The six families with hand-written Gmail drafts from the 2026-10-23 trial (Melina, Ajani,
   Brooklyn, Olivia, Taylor Vargas, Channing Deloach) are Izi's to send by hand. Never post them
-  to GHL.
+  to GHL. Skip them by email every run.
 
 ## Check this first - is this the right workflow?
 
@@ -39,15 +46,17 @@ them. The moment the family replies, the sequence stops and Izi closes.
 - **Tracker:** "Izi Sales call tracker 2026", Google Sheet id
   `1C6DdcURIg1NTolVRa4tzFcBvSgVSqlT_LQVaUzFr3j8`. One tab per month plus TOTALS. Read-only.
   `read_file_content` only returns sample rows - to read every row, export it as xlsx with
-  `download_file_content` and parse the sheet XML (this laptop has no Python; PowerShell
-  `Expand-Archive` + `[xml]` works).
+  `download_file_content` and parse it with `python3 sales/tracker_rows.py <export> 2026-10-22`
+  (standard library only; prints one JSON line per row, phone already in +1 format).
 - **Columns move between month tabs** (IG Link and PHONE swap, NOTES missing on JAN). Find columns
   by header name (DATE, NAME, EMAIL, PHONE, RECORDING, OUTCOME), never by position.
 - **NAME** mixes athlete and parent ("Payton Schubert Damon Schubert"). Get the real first names
   from the call, not the cell. A bad EMAIL cell (June has names in it) and no phone = skip and flag.
 - **NOTES holds prices.** Read it for context (holds, "follow up in december"), never copy from it.
 - **Log:** `sales/follow-up-log.csv` in this repo - one row per family posted, stopped or held.
-  It is what stops a family being posted twice. Never drop or rewrite old rows.
+  It is what stops a family being posted twice. Never drop or rewrite old rows. Status is POSTED,
+  STOPPED or HOLD - a HOLD family is checked again each morning. After posting, commit the log and
+  push it to `main` straight away. If that push fails, say so at the top of the report.
 
 ## Each morning
 
@@ -74,7 +83,17 @@ Don't post, and flag it, if:
 - **They clearly said no**, by email or on the call (Candace Besse emailed "We've decided to not
   to pursue this route" while the row still said FOLLOW-UP). Tell Izi to move the row to LOST.
 
-Hold (log as HOLD, post nothing) if NOTES give a later date ("follow up in december").
+Hold (log as HOLD, post nothing) if:
+- NOTES give a later date ("follow up in december").
+- Izi has personally emailed or messaged the family in the last 3 days - don't stack an
+  automated recap on top of Izi's own nudge. Check again the next morning.
+
+Search by last name as well as the tracker email every time: on the first live run (2026-10-28)
+Chris Gorringe had replied from christopher.gorringe@yahoo.com while the tracker held
+gorringepartyof4@gmail.com.
+
+The run can only see email. A family may have answered Izi by text, so report anyone whose call
+ended with them promising to message Izi.
 
 ## The five messages
 
@@ -135,11 +154,12 @@ isn't the right time, when should I check back in. Never "hop on a call", "send 
 ```
 
 Phone as +1 and ten digits (the tracker has "(812) 549-7933", "1 (404) 840-5588", "15416330352").
-Email bodies as simple HTML paragraphs, list items as `<ul><li>`. Post with `curl -X POST -H
-"Content-Type: application/json" --data @<file>` from a payload file in the scratchpad. Stop
+Every email paragraph is `<p style="margin:0 0 16px 0">...</p>`, list items `<ul><li>`. Post with
+`curl -sS -o /dev/null -w "%{http_code}" -X POST -H "Content-Type: application/json" --data @<file>
+"$GHL_FOLLOWUP_WEBHOOK"` from a payload file outside the repo. Only a 200 counts as posted. Stop
 payload: `action`, `email`, `phone`, `outcome`.
 
 ## Daily run
 
-Once the webhook URL is in, a desktop scheduled task (`0 8 * * *` local) runs this skill end to
-end and reports. It runs while the Claude app is open; if the laptop is off it runs on next launch.
+A cloud routine runs this skill end to end at 14:00 UTC every day (8am Central in winter, 9am during
+daylight time) and ends with a short report. It does not need Izi's laptop to be on.
