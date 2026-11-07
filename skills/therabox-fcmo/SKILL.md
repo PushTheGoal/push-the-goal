@@ -57,14 +57,14 @@ therapy or trauma claims, no guaranteed outcomes). Where it says 12 weeks of 60-
 sessions, an optional separate 3-month phase, no group calls, or Whop, use Izi's plan above.
 
 Working docs (Google Docs in the Warrior Method folder): "The Warrior Method - VSL Plan" (id
-`1yBDmnurm5m83PBpTDvK8DI_r4b6TA4mPrTAgtjrb3po`) and "The Warrior Method - Booking Page Questionnaire"
-(id `1jRNMnCcOL2TjL-AXHViG4EE-kZAGCQrwRhQnsOEFcu8`, 15 questions). Edit them in place (Docs
+`1yBDmnurm5m83PBpTDvK8DI_r4b6TA4mPrTAgtjrb3po`) and "The Warrior Method - Booking Page and Questions"
+(id `1pwdMj0URlXlbhG8Kp45ZOmC9pANMtojzVCAoOuP2Bbg`: page copy plus 16 qualifying questions - no DM qualifying, ManyChat sends her straight to the page; the calendar opens only on Yes to the $3,000 minimum and every decision maker on the call). Edit them in place (Docs
 Find and replace); never make a second copy.
 
 **Where docs live on the CEO Tracker** (Izi, 2026-10-24 - he called a doc linked at the bottom of
 HANNAH'S INFO "an organizational mistake"): a doc for an area is linked **at the top of that
 area's tab** (row 3, bold, "OPEN THE ... ->") and in the LINK column of every task row it serves.
-The VSL Plan lives on the VSL tab; the Booking Questionnaire on the BOOKING tab. HANNAH'S INFO
+The VSL Plan lives on the VSL tab; the Booking Page and Questions on the BOOKING tab. HANNAH'S INFO
 holds only Hannah's own facts, materials and links.
 
 **VSL answers and deck (2026-10-24):** Hannah answered the VSL questions one at a time in chat
