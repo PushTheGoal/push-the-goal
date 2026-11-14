@@ -131,7 +131,7 @@ A Google Sheet with one row per viral post. Separate tabs for **Push the Goal** 
 2. Sort by views.
 3. Keep posts in the top 10% for that account, or at least 3x that account's median views.
    That should be roughly 30-60 posts per account.
-4. Izi takes a quick look and deletes anything he never wants reused.
+4. Izi takes a quick look and deletes anything she never wants reused.
 
 ### 2. The original video files
 

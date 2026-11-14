@@ -66,7 +66,7 @@ until Izi has given full instructions.
 
 ## Next steps, in order
 
-0. **Google Drive folders.** Izi points Claude at the folders for photos of Izi, his videos
+0. **Google Drive folders.** Izi points Claude at the folders for photos of Izi, her videos
    (including live videos) and the podcast clips. Claude indexes them read-only. The Drive
    connector is already attached to Claude.
 1. **Metricool**, for both accounts, @pushthegoalsoccer and @izimurray_. It was recommended by
@@ -84,8 +84,8 @@ until Izi has given full instructions.
 3. **Past winners:** pull every past post with its numbers. Izi marks each one repost, reword or
    never reuse.
 4. **Live video clipping:** each live video becomes about 10 shorts, picked by a system trained
-   on Izi's taste. This is the main source of trial reels. Izi supplies example clips he loves
-   and rejects, his topic list, and the rendering choice. Plan: `playbooks/live-video-clipping.md`.
+   on Izi's taste. This is the main source of trial reels. Izi supplies example clips she loves
+   and rejects, her topic list, and the rendering choice. Plan: `playbooks/live-video-clipping.md`.
 5. **Izi's rulebook:** reword rules, how long before a repost, the daily mix, posting times.
 6. **ffmpeg** on the laptop (needs Izi's OK). Daily scheduled run.
 7. **Dry run, then launch week** with Izi approving everything in GHL as `in_review`, then

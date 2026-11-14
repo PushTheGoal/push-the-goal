@@ -43,7 +43,7 @@ Izi or Ifty saves those into the files named below, which are gitignored.
   comment -> lead -> booked call -> sale.
 - **Rule from 2026-10-27: existing GHL work is never edited** (see CLAUDE.md). So: 5 Recipe stays
   as it is (its Sep 19 post may send two DMs once the new one is live - Izi's call whether to
-  switch 5 Recipe off himself); old automations keep their old tags and links; the broken and
+  switch 5 Recipe off herself); old automations keep their old tags and links; the broken and
   duplicate ones are reported, not fixed. Tracking tags and tracking links go only on new
   `Claude -` / `TEST -` workflows. Step 4 (read-only scopes) edits only the key Claude created.
 - **Metricool** proposed (Izi's friend) as the posting + stats route for both accounts: schedules and

@@ -70,4 +70,4 @@ calls and sales.
 - **Backend first.** No content gets made until setup is finished and Izi has given clear
   instructions (`skills/content-system/SKILL.md`, build lock).
 - **Existing GHL work is never edited.**
-- **Only Izi's own material:** his photos, his videos, his clips, his past winners.
+- **Only Izi's own material:** her photos, her videos, her clips, her past winners.

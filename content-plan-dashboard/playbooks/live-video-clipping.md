@@ -5,10 +5,10 @@ Planned 2026-10-30. **Not built.** It sits inside the build lock: no clips get m
 
 ## The problem it solves
 
-Izi wants each live video turned into about 10 shorts that are actually good - on his topics, in
-his voice, the moments he'd pick himself. Basic AI clippers (OpusClip, Vizard, Klap, Submagic,
-Descript, Riverside Magic Clips) score clips on generic "virality". They don't know his topics,
-his voice, or what has worked for his audience, so most of their output gets thrown away.
+Izi wants each live video turned into about 10 shorts that are actually good - on her topics, in
+her voice, the moments she'd pick herself. Basic AI clippers (OpusClip, Vizard, Klap, Submagic,
+Descript, Riverside Magic Clips) score clips on generic "virality". They don't know her topics,
+her voice, or what has worked for her audience, so most of their output gets thrown away.
 
 **The fix: split the job in two.** A brain trained on Izi's taste picks the moments. A separate
 tool turns them into finished shorts.
@@ -35,7 +35,7 @@ the source rule.
    - one line on why it made the cut
 4. **Cut and finish.** Vertical 9:16, Izi centred, captions burned in, in the brand style for that
    account. Done by ffmpeg on the laptop or by a clipper's rendering tools (see Rendering below).
-5. **Review queue.** Izi approves or rejects each clip, with a word on why if he wants. Only
+5. **Review queue.** Izi approves or rejects each clip, with a word on why if she wants. Only
    approved clips can become trial reels.
 6. **Log it.** Every clip is a row in `ledger/content-ledger.csv`, with `source_id` pointing to
    the live video, so the dashboard can show which videos produce winners.
@@ -56,7 +56,7 @@ results that Claude reads every time it picks. It lives at
 - **Approval history** - every approve and reject from the review queue, added as it happens.
 
 **The loop:** approvals, rejections and trial reel results keep getting added. Over a few weeks
-the picks converge on what Izi would pick himself, and on what actually wins.
+the picks converge on what Izi would pick herself, and on what actually wins.
 
 ## Rendering - three options
 
@@ -71,13 +71,13 @@ Before choosing, ask Izi's friends what they use. Their setup may already be opt
 ## What's needed before building
 
 - [ ] **Drive folder for live videos** [Izi].
-- [ ] **Examples for the taste file** [Izi] - past shorts he loves, a few he'd never post, his
+- [ ] **Examples for the taste file** [Izi] - past shorts she loves, a few she'd never post, her
       topic list. This matters most - the system is only as good as these.
-- [ ] **Framing check** [Izi] - is he always centred, or does the camera move and other people
+- [ ] **Framing check** [Izi] - is she always centred, or does the camera move and other people
       appear? That decides whether option A is enough or face tracking is worth paying for.
 - [ ] **Transcription** [Izi OKs, Claude sets up] - a service, or Whisper on the laptop (needs
       Python installed).
 - [ ] **ffmpeg** [Izi OKs, Claude installs] - already on the `SETUP.md` list.
 - [ ] **Rendering choice** [Izi] - A, B or C above.
-- [ ] **Review queue format** [Izi] - where he approves clips: a simple page, a Google Sheet, or
+- [ ] **Review queue format** [Izi] - where she approves clips: a simple page, a Google Sheet, or
       the dashboard.

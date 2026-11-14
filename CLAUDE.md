@@ -59,7 +59,7 @@ excited about this kid and pushing them forward, not one auditing their failures
 
 The failure mode is an accurate, well-organised message where every paragraph is something
 the kid did not do. Each line is defensible alone; the accumulation is what stings. Izi
-describes himself as "a coach who actually cares but refuses to let you stay average" -
+describes herself as "a coach who actually cares but refuses to let you stay average" -
 the caring half has to be visible on the page.
 
 Concrete rules that follow from it:
@@ -81,8 +81,8 @@ Full detail with before/after examples: `skills/push-the-goal-call-notes/referen
 ## Hard rules
 
 - **Never send anything.** Every message - athlete, parent, coach - is left as an unsent
-  draft, and the thread is marked unread so it shows blue. Izi reviews and sends himself,
-  every time. He almost always makes small edits, and that is the point.
+  draft, and the thread is marked unread so it shows blue. Izi reviews and sends herself,
+  every time. She almost always makes small edits, and that is the point.
 - **Second exception: social content (2026-10-27).** Izi asked for the Instagram content engine
   to post automatically (trial reels, the daily winner, carousels). Content goes out through GHL
   or the Meta API, never through a browser. Launch week goes to GHL as `in_review` for Izi to
@@ -100,7 +100,7 @@ Full detail with before/after examples: `skills/push-the-goal-call-notes/referen
   (https://claude.ai/artifact/V7A884rRFLoUMyrnZzTdom). Every message asks for a decision or a
   check-back date, never another call (Izi: "i dont want to book more calls i want an answer").
   Claude hands the text to GHL; it does not send email or SMS itself.
-- **Once he has sent it, it is finished.** Tone feedback given after a send applies to the
+- **Once she has sent it, it is finished.** Tone feedback given after a send applies to the
   *next* athlete, not to rewriting what already went out.
 - **Ground everything in the transcript.** Never invent schools, GPAs, stats, or recruiting
   timeline claims. A wrong claim in a parent message is worse than a missing one.
@@ -110,7 +110,7 @@ Full detail with before/after examples: `skills/push-the-goal-call-notes/referen
   tracker row carry the identical URL. Never make a second copy so something has a link to
   point at - two copies drift, and the coach and the tracker end up showing different plans for
   the same kid.
-- **Don't make him babysit.** Run the whole workflow end to end without stopping to confirm
+- **Don't make her babysit.** Run the whole workflow end to end without stopping to confirm
   each step. Ask only when a real fork exists.
 
 ## People
@@ -151,6 +151,7 @@ Standard lead magnet CTA line - name the offers, no prices:
 | Lead Magnet Vault Drive folder | id `1Pdncp4enoJIcO1My_3Zs-C9gaM4XoEn_` |
 | Content system (strategy, ledger, tools) | `content-plan-dashboard/` in this repo - start at `content-plan-dashboard/README.md` |
 | Setter System Tracker Dashboard (DM audit for setters - planned, not built) | `setter-system-tracker-dashboard/` - start at its `README.md` |
+| Training content for coaches and community | `training/`, one folder per piece. First: "One Layer at a Time" (grassroots mindset PDF), `training/one-layer-at-a-time/`. PDFs are gitignored, so the PDF is on this laptop only; `source.html` rebuilds it |
 | Content media (B-roll, renders) | `C:\Users\15306\Documents\Claude\Projects\Content\<brand>\` (this laptop only, never git) |
 | Local business folders | `C:\Users\15306\Documents\Claude\Projects\` (this laptop only - see OPEN-QUESTIONS) |
 
@@ -188,12 +189,22 @@ the RECRUIT CTA and the soccer palettes do **not** apply here.
   source**: its episode titles read "Episode 174 | ...". Recent YouTube titles carry no number;
   match them to Spotify by title and date (EP 174 = "Can a Godly Woman Be Strong, Bold, and
   Independent?", YouTube id `DSTc3fDq7VM`, 12 Oct 2026). Apple Podcasts is stuck at EP 160.
-- Scope is description and tags only. No thumbnails. Each batch doc opens with a numbered job
-  table, the 10-step Studio procedure, and a checklist per episode.
+- Scope is title, description and tags (no thumbnails). Each batch doc opens with a numbered job
+  table and the 11-step Studio procedure (title step added in Batch 2), then per episode: a
+  checklist, new title, description, tags, and 3 timestamped Shorts picks with headline titles.
 - Known channel problems (flagged to Tahir 14 Oct 2026): the YouTube podcast playlist is named
   "Wellness" and holds only 66 mostly early episodes; Apple Podcasts stopped at EP 160.
 - Batch 1 (EP 171-174) delivered 14 Oct 2026 - doc "EP 171-174 - YouTube SEO (Batch 1) - USE THIS
-  ONE". Work backward from EP 170 next (EP 167-170), plus each new upload.
+  ONE". Batch 2 (EP 167-170) delivered 9 Nov 2026 - doc "EP 167-170 - YouTube SEO (Batch 2)".
+  Batch 3 (EP 175-177, three episodes because EP 178 was not out) delivered 9 Nov 2026 - doc
+  "EP 175-177 - YouTube SEO (Batch 3)". **Izi's call (9 Nov): newest first.** Next batch starts
+  with EP 178 and each new upload; the back catalogue (EP 166 and earlier) comes after.
+- Tahir's posting status (checked 9 Nov 2026): Batch 1 not posted - old descriptions, no tags.
+  The wrong EP 173 description was fixed separately. Check the live videos before each batch and
+  tell Izi what is still unposted.
+- Episodes about mental health (e.g. EP 168): no diagnosis names anywhere, keep the "not medical
+  advice - never stop or change a medication without your doctor" line, and add the 988 Suicide
+  & Crisis Lifeline line when suicidal thoughts come up on air.
 - Superseded drafts in the SEO folder go straight to the trash (Izi's call, 14 Oct 2026). Only
   the current doc per batch stays in the folder.
 - Description format: keyword hook in the first two lines, "Episode N of The Long Game Podcast..."
@@ -219,8 +230,8 @@ A third, separate business. **Hannah Beyler** (@hannah_beyler, 98.1K) founded Th
 (therapeutic boxing, Nashville) and TheraClub (wellness events). **The business Izi works on is
 now The Warrior Method, not TheraBox** (Izi, 2026-10-24): every file, sheet and heading uses that
 name. "TheraBox" stays only where it means her real studio - its website, @therabox_, her story,
-past studio clients. Izi is her Fractional CMO and takes all her sales calls. He is paid two
-ways: **10% of all Warrior Method earnings** (Fractional CMO) **plus 15% of every sale he
+past studio clients. Izi is her Fractional CMO and takes all her sales calls. She is paid two
+ways: **10% of all Warrior Method earnings** (Fractional CMO) **plus 15% of every sale she
 closes** (closer). Push the Goal voice, palettes, offers and the RECRUIT CTA do **not** apply -
 the copy is in Hannah's faith-first voice.
 
@@ -240,8 +251,8 @@ The offer is **The Warrior Method**: 6 months, 45-min weekly sessions (months 1-
 every other week (months 4-6), community and weekly group calls throughout, on Skool. Izi's plan
 overrides Hannah's Program Blueprint PDF wherever they differ (Izi, 2026-10-24).
 Tasks and sales calls never share a sheet (Izi, 2026-10-23): tasks go in the CEO Tracker,
-calls in the Sales Call Tracker. Izi wants his sheets in colour, with clickable tabs and tick
-boxes - his own "CEO Tracker" (id `1aOP78SYI3aEJw7d-pqFus86jcjA1IL_2_7Pcv_9Z6us`) is the model.
+calls in the Sales Call Tracker. Izi wants her sheets in colour, with clickable tabs and tick
+boxes - her own "CEO Tracker" (id `1aOP78SYI3aEJw7d-pqFus86jcjA1IL_2_7Pcv_9Z6us`) is the model.
 
 ## Tooling notes that keep biting
 
@@ -270,5 +281,6 @@ alike, on every device. The `skills/` folder in this repo holds reference copies
 | `new-student-tracker` | Logs signees into the year's New Students spreadsheet |
 | `weekly-lead-mag-vault` | Weekly lead magnet + IG drop, filed into the Drive vault |
 | `sales-follow-up` | FOLLOW-UP family -> 5 messages written from their own Fathom call, posted to GHL, which sends them. Writing rules locked by Izi 2026-10-23. Live as a daily cloud routine; webhook is the cloud variable `GHL_FOLLOWUP_WEBHOOK` |
-| `content-system` | Social content engine for @pushthegoalsoccer and @izimurray_: 5-7 trial reels a day per account with the winner automated, carousels from Izi's Drive photos and videos, podcast clip repost schedule handed to Ifty (no clip twice within 30 days), dashboard of what wins. Goal: `content-plan-dashboard/OBJECTIVES.md`. Brands and platforms are added as folders in `content-plan-dashboard/`, never as new skills. Repo only. **Locked** - makes nothing until `content-plan-dashboard/SETUP.md` is done and Izi gives instructions; source is only his library and past winners, reposted or reworded |
+| `content-system` | Social content engine for @pushthegoalsoccer and @izimurray_: 5-7 trial reels a day per account with the winner automated, carousels from Izi's Drive photos and videos, podcast clip repost schedule handed to Ifty (no clip twice within 30 days), dashboard of what wins. Goal: `content-plan-dashboard/OBJECTIVES.md`. Brands and platforms are added as folders in `content-plan-dashboard/`, never as new skills. Repo only. **Locked** - makes nothing until `content-plan-dashboard/SETUP.md` is done and Izi gives instructions; source is only her library and past winners, reposted or reworded |
 | `therabox-fcmo` | The Warrior Method, was TheraBox (Hannah Beyler) - log her sales calls, weekly numbers, launch status, funnel copy. Live in the account since 2026-10-23. Also runs as the `therabox-fcmo` agent |
+| `stripe-dispute-response` | Chargeback -> evidence from emails, Fathom and delivery records, Stripe form filled, Izi clicks submit. Also payment link terms and dispute prevention. Written 2026-11-06, case files in `private/`. Check it is uploaded to the account before relying on it as a live skill |
