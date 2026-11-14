@@ -4,7 +4,14 @@ Post 5-7 trial reels a day to non-followers. Judge them on real numbers. Promote
 to the main page. Feed what won back into tomorrow's batch. The point is not 6 reels - it is that
 the main page only ever gets reels that already proved themselves on strangers.
 
-## Source rule (Izi, 2026-10-27) - overrides everything below
+## Viral rework (Izi, 2026-11-14) - overrides everything below
+
+Every trial reel is a rework of one of our own posts that went viral in the last two years.
+Only the hook and/or the B-roll change; the message never does. The full instructions and data
+spec the live system runs on are in **`briefs/viral-rework-brief.md`**. Where this playbook
+disagrees with that brief, the brief wins.
+
+## Source rule (Izi, 2026-10-27)
 
 Nothing is invented. Every trial reel comes from **Izi's library** and from **content that has
 already been posted and done well**: the same video reposted, or reworded (new hook text, new

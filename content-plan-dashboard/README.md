@@ -55,6 +55,8 @@ content-plan-dashboard/
     hooks.md                hook library, tagged so the ledger can learn which types win
     podcast-clips.md        podcast clip repost schedule - Claude plans, Ifty posts
     live-video-clipping.md  live video -> ~10 shorts, picked by a system trained on Izi's taste
+  briefs/
+    viral-rework-brief.md   what the trial reel system runs on: rework viral posts, change hook / B-roll only
   ledger/
     schema.md               every column, every status, the ID format
     content-ledger.csv      one row per piece of content - the source for the dashboard
