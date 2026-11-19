@@ -40,26 +40,37 @@ const faq = [
   description="College soccer recruiting help for U.S. families. Talent alone won't get your athlete recruited. Get real strategy and coach outreach. Book a free call."
   image={coaching.src}
 >
-  <section class="hero" aria-labelledby="hero-h">
-    {heroVideo ? (
-      <video class="hero-media" autoplay muted loop playsinline poster={coaching.src} aria-hidden="true">
-        <source src="/video/hero.mp4" type="video/mp4" />
-      </video>
-    ) : (
-      <Image src={coaching} alt="" class="hero-media" widths={[800, 1400]} sizes="100vw" loading="eager" />
+  <section class:list={['hero', { 'has-clip': heroVideo }]} aria-labelledby="hero-h">
+    {!heroVideo && <Image src={coaching} alt="" class="hero-media" widths={[800, 1400]} sizes="100vw" loading="eager" />}
+    {heroVideo && (
+      <div class="hero-clip">
+        <video id="hero-video" autoplay muted loop playsinline preload="auto" poster="/video/hero-poster.jpg" aria-label="Coach Izi juggling, keepers making saves and a breakaway in a game">
+          <source src="/video/hero.mp4" type="video/mp4" />
+          <source src="/video/hero.webm" type="video/webm" />
+        </video>
+      </div>
     )}
     <div class="shade" aria-hidden="true"></div>
     <div class="wrap hero-in">
-      <p class="eyebrow">College soccer recruiting coach · Grades 9 to 12</p>
-      <h1 id="hero-h">College Soccer Recruiting Coaching That Turns Talent Into Real College Opportunities</h1>
-      <p class="lead">You've spent years driving to 6 a.m. practices. Paying club fees. Booking hotels three states away for a single weekend tournament. And somewhere along the line, someone told you that if your kid was good enough, college coaches would find them. That's not how it works anymore.</p>
-      <p class="lead">We build the recruiting strategy, help you reach the right college coaches, and stay with you from the first email to the day your athlete commits, whether the goal is NCAA Division I, II, III, NAIA or Junior College.</p>
-      <div class="btn-row">
-        <a class="btn btn-primary" href={site.booking}>Book Your Recruiting Strategy Call</a>
-        <a class="btn btn-outline" href={site.instagram}>DM on Instagram</a>
+      <div class="hero-copy">
+        <p class="eyebrow">College soccer recruiting coach · Grades 9 to 12</p>
+        <h1 id="hero-h">College Soccer Recruiting Coaching That Turns Talent Into Real College Opportunities</h1>
+        <p class="lead">You've spent years driving to 6 a.m. practices. Paying club fees. Booking hotels three states away for a single weekend tournament. And somewhere along the line, someone told you that if your kid was good enough, college coaches would find them. That's not how it works anymore.</p>
+        <p class="lead">We build the recruiting strategy, help you reach the right college coaches, and stay with you from the first email to the day your athlete commits, whether the goal is NCAA Division I, II, III, NAIA or Junior College.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href={site.booking}>Book Your Recruiting Strategy Call</a>
+          <a class="btn btn-outline" href={site.instagram}>DM on Instagram</a>
+        </div>
       </div>
     </div>
   </section>
+  <script is:inline>
+    // Respect "reduce motion": show the still frame instead of the loop.
+    (function () {
+      var v = document.getElementById('hero-video');
+      if (v && window.matchMedia('(prefers-reduced-motion: reduce)').matches) { v.removeAttribute('autoplay'); v.pause(); }
+    })();
+  </script>
 
   <section class="stats-wrap">
     <div class="wrap">
@@ -219,9 +230,26 @@ const faq = [
   .hero :global(.hero-media) { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 75% 70%; }
   .shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(11,11,14,0.95) 0%, rgba(11,11,14,0.84) 48%, rgba(11,11,14,0.4) 100%); }
   .hero-in { position: relative; width: 100%; padding-top: 88px; padding-bottom: 80px; }
-  .hero-in h1 { max-width: 780px; }
-  .hero-in .lead { max-width: 640px; }
-  .hero-in .btn-row { margin-top: 12px; }
+  .hero-copy { max-width: 780px; }
+  .hero-copy .lead { max-width: 640px; }
+  .hero-copy .btn-row { margin-top: 12px; }
+  /* Vertical phone video: a tall framed clip beside the headline on desktop, full-screen behind it on phones. */
+  .hero-clip video { display: block; width: 100%; height: 100%; object-fit: cover; }
+  @media (min-width: 960px) {
+    .has-clip { background: radial-gradient(circle at 78% 40%, #24240f 0%, var(--ink) 60%); }
+    .has-clip .shade { display: none; }
+    .has-clip .hero-copy { max-width: calc(100% - 440px); }
+    .hero-clip { position: absolute; z-index: 1; top: 50%; right: max(24px, calc((100vw - var(--wrap)) / 2 + 24px)); transform: translateY(-50%);
+      width: min(360px, 30vw); aspect-ratio: 9 / 16; border-radius: 22px; overflow: hidden; border: 2px solid var(--gold); box-shadow: 0 24px 60px rgba(0,0,0,0.55); }
+  }
+  @media (max-width: 959px) {
+    .has-clip { flex-direction: column; align-items: stretch; min-height: 0; }
+    .has-clip .shade { display: none; }
+    .hero-clip { position: relative; height: 62vh; min-height: 380px; }
+    .hero-clip video { object-position: 60% 45%; }
+    .hero-clip::after { content: ''; position: absolute; inset: auto 0 0 0; height: 40%; background: linear-gradient(180deg, rgba(11,11,14,0) 0%, var(--ink) 100%); }
+    .has-clip .hero-in { padding-top: 8px; padding-bottom: 56px; }
+  }
   .stats-wrap { padding: 48px 0 64px; }
   .stats { grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); }
   .stat { padding: 24px; text-align: center; }
