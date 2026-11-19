@@ -1,0 +1,250 @@
+---
+import { Image } from 'astro:assets';
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Faq from '../components/Faq.astro';
+import Testimonials from '../components/Testimonials.astro';
+import CtaBand from '../components/CtaBand.astro';
+import PostCard from '../components/PostCard.astro';
+import { site } from '../data/site';
+import coaching from '../assets/photos/coaching-tablet.jpg';
+import iziTwo from '../assets/photos/izi-two-athletes.jpg';
+import champions from '../assets/photos/champions-team.jpg';
+import indoor from '../assets/photos/team-indoor.jpg';
+import iziField from '../assets/photos/izi-field.jpg';
+import { existsSync } from 'node:fs';
+
+// Hero video: drop clips in public/video/ (hero.mp4, optional hero.webm). Until then the photo shows.
+const heroVideo = existsSync('public/video/hero.mp4');
+
+const now = new Date();
+const featured = ['grades-and-college-soccer-recruiting', 'juco-soccer-recruiting', 'd1-vs-d2-vs-d3-vs-naia-college-soccer'];
+const posts = (await getCollection('blog', (p) => !p.data.draft && p.data.date <= now))
+  .filter((p) => featured.includes(p.id))
+  .sort((a, b) => featured.indexOf(a.id) - featured.indexOf(b.id));
+const total = (await getCollection('blog', (p) => !p.data.draft && p.data.date <= now)).length;
+
+const chapters = [
+  'How college soccer recruiting works', 'The recruiting timeline, grade by grade', 'D1, D2, D3, NAIA and JUCO',
+  "Getting on a coach's radar", 'The highlight video', 'How the money works', 'Where families waste money', 'Real families, real outcomes',
+];
+const faq = [
+  { q: 'How do you get recruited for college soccer?', a: "It comes down to a few things done well: an honest read on your athlete's level, a highlight video that shows it, steady outreach to the right coaches, and a timeline built around their grad year. Most families are only missing one piece. The free call is where we find out which one." },
+  { q: 'When should soccer recruiting start?', a: "Sooner than most people think, but it's rarely too late to start. The earlier you build relationships and a plan, the more doors stay open. On the call we'll map something realistic for whatever grade your athlete is in right now." },
+  { q: 'Is my athlete even good enough to play in college?', a: "Probably more likely than you fear. D1, D2, D3, NAIA and Junior College all recruit. On the call we'll look at your athlete honestly and tell you where the real opportunities are." },
+  { q: 'What is a soccer recruiting timeline?', a: "It's the calendar of when to build the video, contact coaches, take visits and make decisions, all mapped to your athlete's graduation year. Missing these windows is one of the most common reasons good players go unrecruited." },
+];
+---
+<Base
+  title="College Soccer Recruiting Coach & Consultant | Push The Goal"
+  description="College soccer recruiting help for U.S. families. Talent alone won't get your athlete recruited. Get real strategy and coach outreach. Book a free call."
+  image={coaching.src}
+>
+  <section class="hero" aria-labelledby="hero-h">
+    {heroVideo ? (
+      <video class="hero-media" autoplay muted loop playsinline poster={coaching.src} aria-hidden="true">
+        <source src="/video/hero.mp4" type="video/mp4" />
+      </video>
+    ) : (
+      <Image src={coaching} alt="" class="hero-media" widths={[800, 1400]} sizes="100vw" loading="eager" />
+    )}
+    <div class="shade" aria-hidden="true"></div>
+    <div class="wrap hero-in">
+      <p class="eyebrow">College soccer recruiting coach · Grades 9 to 12</p>
+      <h1 id="hero-h">College Soccer Recruiting Coaching That Turns Talent Into Real College Opportunities</h1>
+      <p class="lead">You've spent years driving to 6 a.m. practices. Paying club fees. Booking hotels three states away for a single weekend tournament. And somewhere along the line, someone told you that if your kid was good enough, college coaches would find them. That's not how it works anymore.</p>
+      <p class="lead">We build the recruiting strategy, help you reach the right college coaches, and stay with you from the first email to the day your athlete commits, whether the goal is NCAA Division I, II, III, NAIA or Junior College.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href={site.booking}>Book Your Recruiting Strategy Call</a>
+        <a class="btn btn-outline" href={site.instagram}>DM on Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats-wrap">
+    <div class="wrap">
+      <p class="eyebrow center">Trusted by parents from {site.proof.clubs} clubs and divisions</p>
+      <div class="grid stats">
+        <div class="card stat"><p class="num">{site.proof.athletes}</p><p class="lbl">Athletes guided</p></div>
+        <div class="card stat"><p class="num">{site.proof.offers}</p><p class="lbl">Secure scholarship offers</p></div>
+        <div class="card stat"><p class="num">{site.proof.clubs}</p><p class="lbl">Clubs and divisions</p></div>
+        <div class="card stat"><p class="num">{site.proof.years}</p><p class="lbl">Years coaching</p></div>
+      </div>
+      <p class="levels">NCAA D1 · D2 · D3 · NAIA · Junior College</p>
+    </div>
+  </section>
+
+  <section class="section section-light" aria-labelledby="plan-h">
+    <div class="wrap split">
+      <div><Image src={iziTwo} alt="Izi on the field with two of her athletes" class="photo" widths={[480, 900]} sizes="(max-width: 900px) 100vw, 560px" /></div>
+      <div>
+        <p class="eyebrow">Why talent alone stalls</p>
+        <h2 id="plan-h">The Athletes Who Get Recruited Had a Plan</h2>
+        <p>Here's the part most families learn too late: the athletes who get recruited usually aren't the most talented ones on the field. They're the ones who had a plan.</p>
+        <p>Every year, players who could compete in college never get the chance, because no one showed their family how college soccer recruiting works. So they:</p>
+        <ul class="ticks">
+          <li>Wait for coaches to "discover" their athlete</li>
+          <li>Lean on club soccer to open doors it was never built to open</li>
+          <li>Spend thousands on ID camps with no plan for what comes after</li>
+          <li>Send coach emails that disappear into an inbox</li>
+          <li>Miss recruiting deadlines they didn't know existed</li>
+          <li>Drown in conflicting advice from every parent on the sideline</li>
+        </ul>
+        <p><strong>If any of that hits close to home, you're not behind, and you're not doing it wrong. You just haven't had anyone in your corner yet.</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="results-h">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Real athletes. Real results.</p>
+        <h2 id="results-h">Our Athletes Are Getting Recruited</h2>
+        <p class="muted">We've helped over 500 athletes navigate the college recruitment process and reach the next level. 99% of athletes who complete the program secure scholarship offers, saving families thousands in tuition.</p>
+      </div>
+      <Testimonials />
+    </div>
+  </section>
+
+  <section class="section section-alt" aria-labelledby="ways-h">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Our programs</p>
+        <h2 id="ways-h">Two Ways to Work With Us</h2>
+        <p class="muted">Wherever your athlete is on the road, there's a coach for this stage of it.</p>
+      </div>
+      <div class="grid programs">
+        <article class="card program">
+          <Image src={champions} alt="A girls team celebrating with a championship banner" widths={[480, 900]} sizes="(max-width: 700px) 100vw, 600px" />
+          <div class="pbody">
+            <p class="eyebrow">Grades 9 to 12</p>
+            <h3>College Soccer Recruitment Coaching</h3>
+            <p class="muted">A dedicated recruiting coach for high school players. We take the coach outreach, the film and the timeline off your plate and put the right film in front of the right coaches across D1, D2, D3, NAIA and Junior College, so the door stays open long enough for your athlete to walk through it.</p>
+            <a class="textlink" href="/college-soccer-recruitment/">See how it works →</a>
+          </div>
+        </article>
+        <article class="card program">
+          <Image src={indoor} alt="Young players lined up on an indoor field" widths={[480, 900]} sizes="(max-width: 700px) 100vw, 600px" />
+          <div class="pbody">
+            <p class="eyebrow">Grades 5 to 8 · Online</p>
+            <h3>Junior Prep Coaching</h3>
+            <p class="muted">Online coaching, accountability and support for players who love the game and want a real head start. Enroll by season, build the habits now, and step into high school recruiting already ahead. Every Junior Prep family has re-enrolled.</p>
+            <a class="textlink" href="/junior-prep-coaching/">Explore Junior Prep →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="izi-h">
+    <div class="wrap split reverse">
+      <div><Image src={iziField} alt="Izi on a training field at sunset" class="photo photo-wide" widths={[480, 900]} sizes="(max-width: 900px) 100vw, 560px" /></div>
+      <div>
+        <p class="eyebrow">Meet your coach</p>
+        <h2 id="izi-h">Coach Izi Murray</h2>
+        <p class="muted">Izi has lived the road your athlete is on. She started soccer later than most, fought to get noticed by college programs, and played her way from junior college to NCAA Division I, through five knee surgeries. Now she guides families through recruiting every day.</p>
+        <ul class="creds">
+          <li class="card"><span>Played</span> Folsom Lake College, semi-pro, and NCAA Division I at MTSU</li>
+          <li class="card"><span>Coaching</span> 10+ years across club, high school and college levels</li>
+          <li class="card"><span>Studying</span> Master's in Sports Psychology, soccer coaching emphasis</li>
+        </ul>
+        <a class="btn btn-outline" href="/about-izi/">More About Izi</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-light" aria-labelledby="compare-h">
+    <div class="wrap" style="max-width: 1100px">
+      <div class="section-head">
+        <p class="eyebrow">Why families choose Push The Goal</p>
+        <h2 id="compare-h">A Coach Who Knows Your Athlete by Name</h2>
+        <p>Most recruiting products are software. You pay for a login, build a profile, and you're mostly on your own. With Push The Goal, your athlete has a coach who knows their level and their goals, and who's still there when the process gets quiet.</p>
+      </div>
+      <div class="grid">
+        <div class="compare plain">
+          <h3>A large recruiting platform</h3>
+          <ul><li>A profile in a giant database</li><li>A big company juggling thousands of athletes</li><li>Limited, one-size-fits-all personalization</li></ul>
+        </div>
+        <div class="compare ours">
+          <h3>Push The Goal</h3>
+          <ul>
+            <li>A dedicated personal recruiting coach</li><li>Weekly accountability with your athlete</li><li>Unlimited messaging support</li>
+            <li>Parent coaching, not only athlete coaching</li><li>Film review and highlight video guidance</li>
+            <li>College coach email help and outreach</li><li>A recruiting strategy built for your athlete</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="guide-h">
+    <div class="wrap split" style="align-items: flex-start">
+      <div>
+        <p class="eyebrow">Free guide for parents</p>
+        <h2 id="guide-h">The Complete Guide to College Soccer Recruiting</h2>
+        <p class="muted">Timelines, outreach, video and scholarship money, explained for parents in one place. Nine chapters, each with deeper reading.</p>
+        <a class="btn btn-primary" href="/college-soccer-recruitment/">Read the Guide</a>
+      </div>
+      <ol class="chapters">
+        {chapters.map((c, i) => <li><a href="/college-soccer-recruitment/" class="card"><span>{i + 1}</span>{c}</a></li>)}
+      </ol>
+    </div>
+  </section>
+
+  <section class="section section-alt" aria-labelledby="blog-h">
+    <div class="wrap">
+      <div class="blog-head">
+        <div><p class="eyebrow">From the blog</p><h2 id="blog-h">Answers for Recruiting Parents</h2></div>
+        <a class="textlink" href="/blog/">All {total} posts →</a>
+      </div>
+      <div class="grid">{posts.map((p) => <PostCard post={p} />)}</div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="faq-h">
+    <div class="wrap narrow">
+      <div class="section-head">
+        <p class="eyebrow">Frequently asked questions</p>
+        <h2 id="faq-h">Questions Parents Ask Us Most</h2>
+      </div>
+      <Faq items={faq} />
+    </div>
+  </section>
+
+  <CtaBand />
+</Base>
+
+<style>
+  .hero { position: relative; overflow: hidden; min-height: 680px; display: flex; align-items: center; }
+  .hero :global(.hero-media) { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 75% 70%; }
+  .shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(11,11,14,0.95) 0%, rgba(11,11,14,0.84) 48%, rgba(11,11,14,0.4) 100%); }
+  .hero-in { position: relative; width: 100%; padding-top: 88px; padding-bottom: 80px; }
+  .hero-in h1 { max-width: 780px; }
+  .hero-in .lead { max-width: 640px; }
+  .hero-in .btn-row { margin-top: 12px; }
+  .stats-wrap { padding: 48px 0 64px; }
+  .stats { grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); }
+  .stat { padding: 24px; text-align: center; }
+  .num { margin: 0; font-family: var(--display); font-weight: 700; font-size: 44px; line-height: 1; color: var(--gold); }
+  .lbl { margin: 8px 0 0; font-family: var(--display); font-size: 15px; letter-spacing: 2px; text-transform: uppercase; }
+  .levels { margin: 20px 0 0; text-align: center; font-family: var(--display); letter-spacing: 4px; text-transform: uppercase; color: var(--dim); }
+  .program { overflow: hidden; display: flex; flex-direction: column; background: var(--ink); }
+  .program :global(img) { width: 100%; height: 280px; object-fit: cover; }
+  .pbody { padding: 28px; display: flex; flex-direction: column; flex: 1; }
+  .pbody p.muted { flex: 1; }
+  .creds { list-style: none; padding: 0; margin: 24px 0 28px; display: grid; gap: 12px; }
+  .creds li { padding: 14px 18px; }
+  .creds span { font-family: var(--display); letter-spacing: 1px; text-transform: uppercase; color: var(--gold); margin-right: 6px; }
+  .compare { border-radius: 16px; padding: 28px; }
+  .compare ul { margin: 0; padding-left: 20px; display: grid; gap: 10px; }
+  .plain { background: #fff; border: 1px solid #d4d4d8; color: #3f3f46; }
+  .plain h3 { color: #52525b; }
+  .ours { background: var(--ink); color: var(--text); border: 2px solid var(--gold); }
+  .ours h3 { color: var(--gold); }
+  .chapters { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); }
+  .chapters a { display: flex; gap: 14px; align-items: center; padding: 14px 16px; color: var(--text); text-decoration: none; min-height: 52px; }
+  .chapters a:hover { border-color: var(--gold); }
+  .chapters span { font-family: var(--display); font-weight: 700; font-size: 22px; color: var(--gold); }
+  .blog-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 12px; margin-bottom: 28px; }
+  .blog-head h2 { margin: 0; }
+</style>

@@ -1,0 +1,15 @@
+---
+import Base from '../layouts/Base.astro';
+import SavedPage from '../components/SavedPage.astro';
+import CtaBand from '../components/CtaBand.astro';
+import sections from '../data/pages/junior-prep-coaching.json';
+---
+<Base
+  title="Trusted Youth Soccer Recruiting Prep, Grades 5–8 | Push The Goal"
+  description="Youth soccer recruiting starts long before high school. Junior Prep builds the skills, confidence, and habits (grades 5–8) that make recruiting easier later."
+>
+  <SavedPage sections={sections} heroImage="team-indoor" />
+  <CtaBand heading="Give Your Athlete the Head Start" button="Book Your Free Intro Call">
+    <p>Junior Prep is online coaching, accountability and support for grades 5 through 8. Start with a free intro call and we'll talk about where your athlete is now and what the next season could look like.</p>
+  </CtaBand>
+</Base>

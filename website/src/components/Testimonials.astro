@@ -1,0 +1,20 @@
+---
+// Testimonial screenshots, shown whole (no cropping), three columns on desktop. Tap opens full size.
+// Every file in src/assets/testimonials/ shows here: add a screenshot by dropping it in that folder.
+import { Image } from 'astro:assets';
+const files = import.meta.glob<{ default: ImageMetadata }>('../assets/testimonials/*.{jpg,jpeg,png,webp}', { eager: true });
+const shots = Object.entries(files).sort(([a], [b]) => a.localeCompare(b)).map(([, m]) => m.default);
+---
+<div class="wall">
+  {shots.map((img, i) => (
+    <a href={img.src} class="shot" target="_blank" rel="noopener">
+      <Image src={img} alt={`Message from a Push The Goal family, ${i + 1} of ${shots.length}`} widths={[360, 720]} sizes="(max-width: 700px) 50vw, 380px" />
+    </a>
+  ))}
+</div>
+<style>
+  .wall { columns: 3 260px; column-gap: 16px; }
+  .shot { display: block; break-inside: avoid; margin: 0 0 16px; border-radius: 12px; overflow: hidden; border: 1px solid var(--line); }
+  .shot :global(img) { width: 100%; height: auto; }
+  @media (max-width: 700px) { .wall { columns: 2 150px; column-gap: 10px; } .shot { margin-bottom: 10px; } }
+</style>

@@ -1,0 +1,43 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import PostCard from '../../components/PostCard.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import { CATEGORIES } from '../../content.config';
+
+const now = new Date();
+const posts = (await getCollection('blog', (p) => !p.data.draft && p.data.date <= now)).sort((a, b) => +b.data.date - +a.data.date);
+const slug = (c: string) => c.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+const groups = CATEGORIES.map((c) => ({ name: c, id: slug(c), posts: posts.filter((p) => p.data.category === c) })).filter((g) => g.posts.length);
+const latest = posts.slice(0, 3);
+---
+<Base title="College Soccer Recruiting Blog for Parents | Push The Goal" description="Straight answers on college soccer recruiting for parents: timelines, coach emails, highlight video, divisions, scholarships and middle school prep, from Coach Izi Murray.">
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">The Push The Goal blog</p>
+        <h1>Answers for Recruiting Parents</h1>
+        <p class="lead">{posts.length} posts from Coach Izi on timelines, outreach, video, divisions and money. Start with the <a href="/college-soccer-recruitment/">complete guide</a>, or pick a topic.</p>
+      </div>
+      <nav aria-label="Topics" class="topics">
+        {groups.map((g) => <a href={`#${g.id}`} class="btn btn-outline">{g.name}</a>)}
+      </nav>
+      <h2 class="h-latest">Latest</h2>
+      <div class="grid">{latest.map((p) => <PostCard post={p} />)}</div>
+    </div>
+  </section>
+  {groups.map((g, i) => (
+    <section class:list={['section', { 'section-alt': i % 2 === 0 }]} id={g.id} aria-labelledby={`${g.id}-h`}>
+      <div class="wrap">
+        <h2 id={`${g.id}-h`}>{g.name}</h2>
+        <div class="grid">{g.posts.map((p) => <PostCard post={p} small />)}</div>
+      </div>
+    </section>
+  ))}
+  <CtaBand />
+</Base>
+<style>
+  .topics { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 48px; }
+  .topics .btn { min-height: 44px; padding: 10px 16px; font-size: 14px; }
+  .h-latest { margin-bottom: 20px; }
+</style>

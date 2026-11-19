@@ -1,0 +1,54 @@
+---
+import { Image } from 'astro:assets';
+import logo from '../assets/photos/logo.jpg';
+import { site } from '../data/site';
+const year = new Date().getFullYear();
+---
+<footer class="foot">
+  <div class="wrap cols">
+    <div>
+      <Image src={logo} alt="Push The Goal logo" width={72} height={82} />
+      <p class="muted small">College soccer recruiting coaching for families pursuing NCAA, NAIA and Junior College soccer.</p>
+    </div>
+    <div>
+      <h2>Programs</h2>
+      <ul>
+        <li><a href="/college-soccer-recruitment/">College Soccer Recruitment</a></li>
+        <li><a href="/junior-prep-coaching/">Junior Prep Coaching</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/about-izi/">About Izi</a></li>
+        <li><a href={site.booking}>Book a Strategy Call</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Policies</h2>
+      <ul>
+        <li><a href="/refund-and-cancellation-policy/">Refund and Cancellation Policy</a></li>
+        <li><a href="/privacy-policy/">Privacy Policy</a></li>
+        <li><a href="/terms-and-conditions/">Terms and Conditions</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Contact</h2>
+      <ul>
+        <li><a href={`mailto:${site.email}`}>{site.email}</a></li>
+        <li class="muted">{site.hours}</li>
+        <li><a href={site.instagram}>Instagram @pushthegoalsoccer</a></li>
+        <li><a href={site.facebook}>Facebook</a></li>
+      </ul>
+    </div>
+  </div>
+  <p class="legal">© {year} Push The Goal · {site.coach} · Become undeniable.</p>
+</footer>
+
+<style>
+  .foot { border-top: 1px solid #23242a; background: var(--ink); }
+  .cols { display: grid; gap: 32px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); padding-top: 64px; padding-bottom: 24px; }
+  .cols :global(img) { width: 72px; height: 82px; object-fit: contain; margin-bottom: 12px; }
+  h2 { font-size: 18px; letter-spacing: 2px; margin-bottom: 12px; }
+  ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; font-size: 15px; }
+  ul a { color: var(--muted); text-decoration: none; display: inline-block; padding: 4px 0; }
+  ul a:hover { color: var(--gold); }
+  .small { font-size: 15px; }
+  .legal { margin: 0; padding: 20px 24px 32px; text-align: center; color: #8a8a93; font-family: var(--display); font-size: 14px; letter-spacing: 2px; text-transform: uppercase; }
+</style>

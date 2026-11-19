@@ -1,0 +1,93 @@
+---
+import '@fontsource/oswald/500.css';
+import '@fontsource/oswald/600.css';
+import '@fontsource/oswald/700.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { site } from '../data/site';
+
+interface Props {
+  title: string;          // the full title tag
+  description: string;
+  image?: string;         // absolute or root-relative social image
+  type?: 'website' | 'article';
+  schema?: object[];      // extra JSON-LD for this page
+  noindex?: boolean;
+}
+const { title, description, image, type = 'website', schema = [], noindex = false } = Astro.props;
+const canonical = new URL(Astro.url.pathname, site.url).href;
+const ogImage = image ? new URL(image, site.url).href : undefined;
+
+const business = {
+  '@context': 'https://schema.org',
+  '@type': 'ProfessionalService',
+  '@id': `${site.url}/#organization`,
+  name: site.name,
+  url: `${site.url}/`,
+  email: site.email,
+  description: 'College soccer recruiting coaching for high school athletes and their families, plus Junior Prep for grades 5 to 8.',
+  areaServed: 'US',
+  founder: { '@id': `${site.url}/#izi` },
+  sameAs: [site.instagram, site.facebook],
+};
+const izi = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  '@id': `${site.url}/#izi`,
+  name: site.coach,
+  jobTitle: 'College soccer recruiting coach',
+  url: `${site.url}/about-izi/`,
+  worksFor: { '@id': `${site.url}/#organization` },
+};
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{title}</title>
+  <meta name="description" content={description}>
+  <link rel="canonical" href={canonical}>
+  {noindex && <meta name="robots" content="noindex">}
+  <meta property="og:site_name" content={site.name}>
+  <meta property="og:type" content={type}>
+  <meta property="og:title" content={title}>
+  <meta property="og:description" content={description}>
+  <meta property="og:url" content={canonical}>
+  {ogImage && <meta property="og:image" content={ogImage}>}
+  <meta name="twitter:card" content={ogImage ? 'summary_large_image' : 'summary'}>
+  <link rel="icon" href="/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="sitemap" href="/sitemap-index.xml">
+  <meta name="theme-color" content="#0b0b0e">
+  <script type="application/ld+json" set:html={JSON.stringify([business, izi, ...schema])} />
+  <script async src={`https://www.googletagmanager.com/gtag/js?id=${site.ga4}`}></script>
+  <script is:inline define:vars={{ ga4: site.ga4 }}>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', ga4);
+    // Same event names the old site sent, so Sage's reports keep counting them.
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest && e.target.closest('a[href]');
+      if (!a) return;
+      var h = a.href;
+      if (h.indexOf('schedule-page') > -1) gtag('event', 'book_strategy_call', { event_category: 'conversion', link_url: h, page: location.pathname });
+      else if (h.indexOf('optin-page') > -1) gtag('event', 'course_checkout', { event_category: 'conversion', link_url: h, page: location.pathname });
+      else if (h.indexOf('instagram.com') > -1) gtag('event', 'instagram_click', { link_url: h, page: location.pathname });
+    });
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <Header />
+  <main id="main">
+    <slot />
+  </main>
+  <Footer />
+</body>
+</html>

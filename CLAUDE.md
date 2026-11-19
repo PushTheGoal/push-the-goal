@@ -151,6 +151,7 @@ Standard lead magnet CTA line - name the offers, no prices:
 | Lead Magnet Vault Drive folder | id `1Pdncp4enoJIcO1My_3Zs-C9gaM4XoEn_` |
 | Content system (strategy, ledger, tools) | `content-plan-dashboard/` in this repo - start at `content-plan-dashboard/README.md` |
 | Setter System Tracker Dashboard (DM audit for setters - planned, not built) | `setter-system-tracker-dashboard/` - start at its `README.md` |
+| Website push-the-goal.com (static Astro, replaced WordPress Nov 2026; built by Leslie's team) | `website/` - start at its `README.md`. Every old URL must keep working; the build checks it |
 | Training content for coaches and community | `training/`, one folder per piece. First: "One Layer at a Time" (grassroots mindset PDF), `training/one-layer-at-a-time/`. PDFs are gitignored, so the PDF is on this laptop only; `source.html` rebuilds it |
 | Content media (B-roll, renders) | `C:\Users\15306\Documents\Claude\Projects\Content\<brand>\` (this laptop only, never git) |
 | Local business folders | `C:\Users\15306\Documents\Claude\Projects\` (this laptop only - see OPEN-QUESTIONS) |

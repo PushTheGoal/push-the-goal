@@ -1,0 +1,57 @@
+---
+// The old About Izi page lived only on the WordPress server that went down. This version is built
+// from facts already on the site and in Izi's approved bio. Izi to review before launch.
+import { Image } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import CtaBand from '../components/CtaBand.astro';
+import { site } from '../data/site';
+import iziField from '../assets/photos/izi-field.jpg';
+import coaching from '../assets/photos/coaching-tablet.jpg';
+const schema = [{ '@context': 'https://schema.org', '@type': 'ProfilePage', mainEntity: { '@id': `${site.url}/#izi` } }];
+---
+<Base title="About Izi Murray | College Soccer Recruiting Coach | Push The Goal" description="Izi Murray played junior college soccer, transferred to NCAA Division I at MTSU, came back from five knee surgeries, and now coaches families through college soccer recruiting." schema={schema}>
+  <section class="section">
+    <div class="wrap split">
+      <div>
+        <p class="eyebrow">Meet your coach</p>
+        <h1>Izi Murray</h1>
+        <p class="lead">Izi has lived the road your athlete is on. She started soccer later than most, fought to get noticed by college programs, and played her way from junior college to NCAA Division I.</p>
+        <p class="muted">She played two years at Folsom Lake College, transferred to Middle Tennessee State University, and came back from five knee surgeries to finish her career. Nobody gave her good odds. She also played semi-pro, and has spent more than ten years coaching at the club, high school and college levels.</p>
+        <p class="muted">She founded Push The Goal to give soccer families the honest recruiting guidance she wishes every athlete had: a coach who knows your athlete by name, tells you the truth about their level, and stays with you from the first coach email to signing day.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href={site.booking}>Book a Strategy Call With Izi</a>
+          <a class="btn btn-outline" href={site.instagram}>DM on Instagram</a>
+        </div>
+      </div>
+      <div><Image src={iziField} alt="Izi Murray on a training field" class="photo" widths={[480, 900]} sizes="(max-width: 900px) 100vw, 560px" loading="eager" /></div>
+    </div>
+  </section>
+  <section class="section section-alt" aria-labelledby="facts-h">
+    <div class="wrap">
+      <h2 id="facts-h" class="center">The Short Version</h2>
+      <div class="grid facts">
+        <div class="card"><p class="eyebrow">Played</p><p>Folsom Lake College, semi-pro, and NCAA Division I at MTSU</p></div>
+        <div class="card"><p class="eyebrow">Came back from</p><p>Five knee surgeries</p></div>
+        <div class="card"><p class="eyebrow">Coaching</p><p>10+ years across club, high school and college levels</p></div>
+        <div class="card"><p class="eyebrow">Studying</p><p>Master's in Sports Psychology, soccer coaching emphasis</p></div>
+      </div>
+    </div>
+  </section>
+  <section class="section" aria-labelledby="how-h">
+    <div class="wrap split reverse">
+      <div><Image src={coaching} alt="Izi going over a play with an athlete" class="photo photo-wide" widths={[480, 900]} sizes="(max-width: 900px) 100vw, 560px" /></div>
+      <div>
+        <h2 id="how-h">How Izi Coaches</h2>
+        <p class="muted">Direct, honest and on your side. Izi will tell you where your athlete fits, then build the plan that gets them there: the target list, the film, the coach emails, the timeline and the weekly accountability that keeps it moving.</p>
+        <p class="muted">Families work with her through two programs: <a href="/college-soccer-recruitment/">college soccer recruitment coaching</a> for grades 9 to 12, and <a href="/junior-prep-coaching/">Junior Prep</a>, online coaching for grades 5 to 8.</p>
+      </div>
+    </div>
+  </section>
+  <CtaBand />
+</Base>
+<style>
+  .facts { grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr)); }
+  .facts .card { padding: 22px; }
+  .facts p:last-child { margin: 0; }
+  .facts .eyebrow { margin-bottom: 6px; }
+</style>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://push-the-goal.com/sitemap-index.xml
