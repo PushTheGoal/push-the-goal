@@ -1,0 +1,13 @@
+---
+import Base from '../layouts/Base.astro';
+import SavedPage from '../components/SavedPage.astro';
+import CtaBand from '../components/CtaBand.astro';
+import sections from '../data/pages/college-soccer-recruitment.json';
+---
+<Base
+  title="College Soccer Recruitment: The Complete Guide for Parents"
+  description="College soccer recruitment, explained for parents in one place. Timelines, outreach, video, and scholarship money, plus a coach to help you get it right."
+>
+  <SavedPage sections={sections} heroImage="team-indoor" />
+  <CtaBand />
+</Base>

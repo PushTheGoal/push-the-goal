@@ -1,0 +1,21 @@
+---
+// FAQ list plus its FAQPage schema. Answers are trusted HTML from our own content.
+interface Props { items: { q: string; a: string }[]; openFirst?: boolean }
+const { items, openFirst = true } = Astro.props;
+const strip = (h: string) => h.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: items.map((i) => ({ '@type': 'Question', name: i.q, acceptedAnswer: { '@type': 'Answer', text: strip(i.a) } })),
+};
+---
+<div class="faqs">
+  {items.map((i, n) => (
+    <details class="faq" open={openFirst && n === 0}>
+      <summary>{i.q}</summary>
+      <div set:html={i.a.startsWith('<') ? i.a : `<p>${i.a}</p>`} />
+    </details>
+  ))}
+</div>
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />
+<style>.faqs { display: grid; gap: 12px; }</style>

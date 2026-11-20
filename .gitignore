@@ -35,3 +35,11 @@ content-plan-dashboard/brands/*/.ghl-token
 # Setter System Tracker Dashboard - keep the approved mockup, never the key
 !setter-system-tracker-dashboard/mockup/dashboard-mockup.png
 setter-system-tracker-dashboard/.ghl-token
+
+# website build output
+website/node_modules/
+website/dist/
+website/.astro/
+# website images are part of the site
+!website/src/assets/**/*.png
+!website/public/*.png

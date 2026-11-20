@@ -1,0 +1,40 @@
+# Old push-the-goal.com addresses that no longer have their own page, 301'd to the closest new one.
+# Every URL Google or the old sitemaps knew is in tools/old-urls.txt; the build fails if one is neither
+# built nor listed here. Add the 301 here before retiring any URL.
+
+# WordPress structure
+/home/                        /                               301
+/feed/                        /blog/                          301
+/blog/feed/                   /blog/                          301
+/comments/feed/               /blog/                          301
+/category/uncategorized/      /blog/                          301
+/category/*                   /blog/                          301
+/author/*                     /about-izi/                     301
+/wp-login.php                 /                               301
+/wp-admin/*                   /                               301
+
+# 2023 and 2024 pages (Wayback Machine)
+/about-me/                    /about-izi/                     301
+/recruitment/                 /college-soccer-recruitment/    301
+/soccer-coaching/             /college-soccer-recruitment/    301
+/testimonial/                 /college-soccer-recruitment/    301
+/gallery/                     /                               301
+/return-policy/               /refund-and-cancellation-policy/ 301
+/cookies-policy/              /privacy-policy/                301
+/ada/                         /                               301
+/maintenance/                 /                               301
+/player-information-form/     /contact/                       301
+/jr-college-athlete-intake-form/ /contact/                    301
+/personal-training-intake-form-gk/ /contact/                  301
+
+# Addresses Search Console showed that had no page of their own on the old site
+/college-soccer-recruiting-checklist/             /college-soccer-recruiting-timeline/  301
+/collegesoccer-recruiting-timeline-grade-by-grade/ /college-soccer-recruiting-timeline/ 301
+
+# 2023 posts at their dated addresses
+/2023/11/22/embracing-identity-beyond-the-field-a-journey-of-growth/  /embracing-identity-beyond-the-field-a-journey-of-growth/  301
+/2023/11/22/the-importance-of-holistic-health-for-athletes/           /the-importance-of-holistic-health-for-athletes/           301
+/2023/11/26/how-to-thrive-not-just-survive-as-a-college-athlete/      /how-to-thrive-not-just-survive-as-a-college-athlete/      301
+/2023/11/26/tips-for-getting-recruited/                               /tips-for-getting-recruited/                               301
+/2023/11/26/tips-for-making-try-outs/                                 /tips-for-making-try-outs/                                 301
+/2023/11/26/why-you-have-to-promote-yourself-to-get-to-the-next-level/ /why-you-have-to-promote-yourself-to-get-to-the-next-level/ 301

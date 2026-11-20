@@ -1,0 +1,53 @@
+---
+import Base from '../layouts/Base.astro';
+import { site } from '../data/site';
+---
+<Base title="Contact Push The Goal | College Soccer Recruiting Coach" description="Questions about college soccer recruiting? Contact Push The Goal to reach coach Izi Murray, or book a free 45-minute strategy call for your athlete.">
+  <section class="section">
+    <div class="wrap split" style="align-items: flex-start">
+      <div>
+        <p class="eyebrow">Ways to reach us</p>
+        <h1>Let's Talk About Your Athlete's Recruiting</h1>
+        <p class="lead">Whether you're just starting to explore college soccer recruiting or you're deep in the process and need a second opinion, we're here to help. Reach out below, or book a free 45-minute strategy call and we'll map out where your athlete stands.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href={site.booking}>Book Your Recruiting Strategy Call</a>
+          <a class="btn btn-outline" href={site.instagram}>DM on Instagram</a>
+        </div>
+        <ul class="ways">
+          <li><span>Email</span> <a href={`mailto:${site.email}`}>{site.email}</a></li>
+          <li><span>Hours</span> {site.hours}</li>
+        </ul>
+      </div>
+      <div class="card form">
+        <iframe
+          src={`https://api.leadconnectorhq.com/widget/form/${site.contactFormId}`}
+          id={`inline-${site.contactFormId}`}
+          data-layout="{'id':'INLINE'}"
+          data-trigger-type="alwaysShow"
+          data-trigger-value=""
+          data-activation-type="alwaysActivated"
+          data-activation-value=""
+          data-deactivation-type="neverDeactivate"
+          data-deactivation-value=""
+          data-form-name="Contact Us form"
+          data-height="632"
+          data-layout-iframe-id={`inline-${site.contactFormId}`}
+          data-form-id={site.contactFormId}
+          data-cookie-consent="true"
+          data-cookie-consent-provider="auto"
+          title="Contact Push The Goal"
+          loading="lazy"
+        ></iframe>
+        <noscript><p>Email <a href={`mailto:${site.email}`}>{site.email}</a> and Izi will get back to you.</p></noscript>
+      </div>
+      <script is:inline src="https://link.msgsndr.com/js/form_embed.js"></script>
+    </div>
+  </section>
+</Base>
+<style>
+  .ways { list-style: none; padding: 0; margin: 32px 0 0; display: grid; gap: 10px; }
+  .ways span { font-family: var(--display); letter-spacing: 1px; text-transform: uppercase; color: var(--gold); margin-right: 8px; }
+  .form { padding: 12px 8px; }
+  .form h2 { font-size: 28px; }
+  .form iframe { display: block; width: 100%; height: 632px; border: none; border-radius: 0; }
+</style>

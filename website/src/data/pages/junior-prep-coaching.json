@@ -1,0 +1,215 @@
+[
+ {
+  "dark": false,
+  "eyebrow": null,
+  "heading": null,
+  "h1": "Youth Soccer Recruiting Prep for Grades 5 Through 8",
+  "blocks": [
+   {
+    "type": "list",
+    "items": [
+     "About Us"
+    ]
+   },
+   {
+    "type": "html",
+    "html": "<p><em>The head start that makes recruiting easier later.</em></p>"
+   }
+  ],
+  "image": null,
+  "buttons": [
+   {
+    "text": "Book Your Free Intro Call",
+    "href": "https://soccer-101.push-the-goal.com/schedule-page"
+   },
+   {
+    "text": "DM on Instagram",
+    "href": "https://www.instagram.com/pushthegoalsoccer/"
+   }
+  ]
+ },
+ {
+  "dark": true,
+  "eyebrow": "WHY THESE YEARS MATTER",
+  "heading": "Why Grades 5 Through 8 Decide How Recruiting Goes Later",
+  "h1": null,
+  "blocks": [
+   {
+    "type": "html",
+    "html": "<p>Your child is 10 to 13 years old, and they love this game more than almost anything. You are not thinking about college yet. You are thinking about whether you are supposed to be doing something now, and whether you would even know if you were falling behind.</p><p>Here is the honest answer: nobody is recruiting a fifth grader, and nobody should be. But the habits, the confidence and the independence that make recruiting go smoothly in high school get built now. Junior Prep is online coaching, accountability and support for 5th through 8th graders, from a coach who played through junior college and Division I and now guides high school families through recruiting every day. Your athlete keeps their club, their trainer and their weekends. What they add is a coach in their corner who is not you.</p><p>College coaches recruit high school players. The athletes who move fast when that starts are almost never the ones who got serious at fifteen. They are the ones who spent the years before building a few quiet advantages: habits nobody has to check on, the confidence to speak for themselves, a picture of where the road goes, and a love of the game that survived middle school.</p><p>None of that can be crammed in senior year. Most of the kids who leave soccer do it between twelve and fourteen, right before recruiting begins, and the talented ones are not exempt. Grades 5 through 8 are the window. Junior Prep uses those years on purpose, so your athlete walks into high school ahead and still hungry.</p><p><b>Every family who has enrolled has re-enrolled to keep the progress going.</b></p>"
+   }
+  ],
+  "image": "coaching-tablet",
+  "buttons": []
+ },
+ {
+  "dark": false,
+  "eyebrow": "WHAT JUNIOR PREP BUILDS",
+  "heading": "Coaching, Accountability and Support for the Whole Young Athlete",
+  "h1": null,
+  "blocks": [
+   {
+    "type": "html",
+    "html": "<p>Junior Prep is not on-field training. Your athlete’s club and trainers handle the ball work. Izi handles everything around it, the part most families have nobody for.</p>"
+   },
+   {
+    "type": "list",
+    "items": [
+     "Habits that stick. Weekly check-ins on small, concrete targets: the touches done on their own, the water finished, the schoolwork handled without a fight. Written down, kept visible, checked every week. The same accountability system Izi ran her own career on, sized for a twelve-year-old.",
+     "Accountability from outside the house. A kid will argue with a parent about training. They will not argue with a coach they respect who asks, every week, “so why did we not get it done?” and then helps them fix it. It takes the fight out of your kitchen.",
+     "Confidence and a voice. Learning to talk about their own game, to adults, in full sentences. The athletes who freeze on a call with a college coach at sixteen are the ones who never had to speak for themselves before.",
+     "An honest picture of the road ahead. Age-appropriate and pressure-free: what college soccer is, what the levels look like, what coaches will eventually care about. A kid who can see the road runs it differently from one who is pushed down it.",
+     "A love of the game that lasts. None of it matters if a burned-out kid quits at fourteen. We coach for the long game, and rest is part of the plan."
+    ]
+   },
+   {
+    "type": "html",
+    "html": "<p>Learn more about youth pathways at the <a href=\"https://www.ncaa.org/\" target=\"_blank\" rel=\"noopener\">NCAA official site</a>.</p>"
+   }
+  ],
+  "image": "izi-two-athletes",
+  "buttons": []
+ },
+ {
+  "dark": true,
+  "eyebrow": "HOW IT WORKS",
+  "heading": "How Junior Prep Works",
+  "h1": null,
+  "blocks": [
+   {
+    "type": "step",
+    "html": "<p><b>Online, from anywhere.</b> Every check-in happens over video or text. Families work with Izi from all over the country. Nothing to drive to.</p>"
+   },
+   {
+    "type": "step",
+    "html": "<p><b>Enroll for a season.</b> Your athlete and Izi set a handful of targets for the season, then meet weekly to check them, fix what slipped, and set the next week. Parents get the picture without having to be the enforcer.</p>"
+   },
+   {
+    "type": "step",
+    "html": "<p><b>Re-enroll as they grow.</b> The targets change as your kid does: fifth grade looks different from eighth. Every family who has enrolled so far has re-enrolled, once or twice, to keep the accountability and progress rolling.</p>"
+   },
+   {
+    "type": "step",
+    "html": "<p><b>Hand off to recruiting when high school starts.</b> Junior Prep athletes step into Push The Goal’s recruiting program with the same coach, already knowing how she works and what comes next. Nothing gets lost in the handoff.</p>"
+   }
+  ],
+  "image": "coaching-tablet",
+  "buttons": [
+   {
+    "text": "Book Your Free Intro Call",
+    "href": "https://soccer-101.push-the-goal.com/schedule-page"
+   }
+  ]
+ },
+ {
+  "dark": false,
+  "eyebrow": "WHO IT’S FOR",
+  "heading": "Built for Young Players in Grades 5 Through 8, Anywhere in the Country",
+  "h1": null,
+  "blocks": [
+   {
+    "type": "html",
+    "html": "<p>Junior Prep is for athletes in 5th through 8th grade, boys and girls, who love soccer and have said out loud that they want to play in college someday. Standout on the team or starting to take it seriously, either works. No tryout, no pressure, no expectation that a twelve-year-old has their future mapped out.</p><p>It is also for parents who want someone in their kid’s corner who is not them: a coach who knows your athlete by name, checks in every week, and tells them the truth about what is ahead.</p><p>If you are looking for on-field training or a local club, this is not that. Junior Prep works alongside whatever your athlete already plays.</p>"
+   },
+   {
+    "type": "html",
+    "html": "<p>Already in high school? Your athlete is past the Junior Prep stage. Start with <a href=\"/college-soccer-recruitment/\">college soccer recruiting coaching</a>, our grades 9 to 12 program, where recruiting begins.</p>"
+   }
+  ],
+  "image": "champions-team",
+  "buttons": []
+ },
+ {
+  "dark": true,
+  "eyebrow": "WHY PUSH THE GOAL",
+  "heading": "A Coach Who Played the Whole Road and Knows Your Kid by Name",
+  "h1": null,
+  "blocks": [
+   {
+    "type": "html",
+    "html": "<p>Izi Murray played two years of junior college soccer, transferred to Division I, and came back from five knee surgeries to finish her career. She now guides high school families through college recruiting every day, which means she knows exactly what a fifteen-year-old needs to have in place, and she starts building it at eleven.</p><p>Junior Prep is small on purpose. Izi knows each athlete’s personality, what lights them up and where they get discouraged, and coaches the person as much as the player. That is how you get a kid who still loves this game at sixteen and happens to be ready when recruiting arrives.</p>"
+   }
+  ],
+  "image": "izi-field",
+  "buttons": [
+   {
+    "text": "Book Your Free Intro Call",
+    "href": "https://soccer-101.push-the-goal.com/schedule-page"
+   }
+  ]
+ },
+ {
+  "dark": false,
+  "eyebrow": "Our Testimonials",
+  "heading": "What They Say",
+  "h1": null,
+  "blocks": [
+   {
+    "type": "testimonials"
+   }
+  ],
+  "image": null,
+  "buttons": []
+ },
+ {
+  "dark": true,
+  "eyebrow": "FREQUENTLY ASKED QUESTIONS",
+  "heading": "Questions Parents Ask Us Most",
+  "h1": null,
+  "blocks": [
+   {
+    "type": "faq",
+    "items": [
+     {
+      "q": "Isn’t my child too young to think about recruiting?",
+      "a": "<p>For recruiting itself, yes, and anyone pushing that on a fifth grader is doing it wrong. Junior Prep is preparation. It builds the habits, confidence and independence now that make the recruiting years far easier when they arrive in high school.</p>"
+     },
+     {
+      "q": "Is Junior Prep online? Do we need to be in Tennessee?",
+      "a": "<p>Junior Prep is fully online. Check-ins happen over video and text, and families work with Izi from anywhere in the country. Nothing is in person.</p>"
+     },
+     {
+      "q": "Is this soccer training?",
+      "a": "<p>No. Your athlete keeps their club and their trainers for the on-field work. Junior Prep is the coaching, accountability and support around it: habits, mindset, confidence, and an honest picture of the road to college soccer.</p>"
+     },
+     {
+      "q": "What grades is Junior Prep for?",
+      "a": "<p>Grades 5 through 8. Once your athlete reaches high school, they move into our <a href=\"/college-soccer-recruitment/\">college soccer recruiting program</a> with the same coach, and recruiting begins.</p>"
+     },
+     {
+      "q": "How does enrollment work?",
+      "a": "<p>Families enroll for a season, and most re-enroll as their athlete grows, because the targets change with age. So far every family who has enrolled has re-enrolled at least once to keep the accountability going. Book a free intro call and Izi will walk you through it.</p>"
+     },
+     {
+      "q": "Will this put too much pressure on my kid?",
+      "a": "<p>The opposite is the goal. We coach young players to love the game more. The work is age-appropriate and built around keeping them engaged, because a burned-out kid who quits at fourteen never gets the benefit of any of it.</p>"
+     },
+     {
+      "q": "What will my child work on?",
+      "a": "<p>Weekly targets they help set: small daily habits, schoolwork, rest, speaking up for themselves with their coaches, and understanding what college soccer will eventually ask of them. Sized to their age and where they are now.</p>"
+     }
+    ]
+   }
+  ],
+  "image": null,
+  "buttons": []
+ },
+ {
+  "dark": true,
+  "eyebrow": "WHAT COMES NEXT",
+  "heading": "What Happens When Your Athlete Reaches High School",
+  "h1": null,
+  "blocks": [
+   {
+    "type": "html",
+    "html": "<p>Junior Prep athletes move into Push The Goal’s college soccer recruiting program with the same coach, in ninth grade, when recruiting begins. The work they did in middle school is what makes that stage run smoothly.</p><p>Read: <a href=\"/college-soccer-recruitment/\">College Soccer Recruitment: the complete guide for parents</a><br>Read: <a href=\"/college-soccer-recruiting-timeline/\">The College Soccer Recruiting Timeline, freshman through senior year</a><br>Read: <a href=\"/when-does-college-soccer-recruiting-start/\">When Does College Soccer Recruiting Start?</a></p>"
+   },
+   {
+    "type": "html",
+    "html": "<p><strong>For parents of younger players</strong><br>Read: <a href=\"/when-to-start-preparing-for-college-soccer-recruiting/\">When Should Your Kid Start Preparing for College Soccer Recruiting?</a><br>Read: <a href=\"/middle-school-soccer-recruiting/\">Middle School Soccer and College Recruiting: What Matters in Grades 5 to 8</a><br>Read: <a href=\"/why-kids-quit-soccer-at-14/\">Why Talented Kids Quit Soccer at 14, and How to Keep Yours in the Game</a></p>"
+   }
+  ],
+  "image": null,
+  "buttons": []
+ }
+]

@@ -1,0 +1,23 @@
+---
+import { Image } from 'astro:assets';
+import type { CollectionEntry } from 'astro:content';
+interface Props { post: CollectionEntry<'blog'>; small?: boolean }
+const { post, small = false } = Astro.props;
+const d = post.data;
+---
+<a href={`/${post.id}/`} class:list={['pc', { small }]}>
+  {d.image && <Image src={d.image} alt="" widths={[400, 800]} sizes="(max-width: 700px) 100vw, 400px" />}
+  <div class="body">
+    <p class="cat">{d.category}</p>
+    <h3>{d.title}</h3>
+  </div>
+</a>
+<style>
+  .pc { display: flex; flex-direction: column; background: var(--ink); border: 1px solid var(--line); border-radius: 0; overflow: hidden; color: var(--text); text-decoration: none; height: 100%; }
+  .pc:hover { border-color: var(--gold); color: var(--text); }
+  .pc :global(img) { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+  .body { padding: 18px 20px 22px; }
+  .cat { margin: 0 0 8px; font-family: var(--display); font-size: 13px; letter-spacing: 2px; text-transform: uppercase; color: var(--gold); }
+  h3 { margin: 0; font-size: 21px; line-height: 1.25; color: #fff; }
+  .small h3 { font-size: 17px; }
+</style>

@@ -1,0 +1,113 @@
+---
+// Testimonial screenshots in one rolling row (shown whole, never cropped). The row is a normal
+// sideways-scrolling strip that moves itself: swipe or drag to browse, touch or hover pauses it,
+// tap a message to read it full size. (Not a CSS-animated strip: iPhone Safari stops drawing very
+// wide animated layers, which left the row blank on phones.)
+// Every file in src/assets/testimonials/ shows here: add a screenshot by dropping it in that folder.
+import { Image } from 'astro:assets';
+const files = import.meta.glob<{ default: ImageMetadata }>('../assets/testimonials/*.{jpg,jpeg,png,webp}', { eager: true });
+const shots = Object.entries(files).sort(([a], [b]) => a.localeCompare(b)).map(([, m]) => m.default);
+---
+<div class="roll-wrap">
+  <div class="roll" tabindex="0" aria-label="Messages from Push The Goal families. Scroll sideways to see them all.">
+    <div class="track">
+      {[0, 1].map((copy) => shots.map((img, i) => (
+        <a href={img.src} class="shot" data-full={img.src} aria-hidden={copy ? 'true' : undefined} tabindex={copy ? -1 : undefined}>
+          <Image src={img} alt={copy ? '' : `Message from a Push The Goal family, ${i + 1} of ${shots.length}`} widths={[360, 720]} sizes="300px" loading="eager" decoding="async" />
+        </a>
+      )))}
+    </div>
+  </div>
+</div>
+<p class="roll-note">Swipe to browse. Tap any message to read it full size.</p>
+<dialog class="shot-view" aria-label="Message from a Push The Goal family">
+  <button type="button" class="shot-close" aria-label="Close">&times;</button>
+  <img alt="" />
+</dialog>
+
+<script is:inline>
+  (function () {
+    var roll = document.querySelector('.roll');
+    if (!roll) return;
+    var track = roll.querySelector('.track');
+    var still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var speed = 0.5; // pixels per frame, about 30 a second
+    var pos = 0, paused = false, resumeAt = 0, dragging = false, moved = 0, startX = 0, startPos = 0;
+    function half() { return track.scrollWidth / 2; }
+    function tick(t) {
+      if (!paused && !dragging && t >= resumeAt && roll.offsetParent !== null) {
+        pos += speed;
+        var h = half();
+        if (h > 0 && pos >= h) pos -= h;
+        roll.scrollLeft = pos;
+      } else {
+        pos = roll.scrollLeft;
+      }
+      requestAnimationFrame(tick);
+    }
+    // keep the loop seamless when someone swipes past either end of the first copy
+    roll.addEventListener('scroll', function () {
+      var h = half(); if (!h) return;
+      if (roll.scrollLeft >= h) { roll.scrollLeft -= h; pos = roll.scrollLeft; }
+      else if (roll.scrollLeft <= 0 && (paused || dragging)) { roll.scrollLeft += h; pos = roll.scrollLeft; }
+    }, { passive: true });
+    function hold(ms) { resumeAt = performance.now() + ms; }
+    roll.addEventListener('mouseenter', function () { paused = true; });
+    roll.addEventListener('mouseleave', function () { paused = false; dragging = false; hold(400); });
+    roll.addEventListener('touchstart', function () { paused = true; }, { passive: true });
+    roll.addEventListener('touchend', function () { paused = false; hold(2500); }, { passive: true });
+    roll.addEventListener('focusin', function () { paused = true; });
+    roll.addEventListener('focusout', function () { paused = false; hold(1000); });
+    // mouse drag to scroll on computers
+    roll.addEventListener('mousedown', function (e) { dragging = true; moved = 0; startX = e.clientX; startPos = roll.scrollLeft; e.preventDefault(); });
+    window.addEventListener('mousemove', function (e) { if (!dragging) return; moved = Math.abs(e.clientX - startX); roll.scrollLeft = startPos - (e.clientX - startX); });
+    window.addEventListener('mouseup', function () { if (dragging) { dragging = false; hold(1500); } });
+    if (!still) { roll.scrollLeft = 1; pos = 1; requestAnimationFrame(tick); }
+
+    var dlg = document.querySelector('.shot-view');
+    if (!dlg || !dlg.showModal) return; // old browsers: the link opens the image
+    var big = dlg.querySelector('img');
+    roll.querySelectorAll('.shot').forEach(function (a) {
+      a.addEventListener('click', function (e) {
+        e.preventDefault();
+        if (moved > 6) { moved = 0; return; } // that was a drag, not a tap
+        var img = a.querySelector('img');
+        big.src = a.getAttribute('data-full'); big.alt = img ? img.alt : '';
+        paused = true; dlg.showModal();
+      });
+    });
+    dlg.addEventListener('close', function () { paused = false; hold(1500); });
+    dlg.addEventListener('click', function (e) { if (e.target === dlg || e.target.classList.contains('shot-close')) dlg.close(); });
+  })();
+</script>
+
+<style>
+  .roll-wrap { position: relative; }
+  /* soft fade at both ends, drawn on top (no mask: masks on wide strips misbehave in Safari) */
+  .roll-wrap::before, .roll-wrap::after { content: ''; position: absolute; top: 0; bottom: 0; width: 48px; z-index: 1; pointer-events: none; }
+  .roll-wrap::before { left: 0; background: linear-gradient(90deg, var(--ink), rgba(11, 11, 14, 0)); }
+  .roll-wrap::after { right: 0; background: linear-gradient(270deg, var(--ink), rgba(11, 11, 14, 0)); }
+  .roll { overflow-x: auto; overflow-y: hidden; scrollbar-width: none; -webkit-overflow-scrolling: touch; cursor: grab; outline-offset: 4px; }
+  .roll::-webkit-scrollbar { display: none; }
+  .roll:active { cursor: grabbing; }
+  .track { display: flex; align-items: center; gap: 16px; width: max-content; padding: 6px 0; }
+  .shot { flex: none; display: block; border-radius: 0; overflow: hidden; border: 1px solid var(--line); background: #000; transition: border-color .15s; }
+  .shot:hover, .shot:focus-visible { border-color: var(--gold); }
+  .shot :global(img) { display: block; width: auto; height: auto; max-width: 300px; max-height: 400px; -webkit-user-drag: none; user-select: none; }
+  .roll-note { margin: 14px 0 0; text-align: center; font-size: 14px; color: var(--dim); }
+  .shot-view { padding: 0; border: 0; background: transparent; max-width: min(92vw, 560px); max-height: 92vh; overflow: visible; }
+  .shot-view::backdrop { background: rgba(0, 0, 0, 0.85); }
+  .shot-view img { display: block; max-width: 100%; max-height: 88vh; width: auto; height: auto; border-radius: 0; margin: 0 auto; }
+  .shot-close { position: absolute; top: -18px; right: -18px; width: 44px; height: 44px; border-radius: 0; border: 0; background: var(--gold); color: var(--ink); font-size: 28px; line-height: 1; cursor: pointer; }
+  @media (max-width: 700px) {
+    .track { gap: 10px; }
+    .shot :global(img) { max-width: 230px; max-height: 320px; }
+    .roll-wrap::before, .roll-wrap::after { width: 24px; }
+    .shot-close { top: 8px; right: 8px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .roll { scroll-snap-type: x mandatory; }
+    .shot { scroll-snap-align: start; }
+    .shot[aria-hidden='true'] { display: none; }
+  }
+</style>
