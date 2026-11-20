@@ -71,6 +71,8 @@ const izi = {
     function gtag(){ dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', ga4);
+    // A contact form submission: Izi's GHL form redirects here after someone sends it (set in GHL).
+    if (location.pathname === '/thank-you/') gtag('event', 'generate_lead', { form_name: 'Contact Us form', page: document.referrer ? new URL(document.referrer).pathname : '' });
     // Same event names the old site sent, so Sage's reports keep counting them.
     document.addEventListener('click', function (e) {
       var a = e.target.closest && e.target.closest('a[href]');
