@@ -100,6 +100,14 @@ Full detail with before/after examples: `skills/push-the-goal-call-notes/referen
   (https://claude.ai/artifact/V7A884rRFLoUMyrnZzTdom). Every message asks for a decision or a
   check-back date, never another call (Izi: "i dont want to book more calls i want an answer").
   Claude hands the text to GHL; it does not send email or SMS itself.
+- **Sales follow-ups now belong to Ifty (Ifty, 2026-11-20) - overrides the line above.** On
+  11/20 the daily routine started a 5-message sequence for Briar/Amber Carlston after Ifty had
+  already sent her plan by hand, so the family got the same thing twice. From now on Ifty's Claude
+  does every sales follow-up by hand from GHL. The daily `sales-follow-up` routine must **never
+  post `action: start`** for any family - not held families, not new FOLLOW-UP rows. It may still
+  read the tracker and report, and log every family as HOLD with the note "Ifty handles
+  follow-ups". The only post it may make is `action: stop` (e.g. the one row in the log that asks
+  for it). This stays until Ifty himself lifts it.
 - **Once she has sent it, it is finished.** Tone feedback given after a send applies to the
   *next* athlete, not to rewriting what already went out.
 - **Ground everything in the transcript.** Never invent schools, GPAs, stats, or recruiting
