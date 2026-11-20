@@ -76,7 +76,7 @@ The stigma around junior college costs families more than the tuition ever would
 
 Two years of playing, developing, and getting cheaper credits, then transferring into a program that wants you and can see what you can do. There is nothing to apologize for in that.
 
-**Not sure whether JUCO belongs on your athlete's list?** Soccer Recruitment 101 builds a target list across every level that fits, including the two-year route, and runs the outreach with you. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Not sure whether JUCO belongs on your athlete's list?** Soccer Recruitment 101 builds a target list across every level that fits, including the two-year route, and runs the outreach with you. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 
 ## FAQ

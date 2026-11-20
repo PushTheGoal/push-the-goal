@@ -68,7 +68,7 @@ Families ask me if they are behind. Here is the honest answer: the timeline abov
 
 If your athlete is a freshman, you are early. Build the foundation. If your athlete is a junior who has done none of this, you are not doomed. You just do not have a year to waste.
 
-**Want the complete roadmap?** Soccer Recruitment 101 walks your family through every step of this timeline with expert guidance, so you always know what to do next. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Want the complete roadmap?** Soccer Recruitment 101 walks your family through every step of this timeline with expert guidance, so you always know what to do next. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 ## FAQ
 

@@ -70,7 +70,7 @@ What they need at home is not another evaluator. They need someone who is certai
 
 The results follow consistency, and consistency at sixteen is mostly a function of who is in the house.
 
-**Want a recruiting plan that gives everyone a clear job?** Soccer Recruitment 101 works with athletes on the outreach and film while keeping parents in the loop on the parts they own. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Want a recruiting plan that gives everyone a clear job?** Soccer Recruitment 101 works with athletes on the outreach and film while keeping parents in the loop on the parts they own. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 
 ## FAQ

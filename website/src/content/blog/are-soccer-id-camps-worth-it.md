@@ -60,7 +60,7 @@ Fall ID camps are one of the best pivots available. They are quieter than the su
 
 If your athlete has missed a window, this is where you go next rather than writing off the year.
 
-**Not sure which camps deserve your money?** Soccer Recruitment 101 builds the target list first, so camp choices follow the schools that fit, and drafts the outreach that makes each one count. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Not sure which camps deserve your money?** Soccer Recruitment 101 builds the target list first, so camp choices follow the schools that fit, and drafts the outreach that makes each one count. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 ## FAQ
 

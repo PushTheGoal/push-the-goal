@@ -62,7 +62,7 @@ The list is not fixed. It changes when your athlete's film improves, when a seas
 
 If a level is not answering at all after several rounds, that is information. Add schools a level down. If three programs at a level respond quickly, add more like them. The list should get sharper every few months, not sit in a folder.
 
-**Want help building the list and running the outreach?** Soccer Recruitment 101 builds the target list around programs with real openings in your athlete's class, and drafts the coach emails with you. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Want help building the list and running the outreach?** Soccer Recruitment 101 builds the target list around programs with real openings in your athlete's class, and drafts the coach emails with you. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 
 ## FAQ

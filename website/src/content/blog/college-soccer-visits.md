@@ -68,7 +68,7 @@ Your athlete sends a thank-you the same day. Short, specific, and mentioning som
 
 Then write down, that night, what your athlete liked and did not. Visits blur together, and the details that matter in March are the ones nobody wrote down in October.
 
-**Have visits coming up and want to be ready for them?** Soccer Recruitment 101 preps athletes for coach conversations and works through the offers afterward. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Have visits coming up and want to be ready for them?** Soccer Recruitment 101 preps athletes for coach conversations and works through the offers afterward. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 
 ## FAQ

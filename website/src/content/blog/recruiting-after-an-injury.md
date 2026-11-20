@@ -74,7 +74,7 @@ Izi's version of this, to an athlete in the middle of it: all I need you to do i
 
 The recruiting will still be there. So will the coaches.
 
-**Want a recruiting plan built around an injury timeline?** Soccer Recruitment 101 works with families through the pivot, the coach emails, and the events that fit the return date. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Want a recruiting plan built around an injury timeline?** Soccer Recruitment 101 works with families through the pivot, the coach emails, and the events that fit the return date. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 
 ## FAQ

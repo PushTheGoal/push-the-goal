@@ -69,7 +69,7 @@ Some athletes will find their best fit there: scholarship money, playing time, a
 
 What should not happen is a family never looking, because a level with hundreds of schools and real scholarship money never came up in conversation.
 
-**Want NAIA programs assessed properly for your athlete?** Soccer Recruitment 101 builds target lists across every level, NAIA included, and runs the outreach. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Want NAIA programs assessed properly for your athlete?** Soccer Recruitment 101 builds target lists across every level, NAIA included, and runs the outreach. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 ## FAQ
 

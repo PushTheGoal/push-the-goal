@@ -60,7 +60,7 @@ The point is that fifteen coaches' responses are worth more than any ranking, an
 
 What we never do is guess. We send the film, we ask the question, and we build the plan around what comes back.
 
-**Want the honest read on your athlete's level, and a plan for it?** Soccer Recruitment 101 starts with the outreach that gets coaches to answer the question for you. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Want the honest read on your athlete's level, and a plan for it?** Soccer Recruitment 101 starts with the outreach that gets coaches to answer the question for you. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 
 ## FAQ

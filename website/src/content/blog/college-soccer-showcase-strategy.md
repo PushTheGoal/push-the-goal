@@ -71,7 +71,7 @@ A smaller showcase with fifteen target-list coaches attending beats a huge one w
 
 And if your family can only afford two events a year, spend the money on the two where your athlete's target coaches will be, then do the outreach properly for both.
 
-**Want the event emails handled?** Soccer Recruitment 101 drafts the pre-event outreach with families and runs the follow-up afterward. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Want the event emails handled?** Soccer Recruitment 101 drafts the pre-event outreach with families and runs the follow-up afterward. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 
 ## FAQ

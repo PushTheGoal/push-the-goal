@@ -64,7 +64,7 @@ Sometimes silence means not interested, and no amount of emailing changes that. 
 
 And if a coach says no, thank them and move on fast. A quick no is a gift. It points your energy at the programs still in play.
 
-**Want the exact email structure and follow-up plan done with you?** Inside Soccer Recruitment 101, we help athletes write outreach that sounds like them, build the target list, and run the follow-up system week by week. [Get started here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Want the exact email structure and follow-up plan done with you?** Inside Soccer Recruitment 101, we help athletes write outreach that sounds like them, build the target list, and run the follow-up system week by week. [Get started here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 ## FAQ
 

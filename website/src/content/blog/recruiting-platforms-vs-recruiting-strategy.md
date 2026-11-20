@@ -62,7 +62,7 @@ So what outside guidance buys you is not access to information. It is judgment a
 
 Consistency is what produces the result. Almost nobody is consistent on their own.
 
-**Want the strategy rather than another login?** Soccer Recruitment 101 works the sequence with you: honest level feedback, the target list, the outreach, and week-by-week accountability until your athlete has real conversations. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Want the strategy rather than another login?** Soccer Recruitment 101 works the sequence with you: honest level feedback, the target list, the outreach, and week-by-week accountability until your athlete has real conversations. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 ## FAQ
 

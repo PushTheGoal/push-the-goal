@@ -54,7 +54,7 @@ Sometimes it is. A preferred walk-on place at a program with a clear path to min
 
 The mistake is treating the first walk-on offer as the finish line. It is a data point, and it arrives early enough to act on.
 
-**Want a plan built to earn the money instead of the spot?** Soccer Recruitment 101 builds the wide list, the repeat exposure and the direct conversations that turn "we like you" into an offer. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Want a plan built to earn the money instead of the spot?** Soccer Recruitment 101 builds the wide list, the repeat exposure and the direct conversations that turn "we like you" into an offer. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 
 ## FAQ

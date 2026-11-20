@@ -72,7 +72,7 @@ Your athlete's obstacle is a marketing problem. Marketing problems are solvable 
 
 The families who succeed from small clubs are the ones who accepted early that nobody was coming to find them, and got on with it.
 
-**Want a plan built for an athlete without national exposure?** Soccer Recruitment 101 builds the target list, shapes the film, and runs the outreach that replaces the showcase circuit. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Want a plan built for an athlete without national exposure?** Soccer Recruitment 101 builds the target list, shapes the film, and runs the outreach that replaces the showcase circuit. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 
 ## FAQ

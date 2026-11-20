@@ -60,7 +60,7 @@ The position tests patience in ways the others do not. Fewer spots, slower inter
 
 Controlling the controllables is the whole game here. Distribution work, footwork, film, emails, follow-ups. The best keepers do not get bored of the basics. They do the basics better than everyone else, and college coaches can see it.
 
-**Want a keeper-specific recruiting plan?** Soccer Recruitment 101 builds the target list around programs with real openings in your athlete's class, and shapes the film coaches want to see from a keeper. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Want a keeper-specific recruiting plan?** Soccer Recruitment 101 builds the target list around programs with real openings in your athlete's class, and shapes the film coaches want to see from a keeper. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 ## FAQ
 

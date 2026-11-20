@@ -72,7 +72,7 @@ A profile built in September and never touched is worth less by November. New fi
 
 Your athlete owns this. They build it, they update it, they send it. An athlete who runs their own profile reads as coachable before a coach has watched a single clip.
 
-**Want your athlete's profile and film reviewed before coaches see them?** Soccer Recruitment 101 builds the whole package with you, from film to profile to the outreach that drives traffic to it. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Want your athlete's profile and film reviewed before coaches see them?** Soccer Recruitment 101 builds the whole package with you, from film to profile to the outreach that drives traffic to it. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 ## FAQ
 

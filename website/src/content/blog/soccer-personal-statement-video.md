@@ -76,7 +76,7 @@ That discomfort is the whole reason it works. If it were easy, every athlete wou
 
 Get your athlete to record a bad first version this week. It will be bad. The second one will be fine, and fine is all it needs to be.
 
-**Want help building the video and the outreach around it?** Soccer Recruitment 101 works through the personal statement and the coach emails with athletes directly. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Want help building the video and the outreach around it?** Soccer Recruitment 101 works through the personal statement and the coach emails with athletes directly. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 
 ## FAQ

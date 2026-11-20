@@ -70,7 +70,7 @@ Coaches can tell when a parent made the reel. More importantly, an athlete who c
 
 Once the film is live, it feeds everything else: the pre-showcase email, the follow-up note, the recruiting profile, the coach who wants a second look before booking a trip. Our [guide to emailing college coaches] shows exactly where the link goes.
 
-**Want eyes on your athlete's reel before coaches see it?** Soccer Recruitment 101 walks families through the film, the target list, the outreach emails, and the follow-up, with honest feedback about what a coach will think of the video. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Want eyes on your athlete's reel before coaches see it?** Soccer Recruitment 101 walks families through the film, the target list, the outreach emails, and the follow-up, with honest feedback about what a coach will think of the video. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 ## FAQ
 

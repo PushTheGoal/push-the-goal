@@ -52,7 +52,7 @@ A coach traveling to a single standalone club game is rare. It happens, and when
 
 So the honest answer to "when does recruiting start" is: it starts when your athlete starts. The NCAA sets when a coach may answer. Your family sets when the coach first hears the name, and there is no rule against that being freshman year.
 
-**Not sure where your athlete stands in this calendar?** Soccer Recruitment 101 maps the whole process with you, from the first email through the follow-up, so you always know what should be happening right now. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Not sure where your athlete stands in this calendar?** Soccer Recruitment 101 maps the whole process with you, from the first email through the follow-up, so you always know what should be happening right now. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 ## FAQ
 

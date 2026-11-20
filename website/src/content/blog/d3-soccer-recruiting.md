@@ -69,7 +69,7 @@ D3 is where a lot of soccer families would be happiest and where a lot of them r
 
 Put them on the list. Find out what they cost. Decide with real numbers.
 
-**Want D3 schools evaluated properly on your athlete's list?** Soccer Recruitment 101 builds target lists across every level and works through the real cost of each. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Want D3 schools evaluated properly on your athlete's list?** Soccer Recruitment 101 builds target lists across every level and works through the real cost of each. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 ## FAQ
 

@@ -80,7 +80,7 @@ A parent's email about their own child reads differently than an athlete's email
 
 And when the silence stretches, keep the discouragement off your athlete. They are already reading it as a verdict on them. Your job is to be the person who knows it is a full inbox in October, and who makes sure the next follow-up goes out anyway.
 
-**Want the follow-up handled properly?** Soccer Recruitment 101 drafts the coach emails with families and keeps the outreach running through the quiet stretches. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Want the follow-up handled properly?** Soccer Recruitment 101 drafts the coach emails with families and keeps the outreach running through the quiet stretches. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 
 ## FAQ

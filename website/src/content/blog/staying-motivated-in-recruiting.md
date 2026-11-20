@@ -81,7 +81,7 @@ That is a hard truth and a hopeful one, because persistence is available to ever
 
 Keep the film current. Keep the emails going. Keep the grades up. Keep showing up.
 
-**Want someone in your athlete's corner through the quiet months?** Soccer Recruitment 101 keeps the outreach moving and the athlete accountable when motivation runs out. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Want someone in your athlete's corner through the quiet months?** Soccer Recruitment 101 keeps the outreach moving and the athlete accountable when motivation runs out. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 ## FAQ
 

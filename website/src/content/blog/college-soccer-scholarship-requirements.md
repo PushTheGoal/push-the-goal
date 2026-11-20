@@ -54,7 +54,7 @@ Run the real cost. Compare what your family pays after everything, not the size 
 
 Register with the eligibility center if your athlete is heading NCAA. Pull the approved core course list from the guidance counselor. Look at the transcript with the recruiting requirements next to it, not the graduation requirements. Then keep the outreach running while you sort it, because eligibility work does not put your athlete on any coach's list.
 
-**Want help sorting the athletic and academic sides together?** Soccer Recruitment 101 works both tracks with you, from film and outreach through eligibility and honest cost comparisons. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Want help sorting the athletic and academic sides together?** Soccer Recruitment 101 works both tracks with you, from film and outreach through eligibility and honest cost comparisons. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 ## FAQ
 

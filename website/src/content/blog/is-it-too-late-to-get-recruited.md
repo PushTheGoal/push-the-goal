@@ -50,7 +50,7 @@ I promised honesty, so here it is. The late path is real, but it cannot survive 
 
 I have watched athletes go from zero coach contact to committed in a matter of months. Not because of luck. Because they stopped wondering if it was too late and started working a real plan.
 
-**The clock matters more for your family than most.** Soccer Recruitment 101 gives late-starting families the fastest version of the plan: film, list, outreach, and follow-up, with guidance at every step. [Start today.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**The clock matters more for your family than most.** Soccer Recruitment 101 gives late-starting families the fastest version of the plan: film, list, outreach, and follow-up, with guidance at every step. [Start today.](https://soccer-101.push-the-goal.com/schedule-page)
 
 ## FAQ
 

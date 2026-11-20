@@ -68,7 +68,7 @@ Register in ninth or tenth grade. Check that your athlete's classes are on the a
 
 Boring, and it takes an afternoon. Families who skip it find out in the spring of senior year, when there is no time left to fix a transcript.
 
-**Want the whole recruiting timeline mapped out, paperwork included?** Soccer Recruitment 101 keeps families ahead of the deadlines that quietly end recruiting. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Want the whole recruiting timeline mapped out, paperwork included?** Soccer Recruitment 101 keeps families ahead of the deadlines that quietly end recruiting. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 
 ## FAQ

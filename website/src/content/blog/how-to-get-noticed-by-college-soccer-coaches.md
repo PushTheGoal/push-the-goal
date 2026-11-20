@@ -58,7 +58,7 @@ Being overlooked hurts, but it carries good news if you are willing to hear it: 
 
 I have seen genuinely gifted players go unrecruited because their family waited to be discovered, and I have seen less flashy players earn great college homes because they ran this loop for eighteen months straight. The sideline at your Saturday game is not where recruiting happens. The inbox is.
 
-**Ready to stop waiting to be noticed?** Soccer Recruitment 101 walks your family through the whole visibility system: film, target list, coach outreach, event strategy, and follow-up, with honest guidance about the right level. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Ready to stop waiting to be noticed?** Soccer Recruitment 101 walks your family through the whole visibility system: film, target list, coach outreach, event strategy, and follow-up, with honest guidance about the right level. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 ## FAQ
 

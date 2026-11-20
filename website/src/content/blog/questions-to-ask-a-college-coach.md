@@ -64,7 +64,7 @@ Same day, your athlete sends a short thank-you. One thing they took from the con
 
 That question has ended more silences than anything else I teach. Our [guide to emailing college coaches](/how-to-email-college-soccer-coaches/) has the full follow-up rhythm.
 
-**Want to practice before the real call?** Soccer Recruitment 101 preps athletes for coach conversations and visits, builds the question list, and handles the follow-up so momentum does not die after a good call. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Want to practice before the real call?** Soccer Recruitment 101 preps athletes for coach conversations and visits, builds the question list, and handles the follow-up so momentum does not die after a good call. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 ## FAQ
 

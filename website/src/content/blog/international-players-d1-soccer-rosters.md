@@ -52,7 +52,7 @@ The share is large across Division I, and larger on the men's side, where there 
 
 The international pipeline is not going anywhere. The families who resent it spend their energy on the wrong thing. The families who understand it recruit wider, get seen more, build the film that proves the player, and end up at a program where they matter. That is a better outcome than a roster spot behind a nineteen-year-old from Lisbon, and it is achievable.
 
-**Want a plan that accounts for who your athlete is competing with?** Soccer Recruitment 101 builds the wide list and the repeat exposure that gets American recruits in front of the coaches who are recruiting them. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Want a plan that accounts for who your athlete is competing with?** Soccer Recruitment 101 builds the wide list and the repeat exposure that gets American recruits in front of the coaches who are recruiting them. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 
 ## FAQ

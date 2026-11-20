@@ -46,7 +46,7 @@ Start early, because D1 programs work furthest ahead. Get film out. Email coache
 
 That is the whole formula, and it is unglamorous. The athletes I see get there are not the ones with the best highlight reel. They are the ones who ran this loop for two years without stopping.
 
-**Want a real assessment of your athlete's D1 odds?** Soccer Recruitment 101 gives you honest feedback on level, builds the target list, and runs the outreach with you, so the D1 push happens alongside a plan that works if it does not land. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Want a real assessment of your athlete's D1 odds?** Soccer Recruitment 101 gives you honest feedback on level, builds the target list, and runs the outreach with you, so the D1 push happens alongside a plan that works if it does not land. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 ## FAQ
 

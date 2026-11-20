@@ -64,7 +64,7 @@ Your athlete's soccer decides which programs want them. Their transcript decides
 
 Both are the job.
 
-**Want the academic side built into the recruiting plan?** Soccer Recruitment 101 builds target lists that account for admissions and money as well as level. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Want the academic side built into the recruiting plan?** Soccer Recruitment 101 builds target lists that account for admissions and money as well as level. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 
 ## FAQ

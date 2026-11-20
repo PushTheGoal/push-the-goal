@@ -64,7 +64,7 @@ The athlete who sends fifty specific emails and follows up four times gets furth
 
 That is the good news in a post about cost. The part that decides the outcome is the part that is free.
 
-**Want to know where your family's money should go?** Soccer Recruitment 101 builds the plan around your athlete's target list, so camps and events get chosen instead of collected. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Want to know where your family's money should go?** Soccer Recruitment 101 builds the plan around your athlete's target list, so camps and events get chosen instead of collected. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 ## FAQ
 

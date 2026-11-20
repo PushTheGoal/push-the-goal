@@ -68,7 +68,7 @@ A verbal is a good sign and it is not the finish line. It means a program wants 
 
 Celebrate it. Then keep the film current, keep the grades up, keep the relationships alive, and sign the first day there is something to sign. Recruiting is over when your athlete is on campus.
 
-**Working through an offer and not sure what is real?** Soccer Recruitment 101 helps families read offers, ask the right questions, and keep options open until there is a signature. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Working through an offer and not sure what is real?** Soccer Recruitment 101 helps families read offers, ask the right questions, and keep options open until there is a signature. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 
 ## FAQ

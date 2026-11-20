@@ -54,7 +54,7 @@ Female athletes tear ACLs at higher rates than male athletes. Every women's coac
 
 **If you are late, you are not out.** The women's calendar runs early, and it also runs long. Spots and money open every spring.
 
-**Want a plan built for the women's side of the game?** Soccer Recruitment 101 is run by someone who was recruited on it. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Want a plan built for the women's side of the game?** Soccer Recruitment 101 is run by someone who was recruited on it. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 
 ## FAQ

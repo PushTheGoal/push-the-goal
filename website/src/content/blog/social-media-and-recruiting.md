@@ -58,7 +58,7 @@ Set the bio. Make the account public or build a soccer one. Pin the film. Post t
 
 That is a Saturday afternoon of work that pays off every time a coach types your athlete's name.
 
-**Want help building visibility that supports the outreach?** Soccer Recruitment 101 works on film, profile, social presence and coach communication together, so everything a coach finds points the same direction. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Want help building visibility that supports the outreach?** Soccer Recruitment 101 works on film, profile, social presence and coach communication together, so everything a coach finds points the same direction. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 ## FAQ
 

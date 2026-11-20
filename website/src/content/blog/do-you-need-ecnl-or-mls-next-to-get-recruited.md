@@ -58,7 +58,7 @@ This is also where I push families toward junior college and two years first. It
 
 The families who get recruited are not always the ones who spent the most. They are the ones who ran the process.
 
-**Not sure where your money should go?** Soccer Recruitment 101 helps families spend on the things that move recruiting and skip the things that do not, with a target list and outreach plan built around your athlete. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Not sure where your money should go?** Soccer Recruitment 101 helps families spend on the things that move recruiting and skip the things that do not, with a target list and outreach plan built around your athlete. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 ## FAQ
 

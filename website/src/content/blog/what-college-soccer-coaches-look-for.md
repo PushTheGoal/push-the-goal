@@ -56,7 +56,7 @@ Sprint after a turnover. Talk on the field. Be the first one up when a teammate 
 
 Talent gets you evaluated. This is what gets you picked.
 
-**Want to know how your athlete reads to a coach?** Soccer Recruitment 101 gives honest feedback on film, presence and communication, and builds the outreach plan that gets a coach watching in the first place. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Want to know how your athlete reads to a coach?** Soccer Recruitment 101 gives honest feedback on film, presence and communication, and builds the outreach plan that gets a coach watching in the first place. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 ## FAQ
 

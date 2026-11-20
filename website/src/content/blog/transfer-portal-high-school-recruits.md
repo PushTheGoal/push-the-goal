@@ -60,7 +60,7 @@ What the portal punished is the passive approach. Families who send twelve email
 
 Controlling the controllables is the whole job here. Your athlete cannot change how coaches fill rosters. They can control their film, their grades, their outreach, and how long they keep going after most families have stopped.
 
-**Want a recruiting plan built for how this works now?** Soccer Recruitment 101 builds the target list across levels and keeps the outreach going through the late windows where spots open. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Want a recruiting plan built for how this works now?** Soccer Recruitment 101 builds the target list across levels and keeps the outreach going through the late windows where spots open. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 
 ## FAQ

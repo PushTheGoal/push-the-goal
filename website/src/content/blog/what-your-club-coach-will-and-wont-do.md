@@ -68,7 +68,7 @@ The division of labor that works: your athlete owns the film, the social presenc
 
 An athlete who runs their own recruiting also arrives at college ready to advocate for themselves with a coach who has ninety-nine other things happening, which is the actual skill this whole process is teaching.
 
-**Want a plan that does not depend on someone else making a call?** Soccer Recruitment 101 builds the target list, drafts the outreach, and runs the follow-up with your family week by week. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Want a plan that does not depend on someone else making a call?** Soccer Recruitment 101 builds the target list, drafts the outreach, and runs the follow-up with your family week by week. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 ## FAQ
 

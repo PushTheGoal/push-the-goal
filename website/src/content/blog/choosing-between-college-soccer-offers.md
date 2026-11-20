@@ -80,7 +80,7 @@ Soccer careers end. They end with injuries, with coaching changes, with an athle
 
 Pick the place that still works when the soccer stops. That is the one worth committing to.
 
-**Have offers to compare?** Soccer Recruitment 101 works through them with families, money and fit and depth charts together, before anybody commits. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Have offers to compare?** Soccer Recruitment 101 works through them with families, money and fit and depth charts together, before anybody commits. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 
 ## FAQ

@@ -27,10 +27,10 @@ everywhere. Google results, Izi's listings, Instagram bio links and old emails k
 - `npm run build` fails if any address in `old-urls.txt` is neither built nor redirected, if an internal
   link points nowhere, or if a page has an em dash or the word "actually". A failed build never deploys.
 
-The booking calendar (`soccer-101.push-the-goal.com/schedule-page`) and the Soccer Recruitment 101 opt-in
-(`soccer-recruitment-101.push-the-goal.com/...`) are GoHighLevel pages on their own subdomains. This site
-only links to them. **When the domain's DNS moves, keep those two subdomain records and the email (MX)
-records exactly as they are.**
+The booking calendar (`soccer-101.push-the-goal.com/schedule-page`) is a GoHighLevel page on its own subdomain. Every
+Book a Call button and every blog post's "Start here" link goes there (the posts used to point at a Soccer
+Recruitment 101 opt-in on `soccer-recruitment-101.push-the-goal.com`, which stopped resolving in 2026).
+**When the domain's DNS moves, keep the `soccer-101` record and the email (MX) records exactly as they are.**
 
 ## Where things live
 

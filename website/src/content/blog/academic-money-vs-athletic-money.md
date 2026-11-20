@@ -68,7 +68,7 @@ That sounds like a parent talking. It is also the arithmetic. A stronger GPA wid
 
 Grades do not get an athlete recruited by themselves. They decide how many doors are open when the soccer is good enough.
 
-**Want to compare offers by what your family pays?** Soccer Recruitment 101 works through the full picture with families, athletic and academic money included. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Want to compare offers by what your family pays?** Soccer Recruitment 101 works through the full picture with families, athletic and academic money included. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 
 ## FAQ

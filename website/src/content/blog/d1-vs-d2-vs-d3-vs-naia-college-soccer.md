@@ -68,7 +68,7 @@ Three inputs, and you need all three.
 
 Then build the list wide, across levels, and email all of it. Our [guide to emailing college coaches](/how-to-email-college-soccer-coaches/) has the format. Families who write to fifty schools across four levels find homes. Families who write to twelve D1 programs usually do not.
 
-**Want an honest read on where your athlete fits?** Soccer Recruitment 101 builds the level list with you, from film review through outreach, with straight feedback about what is realistic and what is not. [Start here.](https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963)
+**Want an honest read on where your athlete fits?** Soccer Recruitment 101 builds the level list with you, from film review through outreach, with straight feedback about what is realistic and what is not. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 ## FAQ
 
