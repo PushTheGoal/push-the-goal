@@ -8,3 +8,4 @@ html body #_builder-form .button-element { border-radius: 0 !important; font-fam
 html body #_builder-form .heading-element h1, html body #_builder-form .heading-element h2, html body #_builder-form .heading-element h3 { font-family: 'Oswald', Roboto, sans-serif !important; font-weight: 700 !important; text-transform: uppercase !important; letter-spacing: 0.5px !important; }
 html body #_builder-form a, html body #_builder-form a span { color: #f8e34d !important; text-decoration-color: #f8e34d !important; }
 @media (max-width: 600px) { html body #_builder-form .heading-element h1, html body #_builder-form .heading-element h2, html body #_builder-form .heading-element h3 { font-size: 24px !important; } }
+html body #_builder-form .button-element *, html body #_builder-form .heading-element * { font-family: 'Oswald', Roboto, sans-serif !important; }
