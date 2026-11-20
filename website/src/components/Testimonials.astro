@@ -91,14 +91,14 @@ const shots = Object.entries(files).sort(([a], [b]) => a.localeCompare(b)).map((
   .roll::-webkit-scrollbar { display: none; }
   .roll:active { cursor: grabbing; }
   .track { display: flex; align-items: center; gap: 16px; width: max-content; padding: 6px 0; }
-  .shot { flex: none; display: block; border-radius: 12px; overflow: hidden; border: 1px solid var(--line); background: #000; transition: border-color .15s; }
+  .shot { flex: none; display: block; border-radius: 0; overflow: hidden; border: 1px solid var(--line); background: #000; transition: border-color .15s; }
   .shot:hover, .shot:focus-visible { border-color: var(--gold); }
   .shot :global(img) { display: block; width: auto; height: auto; max-width: 300px; max-height: 400px; -webkit-user-drag: none; user-select: none; }
   .roll-note { margin: 14px 0 0; text-align: center; font-size: 14px; color: var(--dim); }
   .shot-view { padding: 0; border: 0; background: transparent; max-width: min(92vw, 560px); max-height: 92vh; overflow: visible; }
   .shot-view::backdrop { background: rgba(0, 0, 0, 0.85); }
-  .shot-view img { display: block; max-width: 100%; max-height: 88vh; width: auto; height: auto; border-radius: 12px; margin: 0 auto; }
-  .shot-close { position: absolute; top: -18px; right: -18px; width: 44px; height: 44px; border-radius: 50%; border: 0; background: var(--gold); color: var(--ink); font-size: 28px; line-height: 1; cursor: pointer; }
+  .shot-view img { display: block; max-width: 100%; max-height: 88vh; width: auto; height: auto; border-radius: 0; margin: 0 auto; }
+  .shot-close { position: absolute; top: -18px; right: -18px; width: 44px; height: 44px; border-radius: 0; border: 0; background: var(--gold); color: var(--ink); font-size: 28px; line-height: 1; cursor: pointer; }
   @media (max-width: 700px) {
     .track { gap: 10px; }
     .shot :global(img) { max-width: 230px; max-height: 320px; }
