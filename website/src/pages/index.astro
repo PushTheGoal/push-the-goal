@@ -99,29 +99,40 @@ const faq = [
         <div class="card stat"><p class="num" data-count="10" data-suffix="">{site.proof.years}</p><p class="lbl">Years coaching</p></div>
       </div>
       <script is:inline>
-        // Numbers roll up from 0 each time they scroll into view. The real numbers are in the HTML,
-        // so search engines and screen readers read them as they are.
+        // Scoreboard roll: each digit spins down a 0-9 strip and lands on the real number, every time the
+        // stats scroll into view. CSS transitions (smooth on iPhone Safari). The real number stays in the
+        // HTML and in aria-label, so search engines and screen readers read it as it is.
         (function () {
           var els = document.querySelectorAll('.num[data-count]');
-          if (!('IntersectionObserver' in window)) return;
-          function roll(el) {
-            var to = +el.dataset.count, suf = el.dataset.suffix || '', t0 = null, dur = 1600;
-            function step(t) {
-              if (!t0) t0 = t;
-              var k = Math.min((t - t0) / dur, 1), e = 1 - Math.pow(1 - k, 3);
-              el.textContent = Math.round(to * e) + suf;
-              if (k < 1) requestAnimationFrame(step);
-            }
-            requestAnimationFrame(step);
+          els.forEach(function (el) {
+            var text = el.textContent.trim(); el.setAttribute('aria-label', text); el.textContent = '';
+            var col = 0;
+            text.split('').forEach(function (ch) {
+              if (/[0-9]/.test(ch)) {
+                var box = document.createElement('span'); box.className = 'dg'; box.setAttribute('aria-hidden', 'true');
+                var strip = document.createElement('span'); strip.className = 'strip';
+                for (var i = 0; i < 20; i++) { var d = document.createElement('span'); d.textContent = i % 10; strip.appendChild(d); }
+                strip.dataset.to = 10 + (+ch); strip.style.transitionDelay = (col * 0.12) + 's'; col++;
+                box.appendChild(strip); el.appendChild(box);
+              } else {
+                var sym = document.createElement('span'); sym.className = 'sym'; sym.setAttribute('aria-hidden', 'true'); sym.textContent = ch; el.appendChild(sym);
+              }
+            });
+          });
+          function spin(el, on) {
+            el.querySelectorAll('.strip').forEach(function (st) {
+              if (on) { st.classList.add('go'); st.style.transform = 'translateY(-' + st.dataset.to + 'em)'; }
+              else { st.classList.remove('go'); st.style.transform = 'translateY(0)'; }
+            });
           }
+          if (!('IntersectionObserver' in window)) { els.forEach(function (el) { spin(el, true); }); return; }
           var io = new IntersectionObserver(function (entries) {
             entries.forEach(function (en) {
-              var el = en.target;
-              if (en.isIntersecting && !el._rolling) { el._rolling = true; roll(el); }
-              else if (!en.isIntersecting && el._rolling) { el._rolling = false; el.textContent = '0' + (el.dataset.suffix || ''); }
+              if (en.isIntersecting) { void en.target.offsetWidth; spin(en.target, true); }
+              else spin(en.target, false);
             });
-          }, { threshold: 0.4 });
-          els.forEach(function (el) { el.textContent = '0' + (el.dataset.suffix || ''); io.observe(el); });
+          }, { threshold: 0.3 });
+          els.forEach(function (el) { io.observe(el); });
         })();
       </script>
       <p class="levels">NCAA D1 · D2 · D3 · NAIA · Junior College</p>
@@ -301,6 +312,11 @@ const faq = [
   .stats-wrap { padding: 48px 0 64px; }
   .stats { grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); }
   .stat { padding: 24px; text-align: center; }
+  .num :global(.dg) { display: inline-block; height: 1em; overflow: hidden; vertical-align: top; }
+  .num :global(.strip) { display: flex; flex-direction: column; transform: translateY(0); }
+  .num :global(.strip.go) { transition: transform 2.2s cubic-bezier(0.15, 0.75, 0.2, 1); }
+  .num :global(.strip > span) { display: block; height: 1em; line-height: 1; }
+  .num :global(.sym) { display: inline-block; line-height: 1; vertical-align: top; }
   .num { font-variant-numeric: tabular-nums; margin: 0; font-family: var(--display); font-weight: 700; font-size: 44px; line-height: 1; color: var(--gold); }
   .lbl { margin: 8px 0 0; font-family: var(--display); font-size: 15px; letter-spacing: 2px; text-transform: uppercase; }
   @media (max-width: 600px) {
