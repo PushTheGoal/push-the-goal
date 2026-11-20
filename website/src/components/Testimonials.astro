@@ -1,20 +1,67 @@
 ---
-// Testimonial screenshots, shown whole (no cropping), three columns on desktop. Tap opens full size.
-// Every file in src/assets/testimonials/ shows here: add a screenshot by dropping it in that folder.
+// Testimonial screenshots in one rolling row (shown whole, never cropped). Hover or touch pauses it;
+// tap a message to read it full size. Every file in src/assets/testimonials/ shows here: add a
+// screenshot by dropping it in that folder. "Reduce motion" visitors get a row they swipe instead.
 import { Image } from 'astro:assets';
 const files = import.meta.glob<{ default: ImageMetadata }>('../assets/testimonials/*.{jpg,jpeg,png,webp}', { eager: true });
 const shots = Object.entries(files).sort(([a], [b]) => a.localeCompare(b)).map(([, m]) => m.default);
+const seconds = Math.max(40, shots.length * 7);
 ---
-<div class="wall">
-  {shots.map((img, i) => (
-    <a href={img.src} class="shot" target="_blank" rel="noopener">
-      <Image src={img} alt={`Message from a Push The Goal family, ${i + 1} of ${shots.length}`} widths={[360, 720]} sizes="(max-width: 700px) 50vw, 380px" />
-    </a>
-  ))}
+<div class="roll" style={`--roll-time: ${seconds}s`}>
+  <div class="track">
+    {[0, 1].map((copy) => shots.map((img, i) => (
+      <a href={img.src} class="shot" data-full={img.src} aria-hidden={copy ? 'true' : undefined} tabindex={copy ? -1 : undefined}>
+        <Image src={img} alt={copy ? '' : `Message from a Push The Goal family, ${i + 1} of ${shots.length}`} widths={[360, 720]} sizes="300px" />
+      </a>
+    )))}
+  </div>
 </div>
+<p class="roll-note">Tap any message to read it full size.</p>
+<dialog class="shot-view" aria-label="Message from a Push The Goal family">
+  <button type="button" class="shot-close" aria-label="Close">&times;</button>
+  <img alt="" />
+</dialog>
+
+<script is:inline>
+  (function () {
+    var dlg = document.querySelector('.shot-view');
+    if (!dlg || !dlg.showModal) return; // old browsers: the link opens the image
+    var big = dlg.querySelector('img');
+    document.querySelectorAll('.roll .shot').forEach(function (a) {
+      a.addEventListener('click', function (e) {
+        e.preventDefault();
+        var img = a.querySelector('img');
+        big.src = a.getAttribute('data-full'); big.alt = img ? img.alt : '';
+        dlg.showModal();
+      });
+    });
+    dlg.addEventListener('click', function (e) { if (e.target === dlg || e.target.classList.contains('shot-close')) dlg.close(); });
+  })();
+</script>
+
 <style>
-  .wall { columns: 3 260px; column-gap: 16px; }
-  .shot { display: block; break-inside: avoid; margin: 0 0 16px; border-radius: 12px; overflow: hidden; border: 1px solid var(--line); }
-  .shot :global(img) { width: 100%; height: auto; }
-  @media (max-width: 700px) { .wall { columns: 2 150px; column-gap: 10px; } .shot { margin-bottom: 10px; } }
+  .roll { overflow: hidden; -webkit-mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent); mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent); }
+  .track { display: flex; align-items: center; gap: 16px; width: max-content; animation: roll var(--roll-time) linear infinite; }
+  .roll:hover .track, .roll:focus-within .track, .roll:active .track { animation-play-state: paused; }
+  @keyframes roll { from { transform: translateX(0); } to { transform: translateX(calc(-50% - 8px)); } }
+  .shot { flex: none; display: block; border-radius: 12px; overflow: hidden; border: 1px solid var(--line); background: #000; cursor: zoom-in; transition: border-color .15s, transform .15s; }
+  .shot:hover, .shot:focus-visible { border-color: var(--gold); transform: translateY(-3px); }
+  .shot :global(img) { display: block; width: auto; height: auto; max-width: 300px; max-height: 400px; }
+  .roll-note { margin: 14px 0 0; text-align: center; font-size: 14px; color: var(--dim); }
+  .shot-view { padding: 0; border: 0; background: transparent; max-width: min(92vw, 560px); max-height: 92vh; overflow: visible; }
+  .shot-view::backdrop { background: rgba(0, 0, 0, 0.85); }
+  .shot-view img { display: block; max-width: 100%; max-height: 88vh; width: auto; height: auto; border-radius: 12px; margin: 0 auto; }
+  .shot-close { position: absolute; top: -18px; right: -18px; width: 44px; height: 44px; border-radius: 50%; border: 0; background: var(--gold); color: var(--ink); font-size: 28px; line-height: 1; cursor: pointer; }
+  @media (max-width: 700px) {
+    .track { gap: 10px; }
+    @keyframes roll { from { transform: translateX(0); } to { transform: translateX(calc(-50% - 5px)); } }
+    .shot :global(img) { max-width: 230px; max-height: 320px; }
+    .shot-close { top: 8px; right: 8px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .roll { overflow-x: auto; -webkit-mask-image: none; mask-image: none; scroll-snap-type: x mandatory; }
+    .track { animation: none; }
+    .shot { scroll-snap-align: start; }
+    .shot[aria-hidden='true'] { display: none; }
+  }
 </style>
