@@ -2,7 +2,7 @@
 title: "Why Talented Kids Quit Soccer at 14, and How to Keep Yours in the Game"
 seoTitle: "Why Kids Quit Soccer at 14 (and How to Prevent It)"
 description: "Most kids who quit soccer do it between 12 and 14, right before recruiting starts. The four reasons, and what parents can do in the years before."
-category: "Middle school"
+category: "Junior Prep (Grades 5 to 8)"
 keyword: "youth soccer burnout"
 date: "2026-10-07T21:00:00Z"
 image: ../../assets/blog/why-kids-quit-soccer-at-14-header.png

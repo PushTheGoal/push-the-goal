@@ -2,7 +2,7 @@
 title: "Should My 12-Year-Old Specialize in Soccer?"
 seoTitle: "Should My 12-Year-Old Specialize in Soccer?"
 description: "Year-round soccer at twelve feels like commitment. The injury and burnout evidence says otherwise, and college coaches agree. What to do instead."
-category: "Middle school"
+category: "Junior Prep (Grades 5 to 8)"
 keyword: "should my kid specialize in one sport"
 date: "2026-11-04T21:00:00Z"
 image: ../../assets/blog/should-my-12-year-old-specialize-in-soccer-header.png

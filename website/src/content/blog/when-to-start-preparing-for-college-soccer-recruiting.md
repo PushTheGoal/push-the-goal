@@ -2,7 +2,7 @@
 title: "When Should Your Kid Start Preparing for College Soccer Recruiting? The Middle School Answer"
 seoTitle: "When to Start Preparing for College Soccer Recruiting"
 description: "Recruiting starts in high school. Preparing for it starts before. What a 5th to 8th grader should be doing now, and what to leave alone until later."
-category: "Middle school"
+category: "Junior Prep (Grades 5 to 8)"
 keyword: "when should my kid start college soccer recruiting"
 date: "2026-10-05T21:00:00Z"
 image: ../../assets/blog/when-to-start-preparing-for-college-soccer-recruiting-header.png

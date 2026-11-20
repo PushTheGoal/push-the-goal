@@ -43,11 +43,14 @@ const faq = [
   <section class:list={['hero', { 'has-clip': heroVideo }]} aria-labelledby="hero-h">
     {!heroVideo && <Image src={coaching} alt="" class="hero-media" widths={[800, 1400]} sizes="100vw" loading="eager" />}
     {heroVideo && (
-      <div class="hero-clip">
-        <video id="hero-video" autoplay muted loop playsinline preload="auto" poster="/video/hero-poster.jpg" aria-label="Coach Izi juggling, keepers making saves and a breakaway in a game">
-          <source src="/video/hero.mp4" type="video/mp4" />
-          <source src="/video/hero.webm" type="video/webm" />
-        </video>
+      <div class="hero-clip" role="img" aria-label="Coach Izi juggling, keepers making saves and a breakaway in a game">
+        <video id="hero-video" class="clip-phone" autoplay muted loop playsinline preload="auto" aria-hidden="true"></video>
+        <div class="strip" aria-hidden="true">
+          <div class="track">
+            <video class="sv" muted loop playsinline preload="auto"></video>
+            <video class="sv" muted loop playsinline preload="auto"></video>
+          </div>
+        </div>
       </div>
     )}
     <div class="shade" aria-hidden="true"></div>
@@ -65,10 +68,24 @@ const faq = [
     </div>
   </section>
   <script is:inline>
-    // Respect "reduce motion": show the still frame instead of the loop.
+    // Computers: Izi's clips whole, side by side, rolling left to right behind the headline (the strip is
+    // shown twice so the roll never runs out). Phones: the vertical montage. "Reduce motion" gets still frames.
     (function () {
-      var v = document.getElementById('hero-video');
-      if (v && window.matchMedia('(prefers-reduced-motion: reduce)').matches) { v.removeAttribute('autoplay'); v.pause(); }
+      var still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var wide = window.matchMedia('(min-width: 960px)').matches;
+      var vids = wide ? document.querySelectorAll('.hero-clip .sv') : [document.getElementById('hero-video')];
+      var name = wide ? 'hero-strip' : 'hero';
+      Array.prototype.forEach.call(vids, function (v) {
+        if (!v) return;
+        v.poster = '/video/' + name + '-poster.jpg';
+        if (still) { v.removeAttribute('autoplay'); return; }
+        ['mp4', 'webm'].forEach(function (ext) {
+          var s = document.createElement('source'); s.src = '/video/' + name + '.' + ext; s.type = 'video/' + ext; v.appendChild(s);
+        });
+        v.load();
+        var p = v.play(); if (p && p.catch) p.catch(function () {});
+      });
+      if (wide && !still) document.querySelector('.hero-clip .track').classList.add('rolling');
     })();
   </script>
 
@@ -76,11 +93,33 @@ const faq = [
     <div class="wrap">
       <p class="eyebrow center">Trusted by parents from {site.proof.clubs} clubs and divisions</p>
       <div class="grid stats">
-        <div class="card stat"><p class="num">{site.proof.athletes}</p><p class="lbl">Athletes guided</p></div>
-        <div class="card stat"><p class="num">{site.proof.offers}</p><p class="lbl">Secure scholarship offers</p></div>
-        <div class="card stat"><p class="num">{site.proof.clubs}</p><p class="lbl">Clubs and divisions</p></div>
-        <div class="card stat"><p class="num">{site.proof.years}</p><p class="lbl">Years coaching</p></div>
+        <div class="card stat"><p class="num" data-count="500" data-suffix="+">{site.proof.athletes}</p><p class="lbl">Athletes guided</p></div>
+        <div class="card stat"><p class="num" data-count="99" data-suffix="%">{site.proof.offers}</p><p class="lbl">Secure scholarship offers</p></div>
+        <div class="card stat"><p class="num" data-count="25" data-suffix="+">{site.proof.clubs}</p><p class="lbl">Clubs and divisions</p></div>
+        <div class="card stat"><p class="num" data-count="10" data-suffix="">{site.proof.years}</p><p class="lbl">Years coaching</p></div>
       </div>
+      <script is:inline>
+        // Numbers roll up from 0 the first time they scroll into view. The real numbers are in the HTML,
+        // so search engines, screen readers and "reduce motion" visitors see them as they are.
+        (function () {
+          var els = document.querySelectorAll('.num[data-count]');
+          if (!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+          function roll(el) {
+            var to = +el.dataset.count, suf = el.dataset.suffix || '', t0 = null, dur = 1600;
+            function step(t) {
+              if (!t0) t0 = t;
+              var k = Math.min((t - t0) / dur, 1), e = 1 - Math.pow(1 - k, 3);
+              el.textContent = Math.round(to * e) + suf;
+              if (k < 1) requestAnimationFrame(step);
+            }
+            requestAnimationFrame(step);
+          }
+          var io = new IntersectionObserver(function (entries) {
+            entries.forEach(function (en) { if (en.isIntersecting) { roll(en.target); io.unobserve(en.target); } });
+          }, { threshold: 0.6 });
+          els.forEach(function (el) { el.textContent = '0' + (el.dataset.suffix || ''); io.observe(el); });
+        })();
+      </script>
       <p class="levels">NCAA D1 · D2 · D3 · NAIA · Junior College</p>
     </div>
   </section>
@@ -233,14 +272,19 @@ const faq = [
   .hero-copy { max-width: 780px; }
   .hero-copy .lead { max-width: 640px; }
   .hero-copy .btn-row { margin-top: 12px; }
-  /* Vertical phone video: a tall framed clip beside the headline on desktop, full-screen behind it on phones. */
+  /* Desktop: the widescreen cut fills the header behind the headline. Phones: the vertical cut sits full width above it. */
   .hero-clip video { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .strip { display: none; }
+  .strip .track { display: flex; height: 100%; width: max-content; }
+  .strip video.sv { height: 100%; width: auto; aspect-ratio: var(--strip-ratio, 2.97); object-fit: cover; flex: none; }
+  .strip .track.rolling { animation: roll 48s linear infinite; }
+  @keyframes roll { from { transform: translateX(-50%); } to { transform: translateX(0); } }
   @media (min-width: 960px) {
-    .has-clip { background: radial-gradient(circle at 78% 40%, #24240f 0%, var(--ink) 60%); }
-    .has-clip .shade { display: none; }
-    .has-clip .hero-copy { max-width: calc(100% - 440px); }
-    .hero-clip { position: absolute; z-index: 1; top: 50%; right: max(24px, calc((100vw - var(--wrap)) / 2 + 24px)); transform: translateY(-50%);
-      width: min(360px, 30vw); aspect-ratio: 9 / 16; border-radius: 22px; overflow: hidden; border: 2px solid var(--gold); box-shadow: 0 24px 60px rgba(0,0,0,0.55); }
+    .hero-clip { position: absolute; inset: 0; }
+    .hero-clip .clip-phone { display: none; }
+    .strip { display: block; position: absolute; inset: 0; overflow: hidden; }
+    .has-clip { min-height: min(86vh, 820px); }
+    .has-clip .shade { background: linear-gradient(90deg, rgba(11,11,14,0.92) 0%, rgba(11,11,14,0.78) 42%, rgba(11,11,14,0.25) 75%, rgba(11,11,14,0.15) 100%); }
   }
   @media (max-width: 959px) {
     .has-clip { flex-direction: column; align-items: stretch; min-height: 0; }
@@ -253,7 +297,7 @@ const faq = [
   .stats-wrap { padding: 48px 0 64px; }
   .stats { grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); }
   .stat { padding: 24px; text-align: center; }
-  .num { margin: 0; font-family: var(--display); font-weight: 700; font-size: 44px; line-height: 1; color: var(--gold); }
+  .num { font-variant-numeric: tabular-nums; margin: 0; font-family: var(--display); font-weight: 700; font-size: 44px; line-height: 1; color: var(--gold); }
   .lbl { margin: 8px 0 0; font-family: var(--display); font-size: 15px; letter-spacing: 2px; text-transform: uppercase; }
   .levels { margin: 20px 0 0; text-align: center; font-family: var(--display); letter-spacing: 4px; text-transform: uppercase; color: var(--dim); }
   .program { overflow: hidden; display: flex; flex-direction: column; background: var(--ink); }

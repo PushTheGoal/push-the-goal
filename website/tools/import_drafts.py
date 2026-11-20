@@ -15,7 +15,7 @@ CATS = {
     "Getting noticed": "how-to-email-college-soccer-coaches how-to-get-noticed-by-college-soccer-coaches how-to-make-a-soccer-recruiting-video soccer-recruiting-profile what-college-soccer-coaches-look-for are-soccer-id-camps-worth-it social-media-and-recruiting questions-to-ask-a-college-coach college-soccer-target-school-list soccer-personal-statement-video college-soccer-visits when-college-coaches-stop-responding college-soccer-showcase-strategy small-town-soccer-recruiting",
     "Divisions and money": "d1-vs-d2-vs-d3-vs-naia-college-soccer how-to-get-a-d1-soccer-scholarship college-soccer-scholarship-requirements academic-money-vs-athletic-money grades-and-college-soccer-recruiting how-to-avoid-being-a-walk-on-college-soccer is-my-athlete-good-enough-for-d1-soccer juco-soccer-recruiting d3-soccer-recruiting naia-soccer-recruiting what-college-soccer-recruiting-costs choosing-between-college-soccer-offers",
     "For parents": "parents-role-in-soccer-recruiting recruiting-after-an-injury staying-motivated-in-recruiting",
-    "Middle school": "middle-school-soccer-recruiting when-to-start-preparing-for-college-soccer-recruiting why-kids-quit-soccer-at-14 should-my-12-year-old-specialize-in-soccer",
+    "Junior Prep (Grades 5 to 8)": "middle-school-soccer-recruiting when-to-start-preparing-for-college-soccer-recruiting why-kids-quit-soccer-at-14 should-my-12-year-old-specialize-in-soccer",
 }
 def category(slug, cats, hub):
     for name, slugs in CATS.items():

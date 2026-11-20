@@ -2,7 +2,7 @@
 title: "Middle School Soccer and College Recruiting: What Matters in Grades 5 to 8, and What Does Not"
 seoTitle: "Middle School Soccer Recruiting: What Matters at 5th to 8th"
 description: "The club, the rankings, the showcase at twelve: which parts of middle school soccer matter for college recruiting later, and which are expensive noise."
-category: "Middle school"
+category: "Junior Prep (Grades 5 to 8)"
 keyword: "middle school soccer recruiting"
 date: "2026-10-06T21:00:00Z"
 image: ../../assets/blog/middle-school-soccer-recruiting-header.png

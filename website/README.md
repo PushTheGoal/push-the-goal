@@ -56,7 +56,7 @@ A post is a Markdown file with front matter:
 title: "On-page headline"
 seoTitle: "Title tag, 60 characters or less"
 description: "Meta description, 155 characters or less"
-category: "Getting noticed"   # Recruiting basics | Getting noticed | Divisions and money | For parents | Middle school
+category: "Getting noticed"   # Recruiting basics | Getting noticed | Divisions and money | For parents | Junior Prep (Grades 5 to 8)
 date: 2026-12-01T21:00:00Z
 image: ../../assets/blog/<slug>-header.png
 ---

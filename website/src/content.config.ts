@@ -1,7 +1,7 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
 
-export const CATEGORIES = ['Recruiting basics', 'Getting noticed', 'Divisions and money', 'For parents', 'Middle school'] as const;
+export const CATEGORIES = ['Recruiting basics', 'Getting noticed', 'Divisions and money', 'For parents', 'Junior Prep (Grades 5 to 8)'] as const;
 
 const blog = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/blog' }),
