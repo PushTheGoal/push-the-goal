@@ -14,7 +14,7 @@ name: Website Deploy
 #   secret CLOUDFLARE_API_TOKEN   token with Account > Cloudflare Pages > Edit
 #   secret CLOUDFLARE_ACCOUNT_ID  the Cloudflare account the site lives in
 # Starting on Leslie's Cloudflare account; moving to Izi's later = change these two secrets.
-# The contact form's GHL_CONTACT_WEBHOOK is set on the Pages project, not here.
+# The contact form is Izi's GHL form, embedded on /contact/ (id in website/src/data/site.ts).
 
 on:
   push:
@@ -88,7 +88,7 @@ jobs:
             npx --yes wrangler@4 pages project create "$PROJECT" --production-branch=main
           fi
 
-      # Run from website/ so wrangler also uploads functions/ (the contact form handler).
+      # Run from website/ so wrangler also uploads functions/ (the middleware: 410s and noindex on previews).
       - name: Deploy
         if: steps.creds.outputs.ok == 'true'
         env:

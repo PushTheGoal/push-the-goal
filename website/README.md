@@ -44,7 +44,7 @@ records exactly as they are.**
 | Photos | `src/assets/photos/` (screenshot crops for now; swap in the originals, same file names) |
 | Testimonial screenshots | `src/assets/testimonials/` (every file in the folder shows, whole, in name order) |
 | Hero video | `public/video/hero.mp4` (6 to 10 seconds, muted loop; the homepage uses it as soon as the file exists) |
-| Contact form handler | `functions/api/contact.js` (sends to GoHighLevel, see below) |
+| Contact form | Izi's GHL form, embedded on `/contact/`; its id is `contactFormId` in `src/data/site.ts` |
 | Feed for Command Central, Gem's digest and blog watch | `/blog-queue.json` (`src/pages/blog-queue.json.ts`) |
 
 ## Blog posts and scheduling
@@ -68,11 +68,11 @@ approves them. Every post gets Izi's byline, the guide link, the booking banner 
 
 ## Contact form
 
-The old WordPress contact form saved into WordPress. This one sends each message (athlete name, email,
-phone, interest, message) to a GoHighLevel inbound webhook. To switch it on: in GHL, create a **new**
-workflow named `Claude - Website contact form` with an Inbound Webhook trigger (never edit an existing
-workflow), then put its URL on the Cloudflare Pages project as `GHL_CONTACT_WEBHOOK`. Until then the form
-tells visitors to email izi@push-the-goal.com.
+The Contact page shows Izi's GoHighLevel form in a frame, so every message lands in GHL as a contact.
+To change the form, build or edit it in GHL (Sites > Forms), copy its id from the embed code
+(`.../widget/form/<id>`) and put it in `contactFormId` in `src/data/site.ts`. The form's look (colours,
+fields, the thank-you redirect) is set in GHL, not here; send people to `https://push-the-goal.com/thank-you/`
+after they submit.
 
 ## Going live (once)
 

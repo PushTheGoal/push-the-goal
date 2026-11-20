@@ -7,6 +7,8 @@ export const site = {
   hours: 'Monday to Saturday, 9 AM to 5 PM',
   // GoHighLevel: the booking calendar and the Soccer Recruitment 101 opt-in. Both live outside this site.
   booking: 'https://soccer-101.push-the-goal.com/schedule-page',
+  // The GHL form on the Contact page (Izi's GHL, Sites > Forms). Swap the id to change the form.
+  contactFormId: 'E0FSygDzBOTPn6c5xfl9',
   optin: 'https://soccer-recruitment-101.push-the-goal.com/optin-page-page-2963',
   instagram: 'https://www.instagram.com/pushthegoalsoccer/',
   facebook: 'https://www.facebook.com/profile.php?id=100079245211986',
