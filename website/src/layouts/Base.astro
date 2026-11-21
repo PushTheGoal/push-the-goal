@@ -78,9 +78,13 @@ const izi = {
       var a = e.target.closest && e.target.closest('a[href]');
       if (!a) return;
       var h = a.href;
+      // Names match the old site's events (three are key events in GA4: book_strategy_call, instagram_dm_click,
+      // whatsapp_click, plus phone_click), so her reports and goals keep counting across the rebuild.
       if (h.indexOf('schedule-page') > -1) gtag('event', 'book_strategy_call', { event_category: 'conversion', link_url: h, page: location.pathname });
-      else if (h.indexOf('optin-page') > -1) gtag('event', 'course_checkout', { event_category: 'conversion', link_url: h, page: location.pathname });
-      else if (h.indexOf('instagram.com') > -1) gtag('event', 'instagram_click', { link_url: h, page: location.pathname });
+      else if (h.indexOf('instagram.com') > -1) gtag('event', 'instagram_dm_click', { link_url: h, page: location.pathname });
+      else if (h.indexOf('wa.me') > -1 || h.indexOf('whatsapp.com') > -1) gtag('event', 'whatsapp_click', { link_url: h, page: location.pathname });
+      else if (h.indexOf('tel:') === 0) gtag('event', 'phone_click', { link_url: h, page: location.pathname });
+      else if (h.indexOf('mailto:') === 0) gtag('event', 'contact_link_click', { link_url: h, page: location.pathname });
     });
   </script>
 </head>
