@@ -1,0 +1,21 @@
+# Sales follow-ups done by hand from GHL (Ifty's Claude)
+
+Since 2026-11-20 every sales follow-up goes out by hand from GHL, as Izi Murray (info@push-the-goal.com),
+after Ifty says yes. Izi's daily routine posts nothing (CLAUDE.md). Update this file every time
+something is sent or a family answers. Times are as shown in GHL. No prices, health or money details here.
+
+## Current state (checked 2026-11-22 in GHL)
+
+| Family | Call | What we sent | What they said | Next |
+|---|---|---|---|---|
+| Hana Lessard (dad Ben) | 11/16 | 11/17 plan PDF email + SMS | No reply in GHL. Ifty: Hana's laptop died, on hold | Check-in message - due now |
+| Briar Carlston (mom Amber) | 11/16 | 11/17 plan PDF email + SMS. Izi's auto sequence also sent 11/20 recap email and 11/22 SMS (removed from the sequence 11/22) | No reply. On the call they said they'd decide by Thu 11/19 | Wait a couple of days after the 11/22 SMS, then a short check-in |
+| Eliza Wechsler (mom Sarah) | 11/12 | 11/17 plan PDF email. 11/18 SMS check-in ("Hi Sarah, it's Izi. Still excited about Eliza...") - sender not confirmed (Ifty or Izi) | 11/18 Sarah: can't get back to this until after the holiday (Thanksgiving). 11/18 Ifty replied: enjoy the holiday, we'll check back after. She loved the message | Check back after Thanksgiving - Mon 11/30 |
+| Kaysan "KK" Johnson (mom Susan) | 11/13 | 11/17 plan email + SMS with the $500 deposit note | 11/18 Susan: can't do the deposit this Friday, still very interested, will keep us posted, asked us to be patient. 11/18 Ifty replied: completely understand, keep us posted, excited for January | No update since. Gentle check-in |
+| Esther Rivera (Pastor family) | 11/9 | Nothing from us | Nothing in GHL after the call (only booking/feedback automations) | Ask Ifty whether Izi spoke to them; then read Fathom and send a first follow-up |
+| Krish Baramatiwala (mom Shweta, dad Sohel) | 11/21 | 11/22 (Cairo) plan PDF email + SMS | On the call: family would decide by the next morning. No reply yet | If nothing by their evening 11/22, check-in 11/23 |
+
+## Rules for every message
+- Written from that family's own Fathom call, Izi's voice (sales-follow-up skill writing rules).
+- Every message ends with the ask: ready to move forward - and if not now, when should I check back in. Never ask for another call.
+- Show Ifty first; send only after his yes; then update this file and the board shows it as "Sent from here".
