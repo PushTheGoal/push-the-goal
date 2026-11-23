@@ -16,6 +16,10 @@ something is sent or a family answers. Times are as shown in GHL. No prices, hea
 | Krish Baramatiwala (mom Shweta, dad Sohel) | 11/21 | 11/22 (Cairo) plan PDF email + SMS | On the call: family would decide by the next morning. No reply yet | If nothing by their evening 11/22, check-in 11/23 |
 
 ## Rules for every message
+- Send in the family's afternoon (their local time), never in the morning (Ifty, 2026-11-23).
 - Written from that family's own Fathom call, Izi's voice (sales-follow-up skill writing rules).
 - Every message ends with the ask: ready to move forward - and if not now, when should I check back in. Never ask for another call.
 - Show Ifty first; send only after his yes; then update this file and the board shows it as "Sent from here".
+
+## Scheduled
+- 2026-11-23 2:00 PM PT: check-in SMS to Ben (Hana) and Susan (Kaysan), approved by Ifty; skipped if they reply or pay first.
