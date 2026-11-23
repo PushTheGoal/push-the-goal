@@ -13,7 +13,7 @@ something is sent or a family answers. Times are as shown in GHL. No prices, hea
 | Eliza Wechsler (mom Sarah) | 11/12 | 11/17 plan PDF email. 11/18 SMS check-in ("Hi Sarah, it's Izi. Still excited about Eliza...") - sender not confirmed (Ifty or Izi) | 11/18 Sarah: can't get back to this until after the holiday (Thanksgiving). 11/18 Ifty replied: enjoy the holiday, we'll check back after. She loved the message | Check back after Thanksgiving - Mon 11/30 |
 | Kaysan "KK" Johnson (mom Susan) | 11/13 | 11/17 plan email + SMS with the $500 deposit note | 11/18 Susan: can't do the deposit this Friday, still very interested, will keep us posted, asked us to be patient. 11/18 Ifty replied: completely understand, keep us posted, excited for January | No update since. Gentle check-in |
 | Esther Rivera (Pastor family) | 11/9 | Nothing from us | Nothing in GHL after the call (only booking/feedback automations) | Ask Ifty whether Izi spoke to them; then read Fathom and send a first follow-up |
-| Krish Baramatiwala (mom Shweta, dad Sohel) | 11/21 | 11/22 (Cairo) plan PDF email + SMS | On the call: family would decide by the next morning. No reply yet | If nothing by their evening 11/22, check-in 11/23 |
+| Krish Baramatiwala (mom Shweta, dad Sohel) | 11/21 | 11/22 (Cairo) plan PDF email + SMS | On the call: family would decide by the next morning. No reply in GHL | 11/23 Ifty: Izi followed up with them on Instagram - no follow-up from us for now |
 
 ## Rules for every message
 - Send in the family's afternoon (their local time), never in the morning (Ifty, 2026-11-23).
