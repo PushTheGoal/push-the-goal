@@ -24,3 +24,4 @@ something is sent or a family answers. Times are as shown in GHL. No prices, hea
 
 ## Scheduled
 - 2026-11-23 2:00 PM PT check-in did not go out. 11/24 Ifty: never send from memory - re-read the thread and the call, show the final text, send only after his OK.
+- 2026-11-24 6:00 PM PT (11/25 4:00 AM Cairo): if Ben (Hana) has not replied, SMS him the approved text: monthly option is $4,500 total for the whole program (not per month), three ways to pay (all at once, half now / half in 30 days, 3 x $1,500), reply yes or tell me when to check back. If he replied, send nothing and show Ifty. Approved by Ifty 11/24.
