@@ -20,7 +20,7 @@ Here is the whole playbook.
 
 Not you. I know you are reading this because you handle the logistics in your family, and there is plenty for you to help with behind the scenes. But the email comes from your athlete's account, in your athlete's words.
 
-Coaches are not just recruiting a player. They are recruiting a young adult they will coach, push, and live alongside for four years. An email from mom or dad tells the coach who is driving this process, and it is the wrong answer. Parents build the list, proofread, and manage the calendar. Athletes hit send.
+Coaches are not just recruiting a player. They are recruiting a young adult they will coach, push, and live alongside for four years. An email from mom or dad tells the coach who is driving this process, and it is the wrong answer. Parents build the [target school list](/college-soccer-target-school-list/), proofread, and manage the calendar. Athletes hit send.
 
 ## What a great recruiting email looks like
 
@@ -63,6 +63,8 @@ Persistence is not pestering when every message adds something new. Coaches read
 Sometimes silence means not interested, and no amount of emailing changes that. But just as often it means: not allowed to reply yet, buried inbox, waiting to see the athlete live, or waiting to see if the athlete follows up. You cannot control which one it is. You can control whether your athlete disappears after one attempt. Most do. Yours should not.
 
 And if a coach says no, thank them and move on fast. A quick no is a gift. It points your energy at the programs still in play.
+
+A coach who was writing back and then stopped is a different problem from a coach who never answered. Here is [how to restart a conversation with a coach who has gone quiet](/when-college-coaches-stop-responding/).
 
 **Want the exact email structure and follow-up plan done with you?** Inside Soccer Recruitment 101, we help athletes write outreach that sounds like them, build the target list, and run the follow-up system week by week. [Get started here.](https://soccer-101.push-the-goal.com/schedule-page)
 

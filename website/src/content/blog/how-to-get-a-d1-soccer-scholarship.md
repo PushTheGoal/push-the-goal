@@ -16,7 +16,7 @@ I am here to tell you what it takes, because the families who get there are runn
 
 D1 is the smallest slice of college soccer. Hundreds of thousands of kids play high school and club soccer in this country. The number of D1 roster spots opening each year is a tiny fraction of that, and full rides in soccer are rarer than families assume, because most soccer money gets split into partial awards across a roster.
 
-None of that means your athlete cannot get there. It means the plan has to be better than hope, and the list cannot contain only D1 schools.
+None of that means your athlete cannot get there. It means the plan has to be better than hope, and the list cannot contain only D1 schools. And if a D1 program offers a roster spot with no money, read [how to avoid being a walk-on](/how-to-avoid-being-a-walk-on-college-soccer/) before your family says yes.
 
 ## What D1 coaches require
 

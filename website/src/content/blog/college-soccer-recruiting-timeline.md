@@ -68,6 +68,8 @@ Families ask me if they are behind. Here is the honest answer: the timeline abov
 
 If your athlete is a freshman, you are early. Build the foundation. If your athlete is a junior who has done none of this, you are not doomed. You just do not have a year to waste.
 
+If your athlete is still in grades 5 to 8, [Junior Prep](/junior-prep-coaching/) gives them coaching, accountability and support so they reach high school ready.
+
 **Want the complete roadmap?** Soccer Recruitment 101 walks your family through every step of this timeline with expert guidance, so you always know what to do next. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 ## FAQ

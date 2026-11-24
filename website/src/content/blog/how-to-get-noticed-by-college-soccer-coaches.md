@@ -34,7 +34,7 @@ When a college coach walks into a showcase with 80 fields, they carry a schedule
 
 **3. Trusted referrals, with a warning.** A club coach or a college contact vouching for a player used to move the needle. It carries much less weight than it did a few years ago, so treat it as a bonus rather than a plan. Make sure your club coach knows which schools your athlete is pursuing, then go back to running your own outreach. Even the best club coach is juggling an entire roster's futures, and nobody advocates for your athlete like your athlete.
 
-One more piece of honesty about that empty sideline. A college coach traveling to a single standalone game is rare. It happens, and when it does, it comes after months of relationship building: emails, film, camp visits, and real conversations. No family should build a plan around a coach showing up to one Saturday match. Build it around showcases, camps, and film, where coaches are already going to be.
+One more piece of honesty about that empty sideline. A college coach traveling to a single standalone game is rare. It happens, and when it does, it comes after months of relationship building: emails, film, camp visits, and real conversations. No family should build a plan around a coach showing up to one Saturday match. Build it around showcases, camps, and film, where coaches are already going to be. That goes double for families far from the big club hubs, and we cover it in [getting recruited from a small town or a club nobody has heard of](/small-town-soccer-recruiting/).
 
 Notice what is not on the list: hoping.
 
