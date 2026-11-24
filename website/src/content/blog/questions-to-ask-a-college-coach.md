@@ -42,6 +42,8 @@ Your athlete should ask most of these. You can ask the money ones.
 
 **What do your players major in?** If nobody in the program studies what your athlete wants to study, find out why.
 
+If the first call goes well, a campus visit usually comes next. Know [the difference between an official and an unofficial visit](/college-soccer-visits/) before you go.
+
 ## About money, and ask this early
 
 **What would a realistic offer look like for me?** Ask before the visit ends. Families avoid this and then spend months on a school they were never going to afford.

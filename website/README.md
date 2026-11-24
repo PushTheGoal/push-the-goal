@@ -57,13 +57,13 @@ title: "On-page headline"
 seoTitle: "Title tag, 60 characters or less"
 description: "Meta description, 155 characters or less"
 category: "Getting noticed"   # Recruiting basics | Getting noticed | Divisions and money | For parents | Junior Prep (Grades 5 to 8)
-date: 2026-12-01T21:00:00Z
+date: 2026-12-01T11:00:00Z   # 11:00 UTC = 6 AM Eastern
 image: ../../assets/blog/<slug>-header.png
 ---
 ```
 
-A post dated in the future is left out of the build; the daily rebuild (21:20 UTC) puts it live once its
-date passes. `draft: true` keeps a written post out entirely. New posts ship as a pull request; merging
+A post dated in the future is left out of the build; the daily rebuild (11:07 UTC, with catch-up runs at 14:37
+and 21:20 because GitHub starts schedules late) puts it live once its date passes. `draft: true` keeps a written post out entirely. New posts ship as a pull request; merging
 approves them. Every post gets Izi's byline, the guide link, the booking banner and her bio automatically.
 
 ## Contact form

@@ -52,7 +52,7 @@ A **showcase** puts your athlete in front of many programs at once. Breadth. Bes
 
 An **ID camp** puts your athlete in front of one program in depth, coached and evaluated up close for hours. Best when a school is already on the list and you want to convert interest into a real relationship.
 
-Most families need both, in that order: showcases to find the schools, camps to close them.
+Most families need both, in that order: showcases to find the schools, camps to close them. A showcase only counts if the right coaches know your athlete is there, so read [how to get college coaches to your athlete's showcase game](/college-soccer-showcase-strategy/) before you register.
 
 ## A note for families dealing with an injury
 
