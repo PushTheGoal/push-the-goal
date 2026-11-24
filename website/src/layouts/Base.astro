@@ -20,7 +20,8 @@ interface Props {
 }
 const { title, description, image, type = 'website', schema = [], noindex = false } = Astro.props;
 const canonical = new URL(Astro.url.pathname, site.url).href;
-const ogImage = image ? new URL(image, site.url).href : undefined;
+// Pages without their own picture share /og-default.jpg (Izi with two athletes, logo, headline).
+const ogImage = new URL(image ?? '/og-default.jpg', site.url).href;
 
 const business = {
   '@context': 'https://schema.org',
@@ -58,8 +59,8 @@ const izi = {
   <meta property="og:title" content={title}>
   <meta property="og:description" content={description}>
   <meta property="og:url" content={canonical}>
-  {ogImage && <meta property="og:image" content={ogImage}>}
-  <meta name="twitter:card" content={ogImage ? 'summary_large_image' : 'summary'}>
+  <meta property="og:image" content={ogImage}>
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/favicon.png" type="image/png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="sitemap" href="/sitemap-index.xml">

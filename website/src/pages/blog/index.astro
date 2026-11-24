@@ -11,7 +11,7 @@ const slug = (c: string) => c.toLowerCase().replace(/[^a-z0-9]+/g, '-');
 const groups = CATEGORIES.map((c) => ({ name: c, id: slug(c), posts: posts.filter((p) => p.data.category === c) })).filter((g) => g.posts.length);
 const latest = posts.slice(0, 3);
 ---
-<Base title="College Soccer Recruiting Blog for Parents | Push The Goal" description="Straight answers on college soccer recruiting for parents: timelines, coach emails, highlight video, divisions, scholarships and middle school prep, from Coach Izi Murray.">
+<Base title="College Soccer Recruiting Blog for Parents | Push The Goal" description="Straight answers on college soccer recruiting for parents: timelines, coach emails, film, divisions, scholarships and Junior Prep, from Coach Izi Murray.">
   <section class="section">
     <div class="wrap">
       <div class="section-head">
