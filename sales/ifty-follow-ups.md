@@ -25,3 +25,6 @@ something is sent or a family answers. Times are as shown in GHL. No prices, hea
 ## Scheduled
 - 2026-11-23 2:00 PM PT check-in did not go out. 11/24 Ifty: never send from memory - re-read the thread and the call, show the final text, send only after his OK.
 - 11/24: Ben's 6 PM PT message cancelled - Ben answered at 8:25 PM Cairo.
+
+## Call confirmations (before the Strategy Session)
+- Zoie Miano (dad Emanuel, mom Denise) - call Wed 11/25 9:00 AM CST. 11/25 12:48 AM (Cairo) Ifty's confirmation SMS failed (GHL "Failed", no reason shown). 12:58 AM Ifty's email: Opened, no reply. 01:20 AM Email 1 sent in the same thread (approved by Ifty): asks for YES both attending, correct Instagram link, best mobile number. Watch: check every 15 min; 30 min after it is opened with no reply, send the approved final warning (no reply = call may be cancelled). If Emanuel answers with all three, no warning and the call stays. Never cancel the call ourselves.
