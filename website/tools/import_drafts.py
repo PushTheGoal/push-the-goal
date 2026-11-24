@@ -47,7 +47,7 @@ for f in sorted((muse / "drafts").glob("*.md")):
     date = dates.get(slug)
     hdr = muse / "blog-headers" / f"{slug}-header.png"
     fm = {"title": title, "seoTitle": seo or title, "description": desc, "category": cat,
-          "keyword": kw, "date": (date + "T21:00:00Z") if date else "2026-12-31T21:00:00Z"}
+          "keyword": kw, "date": (date + "T11:00:00Z") if date else "2026-12-31T11:00:00Z"}
     lines = ["---"] + [f"{k}: {json.dumps(v, ensure_ascii=False)}" for k, v in fm.items()]
     if hdr.exists():
         shutil.copy(hdr, img / hdr.name); lines.append(f"image: ../../assets/blog/{hdr.name}")

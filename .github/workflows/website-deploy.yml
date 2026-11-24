@@ -4,8 +4,12 @@ name: Website Deploy
 #
 #   push to main (website/ changed)  production deploy
 #   pull request (website/ changed)  preview at <branch>.push-the-goal.pages.dev
-#   schedule                         morning rebuild: puts future-dated blog posts live on their date
-#                                    (posts are dated 21:00 UTC; the rebuild runs right after)
+#   schedule                         daily rebuild: puts future-dated blog posts live on their date.
+#                                    New posts are dated 11:00 UTC (6 AM Eastern). GitHub starts
+#                                    scheduled runs late, often by hours (Nov 2026: 01:23 to 05:21 UTC
+#                                    for a 21:20 slot), so three off-peak runs form a catch-up ladder.
+#                                    A run with nothing new to publish just redeploys the same site.
+#                                    Gem's blog watch checks at 23:17 UTC.
 #
 # The build ends with website/tools/check-site.mjs, which fails (so nothing deploys) if any old
 # push-the-goal.com address stops working, an internal link breaks, or banned wording slips in.
@@ -23,6 +27,8 @@ on:
   pull_request:
     paths: ['website/**', '.github/workflows/website-deploy.yml']
   schedule:
+    - cron: '7 11 * * *'
+    - cron: '37 14 * * *'
     - cron: '20 21 * * *'
   workflow_dispatch:
 
