@@ -1,9 +1,9 @@
 ---
-title: "Questions to Ask a College Coach on Your First Call or Visit"
-seoTitle: "Questions to Ask a College Soccer Coach on the First Call"
-description: "The questions to ask a college soccer coach on a first call or visit, what the answers reveal, and the two questions families forget until it is too late."
+title: "Questions to Ask College Coaches: The List for Your First Call, Visit and Offer"
+seoTitle: "Questions to Ask College Coaches: A Soccer Family's List"
+description: "The questions to ask college soccer coaches on the first call, the visit and the offer, what each answer reveals, and the ones families forget to ask."
 category: "Getting noticed"
-keyword: "questions to ask a college soccer coach"
+keyword: "questions to ask college coaches"
 date: "2026-09-11T21:00:00Z"
 image: ../../assets/blog/questions-to-ask-a-college-coach-header.png
 ---
@@ -13,6 +13,21 @@ The call you worked eighteen months for lasts about twenty minutes, and most fam
 That is a missed opportunity twice over. You lose the information you need to compare programs, and you miss the chance to show a coach that your athlete is serious and thinking clearly. Coaches notice good questions. They are a signal all by themselves.
 
 Your athlete should ask most of these. You can ask the money ones.
+
+## The short list: 10 questions to ask college coaches
+
+Bring these to every first call. The sections below explain what each answer tells you.
+
+1. Where do you see me fitting in your squad?
+2. How many players are you recruiting at my position for my class?
+3. What would my first year realistically look like?
+4. How would you describe your style of play?
+5. What does a typical week look like in season and out?
+6. What happens if I get injured?
+7. How do you handle conflicts between training and classes or labs?
+8. What do your players major in?
+9. What would a realistic offer look like for me?
+10. What would you like to see from me next?
 
 ## About the roster and playing time
 
@@ -44,6 +59,20 @@ Your athlete should ask most of these. You can ask the money ones.
 
 If the first call goes well, a campus visit usually comes next. Know [the difference between an official and an unofficial visit](/college-soccer-visits/) before you go.
 
+## On the visit: questions to ask the players
+
+The players will tell your athlete things the coach will not. Find a few minutes away from the staff and ask:
+
+**What surprised you most about your first year?**
+
+**How much do freshmen play?** Compare the answer with what the coach told you.
+
+**What is the coach like after a loss?**
+
+**Do you have time for your major, and for anything outside soccer?**
+
+**Would you choose this school again?** Watch the pause before the answer.
+
 ## About money, and ask this early
 
 **What would a realistic offer look like for me?** Ask before the visit ends. Families avoid this and then spend months on a school they were never going to afford.
@@ -52,7 +81,15 @@ If the first call goes well, a campus visit usually comes next. Know [the differ
 
 **What does the total cost look like after everything?** Athletic aid, academic aid, need-based aid, fees, travel home. Compare final numbers between schools, since a smaller soccer offer at a cheaper school often wins.
 
-**Are there benefits I should know about?** Some families qualify for programs like Yellow Ribbon or military tuition benefits that change the maths entirely. Ask, because nobody will volunteer it.
+**Are there benefits I should know about?** Some families qualify for programs like Yellow Ribbon or military tuition benefits that change the math. Ask, because nobody will volunteer it.
+
+## When an offer comes
+
+**Is this a verbal offer or a written one, and when would we sign?** Our post on [verbal commitment vs signing](/verbal-commitment-vs-signing/) explains why the difference matters.
+
+**How long do we have to decide?** A fair program gives a family time. A deadline of a few days is pressure, and it is fine to ask why.
+
+**If the staff changes, what happens to this offer?**
 
 ## Two things to do around the call
 
@@ -70,7 +107,7 @@ That question has ended more silences than anything else I teach. Our [guide to 
 
 ## FAQ
 
-**What questions should I ask a college soccer coach?**
+**What are the best questions to ask college coaches?**
 Where you fit in the squad, how many they are recruiting at your position, what a typical week looks like, what happens if you get injured, how academics and training conflict, and what a realistic offer would be.
 
 **Should parents talk on the recruiting call?**

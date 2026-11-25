@@ -1,9 +1,9 @@
 ---
-title: "What Your Club Coach Will (and Won't) Do for Your Athlete's Recruiting"
-seoTitle: "What Your Club Coach Will and Won't Do for Recruiting"
-description: "What your club coach can realistically do for your athlete's recruiting, what they cannot, and why relying on their college contacts stopped working."
+title: "Club Coach Not Helping With Recruiting? What Your Family Can Do on Its Own"
+seoTitle: "Club Coach Not Helping With Recruiting? What to Do"
+description: "Your club coach isn't helping with recruiting? What a club coach will and won't do, and the five steps your family can run on its own, starting this week."
 category: "Recruiting basics"
-keyword: "college soccer recruitment"
+keyword: "club coach not helping with recruiting"
 date: "2026-09-10T21:00:00Z"
 image: ../../assets/blog/what-your-club-coach-will-and-wont-do-header.png
 ---
@@ -12,7 +12,19 @@ image: ../../assets/blog/what-your-club-coach-will-and-wont-do-header.png
 
 I hear that sentence a lot, usually from a family who has been waiting on those calls for eight months. This post is not about bad club coaches. Most of them are good people working hard. It is about what the job structurally is, and what it is not, so your family stops waiting for something that was never coming.
 
-## What a good club coach genuinely does
+## If your club coach isn't helping, start here
+
+You do not need the club coach's permission or their contacts to run recruiting. Five steps, in this order:
+
+1. **Get film.** Pull clips from every game your club records and build a short highlight reel. Our guide to [making a recruiting video](/how-to-make-a-soccer-recruiting-video/) shows how.
+2. **Build the target list.** Fifty schools or more, across every level. Here is [how to build a target list that gets responses](/college-soccer-target-school-list/).
+3. **Email the coaches.** Your athlete writes to the head coach and the assistant who runs recruiting at each school, with film and the upcoming schedule. Our [guide to emailing college coaches](/how-to-email-college-soccer-coaches/) has the format and templates.
+4. **Send the schedule before every event.** Showcases, tournaments and ID camps are where college coaches watch. Tell them where your athlete will be.
+5. **Follow up every week or two** with something new: film, results, the next schedule.
+
+Then use the club coach for what they do well, which is the rest of this post.
+
+## What a good club coach does
 
 **Develops your athlete.** The actual job, and the thing that matters most over four years.
 
@@ -24,7 +36,7 @@ I hear that sentence a lot, usually from a family who has been waiting on those 
 
 ## What they will not do
 
-**Run your athlete's outreach.** No club coach has time to email fifty college programs for every player on the roster, and multiply that across several teams. It is not a lack of care. It is arithmetic.
+**Run your athlete's outreach.** No club coach has time to email fifty college programs for every player on the roster, and multiply that across several teams. Nobody has those hours.
 
 **Advocate equally for everyone.** Every roster has a player the coach pushes for. If it is not yours, no amount of hoping changes it, and you will never be told.
 
@@ -34,7 +46,7 @@ I hear that sentence a lot, usually from a family who has been waiting on those 
 
 Recruiting rules and norms change constantly. Contact dates get revised, transfer rules move, roster limits shift, and what worked for a family two years ago can be wrong today. I have to stay updated on it as part of my job, and I am talking to college coaches all the time to do it. It gets harder every year, not easier.
 
-A club coach who is not in the recruiting process day to day has no realistic way to keep up with that. This is not a knock on them. They are coaching, running sessions, managing rosters and traveling, and the recruiting landscape they learned is the one from whenever they last went through it.
+A club coach who is not in the recruiting process day to day has no realistic way to keep up with that. This is not a knock on them. They are coaching, running sessions, managing rosters and traveling, and the recruiting world they learned is the one from whenever they last went through it.
 
 So the advice you get can be sincere, confident and out of date at the same time. That combination is the dangerous one, because nothing about it sounds wrong.
 
@@ -71,6 +83,9 @@ An athlete who runs their own recruiting also arrives at college ready to advoca
 **Want a plan that does not depend on someone else making a call?** Soccer Recruitment 101 builds the target list, drafts the outreach, and runs the follow-up with your family week by week. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 ## FAQ
+
+**My son's coach isn't helping with recruiting. What can we do on our own?**
+Run it yourselves: build a highlight reel, make a target list across every level, have your athlete email the head coach and recruiting coordinator at each school, send the schedule before every event, and follow up every week or two with something new.
 
 **Will my club coach get my athlete recruited?**
 No. A good club coach develops your athlete, chooses strong competition, gives an honest level read and vouches for character when a college coach calls. The outreach has to come from your athlete.

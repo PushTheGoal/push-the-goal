@@ -1,7 +1,7 @@
 ---
-title: "How to Email College Soccer Coaches (and What to Do When They Don't Respond)"
-seoTitle: "How to Email College Soccer Coaches + Follow-Up Guide"
-description: "How to email college soccer coaches: what to write, when to send it, why coaches go silent, and the follow-up system that gets real responses."
+title: "How to Email College Soccer Coaches (With Templates and a Follow-Up Plan)"
+seoTitle: "How to Email College Coaches: Templates + Follow-Up"
+description: "How to email college soccer coaches, with copy-and-paste templates: the first email, the event schedule, the thank-you and the follow-up that gets replies."
 category: "Getting noticed"
 keyword: "how to email college coaches"
 date: "2026-08-07T21:00:00Z"
@@ -12,7 +12,7 @@ image: ../../assets/blog/how-to-email-college-soccer-coaches-header.png
 
 Every week I hear this from a frustrated parent, and I understand why it stings. Your athlete worked up the courage to email a college coach, hit send on something that felt important, and got silence back. Do that five times and it starts to feel personal.
 
-It is almost never personal. College coaches get hundreds of recruiting emails. Most get skimmed for five seconds or never opened at all. The difference between the emails that get responses and the ones that disappear is not talent. It is knowing what a coach looks for in those five seconds, and having a follow-up system for everything else.
+It is almost never personal. College coaches get hundreds of recruiting emails. Most get skimmed for five seconds or never opened at all. The emails that get responses come from athletes who know what a coach looks for in those five seconds, and who have a follow-up system for everything else.
 
 Here is the whole playbook.
 
@@ -20,7 +20,7 @@ Here is the whole playbook.
 
 Not you. I know you are reading this because you handle the logistics in your family, and there is plenty for you to help with behind the scenes. But the email comes from your athlete's account, in your athlete's words.
 
-Coaches are not just recruiting a player. They are recruiting a young adult they will coach, push, and live alongside for four years. An email from mom or dad tells the coach who is driving this process, and it is the wrong answer. Parents build the [target school list](/college-soccer-target-school-list/), proofread, and manage the calendar. Athletes hit send.
+Coaches are recruiting a young adult they will coach, push, and live alongside for four years. An email from mom or dad tells the coach who is driving this process, and it is the wrong answer. Parents build the [target school list](/college-soccer-target-school-list/), proofread, and manage the calendar. Athletes hit send.
 
 ## What a great recruiting email looks like
 
@@ -58,7 +58,63 @@ One email is an introduction. The follow-up is the recruitment. Here is the rhyt
 
 Persistence is not pestering when every message adds something new. Coaches read consistency as maturity, and maturity as coachability.
 
-## Why coaches go silent, honestly
+## Copy-and-paste templates
+
+Change every bracket. Keep each one short. These are starting points: the one personal line about the program is what makes a coach read past the first sentence.
+
+**The first email**
+
+> **Subject:** ⚽ [2027] [Center Back] · [First Last] · [Club] · Film Inside
+>
+> Coach [Last Name],
+>
+> My name is [First Last], a [2027] [center back] for [club team] and [high school] in [City, State]. [One true sentence about their program: a result, their style of play, the major you want.]
+>
+> GPA: [3.8] · Height: [5'7"] · Jersey: [#4]
+> Highlight video: [link]
+>
+> I will be at [event] on [dates]. Would it help if I sent my game times when the schedule is posted?
+>
+> Thank you,
+> [First Last] · [phone] · [email]
+
+**The schedule, before an event**
+
+> **Subject:** ⚽ [2027] [Center Back] [First Last] · [Event] schedule
+>
+> Coach [Last Name],
+>
+> Here is my schedule for [event]: [day, time, field number] and [day, time, field number]. I wear [#4] in [jersey color].
+>
+> I would love for you to see me play.
+>
+> [First Last]
+
+**Same day, after a coach watched**
+
+Izi has her athletes send this one the same day, every time.
+
+> Coach [Last Name],
+>
+> Thank you for coming to watch [our game against X] today. I have a new highlight reel coming soon and will send it as soon as it is ready. If there is anything else you would like to see to continue my recruitment process, I would love to know what that is.
+>
+> [First Last]
+
+**The follow-up when nobody has answered**
+
+> **Subject:** ⚽ [2027] [Center Back] [First Last] · new film
+>
+> Coach [Last Name],
+>
+> I wanted to share new film from [event or month]: [link]. [One line on what is new: a result, a goal, a stat.]
+>
+> I am still interested in [School] and would love to know what you would like to see from me next.
+>
+> [First Last]
+
+And if a field or time changes after a coach said they would come, send Izi's logistics note right away: "Hey Coach, I just want to make sure you had eyes on this. I'd hate for you to go to the wrong field." It is always okay to send.
+
+## Why coaches go silent
 
 Sometimes silence means not interested, and no amount of emailing changes that. But just as often it means: not allowed to reply yet, buried inbox, waiting to see the athlete live, or waiting to see if the athlete follows up. You cannot control which one it is. You can control whether your athlete disappears after one attempt. Most do. Yours should not.
 
