@@ -1,7 +1,7 @@
 ---
 title: "Are Soccer ID Camps Worth It? When They Help and When They're Expensive Hope"
 seoTitle: "Are Soccer ID Camps Worth It? An Honest Answer"
-description: "Are soccer ID camps worth the money? When a camp genuinely moves recruiting forward, when it is expensive hope, and the email that decides which one you get."
+description: "What is a soccer ID camp, and is it worth the money? What happens at one, when a camp moves recruiting forward, and the email that decides the outcome."
 category: "Getting noticed"
 keyword: "are soccer id camps worth it"
 date: "2026-09-08T21:00:00Z"
@@ -10,13 +10,19 @@ image: ../../assets/blog/are-soccer-id-camps-worth-it-header.png
 
 An ID camp is the only place your athlete gets coached by the staff that would recruit them, on their field, for a whole day.
 
+## What is a soccer ID camp?
+
+A soccer ID camp is a one or two day camp run by a college program, on its own campus, where the coaching staff trains and evaluates high school players. "ID" stands for identification: the staff is identifying players it might recruit. Your family pays to attend, and your athlete gets hours in front of the coaches who make that program's recruiting decisions.
+
+A typical day: check-in and a bib number, sessions run by the staff, small-sided games, then full games in the afternoon, often with a campus tour or a talk from the coaches about the program. Some camps finish with a short meeting where coaches talk with players they want to follow up with.
+
 It is also, at a lot of schools, a revenue program that will happily take your money and give your kid a nice weekend that changes nothing.
 
 Both versions exist, often at the same university. The difference between them is almost entirely what your family does in the two weeks beforehand.
 
 ## When a camp is worth every dollar
 
-**The school is genuinely on your athlete's list.** Right level, right academics, right distance, right money. A camp at a school your athlete would attend is research and recruiting at once.
+**The school is on your athlete's list.** Right level, right academics, right distance, right money. A camp at a school your athlete would attend is research and recruiting at once.
 
 **The coaching staff runs it.** Some camps are staffed mostly by students and outside coaches. Ask directly who is on the field. If the head coach and assistants are not coaching sessions, you are paying for facilities.
 
@@ -64,8 +70,11 @@ If your athlete has missed a window, this is where you go next rather than writi
 
 ## FAQ
 
+**What is a soccer ID camp?**
+A camp run by a college soccer program on its own campus, where the coaching staff trains and evaluates high school players it might recruit. Families pay to attend.
+
 **Are college soccer ID camps worth the money?**
-They are when the school is genuinely on your athlete's list, the coaching staff runs the sessions, the camp is small, and your athlete emails the coach beforehand. Without that last step most camps achieve little.
+They are when the school is on your athlete's list, the coaching staff runs the sessions, the camp is small, and your athlete emails the coach beforehand. Without that last step most camps achieve little.
 
 **Do college coaches recruit from their own ID camps?**
 Yes, regularly, but mostly from players they already knew about. The camp confirms an impression more often than it creates one.
