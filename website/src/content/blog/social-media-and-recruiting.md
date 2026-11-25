@@ -12,6 +12,14 @@ The moment a coach gets interested, they type your athlete's name into a search 
 
 That happens before a call, before a visit, and often before a reply. Whatever comes back either supports the impression your athlete has built or quietly undoes it. Most families never think about this step, and it is happening on every recruit.
 
+## Do college coaches look at Instagram?
+
+Yes. Instagram is where most athletes post their soccer, so it is where coaches look first when they want to see more of a recruit. Make sure your athlete's account shows their name, grad year, position and a link to the film in the bio.
+
+## Do college coaches look at TikTok?
+
+They can, and you should assume they will. Anything public under your athlete's name can come up when a coach searches. Hold TikTok to the same standard as Instagram: nothing a coach would not want representing their program.
+
 ## What a coach is checking
 
 **Is this athlete easy to find?** A locked account with no name and no grad year is a dead end. A coach with ninety other recruits does not investigate.
@@ -48,7 +56,7 @@ Three times a week is enough. Consistency beats production value, every time.
 
 Social media does not get anyone recruited on its own. No coach offers a scholarship because of a reel.
 
-What it does is remove friction. A coach who wants to check your athlete finds a clean account with film and grad year, and the conversation keeps moving. It also lets coaches see development over months rather than one polished highlight package, which is genuinely useful to them.
+What it does is remove friction. A coach who wants to check your athlete finds a clean account with film and grad year, and the conversation keeps moving. It also lets coaches see development over months rather than one polished highlight package, which is useful to them.
 
 And it works alongside the parts that do the heavy lifting: the film, the [recruiting profile](/soccer-recruiting-profile/), and the emails. Social media is the confirmation, not the pitch.
 

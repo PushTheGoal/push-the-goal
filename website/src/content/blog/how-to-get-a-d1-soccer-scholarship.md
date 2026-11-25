@@ -1,7 +1,7 @@
 ---
 title: "How to Get a D1 Soccer Scholarship: Requirements and Reality"
 seoTitle: "How to Get a D1 Soccer Scholarship: The Honest Answer"
-description: "How to get a D1 soccer scholarship, honestly: what coaches require, how few spots exist, and why a D1-only plan is the fastest way to not play at all."
+description: "How to get a D1 soccer scholarship, and a soccer scholarship at any level: what coaches require, how the money works, and the plan that gets athletes there."
 category: "Divisions and money"
 keyword: "how to get a d1 soccer scholarship"
 date: "2026-08-24T21:00:00Z"
@@ -9,6 +9,8 @@ image: ../../assets/blog/how-to-get-a-d1-soccer-scholarship-header.png
 ---
 
 I played Division I soccer, so I am not here to talk anybody out of it.
+
+**The short answer:** to get a D1 soccer scholarship, start by freshman year, build film that shows how fast your athlete plays, keep the grades strong, email D1 coaches with that film and the upcoming schedule, play where D1 coaches recruit, and follow up for two years. Do all of that inside a list that also includes D2, NAIA, D3 and junior college programs, because most soccer scholarships are partial and the money is spread across every level.
 
 I am here to tell you what it takes, because the families who get there are running a different process from the families who only talk about it. And the ones who only talk about it often finish senior year with no college soccer at all, which is a worse outcome than any of the alternatives they refused to consider.
 
@@ -36,9 +38,20 @@ Chasing only D1 into senior spring is how athletes end up not playing.
 
 It happens the same way every time. A family targets twelve D1 programs. Nine never reply, three say no, and by February there is nothing left, and the D2, D3 and NAIA coaches who would have been interested in October have filled their classes. The talent was never the problem. The strategy was.
 
-The fix is not lowering the ceiling. Keep pushing for the biggest and best, because things change, and take every coach conversation at every level while you do it. Coaches switch schools. A D3 coach who likes your athlete today can be on a D1 staff in two years, and they remember who took their call.
+Keep the ceiling high. Keep pushing for the biggest and best, because things change, and take every coach conversation at every level while you do it. Coaches switch schools. A D3 coach who likes your athlete today can be on a D1 staff in two years, and they remember who took their call.
 
 Build the list wide. Fifty to a hundred schools across levels. Chase D1 hard inside that list rather than instead of it. See [D1 vs D2 vs D3 vs NAIA](/d1-vs-d2-vs-d3-vs-naia-college-soccer/) for what the other levels offer.
+
+## How to get a soccer scholarship at any level
+
+The same loop works everywhere. What changes is where the money comes from.
+
+- **D1 and D2** award athletic scholarships, usually partial and often combined with academic aid.
+- **NAIA** awards athletic scholarships and can stack them with academic and need-based money.
+- **D3** awards no athletic money, so strong grades become the scholarship.
+- **Junior college** programs often offer athletic aid for two years before a transfer.
+
+So the fastest route to soccer money is a wide target list, strong grades and outreach to every level at once. Our post on [college soccer scholarship requirements](/college-soccer-scholarship-requirements/) covers what coaches and schools look for, and [academic money vs athletic money](/academic-money-vs-athletic-money/) shows how the packages compare.
 
 ## What moves the needle
 
@@ -49,6 +62,9 @@ That is the whole formula, and it is unglamorous. The athletes I see get there a
 **Want a real assessment of your athlete's D1 odds?** Soccer Recruitment 101 gives you honest feedback on level, builds the target list, and runs the outreach with you, so the D1 push happens alongside a plan that works if it does not land. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 ## FAQ
+
+**How do you get a soccer scholarship?**
+Start early, build film, keep grades strong, and email coaches across D1, D2, NAIA, D3 and junior college with film and your schedule. Follow up every week or two. Athletic money exists at every level except D3, where academic and need-based aid take its place.
 
 **How hard is it to get a D1 soccer scholarship?**
 Hard. D1 is the smallest share of college soccer and most soccer money is split into partial awards rather than full rides. It is achievable with an early start, real film, strong grades and consistent outreach.

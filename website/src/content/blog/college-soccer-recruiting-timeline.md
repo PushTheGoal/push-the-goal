@@ -1,7 +1,7 @@
 ---
 title: "The College Soccer Recruiting Timeline: What to Do Freshman Through Senior Year"
 seoTitle: "College Soccer Recruiting Timeline: Grade-by-Grade Guide"
-description: "The college soccer recruiting timeline explained grade by grade, so you know exactly what your athlete should be doing right now, from a former D1 player."
+description: "The college soccer recruiting timeline explained grade by grade, so you know what your athlete should be doing right now, from a former D1 player."
 category: "Recruiting basics"
 keyword: "college soccer recruiting timeline"
 date: "2026-08-05T21:00:00Z"
@@ -10,7 +10,7 @@ image: ../../assets/blog/college-soccer-recruiting-timeline-header.png
 
 "What should we be doing right now?"
 
-That is the question I hear from soccer parents more than any other. Not because they are not working hard. Most families I talk to are doing plenty. They are just doing it without a map, and recruiting is one of those journeys where working hard in the wrong order costs you real opportunities.
+That is the question I hear from soccer parents more than any other. Not because they are not working hard. Most families I talk to are doing plenty. They are doing it without a map, and recruiting is one of those journeys where working hard in the wrong order costs you real opportunities.
 
 So here is the map. Grade by grade, this is what the college soccer recruiting timeline looks like, and what your athlete should be focused on at each stage.
 
@@ -24,7 +24,16 @@ Two things families miss about this rule, and both of them open doors.
 
 **Even D1 and D2 coaches can email your athlete back about their camps.** That reply is about the camp, so read it as a conversation starter rather than a recruiting offer, and treat the camp as a chance to be seen up close.
 
-That single rule explains so much of the confusion families feel. Freshmen and sophomores email coaches, hear nothing, and assume nobody is interested. In many cases the coach saw the email and simply was not allowed to respond yet. Recruiting rules do get updated, so always verify the current calendar on the NCAA site, but June 15 after sophomore year is the gate to build your plan around.
+That single rule explains so much of the confusion families feel. Freshmen and sophomores email coaches, hear nothing, and assume nobody is interested. In many cases the coach saw the email and was not allowed to respond yet. Recruiting rules do get updated, so always verify the current calendar on the NCAA site, but June 15 after sophomore year is the gate to build your plan around.
+
+## The timeline at a glance
+
+| Grade | The focus | Do this |
+|---|---|---|
+| **Freshman** | Build the foundation | Strong grades, meaningful minutes, record games, start a wide list, send the first emails |
+| **Sophomore** | Get organized and on film | First highlight video, recruiting profile, keep emailing, circle June 15 |
+| **Junior** | The heavy lifting year | Follow up every week or two, share event schedules, take visits, narrow to 8 to 10 conversations |
+| **Senior** | Decide and finish strong | Push conversations to decisions, widen the net if needed, keep sending film |
 
 ## Freshman year: build the foundation
 
@@ -40,10 +49,10 @@ Nobody is offering your freshman a scholarship this year, and that is fine. Fres
 
 This is the year the work starts to look like recruiting.
 
-- **Build the first highlight video.** Three to four minutes of your athlete's best moments. It will not be perfect. It just needs to exist, because everything in the next stage depends on it.
+- **Build the first highlight video.** Three to four minutes of your athlete's best moments. It will not be perfect. It needs to exist, because everything in the next stage depends on it.
 - **Create a recruiting profile.** One page with the essentials: graduation year, position, club, GPA, contact info, and the video link.
 - **Keep the outreach rolling.** The emails your athlete started sending freshman year continue here, with fresh film and new results each time. Every school on the target list should know their name well before June 15 arrives.
-- **Circle June 15 after sophomore year.** When that date hits, the phone can ring. Athletes who did the prep work sometimes hear from programs that very week. Athletes who did nothing hear silence, and it has nothing to do with talent.
+- **Circle June 15 after sophomore year.** When that date hits, the phone can ring. Athletes who did the prep work sometimes hear from programs that same week. Athletes who did nothing hear silence, and it has nothing to do with talent.
 
 ## Junior year: the heavy lifting year
 
@@ -51,7 +60,7 @@ If recruiting has a peak season, this is it. Most serious recruiting conversatio
 
 - **Communicate consistently.** Your athlete should be emailing and following up with a focused list of schools, updating coaches with new film, schedules, and results. One email is not a strategy. A rhythm of honest updates is.
 - **Get seen in person.** Coaches recruit players they have watched live. Share tournament and showcase schedules with target coaches two to three weeks ahead, with jersey number and field times.
-- **Take visits.** Unofficial visits, campus tours, and conversations with coaches tell your family what truly fits, academically, athletically, and financially.
+- **Take visits.** Unofficial visits, campus tours, and conversations with coaches tell your family what fits, academically, athletically, and financially.
 - **Narrow the list.** The big list from freshman year has done its job. By spring of junior year, it should be down to 8 or 10 real conversations with programs that are answering.
 
 ## Senior year: decide and finish strong
@@ -60,13 +69,13 @@ For athletes who did the work, senior year is about choosing. For late starters,
 
 - **Push conversations to decisions.** Ask coaches directly where your athlete stands and what the next step is. Honest answers, even hard ones, are gifts at this stage.
 - **Widen the net if needed.** Division III, NAIA, and junior college programs recruit later and hold real opportunities and real money. Plenty of great college careers start there.
-- **Keep playing and keep sending film.** Coaches fill roster spots into the spring. The athlete who sends a strong senior-season highlight in January can absolutely still land a home.
+- **Keep playing and keep sending film.** Coaches fill roster spots into the spring. The athlete who sends a strong senior-season highlight in January can still land a home.
 
 ## The honest truth about timelines
 
-Families ask me if they are behind. Here is the honest answer: the timeline above is the ideal, and almost nobody runs it perfectly. I certainly did not. What separates athletes who get recruited from athletes who get overlooked is rarely talent. It is having a plan and working it consistently, starting from wherever you are today.
+Families ask me if they are behind. Here is the honest answer: the timeline above is the ideal, and almost nobody runs it perfectly. I did not. What separates athletes who get recruited from athletes who get overlooked is rarely talent. It is having a plan and working it consistently, starting from wherever you are today.
 
-If your athlete is a freshman, you are early. Build the foundation. If your athlete is a junior who has done none of this, you are not doomed. You just do not have a year to waste.
+If your athlete is a freshman, you are early. Build the foundation. If your athlete is a junior who has done none of this, you are not doomed. You do not have a year to waste.
 
 If your athlete is still in grades 5 to 8, [Junior Prep](/junior-prep-coaching/) gives them coaching, accountability and support so they reach high school ready.
 

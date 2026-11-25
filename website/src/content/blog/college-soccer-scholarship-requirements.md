@@ -28,7 +28,7 @@ Coaches are evaluating four things, in roughly this order.
 
 **Trajectory.** Coaches recruit who your athlete will be in two years. A sophomore with obvious upside beats a senior who has plateaued.
 
-For what this looks like at the top end specifically, see [how to get a D1 soccer scholarship](/how-to-get-a-d1-soccer-scholarship/).
+For the full plan, start to finish, read [how to get a soccer scholarship](/how-to-get-a-d1-soccer-scholarship/). This post sticks to the requirements.
 
 ## The academic requirements nobody plans for
 

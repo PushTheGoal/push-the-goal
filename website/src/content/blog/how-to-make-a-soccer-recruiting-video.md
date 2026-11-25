@@ -1,9 +1,9 @@
 ---
-title: "How to Make a Soccer Recruiting Video College Coaches Watch to the End"
-seoTitle: "How to Make a Soccer Recruiting Video Coaches Watch"
-description: "Coaches decide in the first 30 seconds. How to build a soccer recruiting video that earns a real evaluation, from clip count to where you host it."
+title: "Soccer Recruiting Video: How to Make a Highlight Reel College Coaches Watch to the End"
+seoTitle: "Soccer Recruiting Video: How to Make One Coaches Watch"
+description: "How to make a soccer recruiting video coaches watch: length, clip count, what to show at each position, marking your athlete, and where to host it."
 category: "Getting noticed"
-keyword: "how to make a soccer recruiting video"
+keyword: "soccer recruiting video"
 date: "2026-08-28T21:00:00Z"
 image: ../../assets/blog/how-to-make-a-soccer-recruiting-video-header.png
 ---
@@ -31,6 +31,20 @@ Families stall for months trying to assemble thirty perfect moments, and the ree
 Order matters. Strongest clips first, always. A coach who is impressed at clip two will watch clip nine. A coach who has to wait until clip nine for something good never gets there.
 
 Keep the whole thing to three or four minutes.
+
+## What to show, by position
+
+Coaches watch for what the position demands. Pick clips that answer their questions first.
+
+**Goalkeepers.** Shot stopping both ways, high balls claimed, crosses dealt with, one-on-ones, and distribution with hands and feet. Our post on [goalkeeper recruiting](/goalkeeper-recruiting/) goes further.
+
+**Defenders.** One-on-one defending, headers won, recovery runs, and passing out of the back under pressure.
+
+**Midfielders.** Receiving under pressure, turning, switching play, and the pass that breaks a line. Show your athlete scanning before the ball arrives.
+
+**Forwards.** Finishing with both feet, movement off the ball, holding the ball up, and pressing defenders.
+
+Every position: let the assists play through, because the pass is the point.
 
 ## How to cut the clips
 
@@ -68,7 +82,7 @@ One division of labor works better than any other: the athlete owns the film and
 
 Coaches can tell when a parent made the reel. More importantly, an athlete who cuts their own film starts watching their own game differently, and that shows up on the field. Hand this project to your kid, set a deadline, and check in weekly. Consistency is what produces the result.
 
-Once the film is live, it feeds everything else: the pre-showcase email, the follow-up note, the recruiting profile, the coach who wants a second look before booking a trip. Our [guide to emailing college coaches] shows exactly where the link goes.
+Once the film is live, it feeds everything else: the pre-showcase email, the follow-up note, the recruiting profile, the coach who wants a second look before booking a trip. Our [guide to emailing college coaches](/how-to-email-college-soccer-coaches/) shows where the link goes.
 
 **Want eyes on your athlete's reel before coaches see it?** Soccer Recruitment 101 walks families through the film, the target list, the outreach emails, and the follow-up, with honest feedback about what a coach will think of the video. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
@@ -90,4 +104,4 @@ YouTube, unlisted or public, linked in every coach email and in your athlete's I
 No. Club game film cut in a free phone editor like CapCut is what most recruited players use. Coaches are evaluating the player, not the production.
 
 **What is a personal statement video?**
-A short video of the athlete introducing themselves to coaches: grad year, position, academics, and what they want in a program. Few athletes send one, which is exactly why it gets responses.
+A short video of the athlete introducing themselves to coaches: grad year, position, academics, and what they want in a program. Few athletes send one, which is why it gets responses.
