@@ -4,9 +4,8 @@ seoTitle: "Discouraged by the Recruiting Process? Read This"
 description: "Months of unanswered emails wear athletes down. How to read the silence correctly, what to do with a kid who wants to quit, and where momentum comes back."
 category: "For parents"
 keyword: "discouraged by recruiting process"
-date: "2026-12-31T21:00:00Z"
+date: "2026-12-29T11:00:00Z"
 image: ../../assets/blog/staying-motivated-in-recruiting-header.png
-draft: true
 ---
 
 Sixty emails out. Four replies, three of them automated. Two showcases nobody watched. A teammate committed in September and your athlete is checking their phone in a way that has stopped being hopeful.
@@ -21,7 +20,7 @@ It is not a verdict on your athlete.
 
 The reasons coaches do not reply are boring and they are almost never about talent. They filled the position. They are in season and drowning. The recruiting assistant left. They are holding the spot to see who enters the portal in spring. The email got buried under two hundred others.
 
-A coach not replying has told you nothing about your athlete. It only feels like a judgment because your athlete sent something that took courage and got nothing back.
+A coach not replying has told you nothing about your athlete. It only feels like a judgment because your athlete sent something that took courage and got nothing back. And when a coach who was replying goes quiet, here is [how to restart the conversation](/when-college-coaches-stop-responding/).
 
 That is worth saying out loud in your house, more than once.
 
@@ -29,7 +28,7 @@ That is worth saying out loud in your house, more than once.
 
 The teammate who committed in September is the hardest part.
 
-Recruiting timelines vary wildly by position, level, and how programs fill their classes. Some athletes commit early because a coach needed that position that year. Others sign in the spring of senior year at a better fit for more money.
+Recruiting timelines vary wildly by position, level, and how programs fill their classes. Some athletes commit early because a coach needed that position that year. Others sign in the spring of senior year at a better fit for more money. If your athlete is a junior or senior wondering whether the window has closed, read [is it too late to get recruited](/is-it-too-late-to-get-recruited/).
 
 Committing first is not winning. Nobody asks in five years what month somebody committed.
 
@@ -67,7 +66,7 @@ Then separate two questions that get tangled together. Does your athlete still l
 
 Often the answer is a break from recruiting rather than a break from soccer. Two weeks with no emails, no target list, no talking about it. Then back to it.
 
-If your athlete has genuinely stopped wanting to play college soccer, that is allowed. Some sixteen-year-olds discover they want a normal college experience, and that is a legitimate outcome rather than a failure. What should not happen is quitting on a bad Tuesday in November because the inbox is empty.
+If your athlete has stopped wanting to play college soccer, that is allowed. Some sixteen-year-olds discover they want a normal college experience, and that is a legitimate outcome. What should not happen is quitting on a bad Tuesday in November because the inbox is empty.
 
 My line to an athlete in that spot: it is not a sign to stop, it is a test. How badly do you want this? Some people have to prove it more than others.
 
@@ -89,7 +88,7 @@ Keep the film current. Keep the emails going. Keep the grades up. Keep showing u
 Usually because coaches are in season, the position is filled, the email was buried, or they are waiting on the transfer portal. Silence is rarely about your athlete's ability.
 
 **My athlete wants to quit because recruiting is not going well. What do I do?**
-Separate loving the sport from being worn out by the process. A two-week break from recruiting fixes more than quitting does. If they have stopped wanting to play in college, that is a legitimate choice, just not one to make on a bad night.
+Separate loving the sport from being worn out by the process. A two-week break from recruiting fixes more than quitting does. If they have stopped wanting to play in college, that is a legitimate choice. Make it on a calm day, after the break.
 
 **How long does college soccer recruiting usually take?**
 It varies by position, level and how programs fill classes. Athletes commit anywhere from early high school to the spring of senior year, and later commitments are often better fits.

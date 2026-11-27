@@ -4,12 +4,11 @@ seoTitle: "NAIA Soccer Recruiting: How It Works"
 description: "NAIA programs award athletic scholarships, recruit earlier with fewer rules, and answer emails. How the level works and which athletes it fits."
 category: "Divisions and money"
 keyword: "naia soccer recruiting"
-date: "2026-12-31T21:00:00Z"
+date: "2026-12-10T11:00:00Z"
 image: ../../assets/blog/naia-soccer-recruiting-header.png
-draft: true
 ---
 
-Ask a soccer family to name their target levels and you will hear D1, D2, D3. NAIA comes up as an afterthought or not at all, usually because nobody has explained what it is.
+Ask a soccer family to name their target levels and you will hear D1, D2, D3. NAIA comes up as an afterthought or not at all, usually because nobody has explained what it is. My [side-by-side of D1, D2, D3 and NAIA](/d1-vs-d2-vs-d3-vs-naia-college-soccer/) compares the levels. This post is about how NAIA recruiting works once it is on your list.
 
 It is a separate governing body with hundreds of member schools, athletic scholarships, national championships, and a recruiting process that is friendlier to your athlete than the NCAA one.
 
@@ -51,11 +50,11 @@ That second point is why NAIA coaches often answer when NCAA coaches do not. The
 
 ## How to recruit NAIA
 
-The same fundamentals, run the same way.
+The same fundamentals, run the same way, starting from a [target list across levels](/college-soccer-target-school-list/).
 
-Email the coach directly with grad year, position, club and high school, GPA, and a film link. Say why that program. Then follow up, and keep following up, because persistence works here exactly as it does everywhere.
+Email the coach directly with grad year, position, club and high school, GPA, and a film link. Say why that program. Then follow up, and keep following up, because persistence works here the same as everywhere.
 
-The difference is that you should expect more back. If a NAIA coach is interested, your athlete will often get a real conversation quickly rather than a form response. Take the call. My rule is to take every coach call at any level, because coaches move between schools and levels constantly and a relationship built now can matter in two years at a different program.
+The difference is that you should expect more back. If a NAIA coach is interested, your athlete will often get a real conversation fast instead of a form response. Take the call. My rule is to take every coach call at any level, because coaches move between schools and levels constantly and a relationship built now can matter in two years at a different program.
 
 Ask the same questions you would ask anywhere. Where does my athlete fit in the depth chart? What does the roster look like at their position? What does the aid package look like, athletic and academic together? What is the graduation rate?
 
