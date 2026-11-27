@@ -10,7 +10,7 @@ image: ../../assets/blog/middle-school-soccer-recruiting-header.png
 
 The email arrives in seventh grade. An "elite" program with a college pathway, a national showcase your twelve-year-old has been "selected" for, a recruiting profile with a monthly fee. It all points at the same fear: if you do not do this now, your kid falls behind.
 
-We talk to the families on the other end of that fear every week, once the kids are in high school. So here is a sorting of what a middle schooler's soccer life does and does not do for college recruiting later, from people who see how it plays out.
+I talk to the families on the other end of that fear every week, once the kids are in high school. So here is a sorting of what a middle schooler's soccer life does and does not do for college recruiting later, from someone who sees how it plays out.
 
 ## What does not matter (as much as you are being told)
 
@@ -22,7 +22,7 @@ We talk to the families on the other end of that fear every week, once the kids 
 
 **Recruiting profiles and highlight videos.** There is no coach who can act on them yet. A profile started at twelve is a subscription with nobody on the other end.
 
-**Specializing early.** Playing one sport year-round from age ten is linked to more overuse injuries and more burnout, and it does not produce better college players. Izi came back from five knee surgeries. She has opinions about young bodies and rest.
+**Specializing early.** Playing one sport year-round from age ten is linked to more overuse injuries and more burnout, and it does not produce better college players. I came back from five knee surgeries. I have opinions about young bodies and rest.
 
 **Winning.** The score of a U12 game has no bearing on anything that happens at seventeen. Development does.
 

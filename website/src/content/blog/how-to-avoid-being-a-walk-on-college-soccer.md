@@ -8,9 +8,9 @@ date: "2026-10-09T21:00:00Z"
 image: ../../assets/blog/how-to-avoid-being-a-walk-on-college-soccer-header.png
 ---
 
-The email says the coach would love to have your athlete on the team. Then, a paragraph down, the word "walk-on." The family reads it as a yes. We read it as a coach who is not sure yet.
+The email says the coach would love to have your athlete on the team. Then, a paragraph down, the word "walk-on." The family reads it as a yes. I read it as a coach who is not sure yet.
 
-That is the honest meaning of a walk-on offer. A coach who is convinced puts money on the table, because money is how programs hold the players they cannot afford to lose. A coach who is interested but not convinced offers a spot and keeps the money for someone else. Our whole job at Push The Goal is to move athletes from the second column to the first, and it is more doable than most families think.
+That is the honest meaning of a walk-on offer. A coach who is convinced puts money on the table, because money is how programs hold the players they cannot afford to lose. A coach who is interested but not convinced offers a spot and keeps the money for someone else. My whole job at Push The Goal is to move athletes from the second column to the first, and it is more doable than most families think.
 
 ## The three offers, decoded
 
@@ -36,7 +36,7 @@ After enough families, the reasons repeat.
 
 ## How to move from the spot to the money
 
-**Widen the list, deliberately.** Fifty to a hundred schools, across levels. The [target list](/college-soccer-target-school-list/) is where scholarships come from, because it puts your athlete in front of coaches who need what they have instead of coaches who are choosing between ten of them. A player who is a walk-on at one school is a scholarship player at another, and a starter with film by sophomore year. Izi took the two-year route to Division I for exactly this reason.
+**Widen the list, deliberately.** Fifty to a hundred schools, across levels. The [target list](/college-soccer-target-school-list/) is where scholarships come from, because it puts your athlete in front of coaches who need what they have instead of coaches who are choosing between ten of them. A player who is a walk-on at one school is a scholarship player at another, and a starter with film by sophomore year. I took the two-year route to Division I for exactly this reason.
 
 **Get seen more than once.** Film first, then invite the coach to a game, then a camp where they are coaching, then a call. Each touch is a chance to be the player they remember when they sit down with the budget.
 

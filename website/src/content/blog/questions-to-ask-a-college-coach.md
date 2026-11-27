@@ -85,7 +85,7 @@ The players will tell your athlete things the coach will not. Find a few minutes
 
 ## When an offer comes
 
-**Is this a verbal offer or a written one, and when would we sign?** Our post on [verbal commitment vs signing](/verbal-commitment-vs-signing/) explains why the difference matters.
+**Is this a verbal offer or a written one, and when would we sign?** My post on [verbal commitment vs signing](/verbal-commitment-vs-signing/) explains why the difference matters.
 
 **How long do we have to decide?** A fair program gives a family time. A deadline of a few days is pressure, and it is fine to ask why.
 
@@ -101,7 +101,7 @@ The players will tell your athlete things the coach will not. Find a few minutes
 
 Same day, your athlete sends a short thank-you. One thing they took from the conversation, and one clear next step: *what would you like from me next.*
 
-That question has ended more silences than anything else I teach. Our [guide to emailing college coaches](/how-to-email-college-soccer-coaches/) has the full follow-up rhythm.
+That question has ended more silences than anything else I teach. The full follow-up rhythm is in my [guide to emailing college coaches](/how-to-email-college-soccer-coaches/).
 
 **Want to practice before the real call?** Soccer Recruitment 101 preps athletes for coach conversations and visits, builds the question list, and handles the follow-up so momentum does not die after a good call. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 

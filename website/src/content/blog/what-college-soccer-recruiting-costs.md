@@ -27,7 +27,7 @@ Roughly none of that is optional-feeling in the moment. Every line arrives attac
 
 **ID camps at schools already on the target list.** The highest-return line in most budgets. Hours of direct evaluation by a staff who could recruit your athlete. The word that matters is *target*. A camp at a school your athlete would never attend is a training session with a logo on it.
 
-**Getting film made.** Whatever it takes to have clips. Izi's standard is eight to ten clips for a first reel, cut tight, with your athlete marked in the opening seconds. Families can do this themselves with a phone and CapCut. Paying somebody is fine too, and either way it is money well spent because nothing else in recruiting works without film.
+**Getting film made.** Whatever it takes to have clips. My standard is eight to ten clips for a first reel, cut tight, with your athlete marked in the opening seconds. Families can do this themselves with a phone and CapCut. Paying somebody is fine too, and either way it is money well spent because nothing else in recruiting works without film.
 
 **Travel to events where coaches from the target list will be.** Which requires knowing who is attending before you book. Ask the event. Ask the club. Then email those coaches before you go.
 
@@ -58,7 +58,7 @@ Steps two through four are the whole engine of recruiting and cost nothing but h
 
 ## The uncomfortable part
 
-Money does not buy recruiting. Families with large budgets and no strategy get outworked by families with small budgets and a plan, and Izi watches it happen every season.
+Money does not buy recruiting. Families with large budgets and no strategy get outworked by families with small budgets and a plan, and I watch it happen every season.
 
 The athlete who sends fifty specific emails and follows up four times gets further than the athlete whose family paid for a service and waited. Follow-up is where it turns: coaches respond on the third and fourth attempt, when almost everyone else has stopped.
 

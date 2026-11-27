@@ -22,7 +22,7 @@ Your athlete's profile is the landing page for every email they send. Build it o
 
 **GPA, and test scores if they help.** Academics widen the list of schools that can take your athlete. Leaving grades off makes coaches assume the worst.
 
-**The film link, above everything else.** The highlight video is the whole reason the profile exists. Put it at the top, make it work without a login, and check the link from a phone. Our [guide to making a recruiting video](/how-to-make-a-soccer-recruiting-video/) covers what goes in it.
+**The film link, above everything else.** The highlight video is the whole reason the profile exists. Put it at the top, make it work without a login, and check the link from a phone. My [guide to making a recruiting video](/how-to-make-a-soccer-recruiting-video/) covers what goes in it.
 
 **Upcoming schedule.** Events, dates, and which team. This is what converts a coach's existing travel into a look at your athlete.
 

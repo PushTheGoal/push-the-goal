@@ -13,7 +13,7 @@ Ask a soccer family to name their target levels and you will hear D1, D2, D3. NA
 
 It is a separate governing body with hundreds of member schools, athletic scholarships, national championships, and a recruiting process that is friendlier to your athlete than the NCAA one.
 
-Izi's own calls include athletes with real NAIA conversations going while the NCAA programs stayed quiet. It is a live path, and it is underused because it is unfamiliar.
+My own calls include athletes with real NAIA conversations going while the NCAA programs stayed quiet. It is a live path, and it is underused because it is unfamiliar.
 
 ## What NAIA is
 
@@ -55,7 +55,7 @@ The same fundamentals, run the same way.
 
 Email the coach directly with grad year, position, club and high school, GPA, and a film link. Say why that program. Then follow up, and keep following up, because persistence works here exactly as it does everywhere.
 
-The difference is that you should expect more back. If a NAIA coach is interested, your athlete will often get a real conversation quickly rather than a form response. Take the call. Izi's rule is to take every coach call at any level, because coaches move between schools and levels constantly and a relationship built now can matter in two years at a different program.
+The difference is that you should expect more back. If a NAIA coach is interested, your athlete will often get a real conversation quickly rather than a form response. Take the call. My rule is to take every coach call at any level, because coaches move between schools and levels constantly and a relationship built now can matter in two years at a different program.
 
 Ask the same questions you would ask anywhere. Where does my athlete fit in the depth chart? What does the roster look like at their position? What does the aid package look like, athletic and academic together? What is the graduation rate?
 

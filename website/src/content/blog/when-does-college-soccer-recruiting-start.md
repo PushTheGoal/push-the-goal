@@ -12,7 +12,7 @@ Recruiting starts long before anyone calls your house.
 
 That gap is what confuses families. Your athlete sends emails as a freshman and hears nothing, so you assume nothing is happening. Meanwhile a coach has your kid's name in a spreadsheet, has watched two minutes of film, and is legally not allowed to tell you any of it.
 
-Our [recruiting timeline guide](/college-soccer-recruiting-timeline/) covers what your family should be doing each year. This one covers the other side of the desk: what the coach is doing, and when.
+My [recruiting timeline guide](/college-soccer-recruiting-timeline/) covers what your family should be doing each year. This one covers the other side of the desk: what the coach is doing, and when.
 
 ## The date that governs everything
 

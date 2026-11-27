@@ -48,7 +48,7 @@ Now the coach has a name to attach to a face. Many will look at the film beforeh
 
 Then, the same day the camp finishes, your athlete sends a thank-you. Thank them for the coaching, mention one thing they learned, say a new highlight reel is coming, and ask the question that keeps the door open: *if there is anything else you would like to see to continue my recruitment, I would love to know what that is.*
 
-That question is the most valuable sentence in this whole post. It converts a camp into a conversation. Our [guide to emailing college coaches](/how-to-email-college-soccer-coaches/) has the full format.
+That question is the most valuable sentence in this whole post. It converts a camp into a conversation. I lay out the full format in my [guide to emailing college coaches](/how-to-email-college-soccer-coaches/).
 
 ## Camps versus showcases
 

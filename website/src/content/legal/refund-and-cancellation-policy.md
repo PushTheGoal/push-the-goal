@@ -43,7 +43,7 @@ program without your say-so. When a season is ending, we will reach out and ask.
 ## Missed and rescheduled sessions
 
 Life with a young athlete is busy. Give us at least 24 hours' notice and we will reschedule a
-session at no cost. A session missed without notice counts as used. If Izi has to reschedule,
+session at no cost. A session missed without notice counts as used. If we have to reschedule,
 you always get the session back.
 
 ## Billing questions

@@ -16,9 +16,9 @@ I hear that sentence a lot, usually from a family who has been waiting on those 
 
 You do not need the club coach's permission or their contacts to run recruiting. Five steps, in this order:
 
-1. **Get film.** Pull clips from every game your club records and build a short highlight reel. Our guide to [making a recruiting video](/how-to-make-a-soccer-recruiting-video/) shows how.
+1. **Get film.** Pull clips from every game your club records and build a short highlight reel. My guide to [making a recruiting video](/how-to-make-a-soccer-recruiting-video/) shows how.
 2. **Build the target list.** Fifty schools or more, across every level. Here is [how to build a target list that gets responses](/college-soccer-target-school-list/).
-3. **Email the coaches.** Your athlete writes to the head coach and the assistant who runs recruiting at each school, with film and the upcoming schedule. Our [guide to emailing college coaches](/how-to-email-college-soccer-coaches/) has the format and templates.
+3. **Email the coaches.** Your athlete writes to the head coach and the assistant who runs recruiting at each school, with film and the upcoming schedule. The format and templates are in my [guide to emailing college coaches](/how-to-email-college-soccer-coaches/).
 4. **Send the schedule before every event.** Showcases, tournaments and ID camps are where college coaches watch. Tell them where your athlete will be.
 5. **Follow up every week or two** with something new: film, results, the next schedule.
 

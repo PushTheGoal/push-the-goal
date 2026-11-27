@@ -14,7 +14,7 @@ That is not a target list. That is a wish, and it is the reason most families sp
 
 ## The number
 
-Izi builds lists of fifty to a hundred schools with her athletes.
+I build lists of fifty to a hundred schools with my athletes.
 
 Parents flinch at that. It sounds like spray and pray, the opposite of the personal outreach that works. It is neither, and here is why the number has to be that big.
 
@@ -24,7 +24,7 @@ A wide list is how you find the programs that have both a need and a fit at the 
 
 ## The five filters
 
-**Level.** Be honest, and go wider than one level. Izi's rule from her own calls is that any coach relationship is worth having, because coaches move between schools and levels constantly. A D3 assistant this year is a D1 assistant in two years, and they remember the athletes who were straightforward with them.
+**Level.** Be honest, and go wider than one level. My rule from my own calls is that any coach relationship is worth having, because coaches move between schools and levels constantly. A D3 assistant this year is a D1 assistant in two years, and they remember the athletes who were straightforward with them.
 
 Put schools on the list above where your athlete sits today, at their level, and below it. The stretch schools keep the ceiling high. The realistic ones are where the offers come from.
 

@@ -20,7 +20,7 @@ Visits are the clearest signal in recruiting, if you know which kind you were on
 
 That limit is the whole signal. A program spending one of its official visits on your athlete is spending a scarce resource. Coaches do not do that for players they are unsure about.
 
-In practice, the fully paid version is a Division I thing. Other levels are allowed to host official visits, but most do not have the budget to fly a recruit in and put them up. When Izi was coming back from an ACL tear, UC Riverside flew her out and paid for the flight, the meals and the hotel. A Division I staff spending that on an athlete who was still in rehab is about as clear a signal as recruiting gets.
+In practice, the fully paid version is a Division I thing. Other levels are allowed to host official visits, but most do not have the budget to fly a recruit in and put them up. When I was coming back from an ACL tear, UC Riverside flew me out and paid for the flight, the meals and the hotel. A Division I staff spending that on an athlete who was still in rehab is about as clear a signal as recruiting gets.
 
 Rules on when official visits can begin and how many are allowed have changed in the last few years. Ask the coach what applies to your athlete's class rather than relying on what an older sibling went through.
 
@@ -46,7 +46,7 @@ The most valuable hours are the ones without coaches in the room. Time with curr
 
 **Ask players, away from staff:** Would you choose this program again? What is the hardest part of being here? How does the coach handle a player in a slump? What happens when someone gets injured?
 
-That last one matters more than families realize. How a program treats injured players tells you what they think of athletes as people. Izi has lived both sides of that.
+That last one matters more than families realize. How a program treats injured players tells you what they think of athletes as people. I have lived both sides of that.
 
 **Ask the coach:** Where do you see my athlete in the depth chart? What does the recruiting class look like at their position? What does a normal week look like in season and out? What is the plan for their development in the first two years?
 
@@ -64,7 +64,7 @@ Notice whether they ask about your athlete's other schools. Coaches who want a p
 
 ## After the visit
 
-Your athlete sends a thank-you the same day. Short, specific, and mentioning something real from the trip. Same-day follow-up is one of the things Izi drills, because it is easy and almost nobody does it.
+Your athlete sends a thank-you the same day. Short, specific, and mentioning something real from the trip. Same-day follow-up is one of the things I drill, because it is easy and almost nobody does it.
 
 Then write down, that night, what your athlete liked and did not. Visits blur together, and the details that matter in March are the ones nobody wrote down in October.
 

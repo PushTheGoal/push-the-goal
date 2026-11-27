@@ -32,11 +32,11 @@ Notice that four of those five have nothing to do with your athlete's ability. F
 
 The single most common recruiting mistake is stopping after two emails.
 
-Izi's athletes get responses on the third and fourth round. Not the first. Coaches have told her athletes outright that this was the fourth or fifth email, which is exactly the point. Volume of contact over months reads as genuine interest, and genuine interest is what separates your athlete from the hundred form letters in that inbox.
+My athletes get responses on the third and fourth round. Not the first. Coaches have told them outright that this was the fourth or fifth email, which is exactly the point. Volume of contact over months reads as genuine interest, and genuine interest is what separates your athlete from the hundred form letters in that inbox.
 
 So: follow up every two to three weeks. Not daily, not once a semester. Every couple of weeks, with something new each time.
 
-Izi's biggest rule for a quiet coach: every follow-up adds value, and the most valuable thing your athlete can send is new film. A coach who went quiet on a reel from August has a real reason to open an email with a clip from last weekend.
+My biggest rule for a quiet coach: every follow-up adds value, and the most valuable thing your athlete can send is new film. A coach who went quiet on a reel from August has a real reason to open an email with a clip from last weekend.
 
 **What counts as something new.** A new highlight clip. An upcoming event with team, field and times. A result or an award. A grade update. A short question about their program.
 
@@ -46,7 +46,7 @@ Izi's biggest rule for a quiet coach: every follow-up adds value, and the most v
 
 The best re-entry into a dead thread is information a coach needs rather than a request.
 
-Your athlete has an event coming up. They send the team, the field, the times, the jersey number, and note anything that changed. Izi's version of the line: "Hey coach, I just want to make sure you had eyes on this. I would hate for you to go to the wrong field."
+Your athlete has an event coming up. They send the team, the field, the times, the jersey number, and note anything that changed. My version of the line: "Hey coach, I just want to make sure you had eyes on this. I would hate for you to go to the wrong field."
 
 Nothing is being asked for. It is useful. It is impossible to resent. And it puts your athlete back at the top of the inbox with a reason to be there.
 
@@ -56,9 +56,9 @@ Same-day thank-you notes work the same way. If a coach came to a game, your athl
 
 After a couple of dead follow-ups, stop sending the same email again. It is not working and repeating it is not going to start working.
 
-Izi's instruction to athletes at this point is to do something they are not expecting. She has had an athlete send a coach who ghosted them a funny reaction GIF over text. Not a paragraph. A GIF.
+My instruction to athletes at this point is to do something they are not expecting. I have had an athlete send a coach who ghosted them a funny reaction GIF over text. Not a paragraph. A GIF.
 
-It works because it is human, it is low stakes, and it does not read like the two hundred identical follow-ups already sitting unread. Her framing to the athlete: have some personality, do not stress it, there is nothing to lose right now.
+It works because it is human, it is low stakes, and it does not read like the two hundred identical follow-ups already sitting unread. My framing to the athlete: have some personality, do not stress it, there is nothing to lose right now.
 
 That last clause is the whole permission. If the thread is dead, the downside of a bit of personality is zero. The downside of a fifth "circling back" is that it stays dead.
 

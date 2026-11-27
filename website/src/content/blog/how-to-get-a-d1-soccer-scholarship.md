@@ -30,7 +30,7 @@ None of that means your athlete cannot get there. It means the plan has to be be
 
 **A player who runs their own process.** Coaches are recruiting a young adult they will coach for four years. An athlete who emails, follows up, and asks good questions reads as coachable. A parent driving the whole thing reads as a problem.
 
-**Visibility.** Coaches recruit from a list. If your athlete is not on the list, none of the above matters. See our [guide to emailing college coaches](/how-to-email-college-soccer-coaches/).
+**Visibility.** Coaches recruit from a list. If your athlete is not on the list, none of the above matters. See my [guide to emailing college coaches](/how-to-email-college-soccer-coaches/).
 
 ## The trap
 
@@ -51,7 +51,7 @@ The same loop works everywhere. What changes is where the money comes from.
 - **D3** awards no athletic money, so strong grades become the scholarship.
 - **Junior college** programs often offer athletic aid for two years before a transfer.
 
-So the fastest route to soccer money is a wide target list, strong grades and outreach to every level at once. Our post on [college soccer scholarship requirements](/college-soccer-scholarship-requirements/) covers what coaches and schools look for, and [academic money vs athletic money](/academic-money-vs-athletic-money/) shows how the packages compare.
+So the fastest route to soccer money is a wide target list, strong grades and outreach to every level at once. My post on [college soccer scholarship requirements](/college-soccer-scholarship-requirements/) covers what coaches and schools look for, and [academic money vs athletic money](/academic-money-vs-athletic-money/) shows how the packages compare.
 
 ## What moves the needle
 

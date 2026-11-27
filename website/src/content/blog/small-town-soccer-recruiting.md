@@ -64,7 +64,7 @@ Worth naming here because it fits this athlete well.
 
 Junior college takes an athlete whose exposure was limited, gives them two years of college minutes and college film, and hands them to four-year coaches as a proven player rather than a projection. It removes the exposure problem completely.
 
-Izi went from junior college to Division I herself. For an athlete whose only real obstacle is that nobody has seen them, two years of being seen solves it.
+I went from junior college to Division I myself. For an athlete whose only real obstacle is that nobody has seen them, two years of being seen solves it.
 
 ## The honest summary
 

@@ -26,7 +26,7 @@ Help draft them. Sit beside them. Send it from your athlete's address, under the
 
 **The phone calls.** If a coach calls, your athlete answers and talks. A seventeen-year-old who can hold a conversation with an adult stands out, because plenty cannot.
 
-**Their social media and their highlight reel.** Izi's division of labor with her clients puts these squarely on the athlete. It is their brand and their film, and doing it teaches them something.
+**Their social media and their highlight reel.** My division of labor with my clients puts these squarely on the athlete. It is their brand and their film, and doing it teaches them something.
 
 **The final decision.** Inside the financial boundary you set. Athletes who chose their school stay. Athletes whose parents chose transfer, and they tend to say why.
 
@@ -38,7 +38,7 @@ Help draft them. Sit beside them. Send it from your athlete's address, under the
 
 **The tracking.** Recruiting collapses in the follow-up more than in the writing. Keeping the spreadsheet of who was emailed, when, and what came back is a parent's contribution that changes outcomes.
 
-**The accountability.** Your athlete will not want to send follow-up emails in week nine. Izi builds stakes into her coaching for exactly this reason, and in a family it looks like: when are the emails going out, and what happens if they do not.
+**The accountability.** Your athlete will not want to send follow-up emails in week nine. I build stakes into my coaching for exactly this reason, and in a family it looks like: when are the emails going out, and what happens if they do not.
 
 **The steadiness.** The hardest and most valuable one. Recruiting is months of silence with occasional spikes. Your athlete reads every quiet week as a verdict on their worth. Being the person who knows a coach's inbox in October is not a referendum on your kid is the job.
 

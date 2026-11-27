@@ -10,11 +10,11 @@ image: ../../assets/blog/recruiting-after-an-injury-header.png
 
 The scan comes back. Your athlete is out for months, in the exact year everybody said mattered most, and the first thing they say in the car is some version of: maybe this is a sign.
 
-Izi hears that sentence from athletes regularly. She has an answer for it, and she earned the right to give it.
+I hear that sentence from athletes regularly. I have an answer for it, and I earned the right to give it.
 
-She tore up a knee as a teenager, was told to take the better part of a year off, came back, tore it again, switched positions, and kept going. Junior college first, then Division I. Nobody gave her good odds at any point in that.
+I tore up a knee as a teenager, was told to take the better part of a year off, came back, tore it again, switched positions, and kept going. Junior college first, then Division I. Nobody gave me good odds at any point in that.
 
-Her line to athletes who say maybe this is a sign: **it is not a sign to stop, it is a test.** How badly do you want this? Some people have to prove it more than others.
+My line to athletes who say maybe this is a sign: **it is not a sign to stop, it is a test.** How badly do you want this? Some people have to prove it more than others.
 
 ## The good news, said plainly
 
@@ -32,9 +32,9 @@ The instinct is to hide it and hope to be back before anyone notices. Do the opp
 
 Your athlete follows up on the existing email thread with the coaches they have been talking to. Short and honest: what happened, when surgery or rehab started, the expected return, and that they will keep the coach updated.
 
-Izi drafts these with athletes because they are hard to write at sixteen when you are frightened. Keep it factual and keep the tone forward-looking. No apology, no drama.
+I draft these with athletes because they are hard to write at sixteen when you are frightened. Keep it factual and keep the tone forward-looking. No apology, no drama.
 
-Coaches respect this enormously. An athlete who volunteers bad news is an athlete who will tell them the truth for four years. Several of Izi's athletes have had relationships get warmer after that email, not colder.
+Coaches respect this enormously. An athlete who volunteers bad news is an athlete who will tell them the truth for four years. Several of my athletes have had relationships get warmer after that email, not colder.
 
 Then keep updating. A short note at each milestone. Cleared to jog. Back in training. First game back. Each one is a legitimate reason to be in the inbox, which is more than most healthy athletes have.
 
@@ -42,7 +42,7 @@ Then keep updating. A short note at each milestone. Cleared to jog. Back in trai
 
 This is where the recruiting is either lost or won, and almost none of it involves playing.
 
-**Keep showing up.** To every practice, every game, on the sideline. Izi is firm about this. Coaches, teammates and anyone watching sees who stays involved when they cannot play, and your athlete stays part of the team rather than becoming someone who used to be on it.
+**Keep showing up.** To every practice, every game, on the sideline. I am firm about this. Coaches, teammates and anyone watching sees who stays involved when they cannot play, and your athlete stays part of the team rather than becoming someone who used to be on it.
 
 **Do the rehab properly, plus the athlete-specific work.** Whatever the physio allows. Upper body, core, the healthy side. Come back stronger than they left, which is a real possibility and a much better thing to aim at than getting back to level.
 
@@ -52,17 +52,17 @@ This is where the recruiting is either lost or won, and almost none of it involv
 
 **Grades.** Fewer training hours, more study hours. A semester that lifts a GPA widens the target list and increases academic money, and it is available right now.
 
-**Watch soccer with intent.** Izi assigns this: watch professional games and log three takeaways, then apply them when back in training. An athlete who spends four months studying the game returns understanding it better.
+**Watch soccer with intent.** I assign this: watch professional games and log three takeaways, then apply them when back in training. An athlete who spends four months studying the game returns understanding it better.
 
 ## Pivot the calendar
 
 Injuries move the plan, they do not cancel it.
 
-**Move to fall camps.** If a summer showcase or a high-exposure camp is gone, pivot to fall ID camps. Izi does this repeatedly, and the reason is practical: fall camps are smaller, so each athlete gets more attention per session than they would in a packed summer event. Less exposure on paper, more evaluation in reality.
+**Move to fall camps.** If a summer showcase or a high-exposure camp is gone, pivot to fall ID camps. I do this repeatedly, and the reason is practical: fall camps are smaller, so each athlete gets more attention per session than they would in a packed summer event. Less exposure on paper, more evaluation in reality.
 
 **Push the timeline out.** If senior fall is gone, the spring and the late window are live. Programs fill spots into spring and summer, and NAIA and junior college recruit later still.
 
-**Take the two-year route seriously.** Junior college exists for exactly this athlete. Two years to develop, be seen, and transfer into a four-year program with college film. It is the road Izi took.
+**Take the two-year route seriously.** Junior college exists for exactly this athlete. Two years to develop, be seen, and transfer into a four-year program with college film. It is the road I took.
 
 ## What parents should carry
 
@@ -70,7 +70,7 @@ Your athlete is going to spiral at some point. It will not be on the day of the 
 
 Do not fix it with optimism they cannot feel yet. Give them the next controllable thing. Rehab today, an email this afternoon, three clips cut this weekend. Controlling the controllables is the whole frame, and it works because it gives a scared teenager something to do.
 
-Izi's version of this, to an athlete in the middle of it: all I need you to do is just not give up. That is it. Can you do that?
+My version of this, to an athlete in the middle of it: all I need you to do is just not give up. That is it. Can you do that?
 
 The recruiting will still be there. So will the coaches.
 

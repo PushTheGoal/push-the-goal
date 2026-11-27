@@ -16,7 +16,7 @@ This is the most common story in youth soccer and the least talked about. Most o
 
 **It stopped being theirs.** Somewhere between U9 and U13, the game became a family project. Parents drive, pay, plan, coach from the sideline, and debrief in the car. The kid stops being a soccer player and becomes the subject of a soccer plan. Nobody loves being a project.
 
-**Too much, too early.** Year-round, one sport, three teams, a trainer on off days. Young bodies get hurt and young minds get tired. Izi came back from five knee surgeries and will tell any parent who asks that rest is training.
+**Too much, too early.** Year-round, one sport, three teams, a trainer on off days. Young bodies get hurt and young minds get tired. I came back from five knee surgeries and will tell any parent who asks that rest is training.
 
 **Pressure showed up before purpose did.** Scholarship talk at the dinner table at eleven. Rankings. Comparisons to the kid on the other team. A twelve-year-old cannot carry a goal they did not choose, and most of them put it down.
 
@@ -24,7 +24,7 @@ This is the most common story in youth soccer and the least talked about. Most o
 
 ## What the kids who stay have
 
-We work with high school athletes through recruiting, and the ones who arrive still in love with the game share a few things. None of them are about talent.
+I work with high school athletes through recruiting, and the ones who arrive still in love with the game share a few things. None of them are about talent.
 
 **The game stayed theirs.** They played pickup. They had a say in their schedule. They talked to their own coach. Their parents watched and drove and cheered and mostly stayed out of it.
 
@@ -50,7 +50,7 @@ We work with high school athletes through recruiting, and the ones who arrive st
 
 Grades 5 through 8 are the window. Get through them with an athlete who still wants to play, has habits, can speak for themselves, and knows where the road goes, and recruiting in high school becomes a process. Lose them at thirteen and there is no process to run.
 
-**That window is what Junior Prep exists for.** Online coaching, accountability and support for 5th through 8th graders. Weekly check-ins with a coach who played through junior college, Division I and five surgeries, and who now guides high school families through recruiting every day. Habits, confidence, independence, and a kid who still loves it at fourteen. Every family who has enrolled has re-enrolled to keep the accountability going. [See how Junior Prep works](/junior-prep-coaching/) or [book a free intro call](https://soccer-101.push-the-goal.com/schedule-page).
+**That window is what Junior Prep exists for.** Online coaching, accountability and support for 5th through 8th graders. Weekly check-ins with me. I played through junior college, Division I and five surgeries, and I now guide high school families through recruiting every day. Habits, confidence, independence, and a kid who still loves it at fourteen. Every family who has enrolled has re-enrolled to keep the accountability going. [See how Junior Prep works](/junior-prep-coaching/) or [book a free intro call](https://soccer-101.push-the-goal.com/schedule-page).
 
 ## FAQ
 

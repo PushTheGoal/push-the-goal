@@ -18,7 +18,7 @@ Hint, hint: that's exactly why I created Junior Prep. 😉 To help young athlete
 
 The club director says it kindly. If she wants to play in college, she needs to commit. Year-round. Drop basketball. Add the winter league and the spring trainer. Everyone serious is doing it.
 
-It sounds like commitment. In our experience with high school athletes, it is one of the most common reasons a promising player is injured, tired or gone by fifteen. Here is what we tell families who ask.
+It sounds like commitment. In my experience with high school athletes, it is one of the most common reasons a promising player is injured, tired or gone by fifteen. Here is what I tell families who ask.
 
 ## What the evidence says
 
@@ -52,7 +52,7 @@ Coaches also read burnout risk. A recruit who has been going year-round since fo
 
 ## When specializing starts to make sense
 
-Around the start of high school, when recruiting begins and the athlete has chosen, out loud and on their own, that soccer is the one. Even then, coaches want an off-season. The players Izi works with through recruiting who are still healthy and still hungry at seventeen are almost never the ones who went year-round at eleven.
+Around the start of high school, when recruiting begins and the athlete has chosen, out loud and on their own, that soccer is the one. Even then, coaches want an off-season. The players I work with through recruiting who are still healthy and still hungry at seventeen are almost never the ones who went year-round at eleven.
 
 ## The real question underneath
 

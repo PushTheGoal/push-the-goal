@@ -26,7 +26,7 @@ So the answer to "when should my kid start recruiting" is high school. The quest
 
 ## What the athletes who recruit well have in common
 
-We work with a lot of high school athletes at Push The Goal, and after enough of them you notice a pattern. The ones who move fast in recruiting share a few things that have nothing to do with how good they were at twelve.
+I work with a lot of high school athletes at Push The Goal, and after enough of them you notice a pattern. The ones who move fast in recruiting share a few things that have nothing to do with how good they were at twelve.
 
 **They already have the habits.** They do the work when nobody is checking. They show up early, they take care of their bodies, they get their schoolwork done without a fight. Coaches can spot this in a fifteen-year-old within one conversation, and it cannot be installed the summer before freshman year.
 
@@ -42,7 +42,7 @@ Keep it small. These years are for building the person who will be recruited lat
 
 **Let them play, a lot, and not only in structured settings.** Pickup, futsal, the backyard. Touches on the ball with no adult correcting them are where creativity comes from. Coaches notice creativity at seventeen and trace it back to here.
 
-**Build one habit at a time.** Water bottles finished. A short set of touches every day. Stretching before bed. One small thing, kept for a month, then another. Izi ran her own career on a whiteboard in her bedroom with the week's targets on it. The whiteboard matters more than what is written on it.
+**Build one habit at a time.** Water bottles finished. A short set of touches every day. Stretching before bed. One small thing, kept for a month, then another. I ran my own career on a whiteboard in my bedroom with the week's targets on it. The whiteboard matters more than what is written on it.
 
 **Let them own something.** Their bag. Their schedule. Talking to their own coach when they have a question. Every task a parent does for a twelve-year-old is a task a sixteen-year-old cannot do for themselves in front of a college coach.
 
@@ -62,7 +62,7 @@ You are not behind. There is nothing to be behind on yet.
 
 There is something to be ahead on, and it is unglamorous: habits, independence, confidence, and a kid who still wants to play. Families who spend these years on those four things walk into freshman year with a head start they cannot buy later.
 
-**This is what Junior Prep is for.** Online coaching, accountability and support for 5th through 8th graders, from a coach who played through junior college and Division I and now guides families through recruiting every day. No on-field training, no showcases, no pressure. Weekly check-ins, habits that stick, and a young athlete who arrives in high school ready. [See how Junior Prep works](/junior-prep-coaching/), or [book a free intro call](https://soccer-101.push-the-goal.com/schedule-page) and ask Izi anything.
+**This is what Junior Prep is for.** Online coaching, accountability and support for 5th through 8th graders, and I run it myself. I played through junior college and Division I, and I now guide families through recruiting every day. No on-field training, no showcases, no pressure. Weekly check-ins, habits that stick, and a young athlete who arrives in high school ready. [See how Junior Prep works](/junior-prep-coaching/), or [book a free intro call](https://soccer-101.push-the-goal.com/schedule-page) and ask me anything.
 
 ## FAQ
 
@@ -79,4 +79,4 @@ No. There is no coach who can act on it yet. Videos, profiles and coach outreach
 Play a lot, including unstructured play. Build small daily habits. Learn to speak for themselves. Answer to a coach outside the family. Keep the game fun.
 
 **Do we need to be in Tennessee to work with Push The Goal?**
-No. Junior Prep and the recruiting program are both online. Athletes work with Izi from anywhere in the country.
+No. Junior Prep and the recruiting program are both online. Athletes work with me from anywhere in the country.
