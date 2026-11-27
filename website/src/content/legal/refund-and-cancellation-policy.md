@@ -5,7 +5,7 @@ description: "How enrollment, cancellation, withdrawal and missed sessions work 
 **Last updated: November 2026**
 
 
-Push The Goal sells coaching, so there is nothing to ship back. This page explains how
+Push the Goal Soccer LLC ("Push The Goal") sells coaching, so there is nothing to ship back. This page explains how
 enrollment, cancellation and missed sessions work. It applies to every program we offer,
 including College Soccer Recruiting Coaching and Junior Prep.
 

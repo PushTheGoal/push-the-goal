@@ -16,8 +16,8 @@ const index = posts.map((p) => ({ t: p.data.title, u: `/${p.id}/`, c: p.data.cat
 const places = [
   { href: '/college-soccer-recruitment/', label: 'The Recruitment Guide', note: 'Timelines, coach outreach, video and money, explained for parents.' },
   { href: '/junior-prep-coaching/', label: 'Junior Prep', note: 'Grades 5 to 8: build the habits before recruiting starts.' },
-  { href: '/blog/', label: 'The Blog', note: 'Straight answers to the questions families ask Izi most.' },
-  { href: '/about-izi/', label: 'Meet Coach Izi', note: 'Who she is and how she works with families.' },
+  { href: '/blog/', label: 'The Blog', note: 'Straight answers to the questions families ask me most.' },
+  { href: '/about-izi/', label: 'Meet Coach Izi', note: 'Who I am and how I work with families.' },
 ];
 ---
 <Base title="Page Not Found | Push The Goal" description="That page isn't here. Find the recruiting guide, Junior Prep, the blog or book a free call with Coach Izi." noindex>
@@ -98,7 +98,7 @@ const places = [
   )}
 
   <CtaBand heading="Still Not Sure Where to Start?">
-    <p>Most families land here with one question they can't get a straight answer to. Bring it to a free call and Izi will tell you exactly where your athlete stands and what to do next.</p>
+    <p>Most families land here with one question they can't get a straight answer to. Bring it to a free call and I will tell you where your athlete stands and what to do next.</p>
   </CtaBand>
 
   <script is:inline define:vars={{ index }}>
@@ -134,7 +134,7 @@ const places = [
         out.textContent = '';
         if (q.value.trim().length < 2) return;
         var hits = rank(q.value).slice(0, 6);
-        if (!hits.length) { var li = document.createElement('li'); li.className = 'none'; li.textContent = 'No posts match that yet. Izi answers it on a free call.'; out.appendChild(li); return; }
+        if (!hits.length) { var li = document.createElement('li'); li.className = 'none'; li.textContent = 'No posts match that yet. I answer it on a free call.'; out.appendChild(li); return; }
         hits.forEach(function (r) { out.appendChild(item(r.p)); });
       });
     })();
