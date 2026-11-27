@@ -22,7 +22,7 @@ So the question is never "is my athlete D1." It is "which D1, and how many of th
 
 None of these are proof. Together they are a picture.
 
-**Are they the best player on every team they play on?** This is the first thing Izi asks. Club, high school, the regional pool. If your athlete is not the standout on each of them, that is a key sign they are not ready for Division I yet. Being the best is the starting line, so the next question matters as much.
+**Are they the best player on every team they play on?** This is the first thing I ask. Club, high school, the regional pool. If your athlete is not the standout on each of them, that is a key sign they are not ready for Division I yet. Being the best is the starting line, so the next question matters as much.
 
 **Who is your athlete playing against, and how are they doing?** Not the team's record. Your athlete's minutes and impact against the best teams on the schedule. Starting and mattering in games against top regional competition is the baseline for the D1 conversation. Being the best player on a team that never faces strong opposition tells you nothing yet.
 
@@ -54,7 +54,7 @@ The point is that fifteen coaches' responses are worth more than any ranking, an
 
 **If it is yes:** work the list, get seen repeatedly, and do not let a top-heavy list turn a D1 player into a [walk-on](/how-to-avoid-being-a-walk-on-college-soccer/). The [D1 scholarship post](/how-to-get-a-d1-soccer-scholarship/) is the process from here.
 
-**If it is "not yet":** the two-year route exists for exactly this athlete. Izi played two years of junior college soccer and transferred to Division I because the film of a college starter beats the projection of a high school senior. A D1 "not yet" at seventeen is a D1 yes at nineteen for a lot of players.
+**If it is "not yet":** the two-year route exists for exactly this athlete. I played two years of junior college soccer and transferred to Division I because the film of a college starter beats the projection of a high school senior. A D1 "not yet" at seventeen is a D1 yes at nineteen for a lot of players.
 
 **If it is no:** then the honest, valuable work begins. Division II, Division III and NAIA are full of athletes who were told "D1 or nothing" at fourteen and would have quit if they believed it. A player who starts for four years at the right level has a better college soccer career than one who sits at the wrong one. The [levels post](/d1-vs-d2-vs-d3-vs-naia-college-soccer/) and the [target list](/college-soccer-target-school-list/) are where that starts.
 

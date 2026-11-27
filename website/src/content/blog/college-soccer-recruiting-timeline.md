@@ -43,7 +43,7 @@ Nobody is offering your freshman a scholarship this year, and that is fine. Fres
 - **Compete at the right level.** Your athlete needs to be playing meaningful minutes against strong competition. That matters more than the badge on the jersey.
 - **Start a simple film habit.** Have someone record games now. You do not need a highlight reel yet. You need the habit and the footage.
 - **Dream wide, and think bigger than feels reasonable.** Start a list of 50 to 100 schools across Division I, Division II, Division III, NAIA, and junior college. Most families build a list of ten and wonder why nothing happens. The list will change many times. That is the point.
-- **Start sending emails this year.** Freshman year is not too early, and the sooner your athlete's name is in front of coaches, the longer those coaches get to watch them grow. D1 and D2 coaches cannot reply yet, and they do read and file what comes in. D3, NAIA, and junior college coaches can write back today. Our [guide to emailing college coaches](/how-to-email-college-soccer-coaches/) has the format.
+- **Start sending emails this year.** Freshman year is not too early, and the sooner your athlete's name is in front of coaches, the longer those coaches get to watch them grow. D1 and D2 coaches cannot reply yet, and they do read and file what comes in. D3, NAIA, and junior college coaches can write back today. My [guide to emailing college coaches](/how-to-email-college-soccer-coaches/) has the format.
 
 ## Sophomore year: get organized and get on film
 
@@ -71,6 +71,17 @@ For athletes who did the work, senior year is about choosing. For late starters,
 - **Widen the net if needed.** Division III, NAIA, and junior college programs recruit later and hold real opportunities and real money. Plenty of great college careers start there.
 - **Keep playing and keep sending film.** Coaches fill roster spots into the spring. The athlete who sends a strong senior-season highlight in January can still land a home.
 
+## After the signing: making the team
+
+Committing gets your athlete onto the roster. Preseason decides where they play. These are the things I tell every athlete heading into a college preseason or a new team's tryout:
+
+- **Get in shape before you arrive.** Ask the coach ahead of preseason which fitness tests they run, then find someone to train with until you pass them. You do not want fitness on your mind on day one.
+- **Be a teammate first.** A "great cross" to a teammate or cheering another player's goal tells a coach you care about more than yourself. That makes you more valuable.
+- **Run your race.** Do not get caught up in whoever you think is beating you out. Never make an enemy of someone who threatens your spot. Go out of your way to be friends with them, and learn from them.
+- **Be helpful.** Ask the coach if there is anything you can do before practice. Pump the balls, carry the gear, check the ball count after.
+- **Introduce yourself to the whole staff.** Assistant coaches, the athletic trainer, the facilities manager. Let them all know who you are.
+- **Have fun.** Tryouts are stressful, and the whole point of soccer is that it is a game. Athletes who remember that play their best.
+
 ## The honest truth about timelines
 
 Families ask me if they are behind. Here is the honest answer: the timeline above is the ideal, and almost nobody runs it perfectly. I did not. What separates athletes who get recruited from athletes who get overlooked is rarely talent. It is having a plan and working it consistently, starting from wherever you are today.
@@ -90,4 +101,4 @@ Freshman year, and your athlete should be sending emails then. NCAA D1 and D2 co
 Junior year carries the most recruiting activity, but sophomore year preparation determines how good your junior year is. Grades matter every year.
 
 **Is senior year too late to get recruited for college soccer?**
-No, but the approach changes. Senior-year recruiting means moving fast, contacting programs that recruit late, and staying open to D3, NAIA, and junior college paths. See our full guide on [late recruiting](/is-it-too-late-to-get-recruited/).
+No, but the approach changes. Senior-year recruiting means moving fast, contacting programs that recruit late, and staying open to D3, NAIA, and junior college paths. See my full guide on [late recruiting](/is-it-too-late-to-get-recruited/).

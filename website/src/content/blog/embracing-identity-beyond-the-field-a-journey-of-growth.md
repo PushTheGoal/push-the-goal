@@ -1,7 +1,7 @@
 ---
 title: "Embracing Identity Beyond the Field: A Journey of Growth."
 seoTitle: "Embracing Identity Beyond the Field: A Journey of Growth"
-description: "Growing up, soccer was not just a sport for me— it was a way of life. I started playing at a young age and quickly fell in love with the game. However, as"
+description: "Growing up, soccer was not just a sport for me. It was a way of life. I started playing at a young age and quickly fell in love with the game. However, as"
 category: "For parents"
 date: "2023-11-22T17:00:00Z"
 ---

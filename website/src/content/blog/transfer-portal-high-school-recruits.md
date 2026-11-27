@@ -36,7 +36,7 @@ The second option is faster and safer. Coaches take it constantly.
 
 **Widen the list, and go down as well as up.** This is the practical answer. If the top of the market is buying experience, the way in is to go somewhere your athlete plays, then let the film do the arguing. Fifty to a hundred schools, across levels.
 
-**Take the two-year route seriously.** [Junior college](/juco-soccer-recruiting/) went from a fallback to a strategy. Two years of college minutes turns your athlete into the proven player coaches now prefer. Izi took that route to Division I before the portal existed, and the logic is stronger now than it was then.
+**Take the two-year route seriously.** [Junior college](/juco-soccer-recruiting/) went from a fallback to a strategy. Two years of college minutes turns your athlete into the proven player coaches now prefer. I took that route to Division I before the portal existed, and the logic is stronger now than it was then.
 
 **Read late silence correctly.** A program that has not said no has not said no. Keep following up into the spring. Coaches who go quiet in December are sometimes back in April with a need they did not have before.
 
@@ -48,7 +48,7 @@ The second option is faster and safer. Coaches take it constantly.
 
 Every change above pushes the same way. The door at the top is narrower and the decisions come later, so the athletes who get through are the ones who started the work early and kept at it longest.
 
-That work starts before high school. Grades 5 through 8 are where an athlete builds the habits, the grades, the film routine and the confidence to talk to adults that this market now rewards. It is why Izi built [Junior Prep](/junior-prep-coaching/). A family that starts in ninth grade is on time. A family that starts in eleventh is competing with college juniors for the same roster spot.
+That work starts before high school. Grades 5 through 8 are where an athlete builds the habits, the grades, the film routine and the confidence to talk to adults that this market now rewards. It is why I built [Junior Prep](/junior-prep-coaching/). A family that starts in ninth grade is on time. A family that starts in eleventh is competing with college juniors for the same roster spot.
 
 ## The part worth saying out loud
 

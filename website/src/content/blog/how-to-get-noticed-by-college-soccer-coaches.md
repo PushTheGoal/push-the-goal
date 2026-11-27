@@ -44,7 +44,7 @@ The fix is a repeatable loop, and any family can run it.
 
 **Make the film findable.** A three to four minute highlight video, strongest clips in the first 30 seconds, posted where a link works without a login. Coaches decide in the first clips whether to keep watching. Lead with the best.
 
-**Introduce before events, not after.** Two to three weeks before every showcase or tournament, your athlete emails target coaches: team name, bracket, field, times, jersey number, film link. This is the email that does the most work in recruiting, because it turns a trip a coach already booked into a look at your athlete. Our [guide to emailing college coaches](/how-to-email-college-soccer-coaches/) gives the exact format.
+**Introduce before events, not after.** Two to three weeks before every showcase or tournament, your athlete emails target coaches: team name, bracket, field, times, jersey number, film link. This is the email that does the most work in recruiting, because it turns a trip a coach already booked into a look at your athlete. My [guide to emailing college coaches](/how-to-email-college-soccer-coaches/) gives the exact format.
 
 **Play where evaluation happens.** A few well-chosen showcases where target schools truly show up beat a dozen random weekend wins. Check which colleges attended an event in past years before you spend the money, and match events to your athlete's realistic level list. If you are worried the clock has run out, start with [is it too late to get recruited](/is-it-too-late-to-get-recruited/).
 

@@ -16,7 +16,7 @@ That is worth being precise about, because the two things cost similar money and
 
 ## What a platform gives you
 
-**A hosted profile.** A page with your athlete's details and film. Useful. Also something a YouTube channel and a free page can do, as we cover in [building a recruiting profile](/soccer-recruiting-profile/).
+**A hosted profile.** A page with your athlete's details and film. Useful. Also something a YouTube channel and a free page can do, as I cover in [building a recruiting profile](/soccer-recruiting-profile/).
 
 **A school database.** Searchable listings with coach contact details. Genuinely convenient, and the same information is publicly available on athletic department websites.
 

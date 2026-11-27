@@ -13,7 +13,7 @@ Sixty emails out. Four replies, three of them automated. Two showcases nobody wa
 
 Then one night they say it out loud. Maybe this is a sign. Maybe I am not good enough for this.
 
-Izi hears that sentence often enough that she has a standard answer, and athletes raise it on her calls without being asked. It is the most common thing in recruiting that nobody puts in the brochure.
+I hear that sentence often enough that I have a standard answer, and athletes raise it on my calls without being asked. It is the most common thing in recruiting that nobody puts in the brochure.
 
 ## What the silence is not
 
@@ -37,7 +37,7 @@ Your athlete cannot see that at sixteen, when the whole team is congratulating s
 
 ## Control the controllables
 
-This is Izi's core frame and it is the most practical thing in this post.
+This is my core frame and it is the most practical thing in this post.
 
 Your athlete cannot control whether a coach opens an email, whether a program has room in their class, whether a scout shows up. Every ounce of energy spent on those is wasted, and worse, it is where despair lives.
 
@@ -47,17 +47,17 @@ Their film and whether it is current. How many emails go out this week. Whether 
 
 Every one of those is available today and none of them require anyone else's permission. An athlete working the controllables has a job. An athlete waiting for a reply has only the waiting.
 
-**The best do not get bored of the basics.** Izi says this to athletes constantly. The greatest players in the world drill the same fundamentals as everyone else and do them better. Recruiting is the same. Film, emails, follow-up, grades, repeat. It is not exciting and it is what works.
+**The best do not get bored of the basics.** I say this to athletes constantly. The greatest players in the world drill the same fundamentals as everyone else and do them better. Recruiting is the same. Film, emails, follow-up, grades, repeat. It is not exciting and it is what works.
 
 ## Where momentum comes back
 
-**Follow-ups.** Responses come on the third and fourth attempt. Athletes who stop at two never see the thing that was about to happen. Izi has watched athletes get two to four replies per round once they got to the later rounds, and the coaches said as much: this is the fourth time you have emailed me.
+**Follow-ups.** Responses come on the third and fourth attempt. Athletes who stop at two never see the thing that was about to happen. I have watched athletes get two to four replies per round once they got to the later rounds, and the coaches said as much: this is the fourth time you have emailed me.
 
 **Widening the list.** An athlete emailing twelve schools and hearing nothing does not have a talent problem, they have a sample-size problem. Fifty to a hundred schools across levels changes the odds.
 
 **Something new to send.** New film gives a reason to contact everyone again. So does a [personal statement video](/soccer-personal-statement-video/), a good result, a grade improvement.
 
-**A small measurable win.** Izi assigns concrete targets: a number of juggles by the end of summer, posting three times a week, water intake, added running. Not because juggling gets an athlete recruited, but because a kid who is hitting targets feels like someone in motion instead of someone waiting.
+**A small measurable win.** I assign concrete targets: a number of juggles by the end of summer, posting three times a week, water intake, added running. Not because juggling gets an athlete recruited, but because a kid who is hitting targets feels like someone in motion instead of someone waiting.
 
 ## If they want to quit
 
@@ -69,9 +69,9 @@ Often the answer is a break from recruiting rather than a break from soccer. Two
 
 If your athlete has genuinely stopped wanting to play college soccer, that is allowed. Some sixteen-year-olds discover they want a normal college experience, and that is a legitimate outcome rather than a failure. What should not happen is quitting on a bad Tuesday in November because the inbox is empty.
 
-Izi's line to an athlete in that spot: it is not a sign to stop, it is a test. How badly do you want this? Some people have to prove it more than others.
+My line to an athlete in that spot: it is not a sign to stop, it is a test. How badly do you want this? Some people have to prove it more than others.
 
-And the version she uses when an athlete is at the bottom: all I need you to do is just not give up. That is it. Can you do that?
+And the version I use when an athlete is at the bottom: all I need you to do is just not give up. That is it. Can you do that?
 
 ## The long view
 

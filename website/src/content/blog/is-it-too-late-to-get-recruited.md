@@ -38,7 +38,7 @@ If your athlete is a junior or senior and starting from zero, here is the plan. 
 
 **2. Build a realistic school list, 50 to 70 programs.** Think bigger than feels reasonable. Most families come to me with a list of twelve, and a list that size cannot absorb the nos that late recruiting produces. The list also has to match reality on three fronts: athletic level, academics, and money. Include D3, NAIA, and junior college programs on purpose, not as a consolation prize. Those levels recruit later, offer real academic and athletic money, and hold rosters full of players who could have played higher and chose the right fit instead.
 
-**3. Email every coach on the list, personally.** A short, specific email: graduation year, position, club, GPA, film link, upcoming schedule. Coaches can tell a template blast from a real note in one line. We break down the exact format in our guide to [emailing college soccer coaches](/how-to-email-college-soccer-coaches/).
+**3. Email every coach on the list, personally.** A short, specific email: graduation year, position, club, GPA, film link, upcoming schedule. Coaches can tell a template blast from a real note in one line. I break down the exact format in my guide to [emailing college soccer coaches](/how-to-email-college-soccer-coaches/).
 
 **4. Follow up like it is a job search, because it is.** One email is a raindrop. Your athlete should update coaches every one to two weeks with new film, results, and schedule changes. Persistence reads as seriousness, and coaches recruit serious.
 
@@ -61,4 +61,4 @@ Yes. Coaches fill roster spots through senior year and into the spring, especial
 Heavily. Junior year is the busiest recruiting window in college soccer. A junior starting today is late to the ideal timeline but right on time for a huge share of real recruiting activity.
 
 **What if no coaches have contacted my athlete yet?**
-Silence usually means invisible, not unwanted. Most athletes are never discovered. They introduce themselves. Start with our [recruiting timeline guide](/college-soccer-recruiting-timeline/), then get the first outreach emails sent this week.
+Silence usually means invisible, not unwanted. Most athletes are never discovered. They introduce themselves. Start with my [recruiting timeline guide](/college-soccer-recruiting-timeline/), then get the first outreach emails sent this week.

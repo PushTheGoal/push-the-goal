@@ -38,11 +38,11 @@ Ask the coach what your athlete will sign, and when. Get the answer specific to 
 
 ## The gap in between
 
-Izi's rule here is simple. If your athlete has a verbal from a program they want, sign the first day there is something to sign. A verbal locks nobody in, so every week between the promise and the signature is a week where something can change.
+My rule here is simple. If your athlete has a verbal from a program they want, sign the first day there is something to sign. A verbal locks nobody in, so every week between the promise and the signature is a week where something can change.
 
 Most of the risk lives here, in the months between a verbal and a signature. It can be years for an athlete who commits early.
 
-**Keep recruiting quietly.** Not aggressively, and not in a way that damages the relationship with the program your athlete committed to. Stay responsive to other coaches. Keep the film current. Izi's line about this is that any coach relationship is worth keeping, because coaches move.
+**Keep recruiting quietly.** Not aggressively, and not in a way that damages the relationship with the program your athlete committed to. Stay responsive to other coaches. Keep the film current. My line about this is that any coach relationship is worth keeping, because coaches move.
 
 An athlete who goes completely dark for eighteen months and then loses their spot in March has to start from zero with no relationships left.
 

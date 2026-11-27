@@ -22,7 +22,7 @@ Spend as much time as possible focusing on school and your athletics. you will e
 
 a) getting a degree that lands you a good job, or
 
-b) getting a bigger scholarship that’s worth tens of thousands of dollars, all because you spent more time focusing on your game than making minimum wage plus tips at a restaurant (not to mention the degree that you will get from that scholarship or that pro–contract you might sign).
+b) getting a bigger scholarship that’s worth tens of thousands of dollars, all because you spent more time focusing on your game than making minimum wage plus tips at a restaurant (not to mention the degree that you will get from that scholarship or that pro contract you might sign).
 
 ## The list of priorities is as follows:
 

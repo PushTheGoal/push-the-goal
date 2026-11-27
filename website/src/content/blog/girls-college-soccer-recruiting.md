@@ -10,7 +10,7 @@ image: ../../assets/blog/girls-college-soccer-recruiting-header.png
 
 Most recruiting advice is written as if boys and girls run the same race. They do not. The women's game recruits earlier, carries more money, fills rosters differently, and asks different things of a fifteen-year-old and her family.
 
-Izi played Division I women's soccer after two years of junior college and five knee surgeries. This is the women's side of recruiting, from someone who was recruited on it.
+I played Division I women's soccer after two years of junior college and five knee surgeries. This is the women's side of recruiting, and I was recruited on it.
 
 ## It starts earlier, and that cuts both ways
 
@@ -40,7 +40,7 @@ The same things every coach wants, with two things they mention more often.
 
 ## Injury, and the honest conversation about knees
 
-Female athletes tear ACLs at higher rates than male athletes. Every women's coach knows this, has players who have been through it, and does not treat an injured recruit as damaged goods. Izi came back from five knee surgeries and finished a Division I career. The [recruiting after an injury](/recruiting-after-an-injury/) post covers what to do. The short version: tell coaches early and honestly, keep them updated, and keep doing the work you can do. Coaches respect that more than families expect.
+Female athletes tear ACLs at higher rates than male athletes. Every women's coach knows this, has players who have been through it, and does not treat an injured recruit as damaged goods. I came back from five knee surgeries and finished a Division I career. The [recruiting after an injury](/recruiting-after-an-injury/) post covers what to do. The short version: tell coaches early and honestly, keep them updated, and keep doing the work you can do. Coaches respect that more than families expect.
 
 ## What this means for your family
 
@@ -54,7 +54,7 @@ Female athletes tear ACLs at higher rates than male athletes. Every women's coac
 
 **If you are late, you are not out.** The women's calendar runs early, and it also runs long. Spots and money open every spring.
 
-**Want a plan built for the women's side of the game?** Soccer Recruitment 101 is run by someone who was recruited on it. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
+**Want a plan built for the women's side of the game?** I run Soccer Recruitment 101, and I was recruited on it. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 
 ## FAQ
@@ -69,7 +69,7 @@ Preparation by the start of sophomore year: film, a first list, an understanding
 Per program, yes, because of Title IX, and more schools sponsor women's soccer than men's. Partial scholarships stacked with academic money are the norm.
 
 **Does an ACL injury end a girl's recruiting?**
-No. Women's coaches see it constantly and recruit through it. Tell them early, keep them updated, and keep working. Izi finished a D1 career after five knee surgeries.
+No. Women's coaches see it constantly and recruit through it. Tell them early, keep them updated, and keep working. I finished a D1 career after five knee surgeries.
 
 **What do women's college soccer coaches look for most?**
 The same fundamentals every coach wants, plus two they name more often: game understanding with on-field communication, and character that fits a close team.

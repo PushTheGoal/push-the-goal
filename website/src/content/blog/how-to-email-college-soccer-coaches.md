@@ -42,7 +42,7 @@ That is it. No life story, no letter of recommendation, no ten attached photos. 
 
 ## When to send it (timing matters more than families think)
 
-Two timing rules. First, remember the contact rule from our [recruiting timeline guide](/college-soccer-recruiting-timeline/): NCAA D1 and D2 coaches cannot respond directly until June 15 after your athlete's sophomore year. Emails sent before then are not wasted, coaches read and file them, but do not expect a reply, because the rules forbid it.
+Two timing rules. First, remember the contact rule from my [recruiting timeline guide](/college-soccer-recruiting-timeline/): NCAA D1 and D2 coaches cannot respond directly until June 15 after your athlete's sophomore year. Emails sent before then are not wasted, coaches read and file them, but do not expect a reply, because the rules forbid it.
 
 Second, send when coaches are looking. Early mornings midweek beat Friday nights. The weeks before a big showcase beat the middle of the college season, when a coach's attention is on their own team. And any time your athlete has fresh film or new results, that is a reason to hit send.
 
@@ -92,7 +92,7 @@ Change every bracket. Keep each one short. These are starting points: the one pe
 
 **Same day, after a coach watched**
 
-Izi has her athletes send this one the same day, every time.
+I have my athletes send this one the same day, every time.
 
 > Coach [Last Name],
 >
@@ -112,7 +112,7 @@ Izi has her athletes send this one the same day, every time.
 >
 > [First Last]
 
-And if a field or time changes after a coach said they would come, send Izi's logistics note right away: "Hey Coach, I just want to make sure you had eyes on this. I'd hate for you to go to the wrong field." It is always okay to send.
+And if a field or time changes after a coach said they would come, send my logistics note right away: "Hey Coach, I just want to make sure you had eyes on this. I'd hate for you to go to the wrong field." It is always okay to send.
 
 ## Why coaches go silent
 
@@ -122,7 +122,7 @@ And if a coach says no, thank them and move on fast. A quick no is a gift. It po
 
 A coach who was writing back and then stopped is a different problem from a coach who never answered. Here is [how to restart a conversation with a coach who has gone quiet](/when-college-coaches-stop-responding/).
 
-**Want the exact email structure and follow-up plan done with you?** Inside Soccer Recruitment 101, we help athletes write outreach that sounds like them, build the target list, and run the follow-up system week by week. [Get started here.](https://soccer-101.push-the-goal.com/schedule-page)
+**Want the exact email structure and follow-up plan done with you?** Inside Soccer Recruitment 101, I help athletes write outreach that sounds like them, build the target list, and run the follow-up system week by week. [Get started here.](https://soccer-101.push-the-goal.com/schedule-page)
 
 ## FAQ
 

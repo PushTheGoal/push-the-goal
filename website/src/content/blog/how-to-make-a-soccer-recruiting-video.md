@@ -36,7 +36,7 @@ Keep the whole thing to three or four minutes.
 
 Coaches watch for what the position demands. Pick clips that answer their questions first.
 
-**Goalkeepers.** Shot stopping both ways, high balls claimed, crosses dealt with, one-on-ones, and distribution with hands and feet. Our post on [goalkeeper recruiting](/goalkeeper-recruiting/) goes further.
+**Goalkeepers.** Shot stopping both ways, high balls claimed, crosses dealt with, one-on-ones, and distribution with hands and feet. I go further in my post on [goalkeeper recruiting](/goalkeeper-recruiting/).
 
 **Defenders.** One-on-one defending, headers won, recovery runs, and passing out of the back under pressure.
 
@@ -82,7 +82,7 @@ One division of labor works better than any other: the athlete owns the film and
 
 Coaches can tell when a parent made the reel. More importantly, an athlete who cuts their own film starts watching their own game differently, and that shows up on the field. Hand this project to your kid, set a deadline, and check in weekly. Consistency is what produces the result.
 
-Once the film is live, it feeds everything else: the pre-showcase email, the follow-up note, the recruiting profile, the coach who wants a second look before booking a trip. Our [guide to emailing college coaches](/how-to-email-college-soccer-coaches/) shows where the link goes.
+Once the film is live, it feeds everything else: the pre-showcase email, the follow-up note, the recruiting profile, the coach who wants a second look before booking a trip. My [guide to emailing college coaches](/how-to-email-college-soccer-coaches/) shows where the link goes.
 
 **Want eyes on your athlete's reel before coaches see it?** Soccer Recruitment 101 walks families through the film, the target list, the outreach emails, and the follow-up, with honest feedback about what a coach will think of the video. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 

@@ -46,7 +46,7 @@ Do not send a field player's highlight reel with saves in it.
 
 **Include training clips.** Keeper-specific work is genuinely useful for a coach evaluating technique, more so than for field players.
 
-**Keep it to three or four minutes**, strongest first. The rules in our [recruiting video guide](/how-to-make-a-soccer-recruiting-video/) all still apply.
+**Keep it to three or four minutes**, strongest first. The rules in my [recruiting video guide](/how-to-make-a-soccer-recruiting-video/) all still apply.
 
 ## Getting seen
 

@@ -2,11 +2,11 @@
 title: "Terms and Conditions"
 description: "The terms for using push-the-goal.com and Push The Goal's coaching programs."
 ---
-**Last updated: September 2026**
+**Last updated: November 2026**
 
 
-These terms cover your use of push-the-goal.com and every coaching program Push The Goal
-("we," "us") provides. By using the website, booking a call, or enrolling in a program, you
+These terms cover your use of push-the-goal.com and every coaching program Push the Goal
+Soccer LLC ("Push The Goal," "we," "us") provides. By using the website, booking a call, or enrolling in a program, you
 agree to them.
 
 ## What we do
@@ -108,6 +108,6 @@ use of the website or a program after a change means you accept it.
 
 ## Contact
 
-Push The Goal, Izi Murray
+Push the Goal Soccer LLC, Izi Murray
 Tennessee, USA
 izi@push-the-goal.com

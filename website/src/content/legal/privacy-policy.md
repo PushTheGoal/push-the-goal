@@ -2,10 +2,10 @@
 title: "Privacy Policy"
 description: "What Push The Goal collects, how it is used, and how we handle information about athletes under 13."
 ---
-**Last updated: September 2026**
+**Last updated: November 2026**
 
 
-Push The Goal ("we," "us") respects your privacy. This policy explains what information we
+Push the Goal Soccer LLC ("Push The Goal," "we," "us") respects your privacy. This policy explains what information we
 collect on push-the-goal.com and through our coaching programs, how we use it, and the
 choices you have. It applies to every visitor, every parent who contacts us, and every
 athlete we coach.
@@ -121,6 +121,6 @@ significant, we will let current clients know by email.
 
 ## Contact
 
-Push The Goal, Izi Murray
+Push the Goal Soccer LLC, Izi Murray
 Tennessee, USA
 izi@push-the-goal.com

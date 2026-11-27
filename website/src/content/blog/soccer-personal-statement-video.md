@@ -20,7 +20,7 @@ A short video, filmed on a phone, where your athlete introduces themselves. Who 
 
 Not a highlight reel. The reel answers how they play. This answers who is going to be in the locker room for four years, which is the question a coach is asking and cannot get from film.
 
-Izi pushes every athlete she works with to make one, because generic form emails do not stand out and this does. One of her athletes got a substantive reply from a major Division I program off the back of hers, after the standard emails had produced nothing.
+I push every athlete I work with to make one, because generic form emails do not stand out and this does. One of my athletes got a substantive reply from a major Division I program off the back of hers, after the standard emails had produced nothing.
 
 ## Why it works on coaches
 
@@ -32,7 +32,7 @@ It also proves effort. Anyone can attach a link. Making a personal video for a s
 
 ## The structure
 
-Izi's outline, in the order she teaches it:
+My outline, in the order I teach it:
 
 **Open with the basics.** Name, graduating year, position, high school and club, state. Ten seconds. A coach needs the file details immediately.
 
@@ -64,7 +64,7 @@ Upload it unlisted on YouTube, next to the highlight reel, and link both from th
 
 **Personalize the opening line** to the school and the coach. A video that mentions the program by name is hard to ignore.
 
-**Time it well.** Izi's tip is to send at the end of July, when coach inboxes quiet down and your athlete's message has room to land. Any quiet period works. Avoid the weeks when every athlete in the country is emailing.
+**Time it well.** My tip is to send at the end of July, when coach inboxes quiet down and your athlete's message has room to land. Any quiet period works. Avoid the weeks when every athlete in the country is emailing.
 
 **Send it to the coaches who went silent.** A dead thread is exactly where this belongs. It is new, it is not another "circling back", and it gives a coach a reason to open.
 
@@ -91,7 +91,7 @@ Ninety seconds to two minutes. Coaches stop watching longer ones.
 No. The reel shows how your athlete plays and the personal video shows who they are. Send both.
 
 **When is the best time to send one?**
-During a quiet period in coach inboxes. Izi points athletes at the end of July, when volume drops and a personal message stands out.
+During a quiet period in coach inboxes. I point athletes at the end of July, when volume drops and a personal message stands out.
 
 **Does my athlete need good equipment?**
 No. A phone, decent light and a quiet room. Coaches want to see the athlete, not the production.

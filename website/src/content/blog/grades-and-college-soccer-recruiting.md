@@ -54,7 +54,7 @@ It is fixable, and the fix depends on when you start.
 
 **Junior.** Tighter and still live. A strong junior year moves a GPA meaningfully, and coaches read an upward trend as a real signal about a kid.
 
-**Senior.** Limited room, and the target list changes rather than the transcript. If the grades are low enough to close most four-year doors, Izi's advice is the same every time: go two-year first. [Junior college](/juco-soccer-recruiting/) has no academic barrier to get in, your athlete plays college soccer right away, and two years of good academic work there can make them eligible for schools that would not have looked at their high school record. Izi took that route herself.
+**Senior.** Limited room, and the target list changes rather than the transcript. If the grades are low enough to close most four-year doors, my advice is the same every time: go two-year first. [Junior college](/juco-soccer-recruiting/) has no academic barrier to get in, your athlete plays college soccer right away, and two years of good academic work there can make them eligible for schools that would not have looked at their high school record. I took that route myself.
 
 Whatever the timing, be straight with coaches. An athlete who says "my sophomore year was bad, here is what I did about it" is far more compelling than one who hopes nobody looks closely.
 

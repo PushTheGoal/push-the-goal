@@ -38,7 +38,7 @@ The share is large across Division I, and larger on the men's side, where there 
 
 ## How to compete with it
 
-**Get college film early.** The two-year route does exactly what internationals do: it turns a projection into a proven player. Izi played two years of junior college before Division I. Two years of adult minutes on film puts an American recruit on the same footing as an international arriving from an academy.
+**Get college film early.** The two-year route does exactly what internationals do: it turns a projection into a proven player. I played two years of junior college before Division I. Two years of adult minutes on film puts an American recruit on the same footing as an international arriving from an academy.
 
 **Be seen live, more than once.** A coach who has watched your athlete play in person twice trusts that more than a packaged agency reel. Invite coaches to games, go to camps where the coach is on the field, and follow up each time.
 

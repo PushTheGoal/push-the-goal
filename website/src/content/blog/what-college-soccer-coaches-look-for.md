@@ -46,7 +46,7 @@ I say this gently because it comes from care: your conduct is part of your athle
 
 Almost every trait above shows up in how your athlete handles their own outreach.
 
-Do they email themselves or does a parent? Do they follow up, or send once and quit? Do they answer a coach's question directly? Do they reply within a day? Coaches read consistency as maturity and maturity as coachability, and they are forming that judgment long before they watch a game. Our [guide to emailing college coaches](/how-to-email-college-soccer-coaches/) covers the mechanics.
+Do they email themselves or does a parent? Do they follow up, or send once and quit? Do they answer a coach's question directly? Do they reply within a day? Coaches read consistency as maturity and maturity as coachability, and they are forming that judgment long before they watch a game. My [guide to emailing college coaches](/how-to-email-college-soccer-coaches/) covers the mechanics.
 
 ## What this means for your athlete this week
 

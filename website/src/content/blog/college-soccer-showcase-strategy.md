@@ -18,7 +18,7 @@ A showcase publishes an attending-coach list with a hundred and fifty programs o
 
 Those coaches arrive with a list of names. They have games mapped out, athletes they came to see, and time for a fraction of what is happening. A coach standing at your athlete's field is there because somebody told them to be.
 
-Izi has an athlete who went from around nine coaches at one showcase game to around twenty-five at the next. Same player, same level, same event format. The difference was outreach done before the second one, including a Division I coach who texted ahead to say they would try to make it.
+I have an athlete who went from around nine coaches at one showcase game to around twenty-five at the next. Same player, same level, same event format. The difference was outreach done before the second one, including a Division I coach who texted ahead to say they would try to make it.
 
 That gap is the whole post.
 
@@ -28,7 +28,7 @@ That gap is the whole post.
 
 **Cross it against the target list.** Your athlete is not emailing all hundred and fifty. They are emailing the ones on their list, which is why the list needs to exist first.
 
-**Write the emails two to three weeks out.** Izi drafts these with athletes in a shared document, and the athlete sends them. Every school attending that is on the list gets one.
+**Write the emails two to three weeks out.** I draft these with athletes in a shared document, and the athlete sends them. Every school attending that is on the list gets one.
 
 **What goes in it:**
 - Name, grad year, position, club and high school, GPA
@@ -41,7 +41,7 @@ That gap is the whole post.
 
 Field number and jersey number are the two details families leave out and they are the two that decide whether being watched happens. A coach with twenty minutes and no field number goes to a game they can find.
 
-**Follow up two or three days before** with any schedule changes. Fields move constantly. Izi's line for this: "Hey coach, I just want to make sure you had eyes on this. I would hate for you to go to the wrong field." Nothing is being asked for. It is helpful, it is unarguable, and it puts your athlete back on top of the inbox the week it matters.
+**Follow up two or three days before** with any schedule changes. Fields move constantly. My line for this: "Hey coach, I just want to make sure you had eyes on this. I would hate for you to go to the wrong field." Nothing is being asked for. It is helpful, it is unarguable, and it puts your athlete back on top of the inbox the week it matters.
 
 ## During
 
@@ -55,7 +55,7 @@ Field number and jersey number are the two details families leave out and they a
 
 ## After
 
-**Same day.** Every coach who was there gets an email that night. Thank them for coming, and use Izi's closing question: "If there is anything else you would like to see to continue my recruitment process, I would love to know what that is."
+**Same day.** Every coach who was there gets an email that night. Thank them for coming, and use my closing question: "If there is anything else you would like to see to continue my recruitment process, I would love to know what that is."
 
 That question does two jobs. It invites a reply, and if the reply comes it gives your athlete an assignment, which is the beginning of a real relationship.
 

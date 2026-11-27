@@ -88,7 +88,7 @@ Three inputs, and you need all three.
 
 **Money.** A partial athletic offer at one school can cost more than an academic package at another. Run real numbers before you fall in love with a level.
 
-Then build the list wide, across levels, and email all of it. Our [guide to emailing college coaches](/how-to-email-college-soccer-coaches/) has the format. Families who write to fifty schools across four levels find homes. Families who write to twelve D1 programs usually do not.
+Then build the list wide, across levels, and email all of it. My [guide to emailing college coaches](/how-to-email-college-soccer-coaches/) has the format. Families who write to fifty schools across four levels find homes. Families who write to twelve D1 programs usually do not.
 
 **Want an honest read on where your athlete fits?** Soccer Recruitment 101 builds the level list with you, from film review through outreach, with straight feedback about what is realistic and what is not. [Start here.](https://soccer-101.push-the-goal.com/schedule-page)
 

@@ -12,7 +12,7 @@ Say "junior college" to a soccer family in September of senior year and watch th
 
 Here is the part that gets lost. Junior college is where a large number of Division I players spent their first two years. It is a route, and for a specific kind of athlete it is the better route.
 
-Izi played two years of junior college soccer and transferred to Division I. Nobody handed her that. She earned it in two seasons where she was seen more, played more, and developed faster than she would have riding a bench at a bigger school.
+I played two years of junior college soccer and transferred to Division I. Nobody handed me that. I earned it in two seasons where I was seen more, played more, and developed faster than I would have riding a bench at a bigger school.
 
 ## What JUCO is
 

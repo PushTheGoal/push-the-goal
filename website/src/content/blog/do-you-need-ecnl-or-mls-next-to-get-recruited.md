@@ -44,7 +44,7 @@ If the money is a stretch, the honest ranking of where it goes furthest is this:
 
 **Your athlete is starting and playing real minutes there.** If the move means a bench role, wait a year.
 
-**You will use the exposure.** That means emailing target coaches before every event with the bracket, field, time and jersey number. Our [guide to emailing college coaches](/how-to-email-college-soccer-coaches/) has the format. Without that step you are paying for a league and hoping.
+**You will use the exposure.** That means emailing target coaches before every event with the bracket, field, time and jersey number. The format is in my [guide to emailing college coaches](/how-to-email-college-soccer-coaches/). Without that step you are paying for a league and hoping.
 
 **The schools on your list attend.** Check which programs came to those events in past years. If your athlete's realistic level is not represented, you are funding exposure to the wrong audience.
 
