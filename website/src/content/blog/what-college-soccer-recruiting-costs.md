@@ -4,9 +4,8 @@ seoTitle: "What College Soccer Recruiting Costs Families"
 description: "Club fees, showcases, travel, camps and services add up fast. What earns its money in recruiting, what does not, and how to spend a smaller budget well."
 category: "Divisions and money"
 keyword: "cost of college soccer recruiting"
-date: "2026-12-31T21:00:00Z"
+date: "2026-12-17T11:00:00Z"
 image: ../../assets/blog/what-college-soccer-recruiting-costs-header.png
-draft: true
 ---
 
 By the time an athlete is a junior, most soccer families have spent more on this than on any vehicle they own. Club fees, tournaments, hotels, flights, gas, training, camps, gear, and whatever service somebody recommended in a Facebook group.
@@ -25,7 +24,7 @@ Roughly none of that is optional-feeling in the moment. Every line arrives attac
 
 **Playing at a level where your athlete is challenged and plays.** The core spend, and the one worth protecting. An athlete needs real minutes against real competition. Note both halves: a team where your athlete sits on the bench at a high level develops them less than a team where they play every minute a level down.
 
-**ID camps at schools already on the target list.** The highest-return line in most budgets. Hours of direct evaluation by a staff who could recruit your athlete. The word that matters is *target*. A camp at a school your athlete would never attend is a training session with a logo on it.
+**[ID camps](/are-soccer-id-camps-worth-it/) at schools already on the target list.** The highest-return line in most budgets. Hours of direct evaluation by a staff who could recruit your athlete. The word that matters is *target*. A camp at a school your athlete would never attend is a training session with a logo on it.
 
 **Getting film made.** Whatever it takes to have clips. My standard is eight to ten clips for a first reel, cut tight, with your athlete marked in the opening seconds. Families can do this themselves with a phone and CapCut. Paying somebody is fine too, and either way it is money well spent because nothing else in recruiting works without film.
 
@@ -35,9 +34,9 @@ Roughly none of that is optional-feeling in the moment. Every line arrives attac
 
 **Tournaments with no college coaches present.** Good for the team and for development. Not recruiting spend, and families count it as recruiting spend constantly.
 
-**Showcases nobody was told your athlete was attending.** A showcase does not deliver coaches to your athlete's field. Outreach beforehand does. The event without the emails is an expensive weekend of soccer. This is where most recruiting money quietly disappears.
+**Showcases nobody was told your athlete was attending.** A showcase does not deliver coaches to your athlete's field. Outreach beforehand does. The event without the emails is an expensive weekend of soccer. This is where most recruiting money quietly disappears. Here is [how to get coaches to your athlete's showcase game](/college-soccer-showcase-strategy/).
 
-**Services that promise exposure.** The category, broadly. Blasting a profile to hundreds of coaches produces the same result as any mass email: almost nothing. Coaches respond to a specific message from an athlete who knows their program. Your athlete can send that for free.
+**Services that promise exposure.** The category, broadly. Blasting a profile to hundreds of coaches produces the same result as any mass email: almost nothing. Coaches respond to a specific message from an athlete who knows their program. Your athlete can send that for free. More on that in [recruiting platforms vs a recruiting strategy](/recruiting-platforms-vs-recruiting-strategy/).
 
 **Camps chosen for the brand name.** A camp at a program that will never recruit your athlete is a nice experience. Pick camps off the target list.
 
