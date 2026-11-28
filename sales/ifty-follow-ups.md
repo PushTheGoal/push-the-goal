@@ -27,6 +27,8 @@ something is sent or a family answers. Times are as shown in GHL. No prices, hea
 - Show Ifty first; send only after his yes; then update this file and the board shows it as "Sent from here".
 
 ## Scheduled
+- 2026-11-28 (approved by Ifty 16:52 Cairo): 21:00 Cairo Zoie SMS; 22:00 Lakshmi plan email + PDF + SMS and Briar SMS; 23:00 Krish SMS. Each skipped if the family wrote first.
+- 2026-11-30 16:00 Cairo: draft Eliza's check-in, show Ifty. 2026-12-01: Kaysan - ask Ifty the December date, draft. 2027-01-04: Hana new-year draft.
 - 2026-11-23 2:00 PM PT check-in did not go out. 11/24 Ifty: never send from memory - re-read the thread and the call, show the final text, send only after his OK.
 - 11/24: Ben's 6 PM PT message cancelled - Ben answered at 8:25 PM Cairo.
 
